@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Entornos virtuales
+venv/
+.env/
+
+# Temporales
+*.tmp
+*.log

@@ -1,0 +1,348 @@
+@prefix u: <http://example.org/unibasq/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/unibasq/doc/protocolos_2025> a u:Documento ;
+    u:fecha "2025-01-14"^^xsd:date ;
+    u:organismo "Unibasq" ;
+    u:titulo "Protocolo de Evaluación y Acreditación del PDI" ;
+    u:url "https://www.unibasq.eus/wp-content/uploads/2025/01/Protocolo-de-Evaluacion-y-Acreditacion-del-Personal-Docente-e-Investigador-14-01-2025.pdf"^^xsd:anyURI .
+
+<http://example.org/unibasq/fig/agregado> a u:Figura ;
+    u:nombre "Profesorado Agregado" ;
+    u:tieneRequisito <http://example.org/unibasq/req/agregado_15> ;
+    u:tieneUmbral <http://example.org/unibasq/umbral/agregado_apartado_max_docencia_13>,
+        <http://example.org/unibasq/umbral/agregado_apartado_max_formacion_14>,
+        <http://example.org/unibasq/umbral/agregado_apartado_max_investigacion_11>,
+        <http://example.org/unibasq/umbral/agregado_apartado_min_docencia_12>,
+        <http://example.org/unibasq/umbral/agregado_apartado_min_investigacion_10>,
+        <http://example.org/unibasq/umbral/agregado_total_max_total_9>,
+        <http://example.org/unibasq/umbral/agregado_total_min_total_8> .
+
+<http://example.org/unibasq/fig/doctor_investigador> a u:Figura ;
+    u:nombre "Personal Doctor Investigador" ;
+    u:tieneRequisito <http://example.org/unibasq/req/doctor_investigador_29> ;
+    u:tieneUmbral <http://example.org/unibasq/umbral/doctor_investigador_apartado_max_docencia_27>,
+        <http://example.org/unibasq/umbral/doctor_investigador_apartado_max_formacion_25>,
+        <http://example.org/unibasq/umbral/doctor_investigador_apartado_max_gestion_28>,
+        <http://example.org/unibasq/umbral/doctor_investigador_apartado_max_investigacion_26>,
+        <http://example.org/unibasq/umbral/doctor_investigador_apartado_min_investigacion_24>,
+        <http://example.org/unibasq/umbral/doctor_investigador_total_min_total_23> .
+
+<http://example.org/unibasq/fig/investigacion> a u:Figura ;
+    u:nombre "Profesorado de Investigación" ;
+    u:tieneRequisito <http://example.org/unibasq/req/investigacion_21>,
+        <http://example.org/unibasq/req/investigacion_22> ;
+    u:tieneUmbral <http://example.org/unibasq/umbral/investigacion_apartado_max_docencia_19>,
+        <http://example.org/unibasq/umbral/investigacion_apartado_max_gestion_20>,
+        <http://example.org/unibasq/umbral/investigacion_apartado_max_investigacion_18>,
+        <http://example.org/unibasq/umbral/investigacion_apartado_min_investigacion_17>,
+        <http://example.org/unibasq/umbral/investigacion_total_min_total_16> .
+
+<http://example.org/unibasq/fig/pleno> a u:Figura ;
+    u:nombre "Profesorado Pleno" ;
+    u:tieneRequisito <http://example.org/unibasq/req/pleno_6>,
+        <http://example.org/unibasq/req/pleno_7> ;
+    u:tieneUmbral <http://example.org/unibasq/umbral/pleno_apartado_max_docencia_4>,
+        <http://example.org/unibasq/umbral/pleno_apartado_max_gestion_5>,
+        <http://example.org/unibasq/umbral/pleno_apartado_max_investigacion_2>,
+        <http://example.org/unibasq/umbral/pleno_apartado_min_docencia_3>,
+        <http://example.org/unibasq/umbral/pleno_apartado_min_investigacion_1>,
+        <http://example.org/unibasq/umbral/pleno_total_min_total_0> .
+
+<http://example.org/unibasq/fig/privada> a u:Figura ;
+    u:nombre "Profesorado Doctor Univ. Privada" ;
+    u:tieneUmbral <http://example.org/unibasq/umbral/privada_apartado_max_docencia_35>,
+        <http://example.org/unibasq/umbral/privada_apartado_max_formacion_33>,
+        <http://example.org/unibasq/umbral/privada_apartado_max_gestion_36>,
+        <http://example.org/unibasq/umbral/privada_apartado_max_investigacion_34>,
+        <http://example.org/unibasq/umbral/privada_apartado_min_docencia_32>,
+        <http://example.org/unibasq/umbral/privada_apartado_min_investigacion_31>,
+        <http://example.org/unibasq/umbral/privada_total_min_total_30> .
+
+<http://example.org/unibasq/req/agregado_15> a u:Requisito ;
+    u:descripcion "Acreditar méritos equiparables a un periodo de actividad investigadora reconocido de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y con las modificaciones que se han realizado del mismo." ;
+    u:pagina 14 .
+
+<http://example.org/unibasq/req/doctor_investigador_29> a u:Requisito ;
+    u:descripcion "Acreditar méritos equiparables a dos periodos de actividad investigadora reconocidos conforme al Real Decreto 1086/1989" ;
+    u:pagina 23 .
+
+<http://example.org/unibasq/req/investigacion_21> a u:Requisito ;
+    u:descripcion "Acreditar méritos equiparables a tres periodos de actividad investigadora reconocidos conforme al Real Decreto 1086/1989" ;
+    u:pagina 19 .
+
+<http://example.org/unibasq/req/investigacion_22> a u:Requisito ;
+    u:descripcion "Haber dirigido al menos dos tesis doctorales o haber sido IP de al menos tres proyectos o grupos de investigación competitivos, o haber realizado una estancia postdoctoral de al menos un año en una universidad extranjera relevante" ;
+    u:pagina 19 .
+
+<http://example.org/unibasq/req/pleno_6> a u:Requisito ;
+    u:descripcion "Acreditar méritos equiparables a tres periodos de actividad investigadora reconocidos conforme al Real Decreto 1086/1989" ;
+    u:pagina 9 .
+
+<http://example.org/unibasq/req/pleno_7> a u:Requisito ;
+    u:descripcion "Haber dirigido al menos dos tesis doctorales defendidas o haber sido IP de al menos dos proyectos o grupos de investigación competitivos, o haber realizado una estancia postdoctoral de al menos seis meses en una universidad extranjera relevante" ;
+    u:pagina 9 .
+
+<http://example.org/unibasq/umbral/agregado_apartado_max_docencia_13> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Máximo en Actividad Docente" ;
+    u:pagina 14 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 30.0 .
+
+<http://example.org/unibasq/umbral/agregado_apartado_max_formacion_14> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/formacion> ;
+    u:descripcion "Máximo en Formación Académica" ;
+    u:pagina 14 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 10.0 .
+
+<http://example.org/unibasq/umbral/agregado_apartado_max_investigacion_11> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Máximo en Actividad Investigadora" ;
+    u:pagina 14 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 65.0 .
+
+<http://example.org/unibasq/umbral/agregado_apartado_min_docencia_12> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Mínimo en Actividad Docente" ;
+    u:pagina 14 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 10.0 .
+
+<http://example.org/unibasq/umbral/agregado_apartado_min_investigacion_10> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Mínimo en Actividad Investigadora" ;
+    u:pagina 14 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 35.0 .
+
+<http://example.org/unibasq/umbral/agregado_total_max_total_9> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/total> ;
+    u:descripcion "Puntuación máxima total" ;
+    u:pagina 14 ;
+    u:tipo "total_max" ;
+    u:unidad "puntos" ;
+    u:valor 110.0 .
+
+<http://example.org/unibasq/umbral/agregado_total_min_total_8> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/total> ;
+    u:descripcion "Puntuación mínima total para acreditación" ;
+    u:pagina 14 ;
+    u:tipo "total_min" ;
+    u:unidad "puntos" ;
+    u:valor 65.0 .
+
+<http://example.org/unibasq/umbral/doctor_investigador_apartado_max_docencia_27> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Máximo en Actividad Docente y Experiencia Profesional" ;
+    u:pagina 23 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 10.0 .
+
+<http://example.org/unibasq/umbral/doctor_investigador_apartado_max_formacion_25> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/formacion> ;
+    u:descripcion "Máximo en Formación Académica e Investigadora" ;
+    u:pagina 23 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 10.0 .
+
+<http://example.org/unibasq/umbral/doctor_investigador_apartado_max_gestion_28> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/gestion> ;
+    u:descripcion "Máximo en Actividades de Gestión" ;
+    u:pagina 23 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 5.0 .
+
+<http://example.org/unibasq/umbral/doctor_investigador_apartado_max_investigacion_26> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Máximo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 23 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 85.0 .
+
+<http://example.org/unibasq/umbral/doctor_investigador_apartado_min_investigacion_24> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Mínimo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 23 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 70.0 .
+
+<http://example.org/unibasq/umbral/doctor_investigador_total_min_total_23> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/total> ;
+    u:descripcion "Puntuación mínima total para acreditación" ;
+    u:pagina 23 ;
+    u:tipo "total_min" ;
+    u:unidad "puntos" ;
+    u:valor 85.0 .
+
+<http://example.org/unibasq/umbral/investigacion_apartado_max_docencia_19> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Máximo en Actividad Docente y Experiencia Profesional" ;
+    u:pagina 19 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 15.0 .
+
+<http://example.org/unibasq/umbral/investigacion_apartado_max_gestion_20> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/gestion> ;
+    u:descripcion "Máximo en Actividades de Gestión" ;
+    u:pagina 19 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 5.0 .
+
+<http://example.org/unibasq/umbral/investigacion_apartado_max_investigacion_18> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Máximo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 19 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 90.0 .
+
+<http://example.org/unibasq/umbral/investigacion_apartado_min_investigacion_17> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Mínimo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 19 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 75.0 .
+
+<http://example.org/unibasq/umbral/investigacion_total_min_total_16> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/total> ;
+    u:descripcion "Puntuación mínima total para acreditación" ;
+    u:pagina 19 ;
+    u:tipo "total_min" ;
+    u:unidad "puntos" ;
+    u:valor 90.0 .
+
+<http://example.org/unibasq/umbral/pleno_apartado_max_docencia_4> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Máximo en Actividad Docente y Experiencia Profesional" ;
+    u:pagina 9 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 35.0 .
+
+<http://example.org/unibasq/umbral/pleno_apartado_max_gestion_5> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/gestion> ;
+    u:descripcion "Máximo en Actividades de Gestión" ;
+    u:pagina 9 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 5.0 .
+
+<http://example.org/unibasq/umbral/pleno_apartado_max_investigacion_2> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Máximo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 9 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 70.0 .
+
+<http://example.org/unibasq/umbral/pleno_apartado_min_docencia_3> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Mínimo en Actividad Docente y Experiencia Profesional" ;
+    u:pagina 9 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 25.0 .
+
+<http://example.org/unibasq/umbral/pleno_apartado_min_investigacion_1> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Mínimo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 9 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 50.0 .
+
+<http://example.org/unibasq/umbral/pleno_total_min_total_0> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/total> ;
+    u:descripcion "Puntuación mínima total para acreditación" ;
+    u:pagina 9 ;
+    u:tipo "total_min" ;
+    u:unidad "puntos" ;
+    u:valor 80.0 .
+
+<http://example.org/unibasq/umbral/privada_apartado_max_docencia_35> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Máximo en Actividad Docente y Experiencia Profesional" ;
+    u:pagina 28 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 30.0 .
+
+<http://example.org/unibasq/umbral/privada_apartado_max_formacion_33> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/formacion> ;
+    u:descripcion "Máximo en Formación Académica e Investigadora" ;
+    u:pagina 28 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 15.0 .
+
+<http://example.org/unibasq/umbral/privada_apartado_max_gestion_36> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/gestion> ;
+    u:descripcion "Máximo en Actividades de Gestión" ;
+    u:pagina 28 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 5.0 .
+
+<http://example.org/unibasq/umbral/privada_apartado_max_investigacion_34> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Máximo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 28 ;
+    u:tipo "apartado_max" ;
+    u:unidad "puntos" ;
+    u:valor 60.0 .
+
+<http://example.org/unibasq/umbral/privada_apartado_min_docencia_32> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/docencia> ;
+    u:descripcion "Mínimo en Actividad Docente y Experiencia Profesional" ;
+    u:pagina 28 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 20.0 .
+
+<http://example.org/unibasq/umbral/privada_apartado_min_investigacion_31> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/investigacion> ;
+    u:descripcion "Mínimo en Actividad Investigadora y Transferencia de Conocimiento" ;
+    u:pagina 28 ;
+    u:tipo "apartado_min" ;
+    u:unidad "puntos" ;
+    u:valor 25.0 .
+
+<http://example.org/unibasq/umbral/privada_total_min_total_30> a u:UmbralPuntuacion ;
+    u:apartado <http://example.org/unibasq/apartado/total> ;
+    u:descripcion "Puntuación mínima total para acreditación" ;
+    u:pagina 28 ;
+    u:tipo "total_min" ;
+    u:unidad "puntos" ;
+    u:valor 60.0 .
+
+<http://example.org/unibasq/apartado/formacion> a u:ApartadoEvaluacion ;
+    u:nombre "formacion" .
+
+<http://example.org/unibasq/apartado/gestion> a u:ApartadoEvaluacion ;
+    u:nombre "gestion" .
+
+<http://example.org/unibasq/apartado/total> a u:ApartadoEvaluacion ;
+    u:nombre "total" .
+
+<http://example.org/unibasq/apartado/docencia> a u:ApartadoEvaluacion ;
+    u:nombre "docencia" .
+
+<http://example.org/unibasq/apartado/investigacion> a u:ApartadoEvaluacion ;
+    u:nombre "investigacion" .
+

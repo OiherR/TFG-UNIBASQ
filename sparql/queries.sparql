@@ -1,0 +1,52 @@
+# Contar triples
+PREFIX base: <http://example.org/unibasq/>
+PREFIX u: <http://example.org/unibasq/ontology#>
+SELECT (COUNT(*) AS ?triples)
+WHERE { ?s ?p ?o }
+
+# Figuras existentes
+PREFIX u: <http://example.org/unibasq/ontology#>
+PREFIX base: <http://example.org/unibasq/>
+SELECT ?fig ?nombre
+WHERE { 
+  ?fig a u:Figura ;
+  u:nombre ?nombre . }
+
+#PUNTUACIÓN MAXIMA
+PREFIX u: <http://example.org/unibasq/ontology#>
+PREFIX base: <http://example.org/unibasq/>
+
+SELECT ?max
+WHERE {
+  base:fig/agregado u:tieneUmbral ?um .
+  ?um u:tipo "total_max" ;
+      u:valor ?max .
+}
+
+#MINIMOS POR APARTADO
+PREFIX u: <http://example.org/unibasq/ontology#>
+PREFIX base: <http://example.org/unibasq/>
+
+SELECT ?apartadoNombre ?min
+WHERE {
+  base:fig/agregado u:tieneUmbral ?um .
+  ?um u:tipo "apartado_min" ;
+      u:valor ?min ;
+      u:apartado ?ap .
+  ?ap u:nombre ?apartadoNombre .
+}
+ORDER BY ?apartadoNombre
+
+#Maximos por apartado
+PREFIX u: <http://example.org/unibasq/ontology#>
+PREFIX base: <http://example.org/unibasq/>
+
+SELECT ?apartadoNombre ?max
+WHERE {
+  base:fig/agregado u:tieneUmbral ?um .
+  ?um u:tipo "apartado_max" ;
+      u:valor ?max ;
+      u:apartado ?ap .
+  ?ap u:nombre ?apartadoNombre .
+}
+ORDER BY ?apartadoNombre
