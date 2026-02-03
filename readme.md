@@ -1,17 +1,13 @@
-# TFG – Asistente de carrera académica basado en Grafos y LLMs
+# TFG – GraphRAG sobre Knowledge Graph en Fuseki
 
-Este repositorio contiene el trabajo desarrollado para el TFG sobre un asistente
-de carrera académica basado en grafos de conocimiento (RDF/SPARQL) y modelos de
-lenguaje.
+Este repositorio contiene dos módulos:
 
-## Estructura
-- `scripts/`: scripts Python para transformar Excel a RDF
-- `rdf/`: grafo RDF generado (formato Turtle)
-- `sparql/`: consultas SPARQL de validación
-- `docs/`: preguntas del asistente y documentación
+## ingestion/
+Pipeline de ingesta de datos:
+Excel → RDF → Apache Jena Fuseki.
 
-## Flujo de trabajo
-1. Extracción manual del PDF oficial a Excel
-2. Transformación automática Excel → RDF
-3. Carga del RDF en Apache Jena Fuseki
-4. Validación mediante consultas SPARQL
+## graphrag-app/
+Aplicación de preguntas en lenguaje natural sobre el Knowledge Graph:
+- Retrieval vectorial (FAISS + embeddings locales)
+- LLM local (Ollama)
+- Generación dinámica de SPARQL

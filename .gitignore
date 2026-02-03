@@ -12,3 +12,5 @@ venv/
 # Temporales
 *.tmp
 *.log
+# Artifacts
+graphrag-app/index/

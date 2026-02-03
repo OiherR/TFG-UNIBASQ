@@ -1,0 +1,110 @@
+[
+  {
+    "kind": "class",
+    "uri": "http://example.org/unibasq/ontology#Documento",
+    "label": "Documento",
+    "text": "CLASE\nuri: http://example.org/unibasq/ontology#Documento\nlabel: Documento"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/unibasq/ontology#ApartadoEvaluacion",
+    "label": "ApartadoEvaluacion",
+    "text": "CLASE\nuri: http://example.org/unibasq/ontology#ApartadoEvaluacion\nlabel: ApartadoEvaluacion"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/unibasq/ontology#Requisito",
+    "label": "Requisito",
+    "text": "CLASE\nuri: http://example.org/unibasq/ontology#Requisito\nlabel: Requisito"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/unibasq/ontology#Figura",
+    "label": "Figura",
+    "text": "CLASE\nuri: http://example.org/unibasq/ontology#Figura\nlabel: Figura"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/unibasq/ontology#UmbralPuntuacion",
+    "label": "UmbralPuntuacion",
+    "text": "CLASE\nuri: http://example.org/unibasq/ontology#UmbralPuntuacion\nlabel: UmbralPuntuacion"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#pagina",
+    "label": "pagina",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#pagina\nlabel: pagina"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#tipo",
+    "label": "tipo",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#tipo\nlabel: tipo"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#organismo",
+    "label": "organismo",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#organismo\nlabel: organismo"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#tieneRequisito",
+    "label": "tieneRequisito",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#tieneRequisito\nlabel: tieneRequisito"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#valor",
+    "label": "valor",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#valor\nlabel: valor"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#nombre",
+    "label": "nombre",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#nombre\nlabel: nombre"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#descripcion",
+    "label": "descripcion",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#descripcion\nlabel: descripcion"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#titulo",
+    "label": "titulo",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#titulo\nlabel: titulo"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#apartado",
+    "label": "apartado",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#apartado\nlabel: apartado"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#unidad",
+    "label": "unidad",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#unidad\nlabel: unidad"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#url",
+    "label": "url",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#url\nlabel: url"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#fecha",
+    "label": "fecha",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#fecha\nlabel: fecha"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/unibasq/ontology#tieneUmbral",
+    "label": "tieneUmbral",
+    "text": "PROPIEDAD\nuri: http://example.org/unibasq/ontology#tieneUmbral\nlabel: tieneUmbral"
+  }
+]
