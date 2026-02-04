@@ -8,7 +8,10 @@ __pycache__/
 # Entornos virtuales
 venv/
 .env/
-
+__pycache__/
+*.pyc
+graphrag_app/index/
+*.faiss
 # Temporales
 *.tmp
 *.log

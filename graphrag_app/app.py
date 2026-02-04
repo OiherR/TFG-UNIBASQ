@@ -1,7 +1,7 @@
 import re
-from fuseki import sparql_select
-from retriever import retrieve
-from ollama_client import ollama_generate
+from graphrag_app.fuseki import sparql_select
+from graphrag_app.retriever import retrieve
+from graphrag_app.ollama_client import ollama_generate
 
 
 def extract_sparql(text: str) -> str:
