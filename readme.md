@@ -64,11 +64,11 @@ Crear un archivo `.env` en la raíz del proyecto:
 ```env
 FUSEKI_QUERY_URL=http://localhost:3030/<dataset>/query
 
- Arrancar Fuseki
-Path + .\fuseki-server.bat
+Arrancar Fuseki
+cd Path y luego .\fuseki-server.bat
 Abrir en el navegador http://localhost:3030
 
-# Arrancar pagina web 
+Arrancar pagina web 
 Desde la raiz del repositorio
 python -m uvicorn webapp.app.main:app --reload
 Abrir en el anvegador http://127.0.0.1:8000
