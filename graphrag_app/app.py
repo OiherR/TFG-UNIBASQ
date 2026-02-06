@@ -2,6 +2,7 @@ import re
 from graphrag_app.fuseki import sparql_select
 from graphrag_app.retriever import retrieve
 from graphrag_app.ollama_client import ollama_generate
+from graphrag_app.content_retriever import retrieve_content
 
 
 def extract_sparql(text: str) -> str:
@@ -111,8 +112,64 @@ Si no hay resultados, indícalo claramente.
 """
     return ollama_generate(prompt, temperature=0.2)
 
+def pick_best_threshold(hits, question: str):
+    q = question.lower()
+
+    want_pleno = "pleno" in q
+    want_invest = "investig" in q
+    want_min = ("min" in q) or ("mínim" in q)
+
+    for h in hits:
+        if h.get("kind") != "umbral":
+            continue
+
+        fig = (h.get("figura_nombre") or "").lower()
+        area = (h.get("area") or "").lower()
+        mm = (h.get("minmax") or "").lower()
+        umb_tipo = (h.get("umbral_tipo") or "").lower()
+
+        if want_pleno and "pleno" not in fig:
+            continue
+        if want_invest and area != "investigacion":
+            continue
+        if want_min and mm != "min":
+            continue
+
+        # extra guardarraíl: apartado_min
+        if want_invest and want_min and "apartado_min" not in umb_tipo:
+            continue
+
+        if h.get("valor"):
+            return h
+
+    return None
+
+
+def try_answer_threshold(question: str):
+    q = question.lower()
+    # Heurística simple: solo intentarlo si suena a umbral/puntuación
+    if not any(w in q for w in ["nota", "puntu", "mínim", "minim", "min", "max", "puntos"]):
+        return None
+
+    hits = retrieve_content(question, k=25)
+    best = pick_best_threshold(hits, question)
+    if not best:
+        return None
+
+    valor = best["valor"]
+    unidad = best.get("unidad", "puntos")
+    figura = best.get("figura_nombre", "la figura indicada")
+    area = best.get("area", "")
+
+    if area:
+        return f"Para {figura}, la puntuación mínima en {area} es {valor} {unidad}."
+    return f"Para {figura}, el umbral mínimo es {valor} {unidad}."
 
 def ask(question: str, max_retries: int = 2):
+    direct = try_answer_threshold(question)
+    if direct:
+        return {"sparql": None, "answer": direct, "error": None}
+
     ctx_items = retrieve(question, k=10)
     last_error = None
     sparql = ""
@@ -145,3 +202,4 @@ if __name__ == "__main__":
     else:
         print("\n✅ RESPUESTA:\n")
         print(result["answer"])
+

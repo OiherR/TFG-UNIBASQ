@@ -12,7 +12,7 @@
     <div class="brand">
       <div class="logo">🏛️</div>
       <div class="brand-text">
-        <div class="brand-title">LAguntzailea-TFG</div>
+        <div class="brand-title">Laguntzailea-TFG</div>
         <div class="brand-sub">UNIBASQen kontsulta-laguntzailea.</div>
       </div>
     </div>
@@ -35,10 +35,23 @@
      
 
       <div class="side-section">
-        <div class="side-title">Laguntza</div>
-        <button class="side-item" id="sideBog">UNIBASQen orria</button>
-        <button class="side-item" id="sideAbout">ℹ️ Proiektuari buruz</button>
-      </div>
+  <div class="side-title">Laguntza</div>
+
+  <!-- Enlace externo a UniBasq -->
+  <<a
+  class="side-item"
+  href="https://www.unibasq.eus/es/profesorado-acreditacion-del-pdi/mas-informacion/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  UNIBASQen orria
+</a>
+  <!-- Abre modal -->
+  <button class="side-item" id="sideAbout" type="button">
+    ℹ️ Proiektuari buruz
+  </button>
+</div>
+
 
     </aside>
 
@@ -62,7 +75,7 @@
         <div id="chat" class="chat">
           <div class="empty">
             <div class="watermark">UPV/EHU</div>
-            <div class="empty-text">Bilatu Unibasq dagoen informazioa hemendik</div>
+            <div class="empty-text">Bilatu UNIBASQ-en dagoen informazioa hemendik</div>
           </div>
         </div>
 
@@ -70,7 +83,7 @@
           <div class="composer-inner">
             <span class="composer-icon">💭</span>
             <input id="input" placeholder="Galdetu nahi duzuna" autocomplete="off" />
-            <button type="submit" class="Bidali">Enviar</button>
+            <button type="submit" class="send">Bidali</button>
           </div>
         </form>
       </section>
@@ -78,5 +91,38 @@
   </div>
 
   <script src="/static/app.js"></script>
+  <!-- MODAL: Proiektuari buruz -->
+<div class="modal-backdrop" id="aboutModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true">
+
+    <div class="modal-header">
+      <!-- X arriba a la IZQUIERDA -->
+      <button class="modal-close" id="closeAboutBtn" aria-label="Itxi">✕</button>
+      <h3>Proiektuari buruz</h3>
+    </div>
+
+    <div class="modal-body">
+      <p>
+        Aplikazio honek <strong>GraphRAG</strong> arkitektura erabiltzen du
+        <strong>Knowledge Graph RDF</strong> baten gainean galderak
+        hizkuntza naturalean egiteko.
+      </p>
+
+      <ol>
+        <li>Erabiltzaileak galdera bat idazten du txatean.</li>
+        <li>Sistemak testuinguru garrantzitsua bilatzen du (FAISS + embeddings).</li>
+        <li>LLMak SPARQL kontsulta sortzen du.</li>
+        <li>Kontsulta Apache Jena Fuseki-n exekutatzen da.</li>
+        <li>Emaitza hizkuntza naturalean erakusten da.</li>
+      </ol>
+
+      <p style="margin-top:12px;">
+        Sistema hau <em>TFG</em> baten barruan garatu da, informazio
+        estrukturatua modu errazagoan kontsultatzeko helburuarekin.
+      </p>
+    </div>
+
+  </div>
+</div>
 </body>
 </html>

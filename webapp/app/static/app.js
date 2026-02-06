@@ -44,12 +44,14 @@ form.addEventListener("submit", async (e) => {
   }
 });
 
-// UI buttons (placeholder)
-document.getElementById("logoutBtn").addEventListener("click", () => {
+// UI buttons
+const logoutBtn = document.getElementById("logoutBtn");
+logoutBtn?.addEventListener("click", () => {
   alert("Amaitu Sesioa (pendiente de implementar)");
 });
 
-document.getElementById("newQueryBtn").addEventListener("click", () => {
+const newQueryBtn = document.getElementById("newQueryBtn");
+newQueryBtn?.addEventListener("click", () => {
   chat.innerHTML = `
     <div class="empty">
       <div class="watermark">UPV/EHU</div>
@@ -59,10 +61,43 @@ document.getElementById("newQueryBtn").addEventListener("click", () => {
   input.focus();
 });
 
-// Tabs 
-document.querySelectorAll(".tab").forEach(btn => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
+/* =========================
+   MODAL: Proiektuari buruz
+   ========================= */
+document.addEventListener("DOMContentLoaded", () => {
+  const aboutBtn = document.getElementById("sideAbout");      // botón del sidebar
+  const aboutModal = document.getElementById("aboutModal");   // backdrop
+  const closeAboutBtn = document.getElementById("closeAboutBtn");
+
+  // Debug rápido (mira en consola F12)
+  console.log("[about modal]", {
+    aboutBtn: !!aboutBtn,
+    aboutModal: !!aboutModal,
+    closeAboutBtn: !!closeAboutBtn
+  });
+
+  if (!aboutBtn || !aboutModal || !closeAboutBtn) return;
+
+  const openAbout = () => {
+    aboutModal.classList.add("open");
+    aboutModal.setAttribute("aria-hidden", "false");
+  };
+
+  const closeAbout = () => {
+    aboutModal.classList.remove("open");
+    aboutModal.setAttribute("aria-hidden", "true");
+  };
+
+  aboutBtn.addEventListener("click", openAbout);
+  closeAboutBtn.addEventListener("click", closeAbout);
+
+  // cerrar clicando fuera del cuadro
+  aboutModal.addEventListener("click", (e) => {
+    if (e.target === aboutModal) closeAbout();
+  });
+
+  // cerrar con ESC
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && aboutModal.classList.contains("open")) closeAbout();
   });
 });
