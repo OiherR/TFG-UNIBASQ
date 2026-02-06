@@ -162,9 +162,11 @@ def try_answer_threshold(question: str):
     figura = best.get("figura_nombre", "la figura indicada")
     area = best.get("area", "")
 
+    label = "máxima" if ("max" in q or "máxim" in q) else "mínima"
+
     if area:
-        return f"Para {figura}, la puntuación mínima en {area} es {valor} {unidad}."
-    return f"Para {figura}, el umbral mínimo es {valor} {unidad}."
+        return f"Para {figura}, la puntuación {label} en {area} es {valor} {unidad}."
+    return f"Para {figura}, el umbral {label} es {valor} {unidad}."
 
 def ask(question: str, max_retries: int = 2):
     direct = try_answer_threshold(question)
