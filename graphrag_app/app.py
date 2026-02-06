@@ -1,9 +1,10 @@
 import re
+import unicodedata
 from graphrag_app.fuseki import sparql_select
 from graphrag_app.retriever import retrieve
 from graphrag_app.ollama_client import ollama_generate
 from graphrag_app.content_retriever import retrieve_content
-
+from typing import Optional
 
 def extract_sparql(text: str) -> str:
     """
@@ -189,6 +190,22 @@ def ask(question: str, max_retries: int = 2):
     return {"sparql": sparql, "answer": None, "error": last_error}
 
 
+def _norm(s: str) -> str:
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    s = s.lower()
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+def answer_question(question: str) -> str:
+    result = ask(question)
+
+    if result.get("error"):
+        # opcional: devuelve error amigable
+        return "Ha ocurrido un error procesando la consulta."
+
+    return result.get("answer") or "Ez dago erantzunik."
+
 if __name__ == "__main__":
     question = input("Pregunta: ").strip()
     result = ask(question)
@@ -202,4 +219,5 @@ if __name__ == "__main__":
     else:
         print("\n✅ RESPUESTA:\n")
         print(result["answer"])
+
 
