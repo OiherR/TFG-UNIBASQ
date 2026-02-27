@@ -1,0 +1,13 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_noti_de_resultados a u:Documento .
+
+base:frag_noti_de_resultados_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_noti_de_resultados ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "Notificación de los resultados La notificación de los resultados se realizará mediante resolución de la Dirección de Unibasq de forma conjunta en el tablón electrónico de anuncios del Gobierno Vasco. La fecha de publicación en el tablón electrónico de anuncios de esta resolución constituye la fecha formal de comunicación de la notificación de la resolución a todos los efectos. Además, en las horas posteriores se enviará la resolución de forma individualizada mediante la Administración Electrónic" .
+

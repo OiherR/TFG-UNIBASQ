@@ -1,0 +1,97 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_guia_noti a u:Documento .
+
+base:frag_guia_noti_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- Guía de ayuda para la utilización de la administración electrónica de las solicitudes de Acreditación del PDI" .
+
+
+base:frag_guia_noti_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "----- TEXT ----- ÍNDICE 1. Introducción .............................................................................................................................................. 1 2. Requisitos para la utilización de la Administración Electrónica ................................................................ 1 3. Formalización de la solicitud ..................................................................................................................... 3 3.1. Representación voluntar" .
+
+
+base:frag_guia_noti_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "----- TEXT ----- 1. Introducción Unibasq, de acuerdo con lo previsto en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, realizará la comunicación con las personas solicitantes únicamente por medios electrónicos. Por lo que se deberá firmar y realizar el registro telemático a través de la Administración Electrónica. Para la utilización de esta vía las personas solicitantes deberán disponer El pago de la tasa y el seguimiento de la solicitu" .
+
+
+base:frag_guia_noti_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_procedimiento ;
+  u:textoFuente "----- TEXT ----- ▪ DNI Electrónico (www.dnielectronico.es) ▪ Los Certificados emitidos por la Fábrica Nacional de Moneda y Timbre (www.cert.fnmt.es). Más información acerca de medios de identificación electrónica admitidos en https://www.euskadi.eus/medios-de- identificacion-electronica-admitidos/web01-sede/es/ Navegadores web admitidos: Los certificados de Izenpe se admiten en: Microsoft: ▪ Windows todos los sistemas operativos soportados. ▪ Windows phone v.8. ▪ Internet Explorer (desde IE7). E" .
+
+
+base:frag_guia_noti_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "----- TEXT ----- 3. Formalización de la solicitud Una vez finalizada la solicitud, podrá acceder mediante el enlace disponible en la aplicación informática a la sede electrónica del Gobierno Vasco donde se volcarán algunos de los datos personales (nombre, apellidos, número de expediente). El resto de datos deberá cumplimentarlos siguiendo las instrucciones pertinentes. Recuerde que deberá cumplimentar y enviar un documento resumen y abonar una tasa por figura solicitada. 3.1 Representación volun" .
+
+
+base:frag_guia_noti_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_procedimiento ;
+  u:textoFuente "----- TEXT ----- 3.2 Cumplimentación de los tres apartados del formulario ▪ Datos Generales ▪ Datos de acreditación GUÍA DE AYUDA PARA LA UTILIZACIÓN DE LA ADMINISTRACIÓN ELECTRÓNICA DE LAS SOLICITUDES DE ACREDITACIÓN DEL PDI 5" .
+
+
+base:frag_guia_noti_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_procedimiento ;
+  u:textoFuente "----- TEXT ----- ▪ Declaraciones Responsables ▪ En el apartado Tipo de documentos requeridos, no será necesario adjuntar ningún archivo. La justificación de méritos se adjuntará únicamente en la aplicación informática de Egiaztapena. GUÍA DE AYUDA PARA LA UTILIZACIÓN DE LA ADMINISTRACIÓN ELECTRÓNICA DE LAS SOLICITUDES DE ACREDITACIÓN DEL PDI 6" .
+
+
+base:frag_guia_noti_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "----- TEXT ----- Tras comprobar que los datos sean correctos debe firmar y enviar el documento resumen generado electrónicamente Se tendrá en cuenta como fecha de entrega de la solicitud, la fecha en la que se firme electrónicamente el envío de los documentos solicitados. 3 Podrá comprobar el estado de su solicitud en https://www.euskadi.eus/mi-carpeta/web01- sede/es/ GUÍA DE AYUDA PARA LA UTILIZACIÓN DE LA ADMINISTRACIÓN ELECTRÓNICA DE LAS SOLICITUDES DE ACREDITACIÓN DEL PDI 7" .
+
+
+base:frag_guia_noti_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "----- TEXT ----- 4. Pago de la tasa Deberá realizar el pago una vez enviada la solicitud. El servicio “Mi Pago” es una pasarela para abonar, online, de manera segura y gratuita, todos los trámites que la ciudadanía debe realizar con cualquiera de las administraciones públicas vascas adheridas. Podrá realizar el pago mediante la pasarela de pagos del Gobierno Vasco, para ello deberá acceder a MI CARPETA, una vez enviada la solicitud, y seguir los pasos indicados abajo. Guía de uso de MI CARPETA d" .
+
+
+base:frag_guia_noti_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "----- TEXT ----- Podrá realizar el abono de la tasa mediante la interfaz de Kutxabank o con la tarjeta de otras entidades: GUÍA DE AYUDA PARA LA UTILIZACIÓN DE LA ADMINISTRACIÓN ELECTRÓNICA DE LAS SOLICITUDES DE ACREDITACIÓN DEL PDI 9 ----- TABLE 1 ----- | | | | | | | | | |" .
+
+
+base:frag_guia_noti_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "----- TEXT ----- Recuerde, sólo en el caso de realizar el pago presencialmente en una entidad bancaria deberá adjuntar el justificante de pago en Mi carpeta. En este caso, seleccionando el botón Liquidación se generará una carta de pago que presentará en la entidad bancaria para hacer el abono. Documento para presentar en la entidad bancaria GUÍA DE AYUDA PARA LA UTILIZACIÓN DE LA ADMINISTRACIÓN ELECTRÓNICA DE LAS SOLICITUDES DE ACREDITACIÓN DEL PDI 10" .
+
+
+base:frag_guia_noti_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "----- TEXT ----- Importante: en este caso es imprescindible adjuntar el justificante de pago escaneado. GUÍA DE AYUDA PARA LA UTILIZACIÓN DE LA ADMINISTRACIÓN ELECTRÓNICA DE LAS SOLICITUDES DE ACREDITACIÓN DEL PDI 11" .
+
+
+base:frag_guia_noti_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_guia_noti ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "----- TEXT ----- 5 Notificaciones La notificación de los resultados se realizará mediante resolución de la dirección de Unibasq de forma conjunta en el tablón electrónico de anuncios https://www.euskadi.eus. La fecha de publicación en el tablón electrónico de anuncios de esta resolución constituye la fecha formal de comunicación de la notificación de la resolución a todos los efectos. A pesar de ello, en los días posteriores se enviará la resolución de forma individualizada. Cuando se realice un" .
+

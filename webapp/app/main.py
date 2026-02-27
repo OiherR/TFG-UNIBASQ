@@ -1,5 +1,6 @@
 import os
-
+from dotenv import load_dotenv
+load_dotenv() 
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles

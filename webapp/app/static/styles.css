@@ -167,6 +167,78 @@ body{
   filter: brightness(1.05);
 }
 
+/* =====================================================
+   FIX IMPORTANTE:
+   - .danger (botón rojo grande) NO debe romper .icon-btn.danger (papelera)
+   - Por eso limitamos .danger a botones "normales" y sobreescribimos el icono
+===================================================== */
+
+/* Botón peligro (limpiar historial) */
+button.danger{
+  width:100%;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid rgba(239,68,68,.28);
+  background: rgba(239,68,68,.14);
+  color: rgba(255,255,255,.95);
+  cursor:pointer;
+  font-weight:800;
+  transition: transform .12s ease, background .12s ease, border-color .12s ease;
+}
+
+button.danger:hover{
+  transform: translateY(-1px);
+  background: rgba(239,68,68,.18);
+  border-color: rgba(239,68,68,.40);
+}
+
+/* Fila conversación + botón borrar */
+.conv-row{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+/* Si tu side-item ya existía, aquí lo hacemos compatible con row */
+.conv-row .side-item{
+  flex:1;
+  min-width:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/* Botón papelera */
+.icon-btn{
+  width:38px;
+  height:38px;
+  min-width:38px;
+  display:grid;
+  place-items:center;
+  border-radius:12px;
+  border:1px solid transparent;
+  background: transparent;
+  color: rgba(234,240,255,.92);
+  cursor:pointer;
+  transition: background .12s ease, border-color .12s ease, transform .12s ease;
+}
+
+.icon-btn:hover{
+  background: rgba(239,68,68,.14);
+  border-color: rgba(239,68,68,.22);
+  transform: translateY(-1px);
+}
+
+/* IMPORTANTE: el icono no debe heredar width:100% ni padding del danger grande */
+.icon-btn.danger{
+  width:38px;
+  height:38px;
+  min-width:38px;
+  padding:0;
+  border:1px solid rgba(239,68,68,.25);
+  background: transparent;
+}
+
 .side-section{ margin-top:4px; }
 
 .side-title{
@@ -544,4 +616,74 @@ body{
 .modal-body code{
   color: #000000 !important;
   font-style: normal;
+}
+
+/* =========================
+   Nuevos Ajustes para GraphRAG
+   ========================= */
+
+/* 1. Estilo para el indicador de carga */
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius);
+    margin: 10px 18px;
+    border: 1px dashed var(--border);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+/* 2. Formateo de las respuestas del Bot (Markdown) */
+.msg.bot ul, .msg.bot ol {
+    margin: 8px 0;
+    padding-left: 20px;
+}
+
+.msg.bot li {
+    margin-bottom: 5px;
+}
+
+.msg.bot strong {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* 3. Mejoras en el scroll del chat para que no se pegue al borde */
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    scroll-behavior: smooth;
+}
+
+/* 4. Estilo para las fuentes/páginas citadas */
+.msg.bot em {
+    display: block;
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: normal;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: 4px;
+}
+
+/* 5. Ajuste del Modal */
+.modal-backdrop {
+    background: rgba(7, 10, 20, 0.85);
+    backdrop-filter: blur(8px);
+}
+
+#conversationsList{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
 }

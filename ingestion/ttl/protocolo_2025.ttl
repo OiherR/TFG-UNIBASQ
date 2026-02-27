@@ -1,0 +1,713 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base:doc_protocolo_2025 a u:Documento ;
+  u:tieneSeccion u:sec_requisitos ;
+  u:tieneSeccion u:sec_evaluacion ;
+  u:tieneSeccion u:sec_plazos ;
+  u:tieneSeccion u:sec_notificacion ;
+  u:tieneSeccion u:sec_tasas ;
+  u:tieneFragmento base:frag_protocolo_2025_p1 ;
+  u:tieneFragmento base:frag_protocolo_2025_p2 ;
+  u:tieneFragmento base:frag_protocolo_2025_p3 ;
+  u:tieneFragmento base:frag_protocolo_2025_p4 ;
+  u:tieneFragmento base:frag_protocolo_2025_p5 ;
+  u:tieneFragmento base:frag_protocolo_2025_p6 ;
+  u:tieneFragmento base:frag_protocolo_2025_p7 ;
+  u:tieneFragmento base:frag_protocolo_2025_p8 ;
+  u:tieneFragmento base:frag_protocolo_2025_p9 ;
+  u:tieneFragmento base:frag_protocolo_2025_p10 ;
+  u:tieneFragmento base:frag_protocolo_2025_p11 ;
+  u:tieneFragmento base:frag_protocolo_2025_p12 ;
+  u:tieneFragmento base:frag_protocolo_2025_p13 ;
+  u:tieneFragmento base:frag_protocolo_2025_p14 ;
+  u:tieneFragmento base:frag_protocolo_2025_p15 ;
+  u:tieneFragmento base:frag_protocolo_2025_p16 ;
+  u:tieneFragmento base:frag_protocolo_2025_p17 ;
+  u:tieneFragmento base:frag_protocolo_2025_p18 ;
+  u:tieneFragmento base:frag_protocolo_2025_p19 ;
+  u:tieneFragmento base:frag_protocolo_2025_p20 ;
+  u:tieneFragmento base:frag_protocolo_2025_p21 ;
+  u:tieneFragmento base:frag_protocolo_2025_p22 ;
+  u:tieneFragmento base:frag_protocolo_2025_p23 ;
+  u:tieneFragmento base:frag_protocolo_2025_p24 ;
+  u:tieneFragmento base:frag_protocolo_2025_p25 ;
+  u:tieneFragmento base:frag_protocolo_2025_p26 ;
+  u:tieneFragmento base:frag_protocolo_2025_p27 ;
+  u:tieneFragmento base:frag_protocolo_2025_p28 ;
+  u:tieneFragmento base:frag_protocolo_2025_p29 ;
+  u:tieneFragmento base:frag_protocolo_2025_p30 ;
+  u:tieneFragmento base:frag_protocolo_2025_p31 ;
+  u:tieneFragmento base:frag_protocolo_2025_p32 ;
+  u:tieneFragmento base:frag_protocolo_2025_p33 ;
+  u:tieneFragmento base:frag_protocolo_2025_p34 .
+
+base:figura_profesorado_pleno a u:Figura ;
+  u:nombre "Profesorado pleno" ;
+  u:tieneRequisito base:req_protocolo_2025_p9_1 ;
+  u:tieneRequisito base:req_protocolo_2025_p9_2 ;
+  u:tieneRequisito base:req_protocolo_2025_p9_3 ;
+  u:tieneUmbral base:umbral_p9_1001 ;
+  u:tieneUmbral base:umbral_p9_1002 ;
+  u:tieneUmbral base:umbral_p9_1004 ;
+  u:tieneUmbral base:umbral_p9_1005 ;
+  u:tieneUmbral base:umbral_p9_1006 .
+
+base:figura_profesorado_agregado a u:Figura ;
+  u:nombre "Profesorado agregado" ;
+  u:tieneRequisito base:req_protocolo_2025_p14_1 ;
+  u:tieneRequisito base:req_protocolo_2025_p14_2 ;
+  u:tieneUmbral base:umbral_p14_1000 ;
+  u:tieneUmbral base:umbral_p14_1001 ;
+  u:tieneUmbral base:umbral_p14_1002 ;
+  u:tieneUmbral base:umbral_p14_1003 ;
+  u:tieneUmbral base:umbral_p14_1006 ;
+  u:tieneUmbral base:umbral_p14_1007 ;
+  u:tieneUmbral base:umbral_p14_1008 ;
+  u:tieneUmbral base:umbral_p14_1009 .
+
+base:figura_profesorado_investigacion a u:Figura ;
+  u:nombre "Profesorado de investigación" ;
+  u:tieneRequisito base:req_protocolo_2025_p19_1 ;
+  u:tieneRequisito base:req_protocolo_2025_p19_2 ;
+  u:tieneRequisito base:req_protocolo_2025_p19_3 ;
+  u:tieneUmbral base:umbral_p19_1000 ;
+  u:tieneUmbral base:umbral_p19_1001 ;
+  u:tieneUmbral base:umbral_p19_1003 ;
+  u:tieneUmbral base:umbral_p19_1004 ;
+  u:tieneUmbral base:umbral_p19_1005 .
+
+base:figura_personal_doctor_investigador a u:Figura ;
+  u:nombre "Personal investigador contratado (Personal doctor investigador)" ;
+  u:tieneRequisito base:req_protocolo_2025_p23_1 ;
+  u:tieneRequisito base:req_protocolo_2025_p23_2 ;
+  u:tieneUmbral base:umbral_p23_1000 ;
+  u:tieneUmbral base:umbral_p23_1001 ;
+  u:tieneUmbral base:umbral_p23_1003 ;
+  u:tieneUmbral base:umbral_p23_1004 ;
+  u:tieneUmbral base:umbral_p23_1005 ;
+  u:tieneUmbral base:umbral_p23_1006 ;
+  u:tieneUmbral base:umbral_p23_1007 ;
+  u:tieneUmbral base:umbral_p23_1008 .
+
+base:figura_privadas_doctor a u:Figura ;
+  u:nombre "Profesorado en posesión del título de doctor/a de las universidades privadas" ;
+  u:tieneRequisito base:req_protocolo_2025_p28_1 ;
+  u:tieneUmbral base:umbral_p28_1000 ;
+  u:tieneUmbral base:umbral_p28_1001 ;
+  u:tieneUmbral base:umbral_p28_1002 ;
+  u:tieneUmbral base:umbral_p28_1004 ;
+  u:tieneUmbral base:umbral_p28_1005 ;
+  u:tieneUmbral base:umbral_p28_1006 ;
+  u:tieneUmbral base:umbral_p28_1007 ;
+  u:tieneUmbral base:umbral_p28_1008 ;
+  u:tieneUmbral base:umbral_p28_1010 .
+
+### =========================
+### TU TTL ORIGINAL (SIN CAMBIOS SALVO 1 TYPO)
+### =========================
+
+base:frag_protocolo_2025_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- RESOLUCIÓN de 14 de enero de 2025, del Director de Unibasq-Agencia de Calidad del Sistema Universitario Vasco, por el que se da publicidad al Protocolo de Evaluación y Acreditación del Personal Docente e Investigador Contratado y del Profesorado de las Universidades Privadas en Posesión del Título de Doctor, aprobado por la Comisión Asesora de Unibasq-Agencia de Calidad del Sistema Universitario Vasco el 16 de diciembre de 2024. I.– Exposición de motivos y marco legal 1.– La Ley" .
+
+base:frag_protocolo_2025_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- 2.– La evaluación realizada por la Agencia constituye únicamente la primera fase del proceso de acceso, que va seguida de otra en la que las Universidades desarrollan sus propios procesos de selección y contratación. Las propias Universidades definirán los términos, criterios y procedimientos que se aplicarán en el proceso de contratación del profesorado y del personal investigador. El proceso de evaluación de la primera fase desarrollada por Unibasq deberá regirse por el Código" .
+
+base:req_protocolo_2025_p2_1 a u:Requisito ;
+  u:descripcion "Ciencias Experimentales." ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p2 .
+
+base:req_protocolo_2025_p2_2 a u:Requisito ;
+  u:descripcion "Ciencias Médicas y de la Salud." ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p2 .
+
+base:req_protocolo_2025_p2_3 a u:Requisito ;
+  u:descripcion "Ciencias Jurídicas y Económicas." ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p2 .
+
+base:req_protocolo_2025_p2_4 a u:Requisito ;
+  u:descripcion "Ciencias Sociales" ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p2 .
+
+base:req_protocolo_2025_p2_5 a u:Requisito ;
+  u:descripcion "Enseñanzas Técnicas." ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p2 .
+
+base:req_protocolo_2025_p2_6 a u:Requisito ;
+  u:descripcion "Humanidades. En función de circunstancias específicas de cada proceso se podrá modificar el número de Comités de Evaluación. e) Para la fase de evaluación de los recursos a las resoluciones de los Comités de evaluación señalados se establecerá un Comité de Evaluación de Recursos compuesto por personas expertas de reconocido prestigio de los campos de conocimiento señalados en el punto anterior. f) Los Comités de Evaluación estarán formados por un número de entre cinco y diez personas expertas de reconocido prestigio en su ámbito, en función del volumen de solicitudes evaluadas por cada Comité en convocatorias anteriores. Excepcionalmente, el Comité de Evaluación, podrá requerir a la Agencia el asesoramiento específico de especialistas cuando resulte aconsejable. 2" ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p2 .
+
+base:frag_protocolo_2025_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- g) El nombramiento, que lo será por un periodo de tres años, tendrá validez a partir de la fecha de la firma de la resolución del nombramiento por parte de la Dirección de Unibasq. La composición de los Comités será publicada en la página web de la Agencia. h) Los Comités prestarán una especial atención en sus evaluaciones a los posibles sesgos de género que se pudieran ocasionar y recibirán información y formación al respecto por parte de la Agencia. IV.– Descripción del proces" .
+
+base:frag_protocolo_2025_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- c) Documentación acreditativa que se adjuntará: ▪ La documentación acreditativa del cumplimiento de los requisitos para acceder a la figura para la que se solicita evaluación. ▪ La documentación acreditativa de los méritos alegados. Esta documentación acreditativa de los méritos se organizará en archivos informáticos que responderán a los apartados a evaluar. d) Una vez finalizado el proceso de cumplimentación de la solicitud la aplicación informática facilitará el enlace a la s" .
+
+base:req_protocolo_2025_p4_1 a u:Requisito ;
+  u:descripcion "La documentación acreditativa del cumplimiento de los requisitos para acceder a la figura para la que se solicita evaluación." ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p4 .
+
+base:req_protocolo_2025_p4_2 a u:Requisito ;
+  u:descripcion "La documentación acreditativa de los méritos alegados. Esta documentación acreditativa de los méritos se organizará en archivos informáticos que responderán a los" ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p4 .
+
+base:frag_protocolo_2025_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- fin de asegurar que la resolución de la Agencia pueda llegar a los interesados o interesadas en el plazo máximo indicado en la convocatoria. b) Con carácter general, se procederá a la adscripción de las solicitudes presentadas al correspondiente Comité de Evaluación, en función del área de conocimiento y del campo señalado por la persona solicitante. Sin embargo, se podrá adscribir la solicitud a un campo diferente al indicado por el solicitante o la solicitante y por tanto a un" .
+
+base:frag_protocolo_2025_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- d) La persona solicitante que haya sido objeto de una evaluación negativa o para una figura contractual determinada, no podrá efectuar una nueva solicitud para esa misma figura hasta que hubieran transcurrido seis meses desde la fecha en que se le notificó la Resolución. 7.– Recursos ante la resolución de las solicitudes. a) Las Resoluciones de la Agencia agotan la vía administrativa, por lo que podrán ser recurridas en reposición ante la propia Dirección, o ante la Jurisdicción" .
+
+base:frag_protocolo_2025_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- evidenciables que aporta el conocimiento más allá del ámbito académico. En el proceso de evaluación se aplicarán criterios y metodologías de evaluación cualitativas y cuantitativas; entre otros aspectos para ello se tomarán como referencia los indicios de calidad aportados y verificados por la persona solicitante conforme a la práctica general habitual y la de cada campo, teniéndose en cuenta, por tanto, la variación por campo en las prácticas de publicación y citación; se consi" .
+
+base:frag_protocolo_2025_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- universitario con un reducido nivel de concurrencia competitiva o sin una financiación íntegramente universitaria. ▪ Las actas y resúmenes de congresos u otras reuniones científicas (simposios, seminarios, jornadas, etc.) no se incluirán en el apartado de publicaciones, sino en el apartado de participación en congresos. Con carácter general las entradas en enciclopedias especializadas, diccionarios temáticos y similares no tendrán carácter de capítulos de libro sino de otro tipo" .
+
+base:frag_protocolo_2025_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- CRITERIOS PARA LA EVALUACIÓN DE LA ACTIVIDAD DOCENTE E INVESTIGADORA DEL PROFESORADO PLENO Serán requisitos imprescindibles para conseguir la acreditación: ▪ Obtener al menos 80 puntos, y además un mínimo de 50 puntos en el apartado 1 y de 25 puntos en el apartado 2. ▪ Acreditar méritos equiparables a tres periodos de actividad investigadora reconocidos de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y co" .
+
+base:req_protocolo_2025_p9_1 a u:Requisito ;
+  u:descripcion "Obtener al menos 80 puntos, y además un mínimo de 50 puntos en el apartado 1 y de 25 puntos en el apartado 2." ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:req_protocolo_2025_p9_2 a u:Requisito ;
+  u:descripcion "Acreditar méritos equiparables a tres periodos de actividad investigadora reconocidos de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y con las modificaciones que se han realizado del mismo. Los méritos deben evidenciar un claro liderazgo y ser coherentes con una trayectoria investigadora relevante, sostenida, equilibrada y consolidada en el tiempo; la valoración general de la calidad de las contribuciones científicas prevalecerá sobre la mera valoración cuantitativa." ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:req_protocolo_2025_p9_3 a u:Requisito ;
+  u:descripcion "Haber dirigido al menos dos Tesis Doctorales ya defendidas o haber sido IP de al menos dos proyectos o grupos de investigación competitivos desarrollados en el ámbito universitario o haber realizado una estancia postdoctoral de investigación en una universidad extranjera de al menos seis meses de duración continuada (deberá ser una universidad de relevancia académica para el ámbito de conocimiento y la trayectoria de investigación de la persona solicitante y se deberán derivar de la estancia resultados constatables y relevantes para el campo de conocimiento). De forma orientativa, en aquellos" ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:umbral_p9_1001 a u:UmbralPuntuacion ;
+  u:valor 50.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:umbral_p9_1002 a u:UmbralPuntuacion ;
+  u:valor 25.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:umbral_p9_1004 a u:UmbralPuntuacion ;
+  u:valor 70.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:umbral_p9_1005 a u:UmbralPuntuacion ;
+  u:valor 35.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:umbral_p9_1006 a u:UmbralPuntuacion ;
+  u:valor 5.0 ;
+  u:apartado u:apartado_gestion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p9 .
+
+base:frag_protocolo_2025_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- la figura. Será el Comité de Evaluación quien decida si las publicaciones son de la entidad y relevancia suficiente, evidencian coherencia con el campo de conocimiento y demuestran un claro liderazgo, siguiendo los criterios estandarizados para cada área de conocimiento. Asimismo, será el Comité de Evaluación quien decida si en la producción científica se evidencia una trayectoria coherente, sostenida y equilibrada en el tiempo. A modo de referencia, siempre sujeta de cara a su " .
+
+base:frag_protocolo_2025_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- revisión por pares y con una antigüedad y periodicidad que les convierta en referencia en su ámbito de conocimiento. Con relación a estos congresos se valoran: ▪ Conferencias, ponencias plenarias. ▪ Ponencias invitadas. ▪ Comunicaciones orales y en forma de póster. ▪ Resúmenes extendidos de actas de congresos (proceedings). ▪ Otras presentaciones a congresos. Las conferencias y seminarios se valorarán teniendo en cuenta su carácter periódico, el prestigio de la entidad, del Comi" .
+
+base:frag_protocolo_2025_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- Actividades de transferencia y divulgación de alto impacto social: se podrán presentar méritos de investigación, transferencia e intercambio de conocimiento, siempre que sean de naturaleza distinta a las contribuciones presentadas en el resto de apartados y subapartados de este primer bloque de Actividad investigadora y transferencia de conocimiento. Se trata de actividades de carácter científico, técnico o artístico que generen valor económico o valor social a través de la tran" .
+
+base:frag_protocolo_2025_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- Para la valoración del apartado iii) se considerará el liderazgo y la coordinación docente de titulaciones, cursos, módulos o asignaturas en titulaciones oficiales, liderazgo y coordinación que sea coherente con una trayectoria docente relevante, equilibrada y sostenida en el tiempo. Para la valoración del apartado iv) se considerará en particular el liderazgo en la publicación de manuales docentes relevantes para las disciplinas en las que se ha impartido docencia, valorándose " .
+
+base:req_protocolo_2025_p13_1 a u:Requisito ;
+  u:descripcion "Experiencia profesional, no valorable en otros" ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p13 .
+
+base:frag_protocolo_2025_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- CRITERIOS PARA LA EVALUACIÓN DE LA ACTIVIDAD DOCENTE E INVESTIGADORA DEL PROFESORADO AGREGADO Serán requisitos imprescindibles para conseguir la acreditación: ▪ Obtener al menos 65 puntos, y además un mínimo de 35 puntos en el apartado 2 y de 10 puntos en el apartado 3. ▪ Acreditar méritos equiparables a un periodo de actividad investigadora reconocido de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y con" .
+
+base:req_protocolo_2025_p14_1 a u:Requisito ;
+  u:descripcion "Obtener al menos 65 puntos, y además un mínimo de 35 puntos en el apartado 2 y de 10 puntos en el apartado 3." ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:req_protocolo_2025_p14_2 a u:Requisito ;
+  u:descripcion "Acreditar méritos equiparables a un periodo de actividad investigadora reconocido de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y con las modificaciones que se han realizado del mismo. La valoración general de la calidad de las contribuciones científicas prevalecerá sobre la mera valoración cuantitativa. De forma orientativa, en aquellos" ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1000 a u:UmbralPuntuacion ;
+  u:valor 65.0 ;
+  u:apartado u:apartado_total ;
+  u:minmax "total_min" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1001 a u:UmbralPuntuacion ;
+  u:valor 35.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+# FIX: antes estaba u:apartado_foramcion (typo). En tu ontología el individuo es u:apartado_formacion.
+base:umbral_p14_1002 a u:UmbralPuntuacion ;
+  u:valor 10.0 ;
+  u:apartado u:apartado_formacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1003 a u:UmbralPuntuacion ;
+  u:valor 65.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1006 a u:UmbralPuntuacion ;
+  u:valor 35.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1007 a u:UmbralPuntuacion ;
+  u:valor 30.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1008 a u:UmbralPuntuacion ;
+  u:valor 10.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:umbral_p14_1009 a u:UmbralPuntuacion ;
+  u:valor 5.0 ;
+  u:apartado u:apartado_gestion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p14 .
+
+base:frag_protocolo_2025_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ▪ Tesis Doctoral: se tendrá en cuenta únicamente la obtención del premio extraordinario y la consideración de Tesis Internacional o Doctorado Industrial. Las tesis redactadas y presentadas en euskera se valorarán con el mismo nivel que las Tesis internacionales, siempre que hayan alcanzado la máxima calificación. ▪ Másteres o cursos específicos de posgrado de más de 6 meses. ▪ Otras titulaciones universitarias. ▪ Acreditación de conocimiento de idiomas que no sean materia especí" .
+
+base:frag_protocolo_2025_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- Autónomas y de otros entes u organismos públicos o privados sometidos a evaluación externa, especialmente por la Agencia Estatal de Investigación (AEI) u otras agencias de evaluación acreditadas. En el caso de áreas clínicas se valorarán además las actividades de investigación clínicas en convocatorias competitivas, certificadas por las autoridades sanitarias competentes. El máximo se podrá alcanzar acreditando la participación en proyectos de investigación incluidos en programa" .
+
+base:frag_protocolo_2025_p17 a u:Fragmento ;
+  u:pagina 17 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- 2.4. Dirección de Tesis Doctorales (hasta 10 puntos) El máximo se podrá alcanzar con la dirección o codirección (máximos dos directores o directoras) de 2 Tesis Doctorales ya defendidas con mención internacional con calificación máxima y premio extraordinario. Se tendrán en cuenta tan solo las Tesis ya defendidas; para valorar las tesis se tendrá en cuenta la calificación de la tesis, la obtención del premio extraordinario y la consideración de tesis europea. 3. ACTIVIDAD DOCENT" .
+
+base:frag_protocolo_2025_p18 a u:Fragmento ;
+  u:pagina 18 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ▪ Aquellas actividades docentes de este apartado realizadas en idiomas no oficiales de la Comunidad Autónoma del País Vasco incrementarán su valoración un 10 %. 3.2. Experiencia Profesional (hasta 15 puntos) ▪ Experiencia profesional, no valorable en otros apartados, relacionada con el área acreditada mediante licencia fiscal o contrato laboral. El Comité de evaluación considerará si es específica del área para ser considerada en la puntuación. En áreas clínicas, se considerará " .
+
+base:frag_protocolo_2025_p19 a u:Fragmento ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- CRITERIOS PARA LA EVALUACIÓN DE LA ACTIVIDAD DOCENTE E INVESTIGADORA DEL PROFESORADO DE INVESTIGACIÓN Serán requisitos imprescindibles para conseguir la acreditación: ▪ Obtener al menos 90 puntos y además un mínimo de 75 puntos en el apartado 1. ▪ Acreditar méritos equiparables a tres periodos de actividad investigadora reconocidos de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y con las modificaciones q" .
+
+base:req_protocolo_2025_p19_1 a u:Requisito ;
+  u:descripcion "Obtener al menos 90 puntos y además un mínimo de 75 puntos en el apartado 1." ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:req_protocolo_2025_p19_2 a u:Requisito ;
+  u:descripcion "Acreditar méritos equiparables a tres periodos de actividad investigadora reconocidos de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado universitario y con las modificaciones que se han realizado del mismo." ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:req_protocolo_2025_p19_3 a u:Requisito ;
+  u:descripcion "Haber dirigido al menos tres Tesis Doctorales ya defendidas o haber sido IP de al menos tres proyectos o grupos de investigación desarrollados en el ámbito universitario o haber realizado una estancia postdoctoral continuada en una universidad extranjera de al menos un año o acreditar una considerable capacidad para la obtención de contratos externos. En cuanto a las estancias postdoctorales en universidades extranjeras deberán ser de relevancia académica para el ámbito de conocimiento y la trayectoria de investigación de la persona solicitante y se deberán derivar de las estancias resultados constatables y relevantes para el campo de conocimiento." ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:umbral_p19_1000 a u:UmbralPuntuacion ;
+  u:valor 90.0 ;
+  u:apartado u:apartado_total ;
+  u:minmax "total_min" ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:umbral_p19_1001 a u:UmbralPuntuacion ;
+  u:valor 75.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:umbral_p19_1003 a u:UmbralPuntuacion ;
+  u:valor 90.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:umbral_p19_1004 a u:UmbralPuntuacion ;
+  u:valor 15.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:umbral_p19_1005 a u:UmbralPuntuacion ;
+  u:valor 5.0 ;
+  u:apartado u:apartado_gestion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p19 .
+
+base:frag_protocolo_2025_p20 a u:Fragmento ;
+  u:pagina 20 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- centífico y trayectoria necesarios para obtener sexenios de investigación. La acreditación de 25 aportaciones equiparables en cuanto a la calidad, impacto científico y trayectoria necesaria para obtener 5 sexenios de investigación podrá otorgar al menos 30 puntos. La acreditación de 35 aportaciones de alto nivel, impacto científico y trayectoria podrá otorgar al menos 40 puntos; como queda dicho, en todos los casos la valoración general de la calidad de las contribuciones cientí" .
+
+base:frag_protocolo_2025_p21 a u:Fragmento ;
+  u:pagina 21 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ▪ Resúmenes extendidos de actas de congresos (proceedings). ▪ Otras presentaciones a congresos. Las conferencias y seminarios se valorarán teniendo en cuenta su carácter periódico, el prestigio de la entidad o Comité organizador, y la publicación o no de las mismas. A modo de referencia, el máximo se podrá alcanzar con 10 comunicaciones de relevancia internacional, de las que al menos 5 sean conferencias plenarias. Será el Comité de Evaluación quien decida el grado de relevancia" .
+
+base:frag_protocolo_2025_p22 a u:Fragmento ;
+  u:pagina 22 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ▪ Dirección y participación de programas de tercer ciclo o postgrado (curso de formación especializada, máster y doctorado). ▪ Dirección de Tesinas, DEA, proyectos fin de carrera, TFGs y TFMs en titulaciones oficiales. ▪ Participación en proyectos de innovación docente con resultados de su implantación relevantes. ▪ Participación en programas de movilidad de estudiantes. ▪ Publicaciones docentes. ▪ Las actividades docentes de este apartado realizadas en euskera incrementaran su " .
+
+base:frag_protocolo_2025_p23 a u:Fragmento ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- CRITERIOS PARA LA EVALUACIÓN DE LA ACTIVIDAD DOCENTE E INVESTIGADORA DEL PERSONAL INVESTIGADOR CONTRATADO (PERSONAL DOCTOR INVESTIGADOR) Serán requisitos imprescindibles para conseguir la acreditación: ▪ Obtener al menos 85 puntos y además un mínimo de 70 puntos en el apartado 2. ▪ Acreditar méritos equiparables a dos periodos de actividad investigadora reconocidos de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado univer" .
+
+base:req_protocolo_2025_p23_1 a u:Requisito ;
+  u:descripcion "Obtener al menos 85 puntos y además un mínimo de 70 puntos en el apartado 2." ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:req_protocolo_2025_p23_2 a u:Requisito ;
+  u:descripcion "Acreditar méritos equiparables a dos periodos de actividad investigadora reconocidos de acuerdo con las previsiones del Real Decreto 1086/1989, de 28 de agosto, de retribuciones del profesorado univer" ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1000 a u:UmbralPuntuacion ;
+  u:valor 85.0 ;
+  u:apartado u:apartado_total ;
+  u:minmax "total_min" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1001 a u:UmbralPuntuacion ;
+  u:valor 70.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1003 a u:UmbralPuntuacion ;
+  u:valor 10.0 ;
+  u:apartado u:apartado_formacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1004 a u:UmbralPuntuacion ;
+  u:valor 85.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1005 a u:UmbralPuntuacion ;
+  u:valor 70.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1006 a u:UmbralPuntuacion ;
+  u:valor 10.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1007 a u:UmbralPuntuacion ;
+  u:valor 5.0 ;
+  u:apartado u:apartado_gestion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:umbral_p23_1008 a u:UmbralPuntuacion ;
+  u:valor 70.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p23 .
+
+base:frag_protocolo_2025_p24 a u:Fragmento ;
+  u:pagina 24 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ▪ Tesis Doctoral: se tendrá en cuenta únicamente la obtención del premio extraordinario y la consideración de Tesis Internacional o Doctorado Industrial. Las tesis redactadas y presentadas en euskera se valorarán con el mismo nivel que las Tesis Internacionales, siempre que hayan alcanzado la máxima calificación. ▪ Másteres o cursos específicos de posgrado de más de 6 meses. ▪ Otras titulaciones universitarias. ▪ Acreditación de conocimiento de idiomas que no sean materia especí" .
+
+base:frag_protocolo_2025_p25 a u:Fragmento ;
+  u:pagina 25 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- 2.2. Actividades colectivas de investigación y de transferencia del conocimiento: proyectos, contratos, grupos y redes de investigación (hasta 15 puntos) Se tiene en cuenta especialmente el tipo de participación y grado de responsabilidad de la persona solicitante en proyectos de investigación competitivos incluidos en programas de la Unión Europea, de otros organismos o instituciones internacionales (NSF, Fullbright, USA, Japón, etc.), de los Planes Estatales, de las Comunidade" .
+
+base:frag_protocolo_2025_p26 a u:Fragmento ;
+  u:pagina 26 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- El máximo se podrá alcanzar con la participación en 10 congresos internacionales siempre que al menos 2 de ellas hayan sido ponencias invitadas (excepcionalmente en nacionales de relevancia, según área de conocimiento). Será el Comité de Evaluación quien decida el grado de relevancia de cada aportación siguiendo los estándares de cada área de conocimiento. 2.4. Dirección de Tesis Doctorales (hasta 20 puntos) Se tendrán en cuenta tan solo las Tesis ya defendidas; el máximo se pod" .
+
+base:req_protocolo_2025_p26_1 a u:Requisito ;
+  u:descripcion "Experiencia profesional, no valorable en otros" ;
+  u:pagina 26 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p26 .
+
+base:frag_protocolo_2025_p27 a u:Fragmento ;
+  u:pagina 27 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- En áreas clínicas, se considerará preferentemente la actividad asistencial, con criterios de antigüedad y competencias acordes a la presente figura. ▪ Participación en actividades de emprendizaje, tales como la creación de empresas tipo spin-off o start- up universitarias. 4. ACTIVIDADES DE GESTIÓN (hasta 5 puntos) Se valorará el desempeño de cargos de gestión unipersonal en las Universidades; participación en comisiones institucionales de las Universidades; los servicios en la " .
+
+base:frag_protocolo_2025_p28 a u:Fragmento ;
+  u:pagina 28 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- CRITERIOS PARA LA EVALUACIÓN DE LA ACTIVIDAD DOCENTE E INVESTIGADORA DEL PROFESORADO EN POSESIÓN DEL TÍTULO DE DOCTOR O DOCTORA DE LAS UNIVERSIDADES PRIVADAS Serán requisitos imprescindibles para conseguir la acreditación: ▪ Obtener al menos 60 puntos, y además un mínimo de 25 puntos en el apartado 2 y de 20 puntos en el apartado 3. De forma orientativa, en aquellos apartados donde los méritos están más estandarizados, se proporcionan referencias para obtener la puntuación máxim" .
+
+base:req_protocolo_2025_p28_1 a u:Requisito ;
+  u:descripcion "Obtener al menos 60 puntos, y además un mínimo de 25 puntos en el apartado 2 y de 20 puntos en el apartado 3. De forma orientativa, en aquellos" ;
+  u:pagina 28 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1000 a u:UmbralPuntuacion ;
+  u:valor 60.0 ;
+  u:apartado u:apartado_total ;
+  u:minmax "total_min" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1001 a u:UmbralPuntuacion ;
+  u:valor 25.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1002 a u:UmbralPuntuacion ;
+  u:valor 20.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1004 a u:UmbralPuntuacion ;
+  u:valor 15.0 ;
+  u:apartado u:apartado_formacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1005 a u:UmbralPuntuacion ;
+  u:valor 60.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1006 a u:UmbralPuntuacion ;
+  u:valor 25.0 ;
+  u:apartado u:apartado_investigacion ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1007 a u:UmbralPuntuacion ;
+  u:valor 30.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1008 a u:UmbralPuntuacion ;
+  u:valor 20.0 ;
+  u:apartado u:apartado_docencia ;
+  u:minmax "apartado_min" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:umbral_p28_1010 a u:UmbralPuntuacion ;
+  u:valor 5.0 ;
+  u:apartado u:apartado_gestion ;
+  u:minmax "apartado_max" ;
+  u:provieneDe base:frag_protocolo_2025_p28 .
+
+base:frag_protocolo_2025_p29 a u:Fragmento ;
+  u:pagina 29 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ▪ Expediente Académico. ▪ Tesis Doctoral: se tendrá en cuenta únicamente la obtención del premio extraordinario y la consideración de Tesis Internacional o Doctorado Industrial. Las tesis redactadas y presentadas en euskera se valorarán con el mismo nivel que las Tesis Internacionales, siempre que hayan alcanzado la máxima calificación. ▪ Másteres o cursos específicos de posgrado de más de 6 meses. ▪ Otras titulaciones universitarias. ▪ Acreditación de conocimiento de idiomas qu" .
+
+base:frag_protocolo_2025_p30 a u:Fragmento ;
+  u:pagina 30 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- Evaluación quien decida si las aportaciones son de suficiente entidad, siguiendo los criterios estandarizados para cada área de conocimiento. 2.2. Actividades colectivas de investigación y de transferencia del conocimiento: proyectos, contratos, grupos y redes de investigación (hasta 15 puntos) Se tiene en cuenta especialmente el tipo de participación y el grado de responsabilidad de la persona solicitante en proyectos de investigación incluidos en programas competitivos de la U" .
+
+base:frag_protocolo_2025_p31 a u:Fragmento ;
+  u:pagina 31 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_procedimiento ;
+  u:textoFuente "----- TEXT ----- Las conferencias y seminarios se valorarán teniendo en cuenta su carácter periódico, el prestigio de la entidad, Comité organizador y científico, y la publicación, o no, de las mismas. El máximo se podrá alcanzar con la participación en 5 congresos internacionales siempre que al menos una de ellas haya sido una ponencia invitada (excepcionalmente en nacionales de relevancia, según área de conocimiento). Será el Comité de Evaluación quien decida el grado de relevancia de cada apo" .
+
+base:frag_protocolo_2025_p32 a u:Fragmento ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- TEXT ----- ▪ Publicaciones de carácter docente con ISBN publicadas en editoriales de prestigio. ▪ Coordinación o participación en proyectos de innovación docente y proyectos de adecuación al Espacio Europeo de Educación Superior. ▪ Experiencia docente no universitaria (máximo 5 puntos). ▪ Las actividades docentes de este apartado realizadas en euskera incrementaran su valoración un 20 %. ▪ Aquellas actividades docentes de este apartado realizadas en idiomas no oficiales de la Comunidad Aut" .
+
+base:req_protocolo_2025_p32_1 a u:Requisito ;
+  u:descripcion "Publicaciones de carácter docente con ISBN publicadas en editoriales de prestigio." ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p32 .
+
+base:req_protocolo_2025_p32_2 a u:Requisito ;
+  u:descripcion "Coordinación o participación en proyectos de innovación docente y proyectos de adecuación al Espacio Europeo de Educación Superior." ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p32 .
+
+base:req_protocolo_2025_p32_3 a u:Requisito ;
+  u:descripcion "Experiencia docente no universitaria (máximo 5 puntos)." ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p32 .
+
+base:req_protocolo_2025_p32_4 a u:Requisito ;
+  u:descripcion "Las actividades docentes de este apartado realizadas en euskera incrementaran su valoración un 20 %." ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p32 .
+
+base:req_protocolo_2025_p32_5 a u:Requisito ;
+  u:descripcion "Aquellas actividades docentes de este apartado realizadas en idiomas no oficiales de la Comunidad Autónoma del País Vasco incrementarán su valoración un 10 %. 3.2 Experiencia Profesional (hasta 15 puntos)" ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p32 .
+
+base:req_protocolo_2025_p32_6 a u:Requisito ;
+  u:descripcion "Experiencia profesional, no valorable en otros" ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_requisitos ;
+  u:provieneDe base:frag_protocolo_2025_p32 .
+
+base:frag_protocolo_2025_p33 a u:Fragmento ;
+  u:pagina 33 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- ANEXO I CAMPOS DE CIENCIAS EXPERIMENTALES Y CIENCIAS DE LA SALUD En los campos de las Ciencias Experimentales y de las Ciencias de la Salud, se valorarán preferentemente los artículos científicos publicados en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, tales como el Science Citation Index u otras bases de datos generalmente admitidas en este campo. Se puede considerar otro tipo de trabajos si corresponden a publicaciones" .
+
+base:frag_protocolo_2025_p34 a u:Fragmento ;
+  u:pagina 34 ;
+  u:fuenteDocumento base:doc_protocolo_2025 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- TEXT ----- CAMPO DE HUMANIDADES En el campo de las Humanidades se valoran preferentemente los artículos científicos publicados en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio y libros sobre los que se acrediten indicios de calidad generalmente admitidas en este campo; en cuanto a las bases de datos bibliográficas se consideran, por ejemplo, Arts and Humanities Citation Index y Social Science Citation Index u otras bases de datos gener" .

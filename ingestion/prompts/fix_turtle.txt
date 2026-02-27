@@ -1,0 +1,34 @@
+Eres un experto en RDF/Turtle y validación sintáctica.
+
+Prefijos obligatorios (NO los repitas):
+{FORCED_PREFIXES}
+
+Bloque Turtle potencialmente inválido:
+{TTL}
+
+TAREA
+Devuelve SOLO Turtle válido (parseable), corrigiendo SOLO sintaxis.
+NO inventes. NO añadas triples nuevos. NO cambies significado.
+
+REGLAS
+1) Arreglos permitidos:
+- "." faltante
+- ";" "," mal puestos
+- comillas/escapes
+- literales sin cerrar (puedes usar """ """ si no cambias el texto)
+
+2) Comentarios:
+- Elimina todas las líneas que empiecen por "#".
+
+3) Anti-duplicados:
+- Si el mismo sujeto aparece redefinido varias veces, conserva UNA definición válida y elimina duplicados.
+
+4) Normalización de tipos sin cambiar valores:
+- u:pagina "7" → u:pagina 7
+- u:valor "70.0"^^xsd:float → u:valor 70.0
+- u:importe "30.00" → u:importe 30.00
+
+SALIDA
+- SOLO Turtle corregido
+- SIN @prefix
+- SIN explicaciones

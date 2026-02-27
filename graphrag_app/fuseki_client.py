@@ -11,7 +11,7 @@ def _is_allowed(query: str) -> bool:
         return ("SELECT" in q) or ("ASK" in q)
     return q.startswith("SELECT") or q.startswith("ASK")
 
-def run_select(query: str, timeout: int = 30) -> dict:
+def run_select(query: str, timeout: int = 60) -> dict:
     """
     Ejecuta consulta en Fuseki (solo SELECT/ASK).
     Devuelve JSON estándar SPARQL.

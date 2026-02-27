@@ -1,0 +1,116 @@
+[
+  {
+    "kind": "class",
+    "uri": "http://example.org/academic-career/ontology#Documento",
+    "label": "Documento",
+    "text": "CLASE: Documento\nURI: http://example.org/academic-career/ontology#Documento"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/academic-career/ontology#Figura",
+    "label": "Figura",
+    "text": "CLASE: Figura\nURI: http://example.org/academic-career/ontology#Figura"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/academic-career/ontology#Fragmento",
+    "label": "Fragmento",
+    "text": "CLASE: Fragmento\nURI: http://example.org/academic-career/ontology#Fragmento"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/academic-career/ontology#Requisito",
+    "label": "Requisito",
+    "text": "CLASE: Requisito\nURI: http://example.org/academic-career/ontology#Requisito"
+  },
+  {
+    "kind": "class",
+    "uri": "http://example.org/academic-career/ontology#UmbralPuntuacion",
+    "label": "UmbralPuntuacion",
+    "text": "CLASE: UmbralPuntuacion\nURI: http://example.org/academic-career/ontology#UmbralPuntuacion"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#tieneSeccion",
+    "label": "tieneSeccion",
+    "text": "PROPIEDAD: tieneSeccion\nURI: http://example.org/academic-career/ontology#tieneSeccion"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#tieneFragmento",
+    "label": "tieneFragmento",
+    "text": "PROPIEDAD: tieneFragmento\nURI: http://example.org/academic-career/ontology#tieneFragmento"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#pagina",
+    "label": "pagina",
+    "text": "PROPIEDAD: pagina\nURI: http://example.org/academic-career/ontology#pagina"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#fuenteDocumento",
+    "label": "fuenteDocumento",
+    "text": "PROPIEDAD: fuenteDocumento\nURI: http://example.org/academic-career/ontology#fuenteDocumento"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#enSeccion",
+    "label": "enSeccion",
+    "text": "PROPIEDAD: enSeccion\nURI: http://example.org/academic-career/ontology#enSeccion"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#textoFuente",
+    "label": "textoFuente",
+    "text": "PROPIEDAD: textoFuente\nURI: http://example.org/academic-career/ontology#textoFuente"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#nombre",
+    "label": "nombre",
+    "text": "PROPIEDAD: nombre\nURI: http://example.org/academic-career/ontology#nombre"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#tieneRequisito",
+    "label": "tieneRequisito",
+    "text": "PROPIEDAD: tieneRequisito\nURI: http://example.org/academic-career/ontology#tieneRequisito"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#tieneUmbral",
+    "label": "tieneUmbral",
+    "text": "PROPIEDAD: tieneUmbral\nURI: http://example.org/academic-career/ontology#tieneUmbral"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#descripcion",
+    "label": "descripcion",
+    "text": "PROPIEDAD: descripcion\nURI: http://example.org/academic-career/ontology#descripcion"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#provieneDe",
+    "label": "provieneDe",
+    "text": "PROPIEDAD: provieneDe\nURI: http://example.org/academic-career/ontology#provieneDe"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#valor",
+    "label": "valor",
+    "text": "PROPIEDAD: valor\nURI: http://example.org/academic-career/ontology#valor"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#apartado",
+    "label": "apartado",
+    "text": "PROPIEDAD: apartado\nURI: http://example.org/academic-career/ontology#apartado"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#minmax",
+    "label": "minmax",
+    "text": "PROPIEDAD: minmax\nURI: http://example.org/academic-career/ontology#minmax"
+  }
+]

@@ -1,0 +1,47 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Bases a u:Documento .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_Bases_profesorado_pleno a u:Figura ;
+  u:nombre "PROFESORADO PLENO" .
+
+
+base:frag_Bases_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Bases ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- FIGURA ----- profesorado_pleno ----- TEXT ----- BOLETÍN OFICIAL DEL PAÍS VASCO N.º 243 miércoles 17 de diciembre de 2025 OTRAS DISPOSICIONES UNIBASQ-AGENCIA DE EVALUACIÓN DE LA CALIDAD Y ACREDITACIÓN DEL SISTEMA UNIVERSITARIO VASCO 5413 ACUERDO de 18 de noviembre de 2025, del Consejo de Gobierno de Unibasq-Agencia de Calidad del Sistema Universitario Vasco, por el que acuerda aprobar y publicar la convocato- ria ordinaria para la evaluación y acreditación del personal doctor investigador, " .
+
+
+base:frag_Bases_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_Bases ;
+  u:enSeccion u:sec_requisitos ;
+  u:textoFuente "----- FIGURA ----- profesorado_pleno ----- TEXT ----- BOLETÍN OFICIAL DEL PAÍS VASCO N.º 243 miércoles 17 de diciembre de 2025 d) En la evaluación de la figura de Personal Doctor Investigador estar en posesión del título de doctorado y acreditar tres años de experiencia docente y/o investigadora universitaria. e) En la evaluación de la figura de Profesorado de Investigación tener la acreditación de perso- nal doctor investigador, profesorado agregado o equivalente. Se adjuntarán certificados que" .
+
+
+base:frag_Bases_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_Bases ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- FIGURA ----- profesorado_pleno ----- TEXT ----- BOLETÍN OFICIAL DEL PAÍS VASCO N.º 243 miércoles 17 de diciembre de 2025 Quinta.– Formalización de la solicitud. 1.– Junto con la solicitud debidamente cumplimentada las personas interesadas deberán formalizar la solicitud con la entrega a Unibasq de los siguientes documentos dentro del plazo establecido en la convocatoria: a) Documento resumen que la sede electrónica genera una vez finalizado el proceso de cumplimentación. 2.– Los documentos" .
+
+
+base:frag_Bases_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_Bases ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- FIGURA ----- profesorado_pleno ----- TEXT ----- BOLETÍN OFICIAL DEL PAÍS VASCO N.º 243 miércoles 17 de diciembre de 2025 2.– Las resoluciones deberán indicar la figura contractual para la que se ha realizado la eva- luación, si esta ha sido positiva o negativa y si el informe tiene, por tanto, carácter favorable o desfavorable. Asimismo, en el caso de que la evaluación sea desfavorable se podrá acceder al informe de evaluación realizado por el Comité correspondiente a través de la aplicaci" .
+
+
+base:frag_Bases_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_Bases ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "----- FIGURA ----- profesorado_pleno ----- TEXT ----- BOLETÍN OFICIAL DEL PAÍS VASCO N.º 243 miércoles 17 de diciembre de 2025 – Normativa: Reglamento General de Protección de Datos (eur-lex.europa.eu/legal-content/ES/TXT/HTML/? uri=CELEX:32016R0679&from=ES). – Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (www.boe.es/buscar/doc.php?id=BOE-A-2018-16673). Décima.– Recursos. Contra la presente convocatoria y sus bases, que ponen fin " .
+
