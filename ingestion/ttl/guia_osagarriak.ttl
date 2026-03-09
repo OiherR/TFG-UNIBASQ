@@ -1,0 +1,104 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_guia_ayuda_osagarriak_2024-eus a u:Documento .
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Ebaluazio-eskaera betetzeko laguntza-gida" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_indice ;
+  u:textoFuente "Aurkibidea Sarrera, eskaera izapidetzea eta tasaren ordainketa ................................................................................... 3 Eskabidea aplikazio informatikoan betetzea ............................................................................................. 3-4 Atalka betetzea: 1. Ikerketa, ezagutzaren transferentzia eta dibulgazio zientifikoa ................................................. 5-11 2. Irakaskuntza .............................................................................................................................. 11-13 3. Kudeaketa ...................................................................................................................................... 13 4. A mailaren sartzea ......................................................................................................................... 14 Obra honen edukiak Creative Commonsen Aitorpen-Ez-Komertziala-Sin-Obra-Derivada 3.0 lizentzia bati lotuta daude. Erreprodukz" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_introduccion ;
+  u:textoFuente "Sarrera Gida honen helburua Universidad del País Vasco/Euskal Herriko Unibertsitateko (hemendik aurrera UPV/EHU) irakasle eta ikertzaileei ordainsari osagarriak esleitzeko ebaluazio-eskaera betetzen laguntzea da. Komeni da aipatzea Unibasq UPV/EHUren Gizarte Kontseiluak onartu eta argitaratzen duen deialdiaren ebaluazio- organoa baino ez dela. UPV/EHUk indarrean dagoen araudian ezarritako legezko eta formazko eskakizunak betetzen direla egiaztatu ostean igorritako eskaerak ebaluatzen ditu Unibasqek. Horren ondoren, Unibasqek ebaluazio-txostena egiten du; txosten hori beharrezkoa da UPV/EHUk ordainsari osagarrien esleipena ebatzi ahal izateko. Gida hau irakurtzeaz gain, Unibasqen webguneko (http://www.unibasq.eus) Irakasleak ataleko BOO UPV/EHU atala bisitatzea gomendatzen diogu eskatzaileari, informazio gehiago aurkituko baitu. Webgune honetan aurkituko du FAQ dokumentua, ebaluazioa eskatzen dutenei gehien sortzen zaizkien galderak eta zailtasunak argitzeko baliagarria. Edozein zalantz" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "dira, eta bloke bakoitzak merezimenduak justifikatzeko dagokion fitxategia izan behar du. Egiaztagirien ordena aplikazio informatikoan adierazitakoa izango da, betiere eskaeran sartutako datuen arabera, honako atal eta azpiatal hauetan: 1)ikerketa, ezagutzaren transferentzia eta dibulgazio zientifikoa; 2)irakaskuntza eta 3) kudeaketa Eskaeran aipatzen diren merezimendu guztiak frogatzeko moduan egiaztatu behar dira; horretarako, dagokion dokumentazioa aurkeztu behar da dokumentu honetan zehaztutako jarraibideei jarraikiz. Behar bezala adierazi eta justifikatu gabeko merezimenduak ez dira aintzat hartuko Ebaluazio Batzordeetako kideek ebaluazioa egiteko garaian. Mezu elektronikoak ez dira egiaztagiritzat onartuko. Artikulu bat, liburu-kapitulu bat, liburu bat, eta abar aintzat hartu ahal izateko, ebaluagai den datan argitaratutakoa izan beharko du. Merezimenduak justifikatzeko agirien kopiek ez dute konpultsatuak izan behar. Horretaz gain, aurreko fitxategietan sartutako dokumentazioare" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Atalka betetzea 1. Ikerketaren, Ezagutzaren Transferentziaren eta Dibulgazio Zientifikoaren atala 1.1. Ikerketa 1.1.1. Argitalpenak Atal honetan, eskatzaileak bera egile den liburuak, liburuen kapituluak, artikuluak eta patenteak sartuko ditu. Argitalpenak ebaluatzeko, I. eranskinean jasotako irizpideak izango dira Ebaluazio Batzordeko kideen erreferentzia. Atal honetako merezimenduak justifikatzeko, honako datu hauek aipatu behar dira: ▪ Liburuak: egilea, izenburua, argitalpenaren tokia, argitaletxea, argitalpenaren urtea, liburuak zenbat orrialde dituen, ISBNa, kalitate-zantzuak eta hizkuntza, DOIa eta gordailuetarako esteka adierazi behar dira eskaeran. ▪ Liburu bateko kapitulua: egilea, kapituluaren izenburua, liburu osoaren izenburua, liburu osoaren argitaratzailea, argitalpenaren tokia, argitaletxea, argitalpenaren urtea, kapituluaren orrialdeak, ISBNa, kalitate-zantzuak eta hizkuntza, DOIa eta gordailuetarako esteka adierazi behar dira eskaeran. ▪ Artikuluak: egilea, izenburua, " .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "UPV/EHUri lotutako langile gisa egindako ikerketa-proiektu, ikerketa-talde, kontratu partaidetza, sare eta gisa berekoen justifikazioari dagokienez, erakunde horren ziurtagiria edo ziurtagiriaren kopia erantsi beharko da (Ikertu plataformatik lor daiteke ziurtagiri hori). Aipatutako ziurtagirian jasotzen ez den merezimendu bat izanez gero, dagokion Unibertsitateak edo erakundeak emandako antzeko ziurtagiri bat edo ziurtagiriaren kopia aurkeztu beharko da, edo, bestela, proiektu, talde, kontratu, sare edo antzekoaren deialdia egin duen erakundearen ebazpena edo ebazpenaren kopia, non argi eta garbi eta berariaz adieraziko den eskatzailearen parte hartzea lantaldean, arduraldi mota, lortutako finantzaketa-zenbatekoa eta jardueran emandako denbora. Proiektu, talde, kontratu, sare edo antzekoaren ikertzaile nagusiak sinatutako idazki edo ziurtagirietan oinarrituriko merezimenduen dokumentazioa ez da zuzena izango. Arlo klinikoen kasuan, lehia bidezko deialdietako ikerketa klinikoko jarduer" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "1.2.1. Ezagutzaren transferentzia 1.2.1.1 Pertsonen prestakuntza eta ekintzailetza-jarduerak Azpiatal honetan honako hauek dira merezimendu hautagarriak: a) I+G+b proiektu eta kontratuetan kontratatu diren pertsonen prestakuntza-jarduerak. Bereziki balioetsiko da kontratatuko persona horiei eskuratutako unibertsitate-ezagutzak beste enpresa edo erakunde batzuei trasmititzeko aukera eman dien prestakuntza. b) Transferentzia-jardueretan kontratatutako pertsonen kopurua (I+G+b proiektuak eta kontratuak). Eskatzaileek aurkezten dituzten kontratuek eskatzailea bera espezialista den esparruko ezagutza transferitzeko jarduerekin lotuta egon behar dute hautagarriak izateko. Ez dira kontuak hartuko eskatzaile batek kargu akademiko edo arduran politiko edo instituzional gisa sustatutako kontratutak. Kontratatutako pertsonak ez badu zuzeneko inplikaziorik proiektu edo kontratuaren edukietan (administrazio- eta kudeaketa-kontratuak, ), eta abar), kontratu horiek ez dira kontuan izango. Pertsonak e" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "tituluan). Positiboki balioetsiko da tesi industriala kanpoko erakundeko doktoreekin batera egin izana. Gogoan izan 2.3 atalean sartu ez badira aukeratu ahal izango direla. Azpiatal honetan sartuko dira Zientzia, Teknologia eta Berrikuntzari buruzko irailaren 5eko 17/2022 Legeak aldatutako Zientzia, Teknologia eta Berrikuntzari buruzko 14/2011 Legearen 18. eta 19. Artikulu indargabetuetan aipatzen diren kontratuak, hau da, kanpoko erakundeetan egindako aldi baterako kontratuak. Era berean, espezialista-plaza asistentziala lotura-araubidean duten unibertsitate-irakasleek itunpeko osasun-erakundeetan egindako jarduera ere sartuko da. Azpiatal honetan, Unibertsitateak hirugarren erakundeetan (publikoak, sozialak edo merkataritzakoak) kualitatiboki eta kuantitatiboki duen eragina hartzen da aintzat, baldin eta bertan parte hartu badezake (zuzenean edo behartuta). Horretarako, Zuzenbidean baliozkoak diren eta dagozkion kontratu-formulak balioetsi eta ebaluatuko dira. Adibidez, zerbitzu-egin" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "▪ Funtsak UPV/EHUra itzultzen dituzten enpresa, erakunde eta administrazio publikoekin egindako ikerketa- arloko kontratu edo hitzarmenetan parte hartu izana, betiere unibertsitateak araututako ohiko sistemen bidez formalizatutakoak izanik. Eskatzaileak kontratu/hitzarmenean izan duen parte-hartze mota (ikertzaile nagusia, ikertzailea, prestakuntzan) kontuan izango da, haren iraupena, egindako transferentziaren kalitate- zantzuak, kontratu edo hitzarmenen emaitzak eta UPV/EHUn izan duen inpaktu ekonomikoa ere. ▪ Lehia bidezko deialdietan esleitutako proiektuetan parte hartu izana, enpresa, erakunde eta administrazio publikoekin egindako proiektuak izanik. Deialdia egin duen organoaren izen ona kontuan izango da, eskatzaileak proiektuan izan duen parte-hartze mota (ikertzaile nagusia, ikertzailea, prestakuntzan), proiektuaren iraupena, egindako transferentziaren kalitate-zantzuak, proiektuaren emaitzak, eta UPV/EHUn izan duen inpaktu ekonomikoa. Atal honetan ez lirateke kontuan hartuko " .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "1.2.2.1 Dibulgazioko argitalpenak ▪ Liburuak eta liburuetako kapituluak: Dibulgazio zientifikoko liburuak izango dira. Ez da kontuan izango zientziaren hainbat arlotako espezializazioko edo irakaskuntzako liburuen egile izatea. ▪ Dibulgazioko artikuluak: Egilea edo egileetako bat ebaluatzen den pertsona duten dibulgazioko artikuluak soilik izango dira kontuan. Eskatzailearen aipamena egiten duten edo eskatzaileari elkarrizketa egiten zaionean ez dira artikulu gisa hartuko.. ▪ Erakusketak: Garrantzi handiko erakusketak, fisikoak zein birtualak. Aztarnategi arkeologikoen musealizazioak eta tematizazioak. Egile izatea (edukien sorkuntza) nahiz antolatzea balioetsiko dira. ▪ Materialak sortzea: Inpaktu handiko dibulgazio zientifikoko tresna diren material bereziak edo produktu espezifikoak. Edozein motatakoak izan daitezke, fisikoak edo birtualak, baldin eta zientziaren-dibulgaziorako badira (adibidez, mahai-jokoak, komikiak, liburuxkak, infografiak, bideoak, bideo-jokoak edo mugikorreko a" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "trebatzea helburu dutenak. Ebaluatutako pertsonak antolatzaile/koordinatzaile moduan parte har dezake, edo bestela lehiaketaren sortzaile gisa. 1.2.2.3 Dibulgazioa sare sozialen bitartez Azpiatal honetan hauek dira hautagarriak (sar daitezkeenak): ▪ Blogak: Dibulgazio zientifikoari buruzko blog aktiboak eta irekiak. ▪ Dibulgazioa sare sozialetan: Informazio zientifikoa zorroztasun akademikoz zabaltzen laguntzen duten jarduerak baloratzen dira sare sozialen bidez, bereziki izaera akademikokoetan. Eskatzaileak gehienez ere 3 ekarpen aurkeztu ahal izango ditu 1.2.2 azpiatal osoan, bost urteko bloke bakoitzeko. Eskatzaileak komunikabide mota, parte-hartze mota, parte-hartzearen maiztasuna, kalitate-zantzuak eta eragin sozialeko zantzuak adierazi behar ditu; horretarako, webgunearen esteka eman behar du. Adibidez, Kalitatearen zantzu gisa, alegatutako merezimendua https://divulgasfera.org/ gordailuan sartu izana aurkeztu ahal izango da. 2. Irakaskuntza atala 2.1 Docentiaz programako ebaluaz" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Ofiziala ez den hizkuntza batean eskolak eman izana, betiere eskatzailearen ezagutza-arloko aztergaia ez denean. Datu hauek aipatu behar dira: ikasturtea, titulazioa, irakasgaia, hizkuntza eta emandako kreditu kopurua. Unibertsitateak egindako ziurtagiriaren bitartez justifikatuko da. Nazioarteko irakasleen/ikasleen truke-programetan parte hartu izana. Irakaskuntzako truke-programen –hala nola Erasmus programa– bitartez, ekintza integratuen bitartez edo antzeko beste ekintza batzuen bitartez beste unibertsitate batzuetan egindako egonaldiak soilik hartuko dira kontuan. Datu hauek adierazi behar dira: truke- programa, trukea egin duen unibertsitatea edo zentroa, parte-hartzearen iraupena eta egindako jarduera. Unibertsitateak egindako ziurtagiriaren bitartez justifikatuko da. Frogatutako zabalkundea izan duen irakasmateriala prestatu izana: artikuluak, liburuak edo liburuetako kapituluak idatzi izana izen oneko aldizkari eta argitaletxeetan. Aintzat hartuko dira honako hauek: kanpoko eb" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Eskatzaileak gehienez ere 3 ekarpen aurkeztu ahal izango ditu bost urteko bloke bakoitzeko. Ebaluazio Batzordeek tesi industrialei dagokien merezimendua 2.3 azpiatalean balioetsiko dute, baldin eta ez bada 1.2.1 azpiatalean sartu. 3. Kudeaketaren atala 3.1 Kide bakarreko kudeaketa-kargu akademikoak bete izana Eskatzaileak bete duen kargua eta karguaren iraupena adierazi beharko ditu. Merezimendu hauek justifikatzeko, eskatzaileak zerbitzu-orriaren kopia erantsi beharko du, edo izendapeneko eta kargutik kentzeko ebazpenaren kopia, edo jarduera egin den Unibertsitateak egindako ziurtagiriaren bitartez justifikatu beharko du. 3.2 Administrazio Publikoan karguak bete izana, zerbitzu berezien egoeran Eskatzaileak bete duen kargua eta karguaren iraupena adierazi beharko ditu. Merezimendu hauek justifikatzeko, eskatzaileak zerbitzu-orriaren kopia erantsi beharko du, edo izendapeneko eta kargutik kentzeko ebazpenaren kopia. 3.3 Kudeaketako beste jarduera batzuk Eskatzaileak Ebaluazio Protokolo" .
+
+
+base:frag_guia_ayuda_osagarriak_2024-eus_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_guia_ayuda_osagarriak_2024-eus ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "4 A Mailaren sartzea 4.1 A1 tartean sartzea Eskatzaileak 3 ikerketa seiurteko edo ikerketa ikertramo dituela justifikatu beharko du, CNEAIaren edo Unibasqen Ebazpenaren kopia aurkeztuta. 4.2 A2 tartean sartzea Eskatzaileak, berak egindako autotxosten batean, bere bizitza akademiko osoko lau ekarpen garrantzitsuenak zeintzuk izan diren adierazi beharko du eskaerako lau atal edo dimentsio baloragarrietan, eta hala badagokio, ekarpen horien kalitate-zantzuak adieraziko dira, egoki iritziz gero.. Nolanahi ere, adierazitako ekarpenen justifikazio dokumentala ere erantsi beharko du. Nahitaezkoa da eskatzaileak CV oso bat eranstea bere ibilbide akademiko osoari dagokion ohiko formaturen batean (adibidez, FECYTen CVN). Ekarpen terminoa, ebaluazio-protokoloan atal bakoitzerako eskaintzen diren adibide orientagarriekin bat etorriz interpretatu behar da. Adibidez, eskatzaile batek 7 doktorego-tesi zuzendu baditu, zuzendaritza horiek irakaskuntzaren ataleko ekarpenetako bat izango da. Era berean, " .
+

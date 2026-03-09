@@ -1,0 +1,118 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_COM.18Protokoloa a u:Documento .
+
+base:frag_COM.18Protokoloa_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_introduccion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea BESTELAKO XEDAPENAK UNIBASQ-EUSKAL UNIBERTSITATE SISTEMAREN KALITATEA EBALUATU ETA EGIAZTATZEKO AGENTZIA 4586 EBAZPENA, 2019ko irailaren 27koa, Unibasq-Euskal Unibertsitate Sistemaren Kalitate Agen- tziaren zuzendariarena, zeinaren bidez argitaratzen baita Universidad del País Vasco / Euskal Herriko Unibertsitateko (UPV/EHU) irakasle eta ikertzaileen banakako ordainsari-osagarriak ebaluatzeko eta esleitzeko protokoloa. I.– Zioen azalpena eta lege-esparrua. 1.– Unibertsitateen Lege Organikoaren (abenduaren 21eko 6/2001) 55. eta 69. artikuluetan, ira- kasle eta ikertzaileei merezimendu indibidualekin lotutako ordainsari gehigarriak emateko aukera xedatzen da, Autonomia Erkidegoek finkatutako mugen barruan, Gizarte Kontseiluak egindako deialdian eta Unibertsitateko Gobernu Kontseiluak aldez aurretik onartuta. 2.– Bestalde, Euskal Unibertsitate Sistemaren Legearen (otsailaren 25eko 3/2004) 34. artikuluan xedatu" .
+
+
+base:frag_COM.18Protokoloa_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea 2.– Prozesu horretan, UPV/EHUko Gizarte Kontseiluak, Unibertsitateko Gobernu Kontseiluaren proposamenari jarraikiz, irakasle eta ikertzaileei ordainsari-osagarri berezi eta indibidualak eslei- tzea erabakiko du, betiere urriaren 17ko 209/2006 Dekretuan xedatutakoaren arabera (Dekretu hori martxoaren 29ko 64/2011 Dekretuaren bitartez aldatu zen). 3.– Dekretu horren 1. artikuluan aurreikusitakoaren arabera, osagarriak esleitzeko, aldez aurre- tik, Unibasqek interesdunaren merezimenduak baloratu eta ebaluatu beharko ditu. III.– Ebaluazio-organoak. 1.– Jasotako eskaerak Ebaluazio Batzordeen bitartez ebaluatuko ditu Agentziak; batzordeki- deek Unibasqen Etika eta Bermeen Kodea betez jardun beharko dute. 2.– Unibasqek ebaluazio-prozesuan eskuratzen duen informazio osoa isilpekoa da eta datuak babesteari buruzko indarreko araudiaren menpe dago. 3.– Ebaluazio Batzordeak. a) Ebaluazio Batzordeen izendapena eta egink" .
+
+
+base:frag_COM.18Protokoloa_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea 2.– Deialdia urtero egingo da, eta bertan parte hartzeko modua, epeak eta beharrezkoa den dokumentazioa xedatu beharko dira. 3.– 209/2006 Dekretuan (64/2011 Dekretuaren bitartez aldatu zen) aurreikusitako ordain- sari-osagarriak ebaluatzeko aukera izateko, interesdunak, eskaera egiteko unean UPV/EHUrekin lan-, estatutu- edo administrazio-lotura izan beharko du nahitaez eta jardunean egon beharko du. 4.– Unibertsitatetik kanpo egon diren eta beste unibertsitate edo ikerketa-zentro batzuetan lan akademikoa egin ondoren UPV/EHUn sartu direnek ebaluazioa eskatu ahal izango dute, 64/2011 Dekretuak aldatutako 209/2006 Dekretuaren 5.6 artikuluan ezarritakoari jarraiki. 5.– Baloratzeko merezimenduak aurkeztea: a) Merezimenduak egiaztatzeko dokumentazioa erantsiko zaio eskabideari, formatu digitalean. Eskabidean bildutako merezimenduen orden berberari eutsi beharko dio arestian adierazitako dokumentazioak, eta ebalu" .
+
+
+base:frag_COM.18Protokoloa_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea b) UPV/EHUren Gizarte Kontseiluak, Agentziaren ebaluazio-txostena eta UPV/EHUren ebazpen-proposamena aztertu ostean, erabaki bat hartuko du eta horren bidez deialdi bakoitzean eskatutako ebaluazioa ebatziko du; eskatzaile bakoitzari banaka jakinarazi beharko dio ebazpena. 10.– Eskabideen ebazpenaren aurkako errekurtsoak. Gizarte Kontseiluak hartutako erabakiek administrazio-bidea agortzen dute eta haien aur- kako berraztertze-errekurtsoa aurkeztu ahal izango da, aukeran, hilabeteko epean, interesdunari jakinarazi zitzaionetik kontatzen hasita; hala badagokio, administrazioarekiko auzi-errekurtsoa aurkeztu ahal izango zaio organo jurisdikzional eskudunari, bi hilabeteko epean, tartea emateko edo ukatzeko erabakia jakinarazi zenetik kontatzen hasita. UPV/EHUko Gizarte Kontseiluak beha- rrezkotzat jotzen badu Unibasq Agentziaren iritzi teknikoa izatea errekurtsoa ebazteko, dagokion Ebaluazio Batzordeak espedie" .
+
+
+base:frag_COM.18Protokoloa_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea kontuan: B1 tartearen kasuan, UPV/EHUrekin edozein lan-, estatutu- edo administrazio-lotura- ren pean egindako irakaskuntzako, ikerketako, ezagutza transferitzeko edo kudeaketako jarduera guztiak eta, B2 eta B3 tarteen kasuan, UPV/EHUrekin edo beste unibertsitate edo ikerketa-zentro batzuekin egindakoak. B1 tartea lortzeko baldintzak: C1 tartea lortu izana, 5 urteko lotura egiaztatzea UPV/EHUrekin eta gutxienez 25 puntu lortzea. B2 tartea lortzeko baldintzak: doktore-gradua, C1 eta C2 tarteak lortu izana, 10 urteko lotura egiaztatzea UPV/EHUrekin edo beste unibertsitate eta ikerketa-zentro batzuekin, eta gutxienez 50 puntu lortzea. B3 tartea lortzeko baldintzak: doktore-gradua, C1 eta C2 tarteak lortu izana, 10 urteko lotura egiaztatzea UPV/EHUrekin edo beste unibertsitate eta ikerketa-zentro batzuekin, eta gutxienez 75 puntu lortzea. 3.– A maila: Bikaintasuna saritzea du helburu. A1 tartea eskatzeko baldin" .
+
+
+base:frag_COM.18Protokoloa_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea parametroak zehazten ditu. Era berean, azpiatal bakoitzeko gehieneko puntuazioari buruzko pro- portzionaltasun-irizpide bati jarraikiz, azpiatal horietan baloragarriak diren merezimenduetarako baremoak zehazten dira. – Orientabide horri jarraikiz, Ebaluazio Batzordeek atal (edo azpiatal, hala badagokio) bakoitza- ren puntuazioa finkatuko dute eta, edonola ere, aurkeztutako merezimenduak baloratzeko garaian baliatuko dute beren diskrezionalitate teknikoa. Azpiatal bakoitza baloratzean ekarpenen koheren- tzia hartuko da kontuan eta, hala badagokio, eskatzailearen ibilbidea edo Curriculum Vitaea. – Bere diskrezionalitatea egikarituz, Batzordeak uste badu azpiatal batean barne hartutako merezimenduetakoren bat ezohiko kalitatekoa dela, protokoloaren baremoaren arabera dagokion gehienekoa gainditzen duen balorazio bat esleitu ahalko dio. Edozein kasutan, inoiz ere ezin izango da azpiatal bakoitzerako ezarritako " .
+
+
+base:frag_COM.18Protokoloa_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea Balorazioan, honako faktore hauek izango dira kontuan: deialdia egin duen organoa, proiek- tuaren zenbatekoa eta eskatzaileak proiektuan izan duen parte-hartze mota (ikertzaile nagusia, ikertzailea, prestakuntzan eta abar). Arlo klinikoen kasuan, lehia bidezko deialdietako ikerketa klinikoetako jarduerak ere baloratuko dira, betiere osasun-agintaritza eskudunak egiaztatutako deialdiak izanik. Gehieneko puntuazioa lortzeko, hiru urtez Europar Batasuneko lehia bidezko programetan, Estatuko edo nazioarteko planetan edo Eusko Jaurlaritzaren A mailako taldeetan sartutako iker- keta-proiektuetako ikertzaile edo ikertzaile nagusi izan dela egiaztatuta lortuko da gehienekoa, eta hiru urte horiek ebaluatzen ari den aldiaren barruan egon beharko dute. Urte bakoitzeko puntuazioa honako hau izango da deialdia egiten duen organoaren, deialdiaren lehiakortasun-mailaren, dagokion zenbatekoaren, parte-hartze motaren eta es" .
+
+
+base:frag_COM.18Protokoloa_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea – Bekak eta sariak. urtean 0,1etik 0,25 punturaino doktoratu aurreko eta doktoratu ondoko iker- keta-bekengatik eta 0,5eraino sari bat emateagatik, sari horren ospearen arabera. – Ikertzaileen prestakuntza, mugikortasuna eta/edo laneratzea bultzatu izana. – Azpiegitura zientifikoa eta ikerketakoaren sorrera eta erabilera bultzatu izana, bai UPV/EHUn, bai Euskal Autonomia Erkidegoko beste erakunde batzuetan. – Ebaluazio-jarduerak indexatutako aldizkarietan edo izen oneko argitaletxeetan. Gehieneko puntuazioa lortzeko, nazioarteko 5 biltzarretan (salbuespen gisa, garrantzi berezia duten naziokoak, jakintza-arloaren arabera) parte hartuta lortuko da gehieneko puntuazioa 1.1.3 azpiatalean, betiere gutxienez haietako batean gonbidatutako hitzaldia izanik. Bestela, gehieneko puntuazioa lortuko da nazioarteko 10 biltzarretan ponente edo hizlari moduan parte hartu baldin bada. Azpiatal honetan, eskatzaileak gehiene" .
+
+
+base:frag_COM.18Protokoloa_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea 1.2.1.3.– Transferentzia, kanpoko baliabide ekonomikoak jasota. – Funtsak UPV/EHUra itzultzen dituzten enpresa, erakunde eta administrazio publikoekin egindako ikerketa-arloko kontratu edo hitzarmenetan parte hartu izana, betiere unibertsitateak araututako ohiko sistemen bidez kontratatutakoak izanik. Eskatzaileak kontratu/hitzarmenean izan duen parte-hartze mota (ikertzaile nagusia, ikertzailea, prestakuntzan) kontuan izango da, haren iraupena, egindako transferentziaren kalitate-zantzuak, proiektuaren emaitzak, baita kontratu/ hitzarmenak UPV/EHUn izan duen inpaktu ekonomikoa ere. Puntuazioa urteko puntu 1 izango da gehienez, parte hartzeagatik eta gehienez 2 puntu arduraduna bada. – Lehia bidezko deialdietan esleitutako proiektuetan parte hartu izana, enpresa, erakunde eta administrazio publikoekin egindako proiektuak izanik. Deialdia egin duen organoaren izen ona kontuan hartuko da, eskatzaileak kontrat" .
+
+
+base:frag_COM.18Protokoloa_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea – Dibulgazioko artikuluak. Aldizkari, egunkari edo inprimatutako komunikabidearen izen ona kontuan hartuko da, zenbat ale banatu diren eta eskatzaileak emandako kalitate-zantzuak. – Erakusketak. Garrantzi oso handiko erakusketak (ikus-entzunezkoak objektuak, panelak, eta abar), fisikoak zein birtualak. Erakusketa antolatzen duen erakundearen garrantzia, erakusketa- ren iraupena eta kalitatea, komunikabideetan duen inpaktua, eta bisiten, aipamen eta erreseinen kopurua hartuko dira kontuan. – Inpaktu handiko dibulgazio zientifikoko tresna gisa agertzen diren beste material berezi edo produktu espezifiko batzuk. 1.2.2.2.– Ikerketaren dibulgazioko eta zabalkundeko jarduerak ikus-entzunezko komunika- bideetan. Azpiatal honetan, UPV/EHUk, Kultura Zientifikoko Katedrak, UPV/EHUren udako ikastaroak Fundazioak edo kultura zientifikoko unitateek antolatutako jardueretan izandako parte-hartzea, batik bat, sartuko da. " .
+
+
+base:frag_COM.18Protokoloa_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea 2.2.1.– Nazioartekotzea, metodologiak eta berrikuntza irakaskuntzan (gehienez 9 puntu). Azpiatal honetan sartuko dira honako hauek: – Gradu-amaierako eta master-amaierako lanen zuzendaritza. Gradu Amaierako Lan bat zuzen- tzeagatik 0,2 puntu lortuko dira. Master Amaierako Lan bat zuzentzeagatik 0,4 puntu lortuko dira (kasuan kasu, zuzendarien kopuruarekin banatuko da). – Aintzatetsitako kalitatea duten graduko eta graduondoko programetan parte hartu izana, nazioarteko proiekzioa bereziki baloratuko da. – Ofiziala ez den hizkuntza batean eskolak eman izana, betiere eskatzailearen jakintza-arloko aztergaia ez denean. – Nazioarteko irakasleen/ikasleen truke-programetan parte hartu izana. Erasmus truke-pro- gramen bitartez, ekintza integratuen bitartez edo antzeko beste ekintza batzuen bitartez beste unibertsitate batzuetan egindako egonaldiak soilik hartuko dira kontuan. ECTS bakoitzeko 0,3 puntu lortuko dira." .
+
+
+base:frag_COM.18Protokoloa_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea 2.3.– Ebaluazioaldian defendatutako doktorego-tesiak zuzendu izana (gehienez 6 puntu). Azpiatal honetan, ebaluazioaldian defendatutako doktorego-tesiak hartuko dira kontuan (2.1.1 azpiatalean barne hartu gabekoak), tesiaren kalifikazioa, ezohiko saria lortu izana eta euskarazko tesia, europarra eta/edo nazioartekoa ote den. Nazioarteko tesi bat edo ezohiko saria duen bat zuzendu izanagatik, 3 puntu lortuko dira. Ezohiko saria duen tesi bat baina nazioartekoa ez dena zuzendu izanagatik, 2 puntu lor- tuko dira. Tesia euskaraz egin eta defendatu bada, aurreko irizpideen arabera lortutako 0,5 puntu gehi- tuko dira. Azpiatal honetan, eskatzaileak gehienez ere 3 ekarpen aurkeztu ahal izango ditu bloke bakoitzean. 3.– Kudeaketaren atala (gehienez 9 puntu). 3.1.– Kide bakarreko kudeaketa-kargu akademikoak bete izana (gehienez 9 puntu). – Errektorea: 5 puntu urte bakoitzeko. – Errektoreordea edo idazkari nagusia: 2," .
+
+
+base:frag_COM.18Protokoloa_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea – Unibertsitate-jarduerarekin lotutako erakunde-jardueretan parte hartu izana. – Unibertsitateko kide anitzeko organoetan parte hartu izana, edo aurreko ataletan sartzen ez diren irakaskuntzako edo ikerketako kudeaketa-jardueretan, hala nola: • Liberatu sindikalak. • Estatutu-batzordeak. • Aurreko ataletan sartzen ez diren irakaskuntzako edo ikerketako kudeaketa-jarduerak, nazioar- tean oihartzuna dutenak. • Biltzar edo bestelako ekitaldi zientifikoak antolatu izana. 3.3 azpiatalean gehieneko puntuazioa lortzeko, master edo doktorego baten zuzendari edo izen oneko sozietate zientifiko baten koordinatzaile hiru urtez izan behar da. Atal honetan, eskatzaileak gehienez ere 5 ekarpen aurkeztu ahal izango ditu bloke bakoitzean. Eskatzaileak kargua eta kargu bakoitzeko hasierako eta amaierako datak adierazi beharko ditu. Ez da puntuaziorik jasoko kargua egikaritzeko aldia urtebete baino gutxiago bada. VIII.– A ma" .
+
+
+base:frag_COM.18Protokoloa_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea – Bikain kalifikazioa lortzeko, egindako jardueran lidergoa egiaztatu beharko da, baita egindako jardueraren ondorioz jardueraren emaitzek UPV/EHUri onurak erakarri dizkiotela objektiboki fro- gatzea ere. Bikain kalifikazioaren adibideak atal bakoitzean: 1 – Irakaskuntza: – 1. adibidea: 15 doktorego-tesi zuzendu izana edo horren pareko den prestakuntza-jarduera, jakintza-arloaren arabera, eta irakaskuntzaren ebaluazio bikaina gutxienez 15 urtez. – 2. adibidea: emaitza akademikoetan eragin handiko irakaskuntza-proiektuak zuzendu izana, ahal dela nazioarteko proiekzioa dutenak, eta gutxienez 15 urtez irakaskuntzaren ebaluazio bikaina. 2 – Ikerketa: Ikertzaile nagusia izatea hauetako batean (aukeran): – 1. adibidea: ERC proiektu bat. Ikerketako 4 seiurteko edo ikertramo egiaztatzea gutxienez, baita bere arloko kalitate bikaineko eskatzailea buru dituen 10 ikerketa-emaitza ere. – 2. adibidea: gutxienez guztira " .
+
+
+base:frag_COM.18Protokoloa_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea I. ERANSKINA ARGITALPENAK ETA PATENTEAK EBALUATZEKO IRIZPIDEAK Ebaluazio-batzordeek argitalpen moten sailkapen bat ezarriko dute erantsitako irizpideei jarraikiz. Jakintza-arlo guztietako kalitate handiko ekarpenak zein diren definituko dira sailkapen horretan. ZIENTZIA ESPERIMENTALEN ETA OSASUNAREN ZIENTZIEN ARLOAK Zientzia Esperimentalen eta Osasunaren Zientzien arloetan Science Citation Index datu-basean bildutako argitalpen zientifikoak balioetsiko dira lehentasunez. Beste mota bateko lanak ere kon- tuan har litezke kalitate handiko lanak badira bere espezialitatean, bere lan-arlokoen artean (bere espezialitateko zerrendako lehen herenean kokatutakoak Science Citation Index datu-basean). Ikerketaren benetako eragina hartuko da kontuan inpaktu-indizea eta ikerketaren eraginaren adie- razle gisa jasotako aipu kopurua kontuan izanda. Liburuen argitalpenari dagokionez, nazioarteko prestigioa duten espeziali" .
+
+
+base:frag_COM.18Protokoloa_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_COM.18Protokoloa ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EUSKAL HERRIKO AGINTARITZAREN ALDIZKARIA 191. zk. 2019ko urriaren 8a, asteartea mota kontuan izanda. Ikerketaren benetako eragina hartuko da kontuan inpaktu-indizea eta iker- ketaren eraginaren adierazle gisa jasotako aipu kopurua kontuan izanda. Zuzenbideko arloetan kontuan izango dira, halaber, egiaztatutako kalitate-zantzuak dauzkaten liburu eta liburuko kapitu- luak (argitaletxearen kanpo-ebaluazioa, argitalpenaren inpaktua). GIZA ZIENTZIEN ARLOA Giza zientzien arloan, egiaztatutako kalitate-zantzuak dauzkaten liburuak balioetsiko dira lehentasunez (argitaletxearen kanpo-ebaluazioa, argitalpenaren inpaktua), baita nazioarteko aldiz- karietan argitaratutako artikuluak ere, betiere artikulu horiek honako datu-base hauetan sartu ahal izatea kalitatezko erreferentziatzat kontuan hartuta: adibidez, FRANCIS, International Bibliography of the Social Sciences, Arts and Humanities Citation Index, Social Science Citation Index, CINDOC, Bibliography of the History of Arts (RLG), Historical Ab" .
+

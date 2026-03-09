@@ -1,0 +1,13 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Tasak a u:Documento .
+
+base:frag_Tasak_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Tasak ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "Tasa – Irakasle eta Ikertzaileen Osagarrien Deialdia Euskal Autonomia Erkidegoko 2024. urteko Aurrekontu Orokorrak onartzen dituen abenduaren 22ko 21/2023 legearen arabera, ebaluazio-eskubideei dagokien 49,70 euroko tasa ezarri da Unibasq-en alde. Ordaindu izanaren agiria aurkeztu beharko da, aplikazio informatikoan zehazten den bezala. Tasa ordaindu ezean, eskaria ez da ondo egindakotzat joko. C mailako osagarriak bakarrik eskatuz gero, ez da tasa hau ordaindu beharko." .
+

@@ -1,0 +1,127 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Decreto-209-2006-17-oct-Complementos a u:Documento .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_Decreto-209-2006-17-oct-Complementos_profesorado_en_su_actuacion_profesional a u:Figura ;
+  u:nombre "profesorado en su actuación profesional" .
+
+base:fig_Decreto-209-2006-17-oct-Complementos_sistema_universitario_vas_euskal_unibertsitate_sistemari_buruzko_otsailaren_co_c a u:Figura ;
+  u:nombre "Sistema Universitario Vas- Euskal Unibertsitate Sistemari buruzko otsailaren co, corresponde a dicho organismo la evaluación de los 25eko 3/2004 Legearen 34. artikuluan Euskal Herr" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "209/2006 DEKRETUA, urriaren 17koa, Euskal Herri- DECRETO 209/2006, de 17 de octubre, sobre comple- ko Unibertsitateko irakasle eta ikertzaileen gehiga- mentos retributivos adicionales del personal docen- rrizko ordainsari-osagarriei buruzkoa. te e investigador de la Universidad del País Vasco / Euskal Herriko Unibertsitatea. Euskal Unibertsitate Sistemaren otsailaren 25eko El artículo 34 de la Ley 3/2004, de 25 de febrero, 3/2004 Legearen 34. artikuluaren arabera, Jaurlaritzak del Sistema Universitario Vasco, dispone que el Gobier- ordainsari-osagarriak ezarri ahal izango ditu irakasle eta no podrá establecer para el personal docente e investi- Pribatuen Iragarkiak | Anuncios Particulares Xedapen Orokorrak | Disposiciones Generales" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21047 ikertzaile funtzionario eta kontratatuentzat, betiere, ira- gador, funcionario y contratado, complementos retribu- kaskuntza, ikerketa eta kudeaketaren esparruan egoki tivos, de acuerdo con los criterios que considere opor- iritzitako irizpideak eta, horien artean, hizkuntza-me- tunos en torno a la docencia, la investigación y la ges- rezimenduak, kontuan izanda. Artikulu horrek dioenez, tión, entre los que se incluirán los méritos lingüísticos. gainera, Eusko Jaurlaritzari dagokio, unibertsitate-alo- Asimismo, dicho artículo señala que corresponde al Go- rreko eskumenak dituen sailaren proposamenez, ordain- bierno Vasco, a propuesta del departamento competen- sari horien mugak ezartzea eraginkortasun eta eragimen te en materia de universidades, establecer los límites de irizpideen arabera, eta Gizarte Kontseiluari dagokio, dichas retribuciones de acuerdo con los criterios de efi- unibertsitateko G" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_introduccion ;
+  u:textoFuente "21048 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 Horrekin guztiarekin, beraz, suspertu egin nahi da Con todo ello, en definitiva, se pretende ahondar en Euskal Autonomia Erkidegoarentzat apustu estrategi- la apuesta estratégica que para la Comunidad Autóno- koa den euskal unibertsitate-sistema eta, bereziki, uni- ma de Euskadi supone el sistema universitario vasco y, bertsitate publikoa, are gehiago goi-mailako irakaskun- particularmente, la universidad pública, máxime en un tzako europar esparruan ezinbestean sartu behar dugun contexto de obligada incorporación al espacio europeo honetan _2010erako beranduen jota_, izan ere, horrek de la enseñanza superior prevista, en cualquier caso, pa- eraldaketa sakona ekarriko du irakaskuntzaren eskain- ra el 2010 y que supone una profunda transformación tzan eta antolaketan eta pedagogiaren kulturan. Ildo de la oferta y la organización docente, así como de la horretatik, kreditua eta gehigarri europarra sa" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_introduccion ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21049 Amaitzeko, arau honek bete-betean errespetatzen di- Por último, la presente norma se ajusta en toda su tu Euskal Unibertsitate Sistemaren Legeak Euskal Uni- amplitud a las funciones que la Ley del Sistema Uni- bertsitate Sistemaren Kalitatea Ebaluatu eta Egiaztatze- versitario Vasco reserva tanto a Uniqual, Euskal Uni- ko Uniqual Agentziari eta Euskal Herriko Unibertsi- bertsitate Sistemaren Kalitatea Ebaluatu eta Egiaztatze- tateko Gizarte Kontseiluari ematen dizkion funtzioak. ko Agentzia-Agencia de Evaluación de la Calidad y Acreditación del Sistema Universitario Vasco como al Consejo Social de la Universidad del País Vasco / Eus- kal Herriko Unibertsitatea. Ondorioz, Hezkuntza, Unibertsitate eta Ikerketa En virtud de lo expuesto, a propuesta del Consejero sailburuaren proposamenez, Euskadiko Unibertsitate de Educación, Universidades e Investigación, oídos el Kontseiluari, Unibertsitate Irakasku" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "21050 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 duak; ikerketaren esparruan: ikerketako jardueraren na- organización docente, así como de la cultura pedagógi- zioartekotze eta lehiakortasunean eragina izan duten ca, los méritos de investigación que han influido en la merezimenduak, eta kudeaketaren esparruan: unibertsi- internacionalización y la competitividad de la actividad tatean eta goi-mailako irakaskuntza eta ikerketa era- investigadora y los méritos de gestión que han promo- kundeetan kalitatea kudeatzeko kultura sustatu duten vido una cultura de gestión de calidad en el ámbito uni- merezimenduak. versitario y en las instituciones de enseñanza e investi- gación superior. 3. artikulua.– Aurrekontuko zuzkidura eta finan- Artículo 3.– Dotación presupuestaria y financiación. tziazioa. 1.– El proyecto de Ley de Presupuestos Generales de 1.– Euskal Autonomia Erkidegoko Aurrekontu la Comunidad Autónoma de Euskadi incluirá una do- Orokorren Legea" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21051 2.– Irakaskuntzako eta ikerketako merezimenduei 2.– Los complementos retributivos adicionales liga- lotutako gehigarrizko ordainsari-osagarriak irakaskun- dos a méritos docentes e investigadores estarán dirigi- tzako eta ikerketako jardueren bikaintasuna, kalitatea dos a estimular y reconocer la excelencia, la calidad y eta etengabeko hobekuntza piztu eta aitortzeko izango la mejora continua en las actividades docentes e inves- dira, barne hartuta jardueran beste hizkuntza batzuk tigadoras, incluyendo el uso de otros idiomas en el de- erabiltzea eta, bereziki, euskara erabiltzea. Ildo horre- sempeño de su labor y, en cualquier caso, el uso del eus- tatik, jarduera eleaniztunak eta, bereziki, euskararen kera. En este sentido, las actuaciones plurilingües y, en sustapenari zuzenean lotutakoak, modu orokorrean eta particular, las relacionadas directamente con el impul- zeharkakoan hartuko dira kontuan" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_introduccion ;
+  u:textoFuente "21052 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 – B3; eskuratu ahal izateko, nahitaezkoa da 10 ur- – B3, al que se podrá acceder siempre que se acre- teko antzinatasuna egiaztatzea, gutxienez; C1 eta C2 dite una antigüedad mínima de 10 años, se tengan los tarteak dagoeneko izatea eta 75 puntu lortzea. Urteko tramos C1 y C2 y se obtengan 75 puntos. Tendrá una zenbatekoa 2.200 eurokoa izango da. cuantía anual de 2.200 euros. c) A maila, bikaintasuna saritzeko. Eskuratzeko 10 c) El nivel A, destinado al reconocimiento de la ex- urteko antzinatasuna egiaztatu behar da gutxienez, eta celencia, y al que se podrá acceder siempre que se acre- bi tarte izango ditu: dite una antigüedad mínima de 10 años, estará com- puesto por dos tramos: – A1; urteko zenbatekoa 2.100 eurokoa izango da. – A1, que tendrá una cuantía anual de 2.100 euros. – A2; urteko zenbatekoa 2.600 eurokoa izango da. – A2, que tendrá una cuantía anual de 2.600 euros. 6.– Antzinatasuna ka" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21053 netako eranskinean norbanakoentzat eta taldeentzat ja- tros de evaluación de cada uno de los diferentes tramos sotako irizpideen arabera. señalados en el artículo anterior atendiendo a los crite- rios, de carácter tanto individual como colectivo, reco- gidos en el anexo al presente Decreto. 3.– Eranskin horretako irizpideak dekretu bitartez 3.– Los criterios recogidos en el citado anexo podrán aldatu ahal izango dira, unibertsitate-alorreko eskume- ser revisados y modificados, mediante Decreto, a pro- nak dituen sailaren proposamenez, Euskal Unibertsita- puesta del Departamento competente en materia de te Sistemaren antolamenduari eta erronka berriei ego- universidades para su adecuación a la ordenación y a los kitzeko. Zehazki, Unibertsitate Planari egokitu behar nuevos retos del Sistema Universitario Vasco. En par- zaizkio eta, hala badagokio, baita Euskal Herriko Uni- ticular, deberán adecuarse " .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "21054 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 5.– Merezimendu eta inguruabar berberak ezin izan- 5.– En ningún caso podrán evaluarse los mismos mé- go dira inolaz ere ebaluatu osagarri-mota desberdine- ritos y circunstancias para diferentes tipos de comple- tarako. mentos. 6.– Lehenengo ebaluazioan, eskatzaileak bere bizi- 6.– En la primera evaluación el solicitante podrá ale- tza akademiko osoko merezimenduak alegatu ahal izan- gar los méritos de toda su vida académica. Las siguien- go ditu. Hurrengo ebaluazioak, ordea, aurreko ebalua- tes evaluaciones se realizarán sobre la actividad desarro- zioaren eta deialdiaren artean iragandako denboran bu- llada en el período de tiempo comprendido entre la eva- rututako jardueren ingurukoak izango dira. luación anterior y la convocatoria. 7.– Aldeko ebaluazioak bost urteko balioa izango du. 7.– La evaluación positiva tendrá una validez de cin- Eskatzailea, beraz, ezin izango da beste deialdi batera co" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21055 erabakiaren ziurtapena igorriko dio unibertsitate-alo- tea remitirá al Departamento competente en materia de rreko eskumenak dituen sailari, onuradunen zerrenda universidades una certificación del acuerdo adoptado banakatuarekin eta esleituriko osagarrien guztizko por el Consejo Social junto con la relación individuali- kostuaren justifikazio-txosten batekin batera, haiei lo- zada de beneficiarios y una memoria justificativa del turiko gizarte-kostuak barne direla. coste total de los complementos asignados, incluidos los costes sociales asociados a los mismos. XEDAPEN GEHIGARRIAK DISPOSICIONES ADICIONALES Lehenengoa.– Kontratu-programa berariazkoak. Primera.– Contratos-programa específicos. Dekretu honetan aurreikusten diren gehigarrizko or- La percepción de los complementos retributivos adi- dainsari-osagarriak jasotzea bateragarria izango da Eus- cionales contemplados en el presente Decreto será " .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "21056 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 saturik, gehigarrizko ordainsari-osagarriak ebaluatzeko Consejo de Gobierno de la universidad, aprobará y pu- eta esleitzeko lehen prozesurako deialdia onartuko eta blicará la convocatoria para el primer proceso de eva- argitaratuko du, Unibertsitate Sistemaren Kalitatea luación y asignación de complementos retributivos adi- Ebaluatu eta Egiaztatzeko Uniqual Agentziak dekretu cionales en el plazo de un mes desde la aprobación por honetako 8. artikuluan aipatzen den ebaluazio-proto- Uniqual, Unibertsitatean Kalitatea Neurtzeko eta Kre- koloa onartzen duenetik hilabetera. ditatzeko Agentzia-Agencia de Evaluación de la Cali- dad y Acreditación del Sistema Universitario Vasco del protocolo de evaluación a que se refiere el artículo 8 del presente Decreto. 2.– Salbuespen gisa, unibertsitaterako lanbide-dedi- 2.– Con carácter excepcional, la primera evaluación kazioa aintzatestera bideratzen diren osagar" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "DECRETO 209/2006, ERANSKINA DE 17 DE OCTUBRE MEREZIMENDUAK EBALUATZEKO CRITERIOS PARA LA EVALUACIÓN DE LOS IRIZPIDEAK MÉRITOS Unibertsitate Sistemaren Kalitatea Ebaluatu eta De acuerdo con el artículo 5 de los Estatutos de Uni- Egiaztatzeko Uniqual Agentziaren Estatutuen 5. arti- qual Euskal Unibertsitate Sistemaren Kalitatea Ebalua- kuluaren arabera, erakunde horri dagokio irakaskuntza, tu eta Egiaztatzeko Agentzia-Agencia de Evaluación de ikerketa eta kudeaketako merezimenduak ebaluatzea, la Calidad y Acreditación del Sistema Universitario Vas- Euskal Unibertsitate Sistemari buruzko otsailaren co, corresponde a dicho organismo la evaluación de los 25eko 3/2004 Legearen 34. artikuluan Euskal Herriko méritos docentes, de investigación y de gestión, a los Unibertsitateko irakasle eta ikertzaileentzat aurreikus- efectos de la asignación de los complementos retribu- ten diren ordainsari-osagarriak esleitzeari dagokionez. tivos previstos para el personal docente e investigador Nolanahi ere" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "21058 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 7) Mintegi, ikastaro, hitzaldi, etab.etan parte har- 7) Participación en seminarios, cursos, conferen- tzea. cias,… 8) Kide den sailak urtero aurkezten du irakaskun- 8) El departamento al que pertenece presenta me- tza eta ikerketako txostena. moria anual de docencia e investigación. 9) Ikasketa-errendimendua eta enplegu bideratuaren 9) Los indicadores del centro que miden rendimien- tasa neurtzen duten ikastegiaren adierazleak Unibertsi- to académico y tasa de empleo encajado, están por en- tate Sistemaren Kalitatea Ebaluatu eta Egiaztatzeko cima de los niveles determinados por Uniqual, Euskal Uniqual Agentziak zehazturiko mailen gainetik dau- Unibertsitate Sistemaren Kalitatea Ebaluatu eta Egiaz- de. tatzeko Agentzia- la Agencia de Evaluación de la Ca- lidad y Acreditación del Sistema Universitario Vasco. 10) Uniqualen ebaluazio positiboa jaso duten fakul- 10) Pertenencia a facultades, departamen" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21059 arloko ikerketa-erkidegoan prestigio aintzatetsia dute- dad investigadora, de prestigio reconocido en la comu- nak, argitaratzea. Arreta berezia emango zaie defizita- nidad investigadora del área. Se dará especial atención rioak, euskarazkoak edo Euskal Autonomia Erkidegoa- a los libros, capítulos de libros, monografías y publica- rentzat interes berezikoak diren ezagutza-arloei dagoz- ciones que corresponde a áreas de conocimiento que sean kien liburu, liburu-kapitulu, monografia eta argitalpe- deficitarias, en Euskera y de especial interés para la Co- nei. munidad Autónoma del País Vasco. 6) Organismo publiko, erakunde eta garrantzi egiaz- 6) Realización de informes para organismos públi- taturiko enpresentzat txostenak egitea. cos, instituciones y empresas de relevancia contrastada. 7) Lehiaketa-deialdietan finantzatutako ikerketa- 7) Dirección de proyectos de investigación financia- proiektuak " .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "21060 EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 7) Euskal Herriko Unibertsitatean tesiak, tesinak 7) Dirección de tesis, tesinas y/o trabajos de colabo- eta/edo lankidetzako lanak zuzentzea. ración en la Universidad del País Vasco / Euskal Herri- ko Unibertsitatea. 8) Euskal Herriko Unibertsitatean europar tesiak zu- 8) Dirección de tesis europeas en la Universidad del zentzea. País Vasco / Euskal Herriko Unibertsitatea. 9) Karrera-amaierako proiektuak zuzentzea. 9) Dirección de proyectos de fin de carrera. 10) Euskal Herriko Unibertsitateko ikasleen ikaske- 10) Organización de actividades para la formación ta-prestakuntzarako jarduerak antolatzea (enpresetara académica del alumnado de la Universidad del País Vas- egindako bisitak, landako praktikak, laneko bideratzea, co / Euskal Herriko Unibertsitatea (visitas a empresas, lizentziaturaren zabalkundea,...). prácticas de campo, orientación laboral, difusión de la licenciatura,…). 11) Euskal Herr" .
+
+
+base:frag_Decreto-209-2006-17-oct-Complementos_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_Decreto-209-2006-17-oct-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EHAA - 2006ko urriak 31, asteartea N.º 208 ZK. BOPV - martes 31 de octubre de 2006 21061 b) Ikastegiko dekanoa/zuzendaria, ikastegiko deka- b) Decano/Director de Centro, Vicedecanos/Subdi- nordea/zuzendariordea eta/edo beste kargu baliokide ba- rectores de Centro y/o cargos equivalentes en la Uni- tzuk Euskal Herriko Unibertsitatean. versidad del País Vasco / Euskal Herriko Unibertsita- tea. c) Saileko zuzendaria, saileko idazkari akademikoa, c) Director de departamento, Secretario académico campuseko zuzendaria, campuseko idazkaria. Euskal de Departamento, Director de Campus, Secretario de Herriko Unibertsitatean. Campus de la Universidad del País Vasco / Euskal He- rriko Unibertsitatea. d) Ordainsari gehigarri batekin edo irakaslan-sal- d) Pertenece a comisiones de la Universidad del País buespenarekin aitorturiko Euskal Herriko Unibertsita- Vasco / Euskal Herriko Unibertsitatea reconocidas con teko batzorderen bateko kidea. retribución adicional o exención docente. e) Euskal Herriko" .
+

@@ -1,0 +1,112 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Decreto-64-2011-Complementos a u:Documento .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_Decreto-64-2011-Complementos_profesorado_funcionario_de_los_egin_zituen a u:Figura ;
+  u:nombre "profesorado funcionario de los egin zituen" .
+
+base:fig_Decreto-64-2011-Complementos_profesorado_que_expresamente_lo_solicite_kontseiluak_irakasleen_ebaluazioari_bur a u:Figura ;
+  u:nombre "profesorado que expresamente lo solicite Kontseiluak irakasleen ebaluazioari buruzko txosten al Consejo Social de la UPV" .
+
+base:fig_Decreto-64-2011-Complementos_profesorado_excluido_de_la_percep a u:Figura ;
+  u:nombre "Profesorado excluido de la percep" .
+
+base:fig_Decreto-64-2011-Complementos_profesorado_que_presente_un_informe_positivo a u:Figura ;
+  u:nombre "profesorado que presente un informe positivo" .
+
+
+base:frag_Decreto-64-2011-Complementos_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "64/2011 DEKRETUA, martxoaren 29koa, Universi- DECRETO 64/2011, de 29 de marzo, por el que se dad del País Vasco / Euskal Herriko Unib er tsi ta- modifica el Decreto sobre complementos retributi- teko irakasle eta ikertzaileen gehigarrizko ordainsa- vos adicionales del personal docente e investigador ri osagarriei buruzko De kre tua aldatzen duena. de la Universidad del País Vasco / Euskal Herriko Uni ber tsi ta tea. Uni ber tsi ta te Erreformarako abuztuaren 25eko La Ley Orgánica 11/1983, de 25 de agosto, de 11/1983 Lege Organikoaren 46.1 artikuluan ezarrita- Reforma Universitaria, en su artículo 46.1 estable- koaren arabera, unibertsitateetako gizarte- kontseiluek, cía la posibilidad de que los Consejos Sociales de las gobernu- batzordeen proposamenez, ordainsari osaga- universidades, a propuesta de sus Juntas de Gobier- rriak esleitu ahal izango dituzte unibertsitateko ira- no, pudiesen acordar con carácter individual la asig- kasleentzat, era indibidualean. Hori oinarri hartuta, nac" .
+
+
+base:frag_Decreto-64-2011-Complementos_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Decreto 209/2006, de 17 de teko irakasle eta ikertzaileen gehigarrizko ordainsari- octubre, sobre complementos retributivos adicionales osagarriei buruzko urriaren 17koa 209/2006 De kre- del personal docente e investigador de la Universidad tua aldatzea, honako era honetan: del País Vasco / Euskal Herriko Uni ber tsi ta tea, se modifica en los siguientes términos: Lehenengoa.– 1. artikuluko 3. paragrafoak idazke- Primero.– El apartado 3 del artículo 1 queda re- ra hau izango du aurrerantzean: dactado del siguiente modo: «3.– Osagarriak esleitu baino lehen, Euskal Uni- «3.– La asignación de los complementos exigirá la ber tsi ta te Sistemaren Kalitatea Ebaluatu eta Egiaz- previa valoración y evaluación positiva de los méritos tatzeko Unibasq Agentziak kasuan kasuko merezi- en que se sustentan Unibasq - Euskal Unib er tsit at e Sis- menduak balioetsi, eta aldeko iritzia eman behar du, temaren Kalitatea Ebaluatu eta Egiaztatzeko Agentzia- betiere dekretu honen 8.1 artikuluan ezarritako pr" .
+
+
+base:frag_Decreto-64-2011-Complementos_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 Bigarrena.– 2. artikuluko 2. paragrafoak idazkera Segundo.– El apartado 2 del artículo 2 queda re- hau izango du aurrerantzean: dactado del siguiente modo: «2.– De kre tu honetan ezarritako gehigarrizko or- «2.– Para disfrutar de los complementos retribu- dainsariak eskuratu ahal izateko, ezinbestekoa izango tivos previstos en este Decreto será requisito impres- da Euskal Herriko Uni ber tsi ta tearekin lan- , estatutu- cindible mantener vinculación laboral, estatutaria o edo administrazio- lotura izatea eskabidea egiten den administrativa con la Universidad del País Vasco / unean, bai eta Uni ber tsi ta tean jardunean egotea». Euskal Herriko Uni ber tsi ta tea en el momento de la solicitud y estar en activo en esta Universidad». Hirugarrena.– 3. artikuluko 1. paragrafoak idaz- Tercero.– El apartado 1 del artículo 3 queda re- kera hau izango du aurrerantzean: dactado del siguiente modo: «1.– Euskal Aut" .
+
+
+base:frag_Decreto-64-2011-Complementos_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 3.– Osagarriak meta daitezkeen hiru mailatan sail- 3.– Los complementos estarán clasificados en tres katuko dira, eta tarte progresibo desberdinak izango niveles acumulables y diferentes tramos progresivos. dituzte. Hiru maila horiek ebaluatzeko (C, B eta A), En la evaluación de estos tres niveles (C, B y A) se irakaskuntzan, ikerketan eta ezagutzaren transferentzi- tendrá en cuenta los méritos de docencia, investiga- an lortutako merezimenduak hartuko dira aintzat. B ción y transferencia del conocimiento. Para los nive- eta A mailetan, kudeaketa- arloko merezimenduak ere les B y A también se tendrán en cuenta los méritos aintzat hartuko dira. de gestión. 4.– Euskal Uni ber tsi ta te Sistemaren Kalitatea Eba- 4.– Corresponde a Unibasq - Euskal Uni ber tsi- luatu eta Egiaztatzeko Unibasq Agentziari dagokio ta te Sistemaren Kalitatea Ebaluatu eta Egiaztatzeko Euskal Herriko Uni ber tsi ta teko irakasle e" .
+
+
+base:frag_Decreto-64-2011-Complementos_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_introduccion ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 urteko antzinatasuna egiaztatzea eta doktore izatea, acredite una antigüedad mínima de 15 años y la con- bai eta C1 eta C2 tarteak dagoeneko izatea eta, gu- dición de doctor, se tengan los tramos C1 y C2, y se txienez, 90 puntu lortzea ere. Maila honek bi tarte obtengan al menos 90 puntos, estará compuesto por izango ditu: A1 eta A2. dos tramos: A1 y A2. – A1; urteko zenbatekoa 2.100 eurokoa izango da. – A1, que tendrá una cuantía anual de 2.100 euros. – A2; urteko zenbatekoa 2.600 eurokoa izango da. – A2, que tendrá una cuantía anual de 2.600 euros. 6.– Antzinatasuna kalkulatzeko orduan, C1, C2 6.– A los efectos del cómputo de la antigüedad, eta B1 tarteetan ez beste guztietan, honako hauek salvo para los tramos C1, C2 y B1, se tendrán en hartuko dira kontuan: Euskal Herriko Unib er tsi ta- cuenta todas las actividades docentes, investigadoras tean, edo beste unibertsitate edo ikerketa- zentroetan, y " .
+
+
+base:frag_Decreto-64-2011-Complementos_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 1.– Euskal Herriko Uni ber tsi ta teari dagokio ge- 1.– La Universidad del País Vasco / Euskal Herriko higarrizko ordainsari osagarriak emateko prozedura Uni ber tsi ta tea es la Administración Pública impulso- sustatu eta horiek esleitzea. Hori dela-e ta, Uni ber tsi- ra del procedimiento y competente en la asignación ta teko Gobernu Kontseiluaren proposamenez, Euskal de complementos retributivos adicionales. Por ello, a Herriko Uni ber tsi ta teko Gizarte Kontseiluak deialdia propuesta del Consejo de Gobierno de la universidad, onartu eta argitaratuko du urtero. Bertan, gehiga- el Consejo Social de la Universidad del País Vasco / rrizko ordainsari- osagarriak esleitzeko oinarri diren Euskal Herriko Unib er tsi ta tea, con carácter anual, merezimenduak ebaluatzeko epeak, era eta betekizun aprobará y publicará la convocatoria en la que se fijen orokorrak finkatuko dira. los plazos, forma y requisitos g" .
+
+
+base:frag_Decreto-64-2011-Complementos_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 behar ditu: osagarri- mota bakoitza ebaluatzeko eska- los méritos requeridos para la evaluación de los di- tzen diren merezimenduak; dekretu honetan jasotako ferentes tipos de complementos y los requisitos pa- tarte bakoitza eskuratu ahal izateko bete behar diren ra poder obtener cada uno de los tramos recogidos eskakizunak, behar den gutxienekoa adierazita; eta en el presente Decreto, con indicación del mínimo horiek guztiak zenbatzeko eta balioesteko parametro necesario, así como los parámetros objetivos para su objektiboak». cómputo y valoración». Hamaikagarrena.– 8. artikuluko 4. paragrafoak Undécimo.– El apartado 4 del artículo 8 queda idazkera hau izango du aurrerantzean: redactado del siguiente modo: «4.– Eskatzaileek agiri- bidez egiaztatu beharko «4.– Los méritos alegados para obtener los com- dituzte, ebaluazio- protokoloan zehaztutako eran, plementos retributivos deberán ser justificados doc" .
+
+
+base:frag_Decreto-64-2011-Complementos_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 Sistemaren Kalitatea Ebaluatu eta Egiaztatzeko Uni- su evaluación elaborado por Unibasq - Euskal Uni- basq Agentziak egingo du». ber tsi ta te Sistemaren Kalitatea Ebaluatu eta Egiaztat- zeko Agentzia- Agencia de Evaluación de la Calidad y Acreditación del Sistema Universitario Vasco». Hamaseigarrena.– 9. artikuluko 1. paragrafoak Décimo sexto.– El apartado 1 del artículo 9 queda idazkera hau izango du aurrerantzean: redactado del siguiente modo: «1.– Euskal Herriko Uni ber tsi ta teko Gizarte Kon- «1.– El Consejo Social de la Universidad del País tseiluak, Gobernu Kontseiluaren proposamenez, ge- Vasco / Euskal Herriko Uni ber tsi ta tea, a propuesta de higarrizko ordainsari- osagarrien esleipen berezia eta su Consejo de Gobierno, procederá a la asignación banakatua egingo die irakasle eta ikertzaileei, eta, ho- de los complementos retributivos adicionales al per- rretarako, dagozkion erabakiak hartuko" .
+
+
+base:frag_Decreto-64-2011-Complementos_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Decreto 209/2006 vieron ber tsi ta teko Gizarte Kontseiluak 1999an aitortutako reducida su remuneración respecto a la reconocida ordainsariak murriztu zitzaizkien irakasleei aukera por el Consejo Social de la Universidad del País Vas- emango zaie euren bizitza aktibo osoaren ebaluazio co / Euskal Herriko Uni ber tsi ta tea en 1999 podrán berri batera aurkezteko. Euskal Uni ber tsi ta te Siste- presentarse a una nueva evaluación de toda su vida maren Kalitatea Ebaluatu eta Egiaztatzeko Unibasq activa. Esta evaluación se realizará de acuerdo con Agentziak ezarriko du ebaluazio horretarako protoko- el correspondiente protocolo de evaluación que dic- loa eta, bertan, 209/2006 De kre tua indarrean sartu tará Unibasq - Euskal Uni ber tsi ta te Sistemaren Kali- aurretik egindako ebaluazioak hartuko dira aintzat. tatea Ebaluatu eta Egiaztatzeko Agentzia- Agencia de Evaluación de la Calidad y Acreditación del Sistema Universitario Vasco, y en el que se tendrán en con- sideración las evaluacione" .
+
+
+base:frag_Decreto-64-2011-Complementos_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "Decreto 209/2006, azken ebaluazioan lortutako puntuazioari, harik eta, de 17 de octubre, sobre complementos retributivos dekretu honetan ezarritakoarekin bat, beste ebaluazio adicionales del personal docente e investigador de la bat egiten zaien arte (209/2006 De kre tua, Euskal Universidad del País Vasco / Euskal Herriko Uni ber- Herriko Uni ber tsi ta teko irakasle eta ikertzaileen gehi- tsi ta tea, mantendrán la puntuación obtenida en la úl- garrizko ordainsari osagarriei buruzkoa)». tima evaluación, hasta que se sometan a una nueva, de acuerdo con lo dispuesto en el presente Decreto». Hogeita seigarrena.– De kre tuaren eranskinak Vigésimo sexto.– El anexo al Decreto queda re- idazkera hau izango du aurrerantzean: dactado del siguiente modo: «Euskal Uni ber tsi ta te Sistemaren Kalitatea Ebalu- «De acuerdo con el artículo 6.2.l) de los Estatutos atu eta Egiaztatzeko Unibasq Agentziaren Estatutuen de Unibasq - Euskal Uni ber tsi ta te Sistemaren Kali- 6.2.1) artikuluaren arabera, era" .
+
+
+base:frag_Decreto-64-2011-Complementos_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 goetakoei baino. Halaber, Euskal Herriko Uni ber tsi ta- los casos, se realizará una valoración especial a aque- teak proiektuetan parte hartze nabarmena izan badu, llos en los que la Universidad del País Vasco / Euskal halakoei balorazio berezia emango zaie. Herriko Uni ber tsi ta tea tenga una participación desta- cada. 3) Biltzarretan parte hartu izana. 3) Participación en congresos. 4) Ikertzaileen prestakuntza, mugikortasuna eta/ 4) Impulso de la formación, movilidad y/o inser- edo laneratzea bultzatu izana. ción laboral de investigadores. 5) Azpiegitura zientifikoa eta ikerketakoaren so- 5) Impulso de la creación y uso de infraestructura rrera eta erabilera bultzatu izana, bai Euskal Herriko científica y de investigación tanto en la Universidad Uni ber tsi ta tean, bai Euskal Autonomia Erkidegoko del País Vasco / Euskal Herriko Unib er tsi ta tea como beste erakunde batzuetan. en otras organizaci" .
+
+
+base:frag_Decreto-64-2011-Complementos_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 aintzat bereziki, hala ezarrita baitago Euskararen era- en euskera, de acuerdo con lo establecido en la Ley bilera normalizatzeko oinarrizko 10/1982 Legean eta 10/1982, básica de normalización del uso del Eus- Euskal Uni ber tsi ta te Sistemaren 3/2004 Legean. kera, y en la Ley 3/2004, del Sistema Universitario Vasco. Halaber, nazioarteko zabalkundea duten irakaskun- También se tendrán en cuenta de manera especial tza- arloko merezimenduei garrantzi berezia emango aquellos méritos relacionados con la docencia con di- zaie. mensión internacional. 2.3.– Ezagutza- transferentzia ebaluatzeko irizpide- 2.3.– Criterios a emplear para evaluar la transfe- ak. rencia del conocimiento. 1) Dibulgazioko argitalpenak. 1) Publicaciones divulgativas. 2) Patenteak erregistratzea. 2) Registro de patentes. 3) Ikerketa- proiektuetan eta kontratuetan parte- 3) Participación activa en proyectos de investiga- hartze aktiboa" .
+
+
+base:frag_Decreto-64-2011-Complementos_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_Decreto-64-2011-Complementos ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011 AZKEN XEDAPENA DISPOSICIÓN FINAL Euskal Herriko Agintaritzaren Aldizkarian argitara- El presente Decreto entrará en vigor el día si- tzen den egunaren biharamunean hartuko du indarra guiente al de su publicación en el Boletín Oficial del dekretu honek. País Vasco. Vitoria- Gasteizen, 2011ko martxoaren 29an. Dado en Vitoria- Gasteiz, a 29 de marzo de 2011. Lehendakaria, El Lehendakari, FRANCISCO JAVIER LÓPEZ ÁLVAREZ. FRANCISCO JAVIER LÓPEZ ÁLVAREZ. Hezkuntza, Uni ber tsi ta te eta Ikerketako sailburua, La Consejera de Educación, Universidades e Investigación, MARÍA ISABEL CELAÁ DIÉGUEZ. MARÍA ISABEL CELAÁ DIÉGUEZ. 2011/2140 • (13/13) EHAA - 2011ko apirilak 14, osteguna • N.º 73 ZK. • BOPV - jueves 14 de abril de 2011" .
+
