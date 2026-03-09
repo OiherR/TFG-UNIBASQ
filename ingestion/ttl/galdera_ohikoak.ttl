@@ -1,0 +1,13 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Galdera_ohikoei_erantzuna a u:Documento .
+
+base:frag_Galdera_ohikoei_erantzuna_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "1.- Ordainsari osagarriak esleitzeko deialdiaren oinarriak, nork ezartzen ditu? UPV/EHU-ko Gizarte Kontseiluari dagokio deialdiaren oinarriak ezartzea, Unibertsitateko Gobernu Kontseiluaren proposamenez. Unibasq-ek ez du deialdirik egiten, eta ez ditu osagarriak esleitzen. Unibasq-ek UPV/EHUk onartutako eskabideak Ebaluatzeko Batzordeen bidez ebaluatzen ditu soilik. 2.- Nork prestatzen ditu protokoloa eta ebaluazio irizpideak? Unibasq-eko Aholku Batzordeak egiten du, bere Gobernu Kontseiluarekiko organo independentea dena. Unibasq-eko 13/2012 Legearen 9.artikuluan aipatzen denez, Aholku Batzordeak agentziaren jardueren kalitatea eta sinesgarritasuna bermatu behar ditu, eta bere eskumenen artean protokoloak eta ebaluazio irizpideak onartzea dago. 3.- Nork egiaztatzen ditu ebaluazioa egiteko beharrezko betekizun legalak? Antzinatasuna, doktoregoaren betekizuna osagarrien tarte bakoitzerako eta eskaeraren alderdi legalak UPV/EHU-k egiaztatzen ditu. Unibasq-ek bakarrik ebaluatuko ditu UPV/" .
+
