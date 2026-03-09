@@ -1,0 +1,497 @@
+
+================ PAGE 1 ================
+
+----- TEXT -----
+
+Ebaluazio-eskaera betetzeko laguntza-gida
+
+================ PAGE 2 ================
+
+----- TEXT -----
+
+Aurkibidea
+Sarrera, eskaera izapidetzea eta tasaren ordainketa ................................................................................... 3
+Eskabidea aplikazio informatikoan betetzea ............................................................................................. 3-4
+Atalka betetzea:
+1. Ikerketa, ezagutzaren transferentzia eta dibulgazio zientifikoa ................................................. 5-11
+2. Irakaskuntza .............................................................................................................................. 11-13
+3. Kudeaketa ...................................................................................................................................... 13
+4. A mailaren sartzea ......................................................................................................................... 14
+Obra honen edukiak Creative Commonsen Aitorpen-Ez-Komertziala-Sin-Obra-Derivada 3.0 lizentzia bati lotuta daude.
+Erreprodukzioa, banaketa eta komunikazio publikoa baimentzen dira, betiere egiletza behar bezala aipatzen bada eta
+erabilera komertzialik egiten ez bada. Lizentzia osoa hemen kontsulta daiteke: http://creativecommons.org /
+© Unibasq – Euskal Unibertsitate Sistemaren Kalitate Agentzia
+San Prudencio Kalea, 8, 01005 Vitoria-Gasteiz
+www.unibasq.eus
+Unibasq-en talde teknikoak egin eta Agentziako Aholku Batzordeak berrikusitako gida
+2025eko iraila
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+2
+
+================ PAGE 3 ================
+
+----- TEXT -----
+
+Sarrera
+Gida honen helburua Universidad del País Vasco/Euskal Herriko Unibertsitateko (hemendik aurrera UPV/EHU)
+irakasle eta ikertzaileei ordainsari osagarriak esleitzeko ebaluazio-eskaera betetzen laguntzea da.
+Komeni da aipatzea Unibasq UPV/EHUren Gizarte Kontseiluak onartu eta argitaratzen duen deialdiaren ebaluazio-
+organoa baino ez dela.
+UPV/EHUk indarrean dagoen araudian ezarritako legezko eta formazko eskakizunak betetzen direla egiaztatu ostean
+igorritako eskaerak ebaluatzen ditu Unibasqek. Horren ondoren, Unibasqek ebaluazio-txostena egiten du; txosten
+hori beharrezkoa da UPV/EHUk ordainsari osagarrien esleipena ebatzi ahal izateko.
+Gida hau irakurtzeaz gain, Unibasqen webguneko (http://www.unibasq.eus) Irakasleak ataleko BOO UPV/EHU atala
+bisitatzea gomendatzen diogu eskatzaileari, informazio gehiago aurkituko baitu. Webgune honetan aurkituko du
+FAQ dokumentua, ebaluazioa eskatzen dutenei gehien sortzen zaizkien galderak eta zailtasunak argitzeko
+baliagarria. Edozein zalantza izanez gero, bidali zuen kontsultak helbide elektroniko honetara:
+osagarriak@unibasq.eus
+Eskaera izapidetzea
+Ebaluazio-eskaera horretarako prestatutako aplikazio informatikoaren bitartez soilik izapidetzen da:
+https://ehu.unibasq.eus/login. Horretarako, datu pertsonalak eta atal eta azpiataletan ebaluatzen diren
+merezimenduak adierazi behar dira, eta merezimendu horien egiaztagiriak aurkeztu. Paperean aurkeztutako
+eskabideak eta merezimenduak ez dira ebaluatuko, eta ez dira kontuan hartuko modu frogagarrian justifikatu
+gabeko merezimenduak.
+Tasa ordaintzea
+B eta A mailetako osagarrien eskaeren kasuan soilik, 49,70 euroko tasa ordaindu behar da, deialdian adierazten
+denez. Ordainketa egin izana egiaztatu behar da, dagokion egiaztagiriaren bitartez. Aplikazio informatikoan
+telematikoki jasota geratu behar du egiaztagiriak, ebaluazioa egin aurretik egiaztatu ahal izateko.
+Aplikazio informatikoak adieraziko dio eskatzaileari nola erregistratu plataforman ordainketa egin izanaren
+egiaztagiria. Dokumentu hori erantsi ezean, ezin izango da eskaera itxi eta, beraz, ebaluazio-prozesutik kanpo
+geratuko da.
+Eskaera betetzea
+1. Eskaera aplikazio informatikoan betetzea
+Eskatzaileak eskaeraren atal eta azpiatal guzti-guztiak bete behar ditu; horretarako, aplikazio informatikoak berak
+eskatzen dizkion datuak sartu beharko ditu (tituluak, deskribapenak, hasiera-data, amaiera-data, kredituak eta
+abar).
+Ebaluazioa egiteko, eskatutako aldia segidako bost urteko bloketan banatuko da, eskatzaileak 2024ko abenduaren
+31 arte aurkeztutako merezimenduak kontuan hartuta.
+Eskatzaileak bizitza akademiko osoko merezimenduak ebaluatzea nahi badu, UPV/EHUri jakinarazi beharko dio,
+ebaluazioa eskatzen duen aldiaren hasierako data, ondorengo posta elektroniko bidez:
+complementos.pdi@ehu.eus. Horregatik, eskatzaileak aurkeztu behar dituen merezimenduak bloketan banatuko
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+3
+
+================ PAGE 4 ================
+
+----- TEXT -----
+
+dira, eta bloke bakoitzak merezimenduak justifikatzeko dagokion fitxategia izan behar du. Egiaztagirien ordena
+aplikazio informatikoan adierazitakoa izango da, betiere eskaeran sartutako datuen arabera, honako atal eta
+azpiatal hauetan: 1)ikerketa, ezagutzaren transferentzia eta dibulgazio zientifikoa; 2)irakaskuntza eta 3) kudeaketa
+Eskaeran aipatzen diren merezimendu guztiak frogatzeko moduan egiaztatu behar dira; horretarako, dagokion
+dokumentazioa aurkeztu behar da dokumentu honetan zehaztutako jarraibideei jarraikiz. Behar bezala adierazi eta
+justifikatu gabeko merezimenduak ez dira aintzat hartuko Ebaluazio Batzordeetako kideek ebaluazioa egiteko
+garaian.
+Mezu elektronikoak ez dira egiaztagiritzat onartuko. Artikulu bat, liburu-kapitulu bat, liburu bat, eta abar aintzat
+hartu ahal izateko, ebaluagai den datan argitaratutakoa izan beharko du.
+Merezimenduak justifikatzeko agirien kopiek ez dute konpultsatuak izan behar.
+Horretaz gain, aurreko fitxategietan sartutako dokumentazioaren aurkibidea aurkeztu behar da pdf formatuko beste
+fitxategi batean, dokumentuen ordena adierazita.
+“A2” tartea eskatzen duenak CV osoa igo beharko du, ohiko formatu akademikoetan (adibidez, FECYTaren
+curriculum vitae normalizatua). Baita autotxostena ere.
+Gainerako tarteetan CV osoa aurkeztea aukerakoa da. Ez da ebaluatuko, aitzitik, eskatzailearen ibilbidea
+testuinguruan kokatzeko balioko du, eta ebaluatzaileek erabili ahal izango dute.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+4
+
+================ PAGE 5 ================
+
+----- TEXT -----
+
+Atalka betetzea
+1. Ikerketaren, Ezagutzaren Transferentziaren eta Dibulgazio Zientifikoaren atala
+1.1. Ikerketa
+1.1.1. Argitalpenak
+Atal honetan, eskatzaileak bera egile den liburuak, liburuen kapituluak, artikuluak eta patenteak sartuko ditu.
+Argitalpenak ebaluatzeko, I. eranskinean jasotako irizpideak izango dira Ebaluazio Batzordeko kideen erreferentzia.
+Atal honetako merezimenduak justifikatzeko, honako datu hauek aipatu behar dira:
+▪ Liburuak: egilea, izenburua, argitalpenaren tokia, argitaletxea, argitalpenaren urtea, liburuak zenbat
+orrialde dituen, ISBNa, kalitate-zantzuak eta hizkuntza, DOIa eta gordailuetarako esteka adierazi behar dira
+eskaeran.
+▪ Liburu bateko kapitulua: egilea, kapituluaren izenburua, liburu osoaren izenburua, liburu osoaren
+argitaratzailea, argitalpenaren tokia, argitaletxea, argitalpenaren urtea, kapituluaren orrialdeak, ISBNa,
+kalitate-zantzuak eta hizkuntza, DOIa eta gordailuetarako esteka adierazi behar dira eskaeran.
+▪ Artikuluak: egilea, izenburua, aldizkariaren izena, aldizkariaren zenbakia eta argitalpenaren urtea adierazi
+behar dira eskaeran. Halaber, kalitate-zantzuak, inpaktu-faktorea, aldizkariaren posizio erlatiboa, kuartila,
+aipamen kopurua, DOIa eta gordailuetarako esteka, ISSNa eta hizkuntza ere aipatu behar dira.
+Ez da beharrezkoa izango argitalpen bakoitzaren kopia bat eranstea. Nahikoa izango da kasu bakoitzean, aplikazio
+informatikoak eskatutako eremuak betetzea, Baldin eta emandako informazioa nahikoa argia eta espezifikoa bada
+argitalpena aurkitu ahal izateko.
+Ezin izango dira sartu argitaletxeak onartu bai, baina oraindik argitaratu gabe dauden artikuluak, liburuak edo
+liburuetako kapituluak.
+Eskatzaileak kalitate-indizea adierazi beharko du.
+Patenteei dagokienez, erregistroan jasota dauden datuak adierazi behar dira eskaeran. Justifikatzeko, erregistro-
+eta emakida-egiaztagiri ofizialen kopiak erantsiko dira.
+Erakusketak antolatzearen eta katalogoen kasuetan (Arte Ederren arloa), erakusketaren izenburua, iraupena,
+kalitate-adierazleak eta inpaktu-adierazleak ezagutza-arloaren arabera adierazi beharko dira.
+Eskatzaileak gehienez ere 15 ekarpen aurkeztu ahal izango ditu (hau da, 15 izango dira guztira, artikuluak, liburetako
+kapituluak, liburuak edo patenteak izan) bost urteko bloke bakoitzeko.
+1.1.2. Ikerketa-arloko talde, sare eta proiektuetan modu aktiboan parte hartzea
+Aplikazio informatikoaren atal honetako eremuak bete beharko ditu eskatzaileak, hala nola deialdi mota,
+jardueraren izena, taldearen izena, Eusko Jaurlaritzaren A+. A edo B taldea, proiektuaren izenburua, parte-hartze
+mota, arduraldia, finantzatzen duen erakundea, proiektuan duen kategoria, ikertzaile nagusiaren izena, titulua,
+hasierako eta amaierako datak, emandako finantzaketa (zenbatekoa) eta abar.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+5
+
+================ PAGE 6 ================
+
+----- TEXT -----
+
+UPV/EHUri lotutako langile gisa egindako ikerketa-proiektu, ikerketa-talde, kontratu partaidetza, sare eta gisa
+berekoen justifikazioari dagokienez, erakunde horren ziurtagiria edo ziurtagiriaren kopia erantsi beharko da (Ikertu
+plataformatik lor daiteke ziurtagiri hori). Aipatutako ziurtagirian jasotzen ez den merezimendu bat izanez gero,
+dagokion Unibertsitateak edo erakundeak emandako antzeko ziurtagiri bat edo ziurtagiriaren kopia aurkeztu
+beharko da, edo, bestela, proiektu, talde, kontratu, sare edo antzekoaren deialdia egin duen erakundearen
+ebazpena edo ebazpenaren kopia, non argi eta garbi eta berariaz adieraziko den eskatzailearen parte hartzea
+lantaldean, arduraldi mota, lortutako finantzaketa-zenbatekoa eta jardueran emandako denbora. Proiektu, talde,
+kontratu, sare edo antzekoaren ikertzaile nagusiak sinatutako idazki edo ziurtagirietan oinarrituriko merezimenduen
+dokumentazioa ez da zuzena izango.
+Arlo klinikoen kasuan, lehia bidezko deialdietako ikerketa klinikoko jarduerak ere balioetsiko dira, betiere osasun-
+agintaritza eskudunak egiaztatutako deialdiak badira.
+Eskatzaileak gehienez ere 5 ekarpen aurkeztu ahal izango ditu bost urteko bloke bakoitzeko.
+1.1.3. Kongresuetan parte-hartzea eta beste merezimendu batzuk
+1.1.3.1 Kongresuetan parte hartzea
+Ebaluazio Batzordeak nazioartekoak diren kongresu zientifikoak baino ez ditu ebaluatuko eta, salbuespen gisa,
+garrantzi handia duten nazioko kongresuak, betiere ezagutza-arloaren arabera. Kongresuan izandako parte-hartze
+mota ere balioetsiko da.
+Kongresuaren izenburua eta hitzaldiaren izenburua adierazi beharko dira, bai eta erakunde antolatzailea, non izan
+den eta noiz egin den ere.
+Ekitaldiaren antolatzaileek egindako ziurtagiri baten bitartez justifikatu behar dira kongresu guztiak. Eskatzaileak
+aurkeztutako ekarpenak soilik ebaluatuko dira. Nolanahi ere, argi eta garbi adierazi behar da eskatzailea kongresuko
+hizlaria den ala ez. Era berean, eskatzaileak adierazi beharko du, hala badagokio, kongresuan parte hartzea
+banakakoa edo kolektiboa izan den. Kolektiboa izanez gero, bigarren eremu bat bete beharko da, zenbat pertsonak
+parte hartu duten adierazteko.
+1.1.3.2 Beste merezimendu batzuk
+Eskatzaileak honako merezimendu hauek sartu ahal izango ditu aplikazio informatikoan: egin dituen egonaldiak,
+goraipamenak, jasotako sariak eta abar. Aurkeztutako merezimendu bakoitzak UPV/EHUri egindako ekarpena
+adierazi behar da.
+Eskatzaileak gehienez ere 10 ekarpen aurkeztu ahal izango ditu 1.1.3 atal osoan, bost urteko bloke bakoitzeko.
+1.2. Ezagutzaren transferentzia eta dibulgazio zientifikoa
+Atal honetako merezimenduak ebaluatu ahal izateko, eskatzaileak Ikerketako seiurteko bat edo Ikerketako
+ikertramo bat, gutxienez, egiaztatu beharko du. Nahikoa izango da Ikerketako seiurteko bat edo Ikerketako
+ikertramo bat egiaztatzea eskaera bakoitzeko, ebaluatu beharreko bloke kopurua edozein izanik ere.
+Eskatzaileak Ikerketako seiurtekoaren edo ikertramoaren egiaztagiria erantsi beharko dio eskaerari.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+6
+
+================ PAGE 7 ================
+
+----- TEXT -----
+
+1.2.1. Ezagutzaren transferentzia
+1.2.1.1 Pertsonen prestakuntza eta ekintzailetza-jarduerak
+Azpiatal honetan honako hauek dira merezimendu hautagarriak:
+a) I+G+b proiektu eta kontratuetan kontratatu diren pertsonen prestakuntza-jarduerak.
+Bereziki balioetsiko da kontratatuko persona horiei eskuratutako unibertsitate-ezagutzak beste enpresa edo
+erakunde batzuei trasmititzeko aukera eman dien prestakuntza.
+b) Transferentzia-jardueretan kontratatutako pertsonen kopurua (I+G+b proiektuak eta kontratuak).
+Eskatzaileek aurkezten dituzten kontratuek eskatzailea bera espezialista den esparruko ezagutza transferitzeko
+jarduerekin lotuta egon behar dute hautagarriak izateko. Ez dira kontuak hartuko eskatzaile batek kargu akademiko
+edo arduran politiko edo instituzional gisa sustatutako kontratutak. Kontratatutako pertsonak ez badu zuzeneko
+inplikaziorik proiektu edo kontratuaren edukietan (administrazio- eta kudeaketa-kontratuak, ), eta abar), kontratu
+horiek ez dira kontuan izango.
+Pertsonak ezagutzaren transferentziako jardueretan prestatzeko ahalegina balioetsiko da, eskatzailearen
+espezializazio-eremuari lotuta daudenean. Horretarako, eskaera aurkezterakoan aukeratutako aldian sortutako
+kontratu-hilabeteen kopurua hartuko dira kontuan. Horrekin, sortutako kontratazio-hilabeteen kopuruaren arabera
+balioetsiko da jarduera hori, egindako transferentzia-jardueraren arabera sortutako zuzeneko enpleguaren
+adierazgarri eta, zeharka, pertsonen prestakuntzaren adierazgarri den aldetik.
+Azpiatal honetan I+G+Bko kontratu (LOUren 83. Artikulu indargabetuaren eta LOSUren 60. Artikuluaren babesean
+ezartzen dira) mota guztiak aurkeztu ahal izango dira eta I+G+B proiektuak, baldin eta partzuergoa mistoa bada,
+hots, unibertsitatetik eta zientzia-sistematik kanpoko enpresa edo erakundeek eta ikertzaileek osatzen badute.
+c) Ekintzailetza-jardueretan kontratatutako pertsona kopurua.
+Enpresa berriak (spin-off edo startup motakoak) sortzea ekarri duten ikerketa-emaitzak aplikatzearen ondorioz
+sortutako enplegua hartuko da kontuan.
+Spin-off-en kasuan, eskatzaileak sortutako enplegu-zenbatekoa eta enpleguen ezaugarriak egiaztatu beharko ditu.
+Startupen kasuan eskatzaileak enpresa sortu ahal izateko bere ikerketen ekarpenaren ebidentzia argiak aurkeztu
+beharko ditu.
+Ez da sartzen ekintzailetzako prestakuntzari lotutako jarduera bakar bat ere (autoenpleguko ikastaro orokorrak
+ematea edo ekintzailetza-programak dinamizatzea), baina 1.2.1.4 azpiatalaren alderdiren batean sar daitezke
+beharbada. Alderdi honetan zera balioesten da, alde batetik, sortutako zuzeneko enplegua, norberak egindako
+merkatu-azterketaren transferentziatik sortutako ekintzailetzaren bitartez, eta, bestetik, zeharka, pertsonak
+transferitutako gai horri lotuta prestatzea.
+d) Tesi industrialak (enpresarialak edo irakaskuntzakoak ez diren erakunde garrantzitsuak).
+Tesi industrialtzat hartzen dira doktoregoko ikasleek aurkeztutakoak, betiere doktoregoa egiten ari den ikasleak lan
+egiten duen kanpo-erakundearen (unibertsitatea edo ikerketa-zentroa ez dena) eta unibertsitatearen arteko
+lankidetza-akordio bidez egiten direnak. Doktorearen Unibertsitate Tituluaren Europako Gehigarria emateko
+baldintzak ezartzen dituen maiatzaren 13ko 195/2016 Errege Dekretuaren 15 bis (Aipamen industriala doktore-
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+7
+
+================ PAGE 8 ================
+
+----- TEXT -----
+
+tituluan). Positiboki balioetsiko da tesi industriala kanpoko erakundeko doktoreekin batera egin izana. Gogoan izan
+2.3 atalean sartu ez badira aukeratu ahal izango direla.
+Azpiatal honetan sartuko dira Zientzia, Teknologia eta Berrikuntzari buruzko irailaren 5eko 17/2022 Legeak
+aldatutako Zientzia, Teknologia eta Berrikuntzari buruzko 14/2011 Legearen 18. eta 19. Artikulu indargabetuetan
+aipatzen diren kontratuak, hau da, kanpoko erakundeetan egindako aldi baterako kontratuak. Era berean,
+espezialista-plaza asistentziala lotura-araubidean duten unibertsitate-irakasleek itunpeko osasun-erakundeetan
+egindako jarduera ere sartuko da.
+Azpiatal honetan, Unibertsitateak hirugarren erakundeetan (publikoak, sozialak edo merkataritzakoak) kualitatiboki
+eta kuantitatiboki duen eragina hartzen da aintzat, baldin eta bertan parte hartu badezake (zuzenean edo
+behartuta).
+Horretarako, Zuzenbidean baliozkoak diren eta dagozkion kontratu-formulak balioetsi eta ebaluatuko dira. Adibidez,
+zerbitzu-eginkizunen, zerbitzu berezien edo eszedentzien kasuan gertatzen den moduan, indarrean dagoen
+estatuko, erkidegoko edo unibertsitateko araudiaren aplikazioaren arabera.
+Ikertzaileen mugikortasuna sustatu nahi da, Enplegatu Publikoaren Legean bilduta dauden figurak baliatuta, bere
+espezialitateko ezagutza propioa hirugarren erakundeetara eraman eta transmititzeko aldi baterako zeregina egin
+dezaten, batez ere Zientzia,Teknologia eta Berrikuntzari buruzko Legean adierazten diren enpresetara; azken
+urteetan oso gutxi erabili izan da.
+Erakundearen gutun bat aurkeztu behar da eta, bertan, egindako jarduera eta transferitutako ezagutzaren kalitate-
+zantzuak labur-labur adierazi behar dira. Jarduerak aurrerapen zientifiko-teknologikoarekin duen lotura laburki
+azaldu beharko du eskatzaileak. Ez dira kontuan izango egindako jarduera irakaskuntzakoa edo kudeaketakoa
+denean eskatzailearen espezialitatearekin loturarik ez duten jardueretan.
+Kontratuaren iraupena, kontratu mota eta erakunde kontratatzailearen izen ona hartuko dira kontuan.
+Erakundearen gutun bat aurkeztu behar da eta, bertan, egindako jarduera eta transferitutako ezagutzaren kalitate-
+zantzuak labur-labur adierazi behar dira.
+1.2.1.2 Transferentzia, kanpoko baliabide ekonomikoak jasota
+Azpiatal honetan, duten inpaktuagatik, xede den komunitatean edo lurraldean aberastasun ekonomikoa sortzen
+duten eta trakzio-ahalmena duten merezimenduak aukeratu ahal izango dira. Atal honetan bereziki kontuan izango
+da UPV/EHUrako kanpoko baliabide ekonomikoak erakartzea.
+Azpiatal honetan honako hauek sartuko dira:
+a) Patenteak, ustiatzen ari diren utilitate-modeloak.
+Atal honetan hautagarria da eskatzailearen eremuaren barruko ezagutza babestu guztia, lizentziaduna dena eta,
+beraz, ikertzailearen erakunderako royalty-engatiko fakturazioa sortzen ari dena.
+Ustiatzen ari diren utilitate-modeloak edo patenteak baino ez dira hartuko kontuan.
+b) LOSUren 60. artikuluko kontratuetan eta transferentzia-proiektutan parte hartzea.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+8
+
+================ PAGE 9 ================
+
+----- TEXT -----
+
+▪ Funtsak UPV/EHUra itzultzen dituzten enpresa, erakunde eta administrazio publikoekin egindako ikerketa-
+arloko kontratu edo hitzarmenetan parte hartu izana, betiere unibertsitateak araututako ohiko sistemen
+bidez formalizatutakoak izanik. Eskatzaileak kontratu/hitzarmenean izan duen parte-hartze mota (ikertzaile
+nagusia, ikertzailea, prestakuntzan) kontuan izango da, haren iraupena, egindako transferentziaren kalitate-
+zantzuak, kontratu edo hitzarmenen emaitzak eta UPV/EHUn izan duen inpaktu ekonomikoa ere.
+▪ Lehia bidezko deialdietan esleitutako proiektuetan parte hartu izana, enpresa, erakunde eta administrazio
+publikoekin egindako proiektuak izanik. Deialdia egin duen organoaren izen ona kontuan izango da,
+eskatzaileak proiektuan izan duen parte-hartze mota (ikertzaile nagusia, ikertzailea, prestakuntzan),
+proiektuaren iraupena, egindako transferentziaren kalitate-zantzuak, proiektuaren emaitzak, eta
+UPV/EHUn izan duen inpaktu ekonomikoa. Atal honetan ez lirateke kontuan hartuko ikerketa-proiektu eta
+–talde lehiakorrekin lotutako merezimenduk; izan ere, ikerketa-jardueraren parte dira eta, beraz, dagokien
+atalean jasoko lirateke.
+Ekarpen hautagarriak parte-hartze motaren, iraupenaren, fakturazio-zenbatekoaren, enpresan duen eraginaren,
+konplexutasunaren, originaltasunaren eta zorroztasun zientifiko eta metodologikoaren arabera balioetsiko dira,
+besteak beste.
+1.2.1.3 Gizartean eragin berezia duen transferentzia
+Ezagutzaren transferentziaren helburu nagusia arazo sozial bat konpontzea denean, ikertzaileek askotan ez dute
+jasotzen inolako ordainsaririk jarduera horrengatik, eta beraz lankidetzaren formatua unibertsitatearen eta laguntza
+behar duen erakundearen arteko lankidetza-hitzarmen bat izan ohi da.
+Azpiatal honetan honako hauek sartuko dira:
+▪ UPV/EHUk eta irabazi-asmorik gabeko erakunderen edo administrazio publikoren batek gizartean eragin
+berezia duten jarduerak garatzeko sinatutako kontratu edo hitzarmenetan parte hartu izana.
+Eskatzaileak kontratu/hitzarmenean izan duen parte-hartze mota (ikertzaile nagusia, ikertzailea,
+prestakuntzan) kontuan izango da, haren iraupena, egindako transferentziaren kalitate-zantzuak,
+proiektuaren emaitzak, baita gizartean izan duen eragin edo inpaktua ere.
+▪ Gizarte-garapenerako proiektuetan parte hartu izana, lehia bidezko deialdien bitartez esleitutako
+proiektuak izanik.
+Deialdia egin duen organoaren izen ona kontuan izango da, eskatzaileak proiektuan izan duen parte-hartze
+mota (ikertzaile nagusia, ikertzailea, prestakuntzan), proiektuaren iraupena, egindako transferentziaren
+kalitate-zantzuak, proiektuaren emaitzak, eta gizartean izan duen eragina.
+Eskatzaileak gehienez ere 6 ekarpen aurkeztu ahal izango ditu 1.2.1 azpiatal osoan, bost urteko bloke bakoitzeko.
+1.2.2. Dibulgazio zientifikoa
+Atal honetan ekarpen bat egiten dela ulertuko da azpiatal bakoitzean merezimendu-multzo bat jasotzen denean,
+betiere merezimendu horiek dibulgazio zientifikoaren eremuan ibilbide esanguratsua izan dela abalatzen badute.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+9
+
+================ PAGE 10 ================
+
+----- TEXT -----
+
+1.2.2.1 Dibulgazioko argitalpenak
+▪ Liburuak eta liburuetako kapituluak: Dibulgazio zientifikoko liburuak izango dira. Ez da kontuan izango
+zientziaren hainbat arlotako espezializazioko edo irakaskuntzako liburuen egile izatea.
+▪ Dibulgazioko artikuluak: Egilea edo egileetako bat ebaluatzen den pertsona duten dibulgazioko artikuluak
+soilik izango dira kontuan. Eskatzailearen aipamena egiten duten edo eskatzaileari elkarrizketa egiten
+zaionean ez dira artikulu gisa hartuko..
+▪ Erakusketak: Garrantzi handiko erakusketak, fisikoak zein birtualak. Aztarnategi arkeologikoen
+musealizazioak eta tematizazioak. Egile izatea (edukien sorkuntza) nahiz antolatzea balioetsiko dira.
+▪ Materialak sortzea: Inpaktu handiko dibulgazio zientifikoko tresna diren material bereziak edo produktu
+espezifikoak. Edozein motatakoak izan daitezke, fisikoak edo birtualak, baldin eta zientziaren-dibulgaziorako
+badira (adibidez, mahai-jokoak, komikiak, liburuxkak, infografiak, bideoak, bideo-jokoak edo mugikorreko
+aplikazioak). Item honetan aurkeztutako merezimenduak ezin dira bloke honetako beste atal batzuetan ere
+aldi berean aintzat hartu (adibidez, liburuen edo erakusketa bateko sormenezko edukien egile izatea
+merezimendutzat aurkeztu bada, merezimendu hori dagokion itemean balioetsiko da, ez hemen), eta
+horregatik materialak produktu originala eta bakarra izan behar du. Ebaluazioari begira, kalitate-zantzuei
+dagokienez, ohikoak hartuko dira kontuan, hala nola produktuaren kalitatea, originaltasuna, egiteko
+konplexutasuna, sariak eta akreditazioak, besteak beste. Inpaktu sozialaren zantzuei dagokionez, xede-
+publikoaren gaineko eragina, produktuaren erabiltzaile-zenbateko, nazioarteko hedapena, ekoitzitako
+banako-kopurua eta aipamenak, besteak beste.
+Ez da beharrezkoa dibulgaziozko argitalpenen kopia bat aurkeztea, nahikoa da horiei buruzko ohiko datuak
+aurkeztea, lokalizatzeko eta ebaluatzeko nahikoak badira, baina beharrezkoa da aplikazio informatikoak eskatutako
+datuak frogatzeko moduan adieraztea.
+1.2.2.2 Ikerketaren dibulgazioko eta zabalkundeko jarduerak ikus-entzunezko komunikabideetan
+Azpiatal honetan, UPV/EHUk, Kultura Zientifikoko Katedrak, UPV/EHUren Uda Ikastaroak Fundazioak edo izen oneko
+unibertsitateetako kultura zientifikoko unitateek antolatutako jardueretan izandako parte-hartzea, batik bat,
+sartuko da. Jardueraren kalitate-zantzuak kontuan izango dira, baita ekitaldiak komunikabideetan izan duen
+oihartzunaren edo gizartean izan duen inpaktuaren adierazleak ere.
+Azpiatal honetan hauek dira hautagarriak (sar daitezkeenak):
+▪ Telebista eta irratia: Dibulgazio zientifikora argi eta garbi bideratuta dauden programak, serieak edo
+programetako atalak. Gai zientifiko bati buruzko albiste edo noizbehinkako adierazpenak kanpo uzten dira.
+Ikastaroak: zientzia modu presentzialean zein birtualean hedatzeko eta komunikatzeko gaiei buruzko
+ikastaroak. Eskatzaileak antolatzaile/koordinatzaile edo irakasle gisa parte har dezake. Kanpoan geratzen
+dira jasotako ikastaroak eta irakaskuntza arautua.
+▪ Dibulgazio-jardunaldiak: Solasaldiak, debateak, askotariko dibulgazio-jarduerak (kafe-zientzia, ikertzaileen
+gaua, etab.) edo horien antzeko bestelako jarduerak sartzen dira. Ebaluatutako pertsonak
+antolatzaile/koordinatzaile moduan parte har dezake, edo bestela irakasle gisa (dagokion edukia emanez).
+Lehiaketak: Gizartea zientzia eta kulturarekiko motibatzea helburu duten lehiaketak, edo kolektibo sozialak alderdi
+zientifikoetan edo zientzia eta kultura zientifikoaren zabalkundearekin zerikusia duen edo beste edozein alderditan
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+10
+
+================ PAGE 11 ================
+
+----- TEXT -----
+
+trebatzea helburu dutenak. Ebaluatutako pertsonak antolatzaile/koordinatzaile moduan parte har dezake, edo
+bestela lehiaketaren sortzaile gisa.
+1.2.2.3 Dibulgazioa sare sozialen bitartez
+Azpiatal honetan hauek dira hautagarriak (sar daitezkeenak):
+▪ Blogak: Dibulgazio zientifikoari buruzko blog aktiboak eta irekiak.
+▪ Dibulgazioa sare sozialetan: Informazio zientifikoa zorroztasun akademikoz zabaltzen laguntzen duten
+jarduerak baloratzen dira sare sozialen bidez, bereziki izaera akademikokoetan.
+Eskatzaileak gehienez ere 3 ekarpen aurkeztu ahal izango ditu 1.2.2 azpiatal osoan, bost urteko bloke bakoitzeko.
+Eskatzaileak komunikabide mota, parte-hartze mota, parte-hartzearen maiztasuna, kalitate-zantzuak eta eragin
+sozialeko zantzuak adierazi behar ditu; horretarako, webgunearen esteka eman behar du. Adibidez, Kalitatearen
+zantzu gisa, alegatutako merezimendua https://divulgasfera.org/ gordailuan sartu izana aurkeztu ahal izango da.
+2. Irakaskuntza atala
+2.1 Docentiaz programako ebaluazioa
+Eskatzaileak ebaluatutako urte-tartearen aldeko emakidaren hilabetea eta urtea adierazi beharko ditu, hau da,
+emakidaren ebazpenaren data, baita bertan lortutako puntuazioa ere.
+Justifikazioa UPV/EHUk egindako ziurtagiriarekin egiaztatuko da; ziurtagiri horretan, lehen aipatutako datuak
+agertuko dira. UPV/EHUk emandako ziurtagirian egiaztatu beharko da eskatzaileari bere dimentsio bakoitzean
+emandako balorazioa. Horretarako, UPV/EHUk egindako ebaluazioaren emaitzaren komunikazioa baliozkoa izango
+da, organo eskudunak sinatuta betiere.
+Docentiaz programaren ebaluazio bat baino ez da balioetsiko bloke bakoitzeko.
+2.2 Docentiaz programaren ordezko ebaluazioa
+2.2.1 Nazioartekotzea, metodologiak eta berrikuntza irakaskuntzan
+Eskatzaileak honako datu hauek adierazi behar ditu:
+Gradu-amaierako eta master-amaierako lanen zuzendaritza: lanaren izenburua, zein titulaziotan defendatu den eta
+defentsaren data. Bideratuta bai, baina eskaera aurkeztu den egunean defendatu gabe dauden Master Amaierako
+Lanak eta Gradu Amaierako Lanak ezin izango dira sartu. Defendatutako Master Amaierako Lanak eta Gradu
+Amaierako Lanak Unibertsitateak egindako ziurtagiri batekin justifikatuko dira.
+Kalitatea onartuta duten graduko eta graduondoko programetan parte hartu izana; nazioarteko proiekzioa bereziki
+balioetsiko da. Datu hauek aipatu behar dira: ikasturtea, titulazioa, irakasgaia, programaren kalitate-zantzuak eta
+emandako kreditu kopurua. Merezimendu hauek titulazioaren erantzule den Unibertsitateko organo eskudunak
+egindako ziurtagiriaren bitartez eta titulazioa beste batzuetatik bereizten duten kalitate-zantzuak aurkeztuta
+egiaztatuko dira. Paragrafo honetan aipatutako ondorioetarako, ez da kalitate-zantzutzat hartuko kalitate-agentzia
+eskudunak egindako titulazio ofizial baten egiaztapen soila.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+11
+
+================ PAGE 12 ================
+
+----- TEXT -----
+
+Ofiziala ez den hizkuntza batean eskolak eman izana, betiere eskatzailearen ezagutza-arloko aztergaia ez denean.
+Datu hauek aipatu behar dira: ikasturtea, titulazioa, irakasgaia, hizkuntza eta emandako kreditu kopurua.
+Unibertsitateak egindako ziurtagiriaren bitartez justifikatuko da.
+Nazioarteko irakasleen/ikasleen truke-programetan parte hartu izana. Irakaskuntzako truke-programen –hala nola
+Erasmus programa– bitartez, ekintza integratuen bitartez edo antzeko beste ekintza batzuen bitartez beste
+unibertsitate batzuetan egindako egonaldiak soilik hartuko dira kontuan. Datu hauek adierazi behar dira: truke-
+programa, trukea egin duen unibertsitatea edo zentroa, parte-hartzearen iraupena eta egindako jarduera.
+Unibertsitateak egindako ziurtagiriaren bitartez justifikatuko da.
+Frogatutako zabalkundea izan duen irakasmateriala prestatu izana: artikuluak, liburuak edo liburuetako kapituluak
+idatzi izana izen oneko aldizkari eta argitaletxeetan. Aintzat hartuko dira honako hauek: kanpoko ebaluazio-prozesua
+originalak argitaratzean, argitaletxea, hizkuntza, beste kalitate-zantzu batzuk eta argitalpenaren inpaktua. Datu
+hauek adierazi behar dira: argitaletxea edo aldizkaria, egilea, izenburua, orrialde kopurua, ISBNa edo ISSNa edo
+DOIa, data eta komunikabidearen kalitate-zantzuak, baita argitalpenaren kalitate-zantzuak ere. Ez da beharrezkoa
+horien kopia aurkeztea.
+Berrikuntza pedagogikoko proiektuetan (unibertsitatearen beraren edo beste erakunde batzuen hezkuntza-arloko
+berrikuntzako proiektuak eta abar) eta gizartean eragin handia duten proiektuetan parte hartu izana. Datu hauek
+adieraziko dira: deialdia egin duen organoa, parte-hartze mota, jardueraren deskribapena, iraupena, emandako
+finantzaketa eta jardueraren emaitzak. Deialdia egin duen organoak emandako ziurtagiriaren bitartez justifikatuko
+da.
+UPV/EHUn ikasleei prestakuntza akademikoa emateko jarduerak antolatu izana. Aurkeztutako merezimenduen
+deskribapen labur bat, hauen iraupena eta kalitate-zantzuak adieraziko dira. Unibertsitateak egindako ziurtagiriaren
+bitartez justifikatuko da.
+UPV/EHUren eskaintza birtualean parte hartu izana. Datu hauek aipatu behar dira: ikasturtea, titulazioa, irakasgaia
+eta emandako kreditu kopurua. Unibertsitateak egindako ziurtagiriaren bitartez justifikatuko da.
+Irakaslanarekin lotutako sariak jaso izana. Sariaren izena, saria ematen duen organoa edo taldea, eta kalitate-
+zantzuak adierazi behar dira. Sariaren ebazpen publikoaren kopia edo sariaren egiaztagiria aurkeztuta justifikatuko
+da.
+2.2.2 Ikaskuntzaren emaitzak
+Eskatzaileak datu hauek aipatu behar ditu: ikasturtea, titulazioa, irakasgaia, ikasleen iritziari buruzko inkestaren
+emaitza eta emandako kreditu kopurua.
+Eskatzaileak irakaskuntzaren kalitateari buruz aurkezten dituen ebaluazioak justifikatzeko, ikasleen inkesten kopia
+bat erantsiko da.
+Eskatzaileak gehienez ere 30 ekarpen aurkeztu ahal izango ditu 2.2 azpiatal osoan, bost urteko bloke bakoitzeko.
+2.3 Ebaluazioaldian defendatutako doktorego-tesien zuzendaritza
+Eskatzaileak datu hauek adierazi behar ditu: unibertsitatea, doktorego-programaren izena, tesiaren izenburua,
+zuzendarikidetza –hala badagokio–, zuzendarien kopurua, irakurtze-zentroa, irakurtze-urtea, kalifikazioa eta
+aparteko saria lortu izana aipatzea, hala badagokio.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+12
+
+================ PAGE 13 ================
+
+----- TEXT -----
+
+Eskatzaileak gehienez ere 3 ekarpen aurkeztu ahal izango ditu bost urteko bloke bakoitzeko.
+Ebaluazio Batzordeek tesi industrialei dagokien merezimendua 2.3 azpiatalean balioetsiko dute, baldin eta ez
+bada 1.2.1 azpiatalean sartu.
+3. Kudeaketaren atala
+3.1 Kide bakarreko kudeaketa-kargu akademikoak bete izana
+Eskatzaileak bete duen kargua eta karguaren iraupena adierazi beharko ditu.
+Merezimendu hauek justifikatzeko, eskatzaileak zerbitzu-orriaren kopia erantsi beharko du, edo izendapeneko eta
+kargutik kentzeko ebazpenaren kopia, edo jarduera egin den Unibertsitateak egindako ziurtagiriaren bitartez
+justifikatu beharko du.
+3.2 Administrazio Publikoan karguak bete izana, zerbitzu berezien egoeran
+Eskatzaileak bete duen kargua eta karguaren iraupena adierazi beharko ditu.
+Merezimendu hauek justifikatzeko, eskatzaileak zerbitzu-orriaren kopia erantsi beharko du, edo izendapeneko eta
+kargutik kentzeko ebazpenaren kopia.
+3.3 Kudeaketako beste jarduera batzuk
+Eskatzaileak Ebaluazio Protokoloan jasotakoez bestelako kudeaketa-merezimenduak sartu ahal izango ditu, betiere
+dagozkien ziurtagirien bitartez egiaztatzen baditu.
+Eskatzaileak gehienez ere 5 ekarpen aurkeztu ahal izango ditu bost urteko bloke bakoitzeko.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+13
+
+================ PAGE 14 ================
+
+----- TEXT -----
+
+4 A Mailaren sartzea
+4.1 A1 tartean sartzea
+Eskatzaileak 3 ikerketa seiurteko edo ikerketa ikertramo dituela justifikatu beharko du, CNEAIaren edo Unibasqen
+Ebazpenaren kopia aurkeztuta.
+4.2 A2 tartean sartzea
+Eskatzaileak, berak egindako autotxosten batean, bere bizitza akademiko osoko lau ekarpen garrantzitsuenak
+zeintzuk izan diren adierazi beharko du eskaerako lau atal edo dimentsio baloragarrietan, eta hala badagokio,
+ekarpen horien kalitate-zantzuak adieraziko dira, egoki iritziz gero.. Nolanahi ere, adierazitako ekarpenen
+justifikazio dokumentala ere erantsi beharko du. Nahitaezkoa da eskatzaileak CV oso bat eranstea bere ibilbide
+akademiko osoari dagokion ohiko formaturen batean (adibidez, FECYTen CVN).
+Ekarpen terminoa, ebaluazio-protokoloan atal bakoitzerako eskaintzen diren adibide orientagarriekin bat etorriz
+interpretatu behar da. Adibidez, eskatzaile batek 7 doktorego-tesi zuzendu baditu, zuzendaritza horiek
+irakaskuntzaren ataleko ekarpenetako bat izango da. Era berean, ikerketa-seiurtekoen kopuru jakin bat egiaztatzen
+duen ekarpen aipagarri gisa adierazi nahi baduzu, denboran zehar izandako ibilbidearen erakusgarri gisa, ikerketa-
+ataleko lau ekarpenetako bat bezala sartu beharko duzu, eta era berean, egokitzat jotzen baduzu, atal horren
+ekarpen gisa sartu beharko duzu eskatutako mailako ikerketako jarduera kolektiboen kopuru jakin batean lidergoa
+izatea edo bere arloan kalitate bikaina duen eskatzailea buru den ikerketa-emaitzen kopuru jakin batean – adibidez,
+argitalpen kopuru jakin batean – lidergoa izatea. Eskaera eta autotxostena betetzeko beste aukera batzuk ere har
+daitezke kontuan, kasu bakoitzera egokituta – Irakaskuntzan, adibidez, 4 doktorego-tesiren zuzendaritza sartzea, ez
+ekarpen garrantzitsu bakar gisa, baizik eta ataleko 4 ekarpen garrantzitsuenen gisa, eta hala aztertutako gainerako
+kasuetan -, baina iradokitzen da eskaera modu horretan betetzea, Protokoloaren erreferenteekin bat etorriz.
+Bikaitasunaren Ebaluazio Batzordeak modu proportzional eta sistematikoan ebaluatuko ditu lau ataletako
+bakoitzean sartutako lau ekarpenak, erreferentziatzat hartuta protokoloaren adibideak eta ondorengo ebaluazio-
+eskala: gutxiegi, nahikoa, oso ongi eta bikain. Bikaintasun-kalifikazioa lortzeko ebaluazio-protokoloan azpimarratzen
+den bezala, beharrezkoa izango da egindako jardueran lidergoa egiaztatzea eta lortutako emaitzek objektiboki
+frogatzea UPV/EHUrentzat hobekuntzak izan direla egindako jardueraren ondorioz.
+Ekarpenak modu proportzionatuan eta sistematizatuan baloratzeko, Batzordeak Ebaluazio Protokoloan eta, oro har,
+ebaluaziorako Protokolo horren barne-logikan adierazitako adibide kuantitatibo eta kualitatiboetan oinarrituko du
+bere lana. Hori dela eta, iradokitzen da eskatzaileek Protokoloan erreferentzia gisa jotzen diren merezimendu-
+kategoriak sartzea A2 tarteko ebaluazio-atal edo -dimentsioetarako beren ekarpenen artean, zeharkako lidergoari
+lotutako merezimenduak direlako. Adibidez, Irakaskuntza atalean, doktore-tesien zuzendaritza; edo ikerketa
+atalean, adibideetan adierazitako mailako edo, Protokoloko erreferentzia orokorrak kontuan hartuta, parekagarriak
+diren mailetako jarduera kolektiboetan ikertzaile nagusia izan dela egiaztatzea; Transferentzia atalean, finantzaketa
+aipagarriarekin kontratatutako transferentzia-jardueren zuzendaritza (zenbatekoak bat datoz ezagutza-eremuetako
+kasuistikarekin); edo Kudeaketa atalean, adibideetan adierazitako mailako edo Protokoloaren erreferentzia
+orokorrak kontuan hartuta parekagarriak diren mailetako pertsona bakarreko karguak izan dituela egiaztatzea.
+EBALUAZIO-ESKAERA BETETZEN LAGUNTZEKO GIDA
+14
