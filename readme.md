@@ -70,7 +70,7 @@ En la carpeta index_content se guardaran el content.index y el content_meta.json
 
 5. Compilar el index_schema
 
-Ejecutar este comando : :python -m graphrag_app.index__schema
+Ejecutar este comando : :python -m graphrag_app.index_schema
 
 En la carpeta index_schema se guardaran el schema.faiss y el schema_meta.json
 
