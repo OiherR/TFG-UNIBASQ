@@ -1,0 +1,212 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Galdera_ohikoei_erantzuna a u:Documento ;
+  u:titulo "Galdera ohikoei erantzuna" .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Ordainsari osagarriak esleitzeko deialdiaren oinarriak, nork ezartzen ditu? Respuesta: UPV/EHU-ko Gizarte Kontseiluari dagokio deialdiaren oinarriak ezartzea, Unibertsitateko Gobernu Kontseiluaren proposamenez. Unibasq-ek ez du deialdirik egiten, eta ez ditu osagarriak esleitzen. Unibasq-ek UPV/EHUk onartutako eskabideak Ebaluatzeko Batzordeen bidez ebaluatzen ditu soilik." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_2 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Nork prestatzen ditu protokoloa eta ebaluazio irizpideak? Respuesta: Unibasq-eko Aholku Batzordeak egiten du, bere Gobernu Kontseiluarekiko organo independentea dena. Unibasq-eko 13/2012 Legearen 9.artikuluan aipatzen denez, Aholku Batzordeak agentziaren jardueren kalitatea eta sinesgarritasuna bermatu behar ditu, eta bere eskumenen artean protokoloak eta ebaluazio irizpideak onartzea dago." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_3 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Nork egiaztatzen ditu ebaluazioa egiteko beharrezko betekizun legalak? Respuesta: Antzinatasuna, doktoregoaren betekizuna osagarrien tarte bakoitzerako eta eskaeraren alderdi legalak UPV/EHU-k egiaztatzen ditu. Unibasq-ek bakarrik ebaluatuko ditu UPV/EHU-ren ustez era zuzenean aurkeztu diren eskaerak." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_4 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: 2020ko deialdira aurkeztu banaiz, 2024ko deialdira aurkez naiteke? Respuesta: Ez, ebaluatu beharreko merezimenduak 2024ko abenduaren 31ra artekoak direlako; beraz, ezingo da 5 urteko gutxieneko blokerik sortu ebaluazioa eskatzeko." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_5 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Eskaera berean hainbat tarte eska ditzaket? Respuesta: Bai, eskaera bakarra da. Horren barruan, egokitzat jotzen dituzun tarteen ebaluazioa eskatu ahal izango duzu." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_6 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Itxi ondoren eskaera alda dezaket? Respuesta: Ez, horretarako, UPV/EHUrekin jarri beharko duzu harremanetan, eta horren berri eman beharko diozu. Eskaeran behar diren aldaketak egin ahal izateko, irekiera eskatu behar duzu, betiere, aurkezteko epearen barruan egiten baduzu." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_7 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Aurreko deialdian B1 tartearen ebaluazio negatiboa lortu badut. Aurkeztu al naiteke deialdi honetara edo bost urte itxaron behar al ditut ebaluazio negatiboa lortu nuenetik? Respuesta: Ez, ez dago bost urte itxaron beharrik. Salbuespen gisa, B1 tartera sartzeko behar diren 25 puntuak lortzen ez direnean, eskatzaileak berriro eska dezake ebaluazioa. Ebaluatu beharreko gainerako tarteetarako (B2, B3, A1 eta A2), eskatzaileak bost urte itxaron behar du ebaluazioa berriro eskatzeko." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_8 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Aurretik osagarrien deialdi batera aurkeztu banaiz eta B1 tartea lortu ez badut. Nire datuak berreskura ditzaket edo berriro sartu behar ditut? Respuesta: Datuak berreskuratu ditzakezun. Hala ere, ebaluatu beharreko urte-tartea eta merezimenduak orain ebaluatzea nahi duen berberak direla egiaztatu beharko du." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_9 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Eskabidea itxi eta formalizatu ondoren ere, ba al dut merezimenduen ziurtagiriak igotzerik? Respuesta: Deialdiaren azken egunera arte aurkez daitezke merituen ziurtagiriak, eskabidea itxita egon arren. Hala ere, UPV/EHUrekin harremanetan jarri beharko duzu, zure eskaera irekitzeko aukera eman diezazuten." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_10 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Tasa bat ordaindu behar dut ebaluazioaren eskaera egiteko? Respuesta: Nola justifikatzen dut tasaren ordainketa? Euskal Autonomia Erkidegoko 2025erako Aurrekontu Orokorren Legearen arabera, ebaluazio-eskubideei dagokiona,, 49,70 euroko tasa ezartzen da Unibasq-en alde. Dagokion ordainketa egin izanaren egiaztagiria aurkeztu beharko da, aplikazio informatikoan ezarritako jarraibideak betez. Tasa ordaindu ezean, eskaera ez da behar bezala formalizatutzat joko. C mailako osagarriak soilik eskatzen dituztenak salbuetsita daude tasa hau ordaintzetik." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_11 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Non aurkitu dezaket ordainketa egiteko kontu korrontearen zenbakia? Respuesta: Kontu korrontearen zenbakia aplikazio informatikoan eskuragarri dagoen tasen inprimakian izango duzue." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_12 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Zer ipini behar dut tasaren ordainketa egiterakoan? Respuesta: Ebaluazioa eskatu duen pertsonaren NANa, izena eta abizenak. 49,70 euroko tasa baino ez da ordainduko, eskatutako tarteak edozein direla ere." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_13 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: C mailaren ebaluazioa bakarrik eskatzen badut, tasa berdin ordaindu behar dut? Respuesta: Ez, merituak ebaluatzen dituzten pertsonek bakarrik ordaindu behar dute tasa, hau da, A edo B mailako tarteren bat eskatzen dutenek. Tasa kobratzeko eskaera ebaluaziorako onartzen denean baino ez da egingo; bestela, tasaren zenbatekoa banku-transferentzia bidez itzuliko da." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_14 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Arazoak ditut aplikazio informatikoarekin. Norekin jarri behar naiz harremanetan? Respuesta: Deialdi honetan erabiltzen den aplikazio informatikoa UPV/EHU eta UNIBASQ-en artean kudeatzen da. Betekizun legal, formalekin, etab. zerikusia duten zalantzak UPV/EHU-ra zuzendu behar dira. Horretarako, bidali zalantzak helbide honetara: complementos.pdi@ehu.eus Ebaluazioarekin, merituekin, etab. zerikusia duten zalantzak UNIBASQ-era zuzendu behar dira. Horretarako bidali zalantzak helbide honetara: osagarriak@unibasq.eus" .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_15 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: A1 tartearen ebaluazioa eskatu nahi dut. Zer egin behar dut? Respuesta: Ebaluazio-protokoloko baldintzak betetzen badira, A1 tartea markatu behar da aplikazio informatikoan, eta Ikerketako edo Ikertarteetako hiru seiurtekoei dagozkien frogagiriak erantsi behar dira, bai eta CV labur bat ere, formatu librean, Ebaluazio Batzordeek eskatzailearen ibilbidea testuinguruan jar dezaten." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_16 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: A2 taretearen ebaluazioa eskatu nahi dut. Zer egin behar dut? Respuesta: Ebaluazio-protokoloan jasotako baldintzak betetzen badituzu, aplikazio informatikoan A2 tartea hautatu beharko duzu, eta autotxostena bete. Bertan, zure bizitza akademikoko lau ekarpen garrantzitsuenak lau atal edo dimentsio baloragarrietan jaso beharko dituzu, eta hala badagokio, ekarpen horien kalitate-zantzuak, egokitzat jotzen dituzunak gehituz. Nolanahi ere, ekarpen guztien merezimenduen justifikazio dokumentala ere erantsi beharko da. Era berean, CV oso bat erantsi beharko duzu ohiko formaturen batean (adibidez, FECYTen CVN), zure ibilbide akademiko osoari dagokiona, Bikaintasuna Ebaluatzeko Batzordeak zure bizitza akademikoko lau ekarpen garrantzitsuenak testuinguruan jar ditzan eskaeraren lau ataletan. Ekarpen terminoa, ebaluazio-protokoloan atal bakoitzerako eskaintzen diren adibide orientagarriekin bat etorriz interpretatu behar da. Adibidez, eskatzaile batek 7 doktorego-tesi zuzendu baditu, zu" .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_17 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Bost urteko ebaluazio-bloke bat baino gehiago aurkez dezaket? Respuesta: Bai. Aplikazio informatikoak hainbat urte-bloke sartzeko aukera ematen dizu. Hiru hilabetetik gorakoak eta gehienez bost urte izan daitezke." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_18 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Bost urteko bloke baten ebaluazioa eskatu nahi badut, eta gainera ebaluatuak izatea nahi ditudan beste bi urte baldin baditut, zer gertatzen da bi urte hauekin? Respuesta: Bost urteko blokean sartzen ez diren gainontzeko urteak eta hilabeteak ere ebaluatuak izango dira. Aplikazio informatikoak erlaitz batean adierazteko aukera emango du. Epea hiru hilabetekoa edo gutxiagokoa bada azkeneko blokean sartuko da. Hiru hilabete baino gehiagokoa bada, hau adierazteko bloke berri bat sortuko da." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_19 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Zein da gehienezko puntuazioa 5 urteko bloke bakoitzeko? Respuesta: Eta 5 urtera heltzen ez diren blokeak? 5 urteko bloke bakoitzeko lortu ahal den gehienezko puntuazioa 27 da. Eskaerak 5 urte baino gehiagoko ebaluazio epea badu, aipatutako epea 5 urteko blokeetan zatituko da. Ondorioz, 5 urte baino gutxiagoko blokea eskatzen duenak, gehienezko puntuazioa zati osoaren zati proportzionala izango da. Horregatik, hiru atalak guztira kontuan hartuko dira: ikerketa, ezagutzaren transferentzia eta dibulgazioaren atala, irakaskuntzaren atala, kudeaketaren atala. Adibidez: Eskatzailea batek 5 urteko bloke bat eta 2 urteko beste bloke bat eskatzen badu, bigarren blokean gehienezko puntuazioa atal bakoitzeko gelditzen den 27 kopuruaren zati osoa 2/5 izango da, hau da, 10 puntu. Proportzionaltasun berdina bakarrik aplikatuko da gehienezko ataletan, ikerketa, ezagutzaren transferentzia eta dibulgazioaren atalaren gehienezko puntuazioa 23×2/5= 9, Irakaskuntzaren atalaren gehienezko puntua" .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_20 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: A1 eta A2 tarteak eskatzen baditut eta aurreko deialdian 100 puntu lortu banu, aplikazio informatikoan eskaeraren atal guztiak bete behar ditut? Respuesta: Ez, Aurreko deialdian 100 puntu lortu bazenu, bakarrik A mailako (A1/A2) tarteetara sarbide beharrezkoak diren merezimenduak bete beharko dituzu." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_21 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Nire bizitza akademiko osoaren ebaluazioa lehen aldiz eskatzen badut, zein data hartu behar dut ebaluazioaren hasiera-datatzat? Respuesta: B1 eskatzeko, zure bizitza akademiko osoko merezimenduak sar ditzakezu, UPV/EHUrekin egindako kontratuaren hasiera-data edozein dela ere. Adierazitako ebaluazioaren hasiera-dataren arabera, hainbat bloke sortuko dira 2024/12/31ra arte. Eskabideak 5 urtetik gorako ebaluazio-aldia badu, epe hori 5 urteko bloketan banatuko da; beraz, 5 urtetik beherako bloke bat eskatzen duenaren gehieneko puntuazioa zati osoaren zati proportzionala izango da. Atal bakoitzean ebaluazio-protokoloan ezarritako gehieneko puntuazioa lortzeko, ebaluazio-blokeek 5 urtekoa izan beharko dute." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_22 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Aurreko deialdian B1 lortu ez badut eta aurreko deialdiko merituak deialdi berrira eraman nahi baditut, zer egin behar dut? Respuesta: Aurreko deialdiko merezimenduak iraultzeko, lehenik eta behin, UPV/EHUn aurreko deialdian complementos.pdi@ehu.eus helbidean jarri zenuen hasiera-data adierazi behar duzu. Unibertsitateak, aplikazio informatikoan bere espedientera berriz sartzean, ebaluazioaren hasiera-data ezarri ondoren, mezu bat agertuko zaizu aurreko deialdiko datuak iraultzeko aukera emanez. Iraulketa onartzen baduzu, sartutako merezimendu guztiak eta deialdiaren egiaztagiriak irauliko dira; sartu zenituen merezimenduak berrikusi beharko dituzu, merezimenduari buruz eskatzen den datu berriren bat dagoen ikusteko. Era berean, tasen formularioa eta ordainagiria eguneratu beharko ditu." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_23 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Meritu batzuen egiaztagiriak sartzen baditut, baina eskaeran bertan meritu horiek ez baditut aipatzen, ebaluazioan kontutan hartuko dira? Respuesta: Ez, eskaeran aipatutakoak eta zuzen egiaztatuta dauden merezimenduak soilik hartuko dira kontuan." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_24 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Eskaeran sartutako meritu guztiak justifikatu behar dira? Respuesta: Bai. Eskabidean sartzen diren merezimendu guztiak justifikatu behar dira, argitalpenen kasuan izan ezik, horietan nahikoa izango baita DOI, ISBN eta ISSN lokalizazioa ahalbidetzen duten datuak adieraztea." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_25 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Meritu gisa sar dezaket finantzaketarik lortu ez duen ikerketa taldearen eskaera baten ebaluazio positiboa? Respuesta: Ebaluazio positiboa jaso duten baina finantzaketa espezifikorik ez duten proiektuak, sare-taldeak edo antzekoak ez dira baloratuko." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_26 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Nola egiaztatu ditzaket ikerketa-proiektuak, kontratuak, taldeak eta sareak? Respuesta: Unibertsitatearen edo deialdia egin duen organoaren ziurtagiriaren kopia bat erantsiko da, eskatzaileak lantaldean izan duen parte-hartzea eta finantzaketaren zenbatekoa berariaz jasotzen dituena. Laguntza-gidan jasotzen den bezala, ikertzaile nagusiaren sinadurarekin egindako proiektuen justifikazioa ez da baliozkoa izango, organo eskudunek maila instituzionalean emandako ziurtagiriak baino ez dira onartuko. Aitzitik, ez dira onartuko pertsona fisikoek edo eskumenik ez duten organoek egindako autoziurtagiriak edo ziurtagiriak." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_27 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Nola justifika dezaket proiektuetan kontratatu gisa parte hartu dudala (ez ikertzaile nagusi gisa)? Respuesta: IN (ikertzaile nagusia) ez bada, merezimendua justifikatzeko, deialdia egin duen erakundeak edo unibertsitateko langileekin ikerketa-kontratuak kudeatzeko gaitasuna duen erakundeak sinatutako kopia bat aurkez dezakezu. Aldizkarien kalitate-zantzuak hainbat alderdiri buruzkoak dira, besteak beste: inpaktu-faktorea (FI), argitalpena barne hartzen duten kategoria edo kategoriak, aldizkariaren posizioa bere kategorian, kuartila, aipamen kopurua. Liburuen kasuan: argitaletxearen prestigioa, liburu batek jasotzen dituen aipuen kopurua, etab. GARRANTZITSUA: Kalitate-zantzuak dituzten argitalpenak bakarrik hartuko dira kontuan." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_28 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Kongresu batean, zer alde dago “hitzaldia” edo “komunikazio” baten eta “hitzaldi oso”” baten artean? Respuesta: “Hitzaldia” eta “Komunikazioa” ekarpenak dira, Kongresu baten Batzorde Antolatzaileari aurkezten zaizkio eta hark onar ditzake edo ez; “Hitzaldi osoa” berriz, kongresu edo bilera akademiko batean leku nabarmena duen hitzaldia da, Batzorde Zientifiko Antolatzaileak berariaz gonbidatuta eskatzailea, osoko bilkuran parte hartzeko aditu gisa. “Hitzaldi osoa” bat ez da “gonbidatutako hiltzaldia” baten baliokidea, zalantzarik gabeko tradizioko Kongresu batekin lotutako akreditazio fede-emaile bat izan ezik, “Hitzaldia” soil batekin identifikatzen baita." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_29 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Nola justifika ditzaket kongresuak? Respuesta: Kongresuko aktarekin edo bertan parte-hartu dela adierazten duen ziurtagiri batekin." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_30 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Zer urte hartu behar da kontuan aldizkari bateko argitalpen baten rankingeko inpaktu-indizea edo posizioa adierazteko? Respuesta: Meritu gisa adierazitako artikulua argitaratu den aldizkariari buruzko datuak adierazteko, artikulua argitaratu den urtea hartu behar da kontuan, edo, berriki argitaratutako artikuluen kasuan, urterik hurbilena." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_31 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Hitzaldiko argitalpenak 1.1.1 atalean sar daitezke? Respuesta: Ez, 1.1.3 atalean sartu behar dira, nahi eta Proceedings gisa argitaratuta egon." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_32 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Tesiak eta hitzaldietako proceedings-ak liburutzat har daitezke? Respuesta: Ez, ezin dira liburutzat hartu." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_33 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: Docentiaz programan parte hartu dut, 2018-2023 aldirako nire irakaskuntza-jarduera ebaluatzeko. Merezimendu hori sar dezaket, nahiz eta ebazpena 2024ko abendua baino geroagokoa izan (merezimenduak aurkezteko amaiera-data)? Respuesta: Bai, salbuespen gisa, Docentiaz ebaluazioa egiaztatzen duen ziurtagiria sartu ahal izango duzu, baldin eta ebaluatutako urteak 2024ko abenduaren 31 baino lehenagokoak badira. Docentiaz merezimendua hurrengo deialdietan ebaluatzeko, ezingo da berriro merezimendu hori sartu ebaluatutzat jotzen delako." .
+
+base:frag_Galdera_ohikoei_erantzuna_p1_34 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Galdera_ohikoei_erantzuna ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Pregunta: A1 tramoaren ebaluazioa eskatzen badut eta nire azken seiurtekoaren aintzatespena 2025/01/01ekoa dela adierazten duen UPV/EHUren ziurtagiri bat badut, eskaeran erantsi dezaket? Respuesta: Bai, ziurtagiria aurkeztu dezakezu, betiere seiurtekoaren tartea osatzen duten urteak 2024. urtera artekoak badira." .
+

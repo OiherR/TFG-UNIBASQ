@@ -3,7 +3,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-base:doc_guia_ayuda_osagarriak_2024-eus a u:Documento .
+base:doc_guia_ayuda_osagarriak_2024-eus a u:Documento ;
+  u:titulo "guia ayuda osagarriak 2024-eus" .
 
 base:frag_guia_ayuda_osagarriak_2024-eus_p1 a u:Fragmento ;
   u:pagina 1 ;
