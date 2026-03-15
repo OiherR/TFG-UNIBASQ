@@ -65,11 +65,11 @@ def fetch_schema_cards(limit: int = 5000) -> List[Dict]:
 
     classes = []
     for q in (q_classes_decl, q_classes_used):
-        classes += sparql_select(q)["results"]["bindings"]
+        classes += sparql_select(q)
 
     props = []
     for q in (q_props_decl, q_props_used):
-        props += sparql_select(q)["results"]["bindings"]
+        props += sparql_select(q)
 
     # dedupe
     seen = set()
