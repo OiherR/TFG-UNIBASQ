@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ontology="http://example.org/academic-career/ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#apartado">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#organismo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#fragmentoId">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#offsetFin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#textoFuente">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#descripcion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Requisito"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment>Valores esperados: total_min, total_max, apartado_min, apartado_max</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#ApartadoEvaluacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_otro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>otro</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#titulo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#enSeccionHecho">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#valor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#nombre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Figura"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_introduccion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>introduccion</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#concepto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Tasa"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#provieneDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_plazos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>plazos</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#paso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Procedimiento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tieneSeccion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#minmax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#apartado_formacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+    <ontology:nombre>formacion</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#apartado_investigacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+    <ontology:nombre>investigacion</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#fuenteDocumento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#fechaInicio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Plazo"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#ambitp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_recurso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>recurso</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#moneda">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Tasa"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#apartado_docencia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+    <ontology:nombre>docencia</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#fecha">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Notificacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tieneRequisito">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Figura"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Requisito"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Documento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_procedimiento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>procedimiento</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#pagina">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_evaluacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>evaluacion</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#unidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#url">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Requisito">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#ambito">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#apartado_gestion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+    <ontology:nombre>gestion</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tieneFragmento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Documento"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_notificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>notificacion</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_tasas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>tasas</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Tasa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_requisitos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>requisitos</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#fechaFin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Plazo"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#enSeccion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tieneUmbral">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Figura"/>
+    <rdfs:range rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#canal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Notificacion"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Procedimiento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Procedimiento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Hecho">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Fragmento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Figura">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#plazoRecursoDias">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Recurso"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#importe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Tasa"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Plazo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#offsetInicio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Fragmento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Notificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tipo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#UmbralPuntuacion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#organoRecurso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Recurso"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#apartado_total">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#ApartadoEvaluacion"/>
+    <ontology:nombre>total</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Recurso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#sec_indice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/academic-career/ontology#Seccion"/>
+    <ontology:nombre>indice</ontology:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tipoRecurso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/academic-career/ontology#Recurso"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Seccion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#UmbralPuntuacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

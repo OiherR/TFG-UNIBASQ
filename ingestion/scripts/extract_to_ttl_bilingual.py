@@ -192,9 +192,63 @@ def split_pages(text: str) -> dict[int, str]:
     return pages
 
 
+def clean_page_content(raw: str) -> str:
+    """
+    Limpia ruido típico del TXT intermedio:
+      - marcadores ----- TEXT ----- / ----- TABLE n -----
+      - espacios redundantes
+    No elimina contenido semántico.
+    """
+    if not raw:
+        return ""
+    txt = raw.replace("\r", "")
+    txt = re.sub(r"-----\s*TEXT\s*-----", " ", txt, flags=re.I)
+    txt = re.sub(r"-----\s*TABLE\s*\d+\s*-----", " ", txt, flags=re.I)
+    txt = re.sub(r"\n{3,}", "\n\n", txt)
+    return txt.strip()
+
+
+def filter_bulletin_noise(raw: str) -> str:
+    """
+    En boletines oficiales a veces aparece ruido previo (anuncios, edictos, Metro Bilbao...).
+    Si detectamos un decreto objetivo, recortamos el bloque desde el inicio real del decreto.
+    """
+    if not raw:
+        return ""
+
+    txt = raw.replace("\r", "")
+
+    decree_patterns = [
+        r"\b209\s*/\s*2006\s+DEKRETUA\b",
+        r"\bDECRETO\s+209\s*/\s*2006\b",
+        r"\b64\s*/\s*2011\s+DEKRETUA\b",
+        r"\bDECRETO\s+64\s*/\s*2011\b",
+    ]
+
+    starts = []
+    for pat in decree_patterns:
+        m = re.search(pat, txt, flags=re.I)
+        if m:
+            starts.append(m.start())
+
+    if starts:
+        txt = txt[min(starts):]
+
+    return txt.strip()
+
+
 def llm_classify_section(text: str, model: str) -> str:
-    allowed = ["requisitos", "plazos", "notificacion", "tasas", "evaluacion", "procedimiento", "recurso", "otro"]
-    prompt = f"Devuelve SOLO UNA palabra de esta lista [{', '.join(allowed)}]:\n\nTEXTO:\n{text[:1200]}"
+    allowed = ["indice", "introduccion", "requisitos", "procedimiento", "tasas", "notificacion", "plazos", "recurso", "evaluacion", "otro"]
+    prompt = (
+        f"Clasifica el siguiente texto administrativo en UNA sola categoría. "
+        f"Devuelve SOLO UNA palabra de esta lista [{', '.join(allowed)}].\n"
+        f"Puedes basarte tanto en castellano como en euskera.\n"
+        f"Pistas útiles: aurkibidea->indice, sarrera->introduccion, "
+        f"eskaera/izapidetzea->procedimiento, ordainketa/tasak->tasas, "
+        f"jakinarazpen->notificacion, errekurtso->recurso, epe/plazo->plazos, "
+        f"ebaluazio/irizpide/puntuazio->evaluacion.\n\n"
+        f"TEXTO:\n{text[:1200]}"
+    )
     out = call_ollama(prompt, model).strip().lower()
     out = re.sub(r"[^a-z_áéíóúñ]", "", out)
     return out if out in allowed else "otro"
@@ -211,45 +265,74 @@ def rulebased_section(content: str) -> str | None:
     # Normaliza rápido (sin cargarte URLs)
     t_compact = re.sub(r"\s+", " ", t)
 
-    # 1) NOTIFICACIÓN (muy típico en guía + bases)
+    # 0) ÍNDICE / INTRODUCCIÓN (castellano + euskera)
+    if re.search(r"(?:^|\n)\s*(ÍNDICE|AURKIBIDEA)\b", content, flags=re.I):
+        return "indice"
+    if (
+        re.search(r"(?:^|\n)\s*1\.?\s*(Introducci[óo]n|Sarrera)\b", content, flags=re.I)
+        or re.search(r"\bIntroducci[óo]n\b", t_compact)
+        or re.search(r"\bSarrera\b", content, flags=re.I)
+        or "helburua" in t_compact
+    ):
+        return "introduccion"
+
+    # 1) NOTIFICACIÓN / JAKINARAZPENAK
     if (
         "notificación" in t_compact
         or "notificacion" in t_compact
+        or "jakinarazpen" in t_compact
         or "tablón electrónico" in t_compact
         or "tablon electronico" in t_compact
         or "tablón de anuncios" in t_compact
         or "tablon de anuncios" in t_compact
-        or "mi carpeta" in t_compact and "notific" in t_compact
-        or "aviso" in t_compact and ("sms" in t_compact or "correo" in t_compact or "email" in t_compact)
-        or "resolución" in t_compact and "notific" in t_compact
+        or "iragarki-taula" in t_compact
+        or ("mi carpeta" in t_compact and "notific" in t_compact)
+        or ("nire karpeta" in t_compact and "jakinaraz" in t_compact)
+        or ("aviso" in t_compact and ("sms" in t_compact or "correo" in t_compact or "email" in t_compact))
+        or ("ohar" in t_compact and ("sms" in t_compact or "posta" in t_compact or "email" in t_compact))
+        or ("resolución" in t_compact and "notific" in t_compact)
+        or ("ebazpen" in t_compact and "jakinaraz" in t_compact)
         or "notificación pendiente" in t_compact
     ):
         return "notificacion"
 
-    # 2) TASAS / PAGO
+    # 2) TASAS / PAGO / ORDAINKETA
+    # Evita falsos positivos: en algunas guías la palabra "tasa" aparece ya en introducción.
+    # Para considerar sección "tasas" pedimos señales claras de pago/liquidación/pasarela/importe.
     if (
-        "tasa" in t_compact
+        "pago de la tasa" in t_compact
+        or ("pago" in t_compact and "tasa" in t_compact)
         or "mi pago" in t_compact
-        or "pasarela" in t_compact and "pago" in t_compact
-        or ("pago" in t_compact and "solicitud" in t_compact)
+        or ("pasarela" in t_compact and "pago" in t_compact)
         or "kutxabank" in t_compact
         or "carta de pago" in t_compact
         or "justificante de pago" in t_compact
         or "liquidación" in t_compact
+        or "liquidacion" in t_compact
+        or "ordainketa" in t_compact
+        or "ordaindu" in t_compact
+        or "ordainagiri" in t_compact
+        or "ordainketa-gutuna" in t_compact
+        or "tasak" in t_compact
+        or re.search(r"\b49[,.]70\b", t_compact)
+        or "c maila" in t_compact
     ):
         return "tasas"
 
-    # 3) PLAZOS (fechas / meses / "plazo de...")
+    # 3) PLAZOS / EPEAK
     if (
         "plazo" in t_compact
+        or "epe" in t_compact
         or re.search(r"\bdel\s+\d{1,2}\s+de\s+[a-záéíóúñ]+\s+de\s+\d{4}\s+al\s+\d{1,2}\s+de\s+[a-záéíóúñ]+\s+de\s+\d{4}\b", t_compact)
         or re.search(r"\ben\s+el\s+plazo\s+de\s+\d+\s+(d[ií]as|mes(es)?)\b", t_compact)
         or re.search(r"\bdentro\s+de\s+los?\s+\d+\s+(d[ií]as|mes(es)?)\b", t_compact)
         or re.search(r"\b\d+\s+mes(es)?\b", t_compact) and ("notific" in t_compact or "resoluc" in t_compact)
+        or re.search(r"\b\d+\s+egun(?: baliodun)?\b", t_compact)
+        or re.search(r"\b\d+\s+hilabete\b", t_compact)
     ):
         return "plazos"
 
-    # 4) RECURSOS (reposición / contencioso / etc.)
+    # 4) RECURSOS / ERREKURTSOAK
     if (
         "recurso" in t_compact
         or "reposicion" in t_compact
@@ -257,10 +340,34 @@ def rulebased_section(content: str) -> str | None:
         or "contencioso" in t_compact
         or "vía administrativa" in t_compact
         or "juzgados de lo contencioso" in t_compact
+        or "errekurtso" in t_compact
+        or "gora jotzeko" in t_compact
+        or "administrazioarekiko auzi" in t_compact
     ):
         return "recurso"
-
-    # 5) PROCEDIMIENTO / TRAMITACIÓN (registro, sede, firma, telemática, app)
+    
+    # 5) EVALUACIÓN / EBALUAZIOA
+    if (
+        "evaluación" in t_compact
+        or "evaluacion" in t_compact
+        or "criterios" in t_compact
+        or "puntuación" in t_compact
+        or "puntuacion" in t_compact
+        or "ebaluazio" in t_compact
+        or "irizpide" in t_compact
+        or "gehienez" in t_compact
+        or "tarte" in t_compact
+        or "ikerketa" in t_compact
+        or "irakaskuntza" in t_compact
+        or "kudeaketa" in t_compact
+        or "ezagutzaren transferentzia" in t_compact
+        or "dibulgazio" in t_compact
+        or "atalka betetzea" in t_compact
+        or "a mailaren sartzea" in t_compact
+    ):
+        return "evaluacion"
+    
+    # 6) PROCEDIMIENTO / TRAMITACIÓN / IZAPIDETZEA
     if (
         "sede electrónica" in t_compact
         or "sede electronica" in t_compact
@@ -268,7 +375,7 @@ def rulebased_section(content: str) -> str | None:
         or "registro telematico" in t_compact
         or "firma electrónica" in t_compact
         or "firma electronica" in t_compact
-        or "certificado" in t_compact and ("firma" in t_compact or "electr" in t_compact)
+        or ("certificado" in t_compact and ("firma" in t_compact or "electr" in t_compact))
         or "cumplimentación" in t_compact
         or "cumplimentacion" in t_compact
         or "formalización" in t_compact
@@ -278,11 +385,26 @@ def rulebased_section(content: str) -> str | None:
         or "aplicación informática" in t_compact
         or "aplicacion informatica" in t_compact
         or "egiaztapena" in t_compact
+        or "eskaera" in t_compact
+        or "eskabidea" in t_compact
+        or "izapidet" in t_compact
+        or "sinadura elektroniko" in t_compact
+        or "ziurtagiri" in t_compact
+        or "egoitza elektroniko" in t_compact
+        or "erregistro telematiko" in t_compact
+        or "ordezkaritza" in t_compact
+        or "aplikazio informatiko" in t_compact
     ):
         return "procedimiento"
 
-    # 6) REQUISITOS (tu lógica original, pero algo más amplia)
-    if "serán requisitos imprescindibles" in t_compact or "seran requisitos imprescindibles" in t_compact:
+    # 7) REQUISITOS / BALDINTZAK
+    if (
+        "serán requisitos imprescindibles" in t_compact
+        or "seran requisitos imprescindibles" in t_compact
+        or "betebehar" in t_compact
+        or "baldintza" in t_compact
+        or "ezinbesteko baldintza" in t_compact
+    ):
         return "requisitos"
 
     if re.search(r"(?:^|\n)\s*▪\s+", content):
@@ -293,6 +415,8 @@ def rulebased_section(content: str) -> str | None:
 
     if ("puntuación máxima" in t_compact or "puntuacion maxima" in t_compact) and ("apartados" in t_compact) and ("total" in t_compact):
         return "requisitos"
+
+
 
     return None
 
@@ -683,6 +807,55 @@ def build_umbral_ttl(pg_num: int, frag_uri: str, doc_id: str, page_text: str, ap
     return "\n".join(lines).strip(), uris
 
 
+def extract_faq_pairs(page_text: str) -> list[tuple[str, str]]:
+    """
+    Extrae FAQs numeradas del tipo:
+      1.- Pregunta?
+      Respuesta...
+
+      2.- Pregunta?
+      Respuesta...
+    """
+    txt = (page_text or "").replace("\r", "").strip()
+    if not txt:
+        return []
+
+    # Normaliza un poco, pero conserva saltos para segmentar mejor
+    txt = re.sub(r"\n{2,}", "\n", txt)
+
+    # Divide por inicio de pregunta numerada: 1.-  2.-  34.- ...
+    blocks = re.split(r'(?=^\s*\d+\s*\.-\s*)', txt, flags=re.M)
+
+    pairs: list[tuple[str, str]] = []
+
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+
+        # Quita la numeración inicial
+        block = re.sub(r'^\s*(\d+)\s*\.-\s*', '', block)
+
+        # Compacta espacios dentro del bloque
+        block = re.sub(r'\s+', ' ', block).strip()
+
+        # Separa pregunta y respuesta en el primer ?
+        m = re.match(r'(.+?\?)\s*(.+)', block)
+        if not m:
+            continue
+
+        question = m.group(1).strip()
+        answer = m.group(2).strip()
+
+        # Limpieza mínima
+        question = re.sub(r'\s+', ' ', question)
+        answer = re.sub(r'\s+', ' ', answer)
+
+        if len(question) >= 6 and len(answer) >= 8:
+            pairs.append((question, answer))
+
+    return pairs
+
 # ========= MAIN =========
 if __name__ == "__main__":
     args = parse_args()
@@ -701,12 +874,41 @@ if __name__ == "__main__":
 
     last_fig_uri = None  # arrastre de figura
 
-    ttl_parts = [forced_prefixes, f"base:doc_{doc_id} a u:Documento .\n"]
+    doc_title = Path(args.input_txt).stem.replace("_", " ")
+    ttl_parts = [
+        forced_prefixes,
+        f'base:doc_{doc_id} a u:Documento ;\n  u:titulo {json.dumps(doc_title, ensure_ascii=False)} .\n'
+    ]
     page_items = sorted(pages.items())[:args.max_pages] if args.max_pages > 0 else sorted(pages.items())
+    is_faq_doc = "galdera_ohiko" in doc_id.lower() or "faq" in doc_id.lower()
 
     for pg_num, content in page_items:
         if not content.strip():
             continue
+
+        content = filter_bulletin_noise(content)
+        content = clean_page_content(content)
+        if not content.strip():
+            continue
+
+        # FAQ: troceo pregunta-respuesta para evitar fragmentos gigantes
+        if is_faq_doc:
+            faq_pairs = extract_faq_pairs(content)
+            if faq_pairs:
+                faq_blocks = []
+                for i, (question, answer) in enumerate(faq_pairs, start=1):
+                    frag_uri = f"base:frag_{doc_id}_p{pg_num}_{i}"
+                    qa_text = f"Pregunta: {question} Respuesta: {answer}"
+                    faq_blocks.append(
+                        f"{frag_uri} a u:Fragmento ;\n"
+                        f"  u:pagina {pg_num} ;\n"
+                        f"  u:fuenteDocumento base:doc_{doc_id} ;\n"
+                        f"  u:enSeccion u:sec_otro ;\n"
+                        f"  u:textoFuente {json.dumps(qa_text[:1000], ensure_ascii=False)} .\n"
+                    )
+                header = f"# --- PAG {pg_num} (faq) ---\n" if args.debug_comments else ""
+                ttl_parts.append(header + "\n".join(faq_blocks) + "\n")
+                continue
 
         # 0) Figura dinámica (marker > texto)
         fig_from_marker = detect_figura_from_marker(content)
@@ -727,7 +929,8 @@ if __name__ == "__main__":
 
         # 2) Fragmento
         norm_txt = re.sub(r"\s+", " ", content).strip()
-        snippet = norm_txt[:500] if len(norm_txt) > 500 else norm_txt
+        norm_txt = norm_txt.replace("----- TEXT -----", " ").strip()
+        snippet = norm_txt[:1000] if len(norm_txt) > 1000 else norm_txt
         frag_uri = f"base:frag_{doc_id}_p{pg_num}"
 
         frag_ttl = (
