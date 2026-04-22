@@ -540,84 +540,78 @@ button.danger:hover{
 /* =========================
    Modal: Proiektuari buruz
    ========================= */
-.modal-backdrop{
+.modal-backdrop {
   position: fixed;
-  inset: 0;
-  padding: 18px;
-
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(7, 10, 20, 0.85);
+  backdrop-filter: blur(8px);
   display: none;
   align-items: center;
   justify-content: center;
-
-  z-index: 999;
-  background: rgba(192, 192, 196, 0.55);
+  z-index: 9999;
 }
 
-.modal-backdrop.open{ display:flex; }
+.modal-backdrop.open {
+  display: flex;
+}
 
-.modal{
-  width: min(720px, 100%);
-  overflow: hidden;
-
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  box-shadow: var(--shadow);
+.modal {
   background: #ffffff;
+  width: min(90%, 650px);
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  animation: modalFade 0.2s ease;
 }
 
-.modal-header{
-  display:flex;
-  align-items:center;
-  gap:10px;
-
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--border);
-  background: #f8fafc;
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.modal-header h3{
+.modal-header h3 {
   margin: 0;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 1.2rem;
+  color: #000;
 }
 
-.modal-close{
-  width: 36px;
-  height: 36px;
+.modal-body {
+  padding: 22px;
+  line-height: 1.6;
+  color: #000;
+}
 
-  border: 1px solid var(--border);
-  border-radius: 10px;
-
-  background: #fff;
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
   cursor: pointer;
-  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #000;
 }
 
-.modal-close:hover{ background: #f1f5f9; }
-
-.modal-body{
-  padding: 16px;
-  background: #ffffff;
+.modal-close:hover {
+  background: #f2f2f2;
 }
 
-.modal-body ol{
-  margin: 10px 0 0 18px;
+@keyframes modalFade {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
-
-/* Fix: texto del modal en negro (evita herencias raras) */
-.modal,
-.modal *{
-  color: #000000 !important;
-  opacity: 1 !important;
-}
-
-.modal-body strong,
-.modal-body em,
-.modal-body code{
-  color: #000000 !important;
-  font-style: normal;
-}
-
 /* =========================
    Nuevos Ajustes para GraphRAG
    ========================= */
@@ -686,4 +680,98 @@ button.danger:hover{
   display:flex;
   flex-direction:column;
   gap:8px;
+}
+.lang-switch{
+  display:flex;
+  gap:6px;
+}
+
+.lang-btn{
+  padding:6px 10px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,.2);
+  background: rgba(255,255,255,.08);
+  color:#fff;
+  cursor:pointer;
+  font-weight:700;
+  transition: all .15s ease;
+}
+
+.lang-btn:hover{
+  background: rgba(255,255,255,.15);
+}
+
+.lang-btn.active{
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color:#07101d;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-backdrop.open {
+  display: flex;
+}
+
+.modal {
+  background: #ffffff;
+  width: min(90%, 650px);
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  animation: modalFade 0.2s ease;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 22px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.modal-body {
+  padding: 22px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.modal-close:hover {
+  background: #f2f2f2;
+}
+
+@keyframes modalFade {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

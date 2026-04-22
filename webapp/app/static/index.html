@@ -8,103 +8,107 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <div class="logo">🏛️</div>
-      <div class="brand-text">
-        <div class="brand-title">Laguntzailea-TFG</div>
-        <div class="brand-sub">Kontsulta-laguntzailea.</div>
-      </div>
-    </div>
 
-    <div class="topbar-actions">
-      <button class="topbar-btn danger" id="logoutBtn">Sesioa amaitu</button>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">🏛️</div>
+    <div class="brand-text">
+      <div class="brand-title">Laguntzailea-TFG</div>
+      <div class="brand-sub">Kontsulta-laguntzailea.</div>
     </div>
-  </header>
+  </div>
 
-  <div class="layout">
-    <aside class="sidebar">
-      <button class="primary" id="newQueryBtn">✎ Kontsulta berria</button>
-      <button class="danger" id="clearHistoryBtn" type="button">🧹 Garbitu historiala</button>
-      <div class="side-section">
+  <div class="topbar-actions">
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="eu" type="button">EU</button>
+      <button class="lang-btn" data-lang="es" type="button">ES</button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <button class="primary" id="newQueryBtn" type="button">✎ Kontsulta berria</button>
+    <button class="danger" id="clearHistoryBtn" type="button">🧹 Garbitu historiala</button>
+
+    <div class="side-section">
       <div class="side-title">nire kontsultak</div>
+      <div id="conversationsList"></div>
+    </div>
 
-        <!-- aquí se pintan las conversaciones -->
-        <div id="conversationsList"></div>
-      </div>
-      
-      <div class="side-section">
-        <div class="side-title">Laguntza</div>
+    <div class="side-section">
+      <div class="side-title">Laguntza</div>
 
-        <a class="side-item"
-           href="https://www.unibasq.eus/es/profesorado-acreditacion-del-pdi/mas-informacion/"
-           target="_blank"
-           rel="noopener noreferrer">
-           UNIBASQen orria
-        </a>
-        
-        <button class="side-item" id="sideAbout" type="button">
-          ℹ️ Proiektuari buruz
-        </button>
-      </div>
-    </aside>
+      <a class="side-item"
+         href="https://www.unibasq.eus/es/profesorado-acreditacion-del-pdi/mas-informacion/"
+         target="_blank"
+         rel="noopener noreferrer">
+         UNIBASQen orria
+      </a>
 
-    <main class="main">
-      <div class="main-header">
-        <div class="title-row">
-          <div class="bubble">💬</div>
-          <div>
-            <div class="main-title">Kontsulta berria</div>
-            <div class="main-sub">Azken eguneraketa: <span id="updatedAt"></span></div>
+      <button class="side-item" id="sideAbout" type="button">
+        ℹ️ Proiektuari buruz
+      </button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="main-header">
+      <div class="title-row">
+        <div class="bubble">💬</div>
+        <div>
+          <div class="main-title">Kontsulta berria</div>
+          <div class="main-sub">
+            Azken eguneraketa: <span id="updatedAt"></span>
           </div>
         </div>
-
-        <div class="tabs">
-          <button class="tab active" data-tab="conv">Elkarrizketa</button>
-        </div>
       </div>
 
-      <section class="chat-shell">
-        <div id="chat" class="chat">
-          <div class="empty">
-            <div class="watermark">UPV/EHU</div>
-            <div class="empty-text">Bilatu UNIBASQ-en dagoen informazioa hemendik</div>
-          </div>
-        </div>
-
-        <div id="loading" class="loading-container" style="display: none; padding: 10px; text-align: center; color: #666;">
-            <span>⏳ UNIBASQeko datuak aztertzen...</span>
-        </div>
-
-        <form id="form" class="composer">
-          <div class="composer-inner">
-            <span class="composer-icon">💭</span>
-            <input id="input" placeholder="Galdetu nahi duzuna" autocomplete="off" required />
-            <button type="submit" class="send" id="sendBtn">Bidali</button>
-          </div>
-        </form>
-      </section>
-    </main>
-  </div>
-
-<script src="/static/app.js?v=1"></script>
-  <div class="modal-backdrop" id="aboutModal" aria-hidden="true" style="display: none;">
-    <div class="modal" role="dialog" aria-modal="true">
-      <div class="modal-header">
-        <button class="modal-close" id="closeAboutBtn" aria-label="Itxi">✕</button>
-        <h3>Proiektuari buruz</h3>
-      </div>
-      <div class="modal-body">
-        <p>Aplikazio honek <strong>GraphRAG</strong> arkitektura erabiltzen du...</p>
-        
-        <ol>
-          <li>Erabiltzaileak galdera bat idazten du.</li>
-          <li>Bilaketa bektoriala (FAISS).</li>
-          <li>SPARQL sorkuntza eta exekuzioa (Fuseki).</li>
-          <li>Erantzuna hizkuntza naturalean.</li>
-        </ol>
+      <div class="tabs">
+        <button class="tab active" type="button">Elkarrizketa</button>
       </div>
     </div>
+
+    <section class="chat-shell">
+      <div id="chat" class="chat">
+        <div class="empty">
+          <div class="watermark">UPV/EHU</div>
+          <div class="empty-text">
+            Bilatu UNIBASQ-en dagoen informazioa hemendik
+          </div>
+        </div>
+      </div>
+
+      <div id="loading" class="loading-container" style="display:none;">
+        <span>⏳ UNIBASQeko datuak aztertzen...</span>
+      </div>
+
+      <form id="form" class="composer">
+        <div class="composer-inner">
+          <span>💭</span>
+          <input id="input" placeholder="Galdetu nahi duzuna" required />
+          <button id="sendBtn" type="submit">Bidali</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</div>
+
+<div class="modal-backdrop" id="aboutModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h3 id="aboutModalTitle">Proiektuari buruz</h3>
+      <button class="modal-close" id="closeAboutBtn" type="button" aria-label="Itxi">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <p id="aboutModalText">
+        Aplikazio honek GraphRAG arkitektura erabiltzen du...
+      </p>
+    </div>
   </div>
+</div>
+
+<script src="/static/app.js?v=3"></script>
 </body>
 </html>

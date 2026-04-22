@@ -3,60 +3,219 @@ const form = document.getElementById("form");
 const input = document.getElementById("input");
 const updatedAt = document.getElementById("updatedAt");
 const loading = document.getElementById("loading");
+const conversationsList = document.getElementById("conversationsList");
+
+const STORAGE_KEY = "tfg_conversations_v1";
+const CURRENT_KEY = "tfg_current_conversation_id";
+
+let langButtons;
+
+// Modal
+const aboutBtn = document.getElementById("sideAbout");
+const aboutModal = document.getElementById("aboutModal");
+const closeAboutBtn = document.getElementById("closeAboutBtn");
+
+// =======================
+// TRADUCCIONES
+// =======================
+const translations = {
+  eu: {
+    brandTitle: "Laguntzailea-TFG",
+    brandSub: "Kontsulta-laguntzailea",
+    newChat: "Kontsulta berria",
+    send: "Bidali",
+    clear: "Garbitu historiala",
+    lastUpdate: "Azken eguneraketa",
+    myQueries: "Nire kontsultak",
+    help: "Laguntza",
+    unibasq: "UNIBASQen orria",
+    about: "Proiektuari buruz",
+    inputPlaceholder: "Galdetu nahi duzuna",
+    tabConversation: "Elkarrizketa",
+    emptyText: "Bilatu UNIBASQ-en dagoen informazioa hemendik",
+    aboutText: `
+      Proiektu honek <strong>GraphRAG</strong> arkitekturan oinarritutako kontsulta-laguntzaile bat garatzen du. 
+      Sistemaren helburua UNIBASQeko informazioa modu argi, azkar eta fidagarrian eskaintzea da.
+      Horretarako, berreskuratze bektoriala, RDF grafoak, SPARQL kontsultak eta hizkuntza-eredu handi bat (LLM) konbinatzen dira,
+      erabiltzailearen galderei testuinguru egokiarekin erantzuteko.
+    `,
+    delete: "Ezabatu",
+    confirmDeleteConversation: "Ziur zaude kontsulta hau ezabatu nahi duzula?",
+    confirmClearHistory: "Ziur zaude historiala OSO-OSORIK ezabatu nahi duzula?",
+    loadingText: "⏳ UNIBASQeko datuak aztertzen...",
+    connectionError:
+      "Errore bat gertatu da konexioan. Mesedez, ziurtatu Ollama eta Backend-a piztuta daudela.",
+    genericAnswerError: "Ezin izan da erantzunik lortu.",
+    close: "Itxi"
+  },
+  es: {
+    brandTitle: "Asistente-TFG",
+    brandSub: "Asistente de consultas",
+    newChat: "Nueva consulta",
+    send: "Enviar",
+    clear: "Limpiar historial",
+    lastUpdate: "Última actualización",
+    myQueries: "Mis consultas",
+    help: "Ayuda",
+    unibasq: "Página de UNIBASQ",
+    about: "Sobre el proyecto",
+    inputPlaceholder: "Escribe tu consulta",
+    tabConversation: "Conversación",
+    emptyText: "Busca aquí la información disponible en UNIBASQ",
+    aboutText: `
+      Este proyecto desarrolla un asistente de consultas basado en arquitectura <strong>GraphRAG</strong>.
+      Su objetivo es ofrecer información de UNIBASQ de forma clara, rápida y fiable.
+      Para ello, el sistema combina recuperación vectorial, grafos RDF, consultas SPARQL y un modelo de lenguaje (LLM),
+      permitiendo responder a las preguntas del usuario con contexto relevante.
+    `,
+    delete: "Eliminar",
+    confirmDeleteConversation: "¿Seguro que quieres eliminar esta consulta?",
+    confirmClearHistory: "¿Seguro que quieres borrar TODO el historial?",
+    loadingText: "⏳ Analizando los datos de UNIBASQ...",
+    connectionError:
+      "Se ha producido un error de conexión. Asegúrate de que Ollama y el Backend están encendidos.",
+    genericAnswerError: "No se ha podido obtener una respuesta.",
+    close: "Cerrar"
+  }
+};
 
 updatedAt.textContent = new Date().toLocaleString();
+
+// =======================
+// HELPERS
+// =======================
+function getLang() {
+  return localStorage.getItem("lang") || "eu";
+}
+
+function t() {
+  return translations[getLang()] || translations.eu;
+}
 
 function clearEmpty() {
   const empty = chat.querySelector(".empty");
   if (empty) empty.remove();
 }
 
-/**
- * Añade mensajes al chat con seguridad para 'marked'
- */
 function addMsg(role, text) {
   clearEmpty();
   const div = document.createElement("div");
   div.className = `msg ${role}`;
-  
+
   if (role === "bot") {
-    // CAMBIO 2: Seguridad si marked no está cargado
-    div.innerHTML = (window.marked ? marked.parse(text) : text);
+    div.innerHTML = window.marked ? marked.parse(text) : text;
   } else {
     div.textContent = text;
   }
-  
+
   chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
   return div;
 }
 
-// ========================================================
-// SUBMIT HANDLER (REFORZADO)
-// ========================================================
-form.addEventListener("submit", async (e) => {
+// =======================
+// MODAL
+// =======================
+function openAboutModal() {
+  if (!aboutModal) return;
+  aboutModal.style.display = "flex";
+  aboutModal.classList.add("open");
+  aboutModal.setAttribute("aria-hidden", "false");
+}
+
+function closeAboutModal() {
+  if (!aboutModal) return;
+  aboutModal.style.display = "none";
+  aboutModal.classList.remove("open");
+  aboutModal.setAttribute("aria-hidden", "true");
+}
+
+// =======================
+// IDIOMA
+// =======================
+function setLanguage(lang) {
+  localStorage.setItem("lang", lang);
+  applyLanguage(lang);
+  renderConversations();
+  loadConversationToUI(getCurrentId());
+}
+
+function applyLanguage(lang) {
+  if (!translations[lang]) lang = "eu";
+
+  const tr = translations[lang];
+
+  langButtons?.forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.lang === lang);
+  });
+
+  const brandTitle = document.querySelector(".brand-title");
+  const brandSub = document.querySelector(".brand-sub");
+  const newQueryBtn = document.getElementById("newQueryBtn");
+  const clearHistoryBtn = document.getElementById("clearHistoryBtn");
+  const sendBtn = document.getElementById("sendBtn");
+  const sideTitles = document.querySelectorAll(".side-title");
+  const unibasqLink = document.querySelector('a[href*="unibasq"]');
+  const sideAbout = document.getElementById("sideAbout");
+  const mainTitle = document.querySelector(".main-title");
+  const mainSub = document.querySelector(".main-sub");
+  const tab = document.querySelector(".tab");
+  const inputEl = document.getElementById("input");
+  const emptyText = document.querySelector(".empty-text");
+  const modalTitle = document.getElementById("aboutModalTitle");
+  const modalP = document.getElementById("aboutModalText");
+  const loadingSpan = loading?.querySelector("span");
+
+  if (brandTitle) brandTitle.textContent = tr.brandTitle;
+  if (brandSub) brandSub.textContent = tr.brandSub;
+  if (newQueryBtn) newQueryBtn.textContent = "✎ " + tr.newChat;
+  if (clearHistoryBtn) clearHistoryBtn.textContent = "🧹 " + tr.clear;
+  if (sendBtn) sendBtn.textContent = tr.send;
+
+  if (sideTitles[0]) sideTitles[0].textContent = tr.myQueries;
+  if (sideTitles[1]) sideTitles[1].textContent = tr.help;
+
+  if (unibasqLink) unibasqLink.textContent = tr.unibasq;
+  if (sideAbout) sideAbout.textContent = "ℹ️ " + tr.about;
+
+  const currentConv = getConversation(getCurrentId());
+
+  if (mainTitle) {
+    if (!currentConv || isDefaultConversationTitle(currentConv.title)) {
+      mainTitle.textContent = tr.newChat;
+    } else {
+      mainTitle.textContent = currentConv.title;
+    }
+  }
+
+  if (mainSub && mainSub.childNodes[0]) {
+    mainSub.childNodes[0].textContent = tr.lastUpdate + ": ";
+  }
+  if (tab) tab.textContent = tr.tabConversation;
+
+  if (inputEl) inputEl.placeholder = tr.inputPlaceholder;
+  if (emptyText) emptyText.textContent = tr.emptyText;
+
+  if (modalTitle) modalTitle.textContent = tr.about;
+  if (modalP) modalP.innerHTML = tr.aboutText;
+  if (closeAboutBtn) closeAboutBtn.setAttribute("aria-label", tr.close);
+
+  if (loadingSpan) loadingSpan.textContent = tr.loadingText;
+}
+
+// =======================
+// SUBMIT
+// =======================
+form?.addEventListener("submit", async (e) => {
   e.preventDefault();
+
   const message = input.value.trim();
   if (!message) return;
 
   addMsg("user", message);
   input.value = "";
 
-  // Guardar mensaje usuario en historial
-  const id = ensureCurrentConversation();
-  updateConversation(id, (c) => {
-    const msgs = c.messages || [];
-    msgs.push({ role: "user", text: message, ts: Date.now() });
-    c.messages = msgs;
-    if (!c.title || c.title === "Kontsulta berria") c.title = formatTitle(message);
-    c.updatedAt = Date.now();
-    return c;
-  });
-  renderConversations();
-
-  // CAMBIO 3: Evitar colgado si loading no existe
   if (loading) loading.style.display = "flex";
-  chat.scrollTop = chat.scrollHeight;
 
   try {
     const res = await fetch("/chat", {
@@ -66,65 +225,97 @@ form.addEventListener("submit", async (e) => {
     });
 
     const data = await res.json();
-    const botText = data.answer ?? "Ezin izan da erantzunik lortu.";
-    
-    if (loading) loading.style.display = "none";
-    addMsg("bot", botText);
-
-    // Guardar respuesta éxito en historial
-    const id2 = ensureCurrentConversation();
-    updateConversation(id2, (c) => {
-      const msgs = c.messages || [];
-      msgs.push({ role: "bot", text: botText, ts: Date.now() });
-      c.messages = msgs;
-      c.updatedAt = Date.now();
-      return c;
-    });
-    renderConversations();
-    
+    addMsg("bot", data.answer || t().genericAnswerError);
   } catch (err) {
-    // CAMBIO 3 (bis): Ocultar loading en error
-    if (loading) loading.style.display = "none";
-    
-    const errorText = "Errore bat gertatu da konexioan. Mesedez, ziurtatu Ollama eta Backend-a piztuta daudela.";
-    addMsg("bot", errorText);
-
-    // CAMBIO 1: Guardar también el ERROR en el historial
-    const idErr = ensureCurrentConversation();
-    updateConversation(idErr, (c) => {
-      const msgs = c.messages || [];
-      msgs.push({ role: "bot", text: errorText, ts: Date.now() });
-      c.messages = msgs;
-      c.updatedAt = Date.now();
-      return c;
-    });
-    renderConversations();
+    addMsg("bot", t().connectionError);
     console.error(err);
   }
+
+  if (loading) loading.style.display = "none";
 });
 
-// ========================================================
-// LÓGICA DE HISTORIAL (Mantenida igual, es sólida)
-// ========================================================
-const conversationsList = document.getElementById("conversationsList");
-const STORAGE_KEY = "tfg_conversations_v1";
-const CURRENT_KEY = "tfg_current_conversation_id";
-
+// =======================
+// HISTORIAL
+// =======================
 function loadConversations() {
-  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"); }
-  catch { return []; }
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+  } catch {
+    return [];
+  }
 }
 
 function saveConversations(convs) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(convs));
 }
+
+function getCurrentId() {
+  return localStorage.getItem(CURRENT_KEY);
+}
+
+function setCurrentId(id) {
+  localStorage.setItem(CURRENT_KEY, id);
+}
+
+function newId() {
+  return "c_" + Math.random().toString(16).slice(2) + "_" + Date.now();
+}
+
+function formatTitle(text) {
+  const v = (text || "").trim();
+  if (!v) return getLang() === "es" ? "Nueva consulta" : "Kontsulta berria";
+  return v.length > 28 ? v.slice(0, 28) + "…" : v;
+}
+
+function isDefaultConversationTitle(title) {
+  return (
+    !title ||
+    title === translations.es.newChat ||
+    title === translations.eu.newChat
+  );
+}
+
+function ensureCurrentConversation() {
+  let convs = loadConversations();
+  let id = getCurrentId();
+
+  if (!id || !convs.some((c) => c.id === id)) {
+    const defaultTitle = getLang() === "es" ? "Nueva consulta" : "Kontsulta berria";
+
+    id = newId();
+    convs.unshift({
+      id,
+      title: defaultTitle,
+      createdAt: Date.now(),
+      updatedAt: Date.now(),
+      messages: []
+    });
+    saveConversations(convs);
+    setCurrentId(id);
+  }
+  return id;
+}
+
+function getConversation(id) {
+  return loadConversations().find((c) => c.id === id);
+}
+
+function updateConversation(id, updaterFn) {
+  const convs = loadConversations();
+  const idx = convs.findIndex((c) => c.id === id);
+  if (idx === -1) return;
+
+  convs[idx] = updaterFn({ ...convs[idx] });
+  convs.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  saveConversations(convs);
+}
+
 function deleteConversation(id) {
-  const convs = loadConversations().filter(c => c.id !== id);
+  const convs = loadConversations().filter((c) => c.id !== id);
   saveConversations(convs);
 
   const currentId = getCurrentId();
   if (currentId === id) {
-    // si borras la conversación actual, selecciona otra o crea nueva
     if (convs.length > 0) {
       setCurrentId(convs[0].id);
       loadConversationToUI(convs[0].id);
@@ -142,67 +333,28 @@ function clearHistory() {
   localStorage.removeItem(CURRENT_KEY);
   startNewConversation();
 }
-function getCurrentId() {
-  return localStorage.getItem(CURRENT_KEY);
-}
-
-function setCurrentId(id) {
-  localStorage.setItem(CURRENT_KEY, id);
-}
-
-function newId() {
-  return "c_" + Math.random().toString(16).slice(2) + "_" + Date.now();
-}
-
-function formatTitle(text) {
-  const t = (text || "").trim();
-  if (!t) return "Kontsulta berria";
-  return t.length > 28 ? t.slice(0, 28) + "…" : t;
-}
-
-function ensureCurrentConversation() {
-  let convs = loadConversations();
-  let id = getCurrentId();
-
-  if (!id || !convs.some(c => c.id === id)) {
-    id = newId();
-    convs.unshift({
-      id, title: "Kontsulta berria", createdAt: Date.now(), updatedAt: Date.now(), messages: []
-    });
-    saveConversations(convs);
-    setCurrentId(id);
-  }
-  return id;
-}
-
-function getConversation(id) {
-  const convs = loadConversations();
-  return convs.find(c => c.id === id);
-}
-
-function updateConversation(id, updaterFn) {
-  const convs = loadConversations();
-  const idx = convs.findIndex(c => c.id === id);
-  if (idx === -1) return;
-  const updated = updaterFn({ ...convs[idx] });
-  convs[idx] = updated;
-  convs.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
-  saveConversations(convs);
-}
 
 function renderConversations() {
   if (!conversationsList) return;
+
   const convs = loadConversations();
   const currentId = getCurrentId();
+
   conversationsList.innerHTML = "";
 
-  convs.forEach(conv => {
+  convs.forEach((conv) => {
     const row = document.createElement("div");
     row.className = "conv-row";
 
     const btn = document.createElement("button");
     btn.className = "side-item" + (conv.id === currentId ? " active" : "");
-    btn.textContent = "💬 " + (conv.title || "Kontsulta berria");
+
+    const titleToShow = isDefaultConversationTitle(conv.title)
+      ? t().newChat
+      : conv.title;
+
+    btn.textContent = "💬 " + titleToShow;
+
     btn.addEventListener("click", () => {
       setCurrentId(conv.id);
       loadConversationToUI(conv.id);
@@ -212,12 +364,12 @@ function renderConversations() {
     const del = document.createElement("button");
     del.className = "icon-btn danger";
     del.type = "button";
-    del.title = "Ezabatu";
+    del.title = t().delete;
     del.textContent = "🗑️";
 
     del.addEventListener("click", (e) => {
       e.stopPropagation();
-      const ok = confirm("Ziur zaude kontsulta hau ezabatu nahi duzula?");
+      const ok = confirm(t().confirmDeleteConversation);
       if (!ok) return;
       deleteConversation(conv.id);
     });
@@ -231,44 +383,93 @@ function renderConversations() {
 function loadConversationToUI(id) {
   const conv = getConversation(id);
   if (!conv) return;
+
+  const mainTitle = document.querySelector(".main-title");
+
+  if (mainTitle) {
+    if (isDefaultConversationTitle(conv.title)) {
+      mainTitle.textContent = t().newChat;
+    } else {
+      mainTitle.textContent = conv.title;
+    }
+  }
+
   chat.innerHTML = "";
+
   if (!conv.messages || conv.messages.length === 0) {
     chat.innerHTML = `
       <div class="empty">
-        <div class="watermark"><div class="watermark-text">UPV/EHU</div></div>
-        <div class="empty-text">Bilatu UNIBASQ-en dagoen informazioa hemendik</div>
+        <div class="watermark">UPV/EHU</div>
+        <div class="empty-text">${t().emptyText}</div>
       </div>
     `;
     return;
   }
-  conv.messages.forEach(m => addMsg(m.role, m.text));
+
+  conv.messages.forEach((m) => addMsg(m.role, m.text));
 }
 
 function startNewConversation() {
+  const defaultTitle = getLang() === "es" ? "Nueva consulta" : "Kontsulta berria";
+
   const id = newId();
   const convs = loadConversations();
+
   convs.unshift({
-    id, title: "Kontsulta berria", createdAt: Date.now(), updatedAt: Date.now(), messages: []
+    id,
+    title: defaultTitle,
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
+    messages: []
   });
+
   saveConversations(convs);
   setCurrentId(id);
   loadConversationToUI(id);
   renderConversations();
 }
 
+// =======================
+// EVENTOS
+// =======================
 document.getElementById("newQueryBtn")?.addEventListener("click", startNewConversation);
 
-document.addEventListener("DOMContentLoaded", () => {
-  ensureCurrentConversation();
-  renderConversations();
-  loadConversationToUI(getCurrentId());
-});
 document.getElementById("clearHistoryBtn")?.addEventListener("click", () => {
   const convs = loadConversations();
   if (!convs.length) return;
 
-  const ok = confirm("Ziur zaude historiala OSO-OSORIK ezabatu nahi duzula?");
+  const ok = confirm(t().confirmClearHistory);
   if (!ok) return;
 
   clearHistory();
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  langButtons = document.querySelectorAll(".lang-btn");
+
+  langButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      setLanguage(btn.dataset.lang);
+    });
+  });
+
+  aboutBtn?.addEventListener("click", openAboutModal);
+  closeAboutBtn?.addEventListener("click", closeAboutModal);
+
+  aboutModal?.addEventListener("click", (e) => {
+    if (e.target === aboutModal) {
+      closeAboutModal();
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeAboutModal();
+    }
+  });
+
+  ensureCurrentConversation();
+  renderConversations();
+  loadConversationToUI(getCurrentId());
+  applyLanguage(getLang());
 });
