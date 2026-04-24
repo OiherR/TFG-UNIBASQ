@@ -1,0 +1,28 @@
+services:
+  fuseki:
+    image: stain/jena-fuseki
+    container_name: tfg-fuseki
+    ports:
+      - "3030:3030"
+    environment:
+      - ADMIN_PASSWORD=admin
+    volumes:
+      - ./ingestion/ttl:/fuseki/ttl
+    command: >
+      /bin/sh -c "
+      /jena-fuseki/fuseki-server --mem /academic-career &
+      sleep 8 &&
+      for f in /fuseki/ttl/*.ttl; do
+        echo Loading $$f;
+        curl -X POST -H 'Content-Type: text/turtle' --data-binary @$$f http://localhost:3030/academic-career/data;
+      done &&
+      wait
+      "
+
+  app:
+    build: .
+    container_name: tfg-app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - fuseki

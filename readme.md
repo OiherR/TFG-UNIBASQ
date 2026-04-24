@@ -335,3 +335,69 @@ Permite modelar:
 - Protégé
 
 ---
+## 🐳 Ejecución con Docker
+
+El proyecto puede ejecutarse mediante Docker, lo que permite lanzar la aplicación sin necesidad de instalar manualmente las dependencias del entorno Python.
+
+Docker encapsula la aplicación junto con todas sus librerías y configuración, garantizando un entorno reproducible y facilitando su ejecución en cualquier sistema.
+
+---
+
+### 🚀 Ejecución con Docker Compose (recomendado)
+
+Se proporciona una configuración mediante Docker Compose que permite levantar automáticamente:
+
+- La aplicación web (FastAPI)
+- El servidor Apache Jena Fuseki
+- La carga automática de los archivos `.ttl`
+
+---
+
+### ▶️ Comando de ejecución
+
+Desde la raíz del proyecto:
+
+- docker compose up --build
+
+---
+
+### 🌐 Acceso a los servicios
+
+Una vez iniciado:
+
+- Aplicación web: http://localhost:8000  
+- Fuseki: http://localhost:3030  
+
+---
+
+### 📦 Carga automática de datos RDF
+
+Los archivos `.ttl` ubicados en:
+
+- ingestion/ttl/
+
+se cargan automáticamente en Fuseki al iniciar el contenedor, por lo que no es necesario realizar la carga manual desde la interfaz web.
+
+---
+
+### ⚠️ Uso de Ollama (LLM)
+
+Para la generación de respuestas mediante modelos de lenguaje, es necesario tener Ollama en ejecución fuera de Docker.
+
+---
+
+#### ▶️ Arrancar Ollama
+
+- ollama serve
+
+---
+
+#### 📥 Descargar modelo (si no está instalado)
+
+- ollama pull llama3.2:3b
+
+---
+
+#### 🔍 Ver modelos disponibles
+
+- ollama list
