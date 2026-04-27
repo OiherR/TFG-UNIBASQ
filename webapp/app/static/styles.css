@@ -251,6 +251,7 @@ button.danger:hover{
 }
 
 .side-item{
+  display: block; 
   width:100%;
   padding:10px 12px;
 
@@ -261,7 +262,6 @@ button.danger:hover{
   background:transparent;
   color: rgba(234,240,255,.92);
   cursor:pointer;
-
   transition: background .12s ease, border-color .12s ease, transform .12s ease;
 }
 

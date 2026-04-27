@@ -34,10 +34,14 @@ const translations = {
     tabConversation: "Elkarrizketa",
     emptyText: "Bilatu UNIBASQ-en dagoen informazioa hemendik",
     aboutText: `
-      Proiektu honek <strong>GraphRAG</strong> arkitekturan oinarritutako kontsulta-laguntzaile bat garatzen du. 
-      Sistemaren helburua UNIBASQeko informazioa modu argi, azkar eta fidagarrian eskaintzea da.
-      Horretarako, berreskuratze bektoriala, RDF grafoak, SPARQL kontsultak eta hizkuntza-eredu handi bat (LLM) konbinatzen dira,
-      erabiltzailearen galderei testuinguru egokiarekin erantzuteko.
+      Proiektu honek <strong>GraphRAG</strong> arkitekturan oinarritutako kontsulta-laguntzaile bat garatzen du, unibertsitateko irakasleen ebaluazio eta akreditazio prozesuei lotutako araudia interpretatzeko helburuarekin.
+
+    Bere helburua <strong>UNIBASQ</strong>, <strong>ANECA</strong> eta <strong>BOE</strong> bezalako erakunde ofizialetatik eratorritako informazioan oinarritutako erantzun argiak, zehatzak eta fidagarriak eskaintzea da.
+
+    Sistemak informazioaren berreskuratzea eta ezagutzaren adierazpena konbinatzen ditu, bilaketa bektoriala, RDF grafo semantikoak, SPARQL kontsultak eta hizkuntza-eredu handiak (LLM) integratuz. Horri esker, erantzunak testuinguru egokiarekin aberasten dira eta egiaztatu gabeko informazioaren sorrera murrizten da.
+
+    Horrela, laguntzaileak araudi konplexua hizkuntza naturalean kontsultatzeko aukera ematen du, ebaluazio- eta akreditazio-prozesuen ulermena eta irisgarritasuna hobetuz.
+
     `,
     delete: "Ezabatu",
     confirmDeleteConversation: "Ziur zaude kontsulta hau ezabatu nahi duzula?",
@@ -63,10 +67,14 @@ const translations = {
     tabConversation: "Conversación",
     emptyText: "Busca aquí la información disponible en UNIBASQ",
     aboutText: `
-      Este proyecto desarrolla un asistente de consultas basado en arquitectura <strong>GraphRAG</strong>.
-      Su objetivo es ofrecer información de UNIBASQ de forma clara, rápida y fiable.
-      Para ello, el sistema combina recuperación vectorial, grafos RDF, consultas SPARQL y un modelo de lenguaje (LLM),
-      permitiendo responder a las preguntas del usuario con contexto relevante.
+      Este proyecto desarrolla un asistente de consultas basado en la arquitectura <strong>GraphRAG</strong>, orientado a la interpretación de normativa académica y procesos de acreditación del profesorado universitario.
+
+      Su objetivo es proporcionar respuestas claras, precisas y fundamentadas a partir de información oficial procedente de organismos como <strong>UNIBASQ</strong>, <strong>ANECA</strong> y el <strong>BOE</strong>.
+
+      El sistema combina técnicas de recuperación de información y representación del conocimiento, integrando búsqueda vectorial, grafos semánticos (RDF), consultas estructuradas mediante SPARQL y modelos de lenguaje (LLM). Esta combinación permite enriquecer las respuestas con contexto relevante y reducir la generación de información no verificada.
+
+      De este modo, el asistente facilita la consulta de normativa compleja en lenguaje natural, mejorando la accesibilidad y comprensión de los procesos de evaluación y acreditación académica.
+
     `,
     delete: "Eliminar",
     confirmDeleteConversation: "¿Seguro que quieres eliminar esta consulta?",
@@ -212,8 +220,33 @@ form?.addEventListener("submit", async (e) => {
   const message = input.value.trim();
   if (!message) return;
 
+  const currentId = ensureCurrentConversation();
+
+  // Mostrar mensaje del usuario
   addMsg("user", message);
   input.value = "";
+
+  // Guardar mensaje del usuario en localStorage
+  updateConversation(currentId, (conv) => {
+    const msgs = conv.messages || [];
+
+    if (msgs.length === 0) {
+      conv.title = formatTitle(message);
+    }
+
+    msgs.push({
+      role: "user",
+      text: message
+    });
+
+    return {
+      ...conv,
+      messages: msgs,
+      updatedAt: Date.now()
+    };
+  });
+
+  renderConversations();
 
   if (loading) loading.style.display = "flex";
 
@@ -225,15 +258,54 @@ form?.addEventListener("submit", async (e) => {
     });
 
     const data = await res.json();
-    addMsg("bot", data.answer || t().genericAnswerError);
+    const answer = data.answer || t().genericAnswerError;
+
+    // Mostrar respuesta del bot
+    addMsg("bot", answer);
+
+    // Guardar respuesta del bot en localStorage
+    updateConversation(currentId, (conv) => {
+      const msgs = conv.messages || [];
+
+      msgs.push({
+        role: "bot",
+        text: answer
+      });
+
+      return {
+        ...conv,
+        messages: msgs,
+        updatedAt: Date.now()
+      };
+    });
+
+    renderConversations();
+
   } catch (err) {
-    addMsg("bot", t().connectionError);
+    const errorMsg = t().connectionError;
+
+    addMsg("bot", errorMsg);
+
+    updateConversation(currentId, (conv) => {
+      const msgs = conv.messages || [];
+
+      msgs.push({
+        role: "bot",
+        text: errorMsg
+      });
+
+      return {
+        ...conv,
+        messages: msgs,
+        updatedAt: Date.now()
+      };
+    });
+
     console.error(err);
   }
 
   if (loading) loading.style.display = "none";
 });
-
 // =======================
 // HISTORIAL
 // =======================

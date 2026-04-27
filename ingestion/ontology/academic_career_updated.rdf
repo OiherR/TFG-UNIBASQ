@@ -349,4 +349,141 @@
   <rdf:Description rdf:about="http://example.org/academic-career/ontology#UmbralPuntuacion">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#TituloUniversitario">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Grado">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#TituloUniversitario"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Master">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#TituloUniversitario"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Doctorado">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#TituloUniversitario"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#PlanEstudios">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Verificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Seguimiento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#Modificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#RenovacionAcreditacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#SistemaInternoGarantiaCalidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#GarantiaCalidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#GarantiaInterna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#GarantiaCalidad"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#GarantiaExterna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#GarantiaCalidad"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#AgenciaCalidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#CriterioCalidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#DirectrizCalidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#EvaluacionExterna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/academic-career/ontology#Hecho"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#InformeEvaluacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#regula">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#establece">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#seAplicaA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#formaParteDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#requiere">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#evalua">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#verifica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#realizaSeguimiento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#renuevaAcreditacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#modifica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#generaInforme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tieneCriterio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#tieneDirectriz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/academic-career/ontology#realizadaPor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
 </rdf:RDF>

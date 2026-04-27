@@ -366,7 +366,33 @@ def rulebased_section(content: str) -> str | None:
         or "a mailaren sartzea" in t_compact
     ):
         return "evaluacion"
-    
+    # 5.1) TÍTULOS UNIVERSITARIOS / CALIDAD / VERIFICACIÓN
+    if (
+        "verificación" in t_compact
+        or "verificacion" in t_compact
+        or "egiaztapen" in t_compact
+        or "seguimiento" in t_compact
+        or "jarraipen" in t_compact
+        or "modificación" in t_compact
+        or "modificacion" in t_compact
+        or "aldaketa" in t_compact
+        or "renovación de la acreditación" in t_compact
+        or "renovacion de la acreditacion" in t_compact
+        or "akreditazioa berritzea" in t_compact
+        or "sistema interno de garantía de calidad" in t_compact
+        or "sistema interno de garantia de calidad" in t_compact
+        or "barne kalitatea bermatzeko sistema" in t_compact
+        or "garantía interna" in t_compact
+        or "garantia interna" in t_compact
+        or "garantía externa" in t_compact
+        or "garantia externa" in t_compact
+        or "plan de estudios" in t_compact
+        or "grado" in t_compact
+        or "máster" in t_compact
+        or "master" in t_compact
+        or "doctorado" in t_compact
+    ):
+        return "evaluacion"
     # 6) PROCEDIMIENTO / TRAMITACIÓN / IZAPIDETZEA
     if (
         "sede electrónica" in t_compact

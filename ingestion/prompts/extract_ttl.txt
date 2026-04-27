@@ -28,8 +28,62 @@ Si no hay hechos relevantes, devuelve una salida VACÍA.
 HECHOS PERMITIDOS
 ====================================================
 Instancias permitidas:
-u:Requisito, u:Plazo, u:Notificacion, u:Tasa, u:Procedimiento, u:Recurso, u:UmbralPuntuacion
+u:Requisito, u:Plazo, u:Notificacion, u:Tasa, u:Procedimiento, u:Recurso, u:UmbralPuntuacion,
+u:Grado, u:Master, u:Doctorado, u:PlanEstudios,
+u:Verificacion, u:Seguimiento, u:Modificacion, u:RenovacionAcreditacion,
+u:SistemaInternoGarantiaCalidad, u:GarantiaInterna, u:GarantiaExterna,
+u:AgenciaCalidad, u:CriterioCalidad, u:DirectrizCalidad, u:InformeEvaluacion
 
+====================================================
+RELACIONES PERMITIDAS (NUEVAS)
+====================================================
+
+Puedes usar estas propiedades SOLO si aparecen de forma explícita en el texto:
+
+u:regula
+u:establece
+u:seAplicaA
+u:formaParteDe
+u:requiere
+u:evalua
+u:verifica
+u:realizaSeguimiento
+u:renuevaAcreditacion
+u:modifica
+u:generaInforme
+u:tieneCriterio
+u:tieneDirectriz
+u:realizadaPor
+
+====================================================
+PATRONES RECOMENDADOS (USO AVANZADO)
+====================================================
+
+Cuando el texto lo permita, sigue estos patrones semánticos:
+
+- Si aparece un título universitario (Grado, Master, Doctorado) y un proceso de evaluación:
+  → conecta con:
+    u:verifica
+    u:evalua
+    u:realizaSeguimiento
+    u:renuevaAcreditacion
+
+- Si aparece una Agencia de Calidad y un Informe:
+  → conecta con:
+    u:generaInforme
+
+- Si aparece un Sistema de Garantía de Calidad:
+  → puede:
+    u:requiere u:CriterioCalidad
+    u:tieneDirectriz u:DirectrizCalidad
+
+- Si aparece un proceso (Verificacion, Seguimiento, etc.) y un título:
+  → usa:
+    u:seAplicaA
+
+IMPORTANTE:
+- Usa estos patrones SOLO si la relación es explícita en el texto.
+- NO inventes relaciones.
 ====================================================
 REGLAS DE TIPADO (OBLIGATORIAS)
 ====================================================
@@ -91,5 +145,15 @@ Ejemplos:
   - "Se enviará un aviso por correo electrónico y SMS."
 - **Procedimiento**:
   - "La solicitud se deberá realizar por vía telemática a través de la Sede Electrónica."
+
+====================================================
+REGLA DE USO DE NUEVAS ENTIDADES
+====================================================
+
+- Si el texto trata sobre títulos universitarios (grado, máster, doctorado), usa esas clases.
+- Si el texto trata sobre procesos de calidad (verificación, seguimiento, acreditación), usa las clases correspondientes.
+- Prioriza estas nuevas entidades frente a las genéricas cuando aplique.
+- Siempre que crees dos entidades relacionadas, conéctalas mediante una propiedad adecuada (por ejemplo: u:verifica, u:evalua, u:requiere, etc.).
+
 TEXTO A PROCESAR (Página {PAGINA})
 {TEXTO}

@@ -448,7 +448,7 @@ def answer_question(question: str, debug: bool = False) -> str:
             if fig_uri:
                 val = sparql_total_min_for_figure(fig_uri)
                 if val is not None:
-                    return val
+                    return f"La puntuación mínima total para {figs[0]} es de {val} puntos."
 
         ap_n = extract_apartado_number(q)
         if figs and ap_n in APARTADO_NUM_TO_URI:
@@ -456,24 +456,63 @@ def answer_question(question: str, debug: bool = False) -> str:
             if fig_uri:
                 val = sparql_apartado_min_for_figure(fig_uri, APARTADO_NUM_TO_URI[ap_n])
                 if val is not None:
-                    return val
+                    return f"La puntuación mínima requerida en el apartado {ap_n} para {figs[0]} es de {val} puntos."
 
-        ctx_exact = build_exact_context(q)
-        if ctx_exact:
-            return "Según la ontología (Fuseki):\n" + ctx_exact
+        if figs and ("investigación" in q.lower() or "investigacion" in q.lower()):
+            fig_uri = _resolve_figure_uri_by_name(figs[0])
+            if fig_uri:
+                val = sparql_apartado_min_for_figure(fig_uri, f"{U}apartado_investigacion")
+                if val is not None:
+                    return f"La puntuación mínima requerida en el apartado de investigación para {figs[0]} es de {val} puntos."
 
         structured = try_text2sparql(q)
         if structured:
             return structured
 
+        ctx_exact = build_exact_context(q)
+        if ctx_exact:
+            user_prompt = f"""
+DATOS_ONTOLOGIA:
+{ctx_exact}
+
+PREGUNTA:
+{q}
+
+Instrucciones:
+Responde de forma clara y breve.
+No muestres URIs ni datos técnicos internos.
+Usa únicamente los datos de la ontología.
+""".strip()
+            return ollama_generate(user_prompt, system=SYSTEM_PROMPT)
+
         hits = retrieve_content_hits(q, k=6)
         if evidence_strength(hits) < 180:
             return "No aparece en el grafo cargado."
-        return "No he encontrado un dato exacto en la ontología, pero estos fragmentos podrían ayudar:\n" + format_evidence(hits, 6)
+
+        ctx_faiss = "\n\n".join(
+            (h.get("text") or h.get("TEXTO") or h.get("CONTEXTO") or "").strip()
+            for h in hits
+            if (h.get("text") or h.get("TEXTO") or h.get("CONTEXTO") or "").strip()
+        )
+
+        user_prompt = f"""
+TEXTO_EVIDENCIA:
+{ctx_faiss}
+
+PREGUNTA:
+{q}
+
+Instrucciones:
+Responde de forma clara y breve usando solo la evidencia.
+No muestres fragmentos brutos ni URIs.
+""".strip()
+
+        return ollama_generate(user_prompt, system=SYSTEM_PROMPT)
 
     # ---------- SEARCH ----------
     if intent == "SEARCH":
         hits = retrieve_section_hits(q, k=6) if is_section_query(q) else retrieve_content_hits(q, k=6)
+
         if evidence_strength(hits) < 180:
             return "No aparece en el grafo cargado."
 
@@ -481,42 +520,50 @@ def answer_question(question: str, debug: bool = False) -> str:
         if direct_answer:
             return direct_answer
 
-        return "He encontrado estos fragmentos relevantes:\n" + format_evidence(hits, 6)
-
-    # ---------- OPEN ----------
-    hits = retrieve_section_hits(q, k=8) if is_section_query(q) else retrieve_content_hits(q, k=8)
-
-    direct_answer = extract_direct_answer_from_hit(hits[0]) if hits else None
-    if direct_answer:
-        return direct_answer
-
-    hits = retrieve_section_hits(q, k=8) if is_section_query(q) else retrieve_content_hits(q, k=8)
-
-    direct_answer = extract_direct_answer_from_hit(hits[0]) if hits else None
-    if direct_answer:
-        return direct_answer
-
-    ctx_faiss = "\n\n".join((h.get("text") or "").strip() for h in hits if (h.get("text") or "").strip())
-
-    ctx_exact = ""
-    if is_exacty(q):
-        ctx_exact = build_exact_context(q)
-
-    if evidence_strength(hits) < 250:
-        return (
-            "No hay evidencia suficiente en la ontología ni en el texto cargado "
-            "para responder a la pregunta."
+        ctx_faiss = "\n\n".join(
+            (h.get("text") or h.get("TEXTO") or h.get("CONTEXTO") or "").strip()
+            for h in hits
+            if (h.get("text") or h.get("TEXTO") or h.get("CONTEXTO") or "").strip()
         )
 
-    user_prompt = f"""
-DATOS_ONTOLOGIA (si existe):
-{ctx_exact if ctx_exact else '—'}
-
-TEXTO_EVIDENCIA (fragmentos recuperados):
-{ctx_faiss if ctx_faiss else '—'}
+        user_prompt = f"""
+TEXTO_EVIDENCIA:
+{ctx_faiss}
 
 PREGUNTA:
 {q}
+
+Instrucciones:
+Responde de forma clara, breve y natural usando solo la evidencia.
+No muestres fragmentos brutos.
+No muestres URIs.
+No digas "he encontrado fragmentos".
+Si la evidencia no permite responder con precisión, indica que no hay información suficiente.
+""".strip()
+
+        ans = ollama_generate(user_prompt, system=SYSTEM_PROMPT)
+
+        if debug:
+            return (
+                "--- DEBUG ---\n"
+                f"intent={intent}\n"
+                f"hits={len(hits)}\n"
+                f"evidence_chars={evidence_strength(hits)}\n"
+                "-------------\n"
+                + ans
+            )
+
+        return ans
+
+    # ---------- OPEN ----------
+    user_prompt = f"""
+PREGUNTA:
+{q}
+
+Instrucciones:
+Responde de forma clara, breve y bien estructurada.
+No inventes datos concretos, puntuaciones, fechas ni requisitos.
+Si la pregunta requiere información normativa exacta y no se ha recuperado evidencia, responde de forma general indicando que sería necesario consultar la normativa cargada.
 """.strip()
 
     ans = ollama_generate(user_prompt, system=SYSTEM_PROMPT)
@@ -528,16 +575,11 @@ PREGUNTA:
             f"figs={detect_figures(q)}\n"
             f"sections={detect_sections(q)}\n"
             f"apartado_n={extract_apartado_number(q)}\n"
-            f"exact={'sí' if bool(ctx_exact) else 'no'}\n"
-            f"hits={len(hits)}\n"
-            f"evidence_chars={evidence_strength(hits)}\n"
             "-------------\n"
             + ans
         )
 
     return ans
-
-
 # =========================
 # Modo Terminal
 # =========================
