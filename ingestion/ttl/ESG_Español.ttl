@@ -1,0 +1,314 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_ESG_Español a u:Documento ;
+  u:titulo "ESG Español" .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_ESG_Español_profesorado_esta_cualificado_y_es_competente_para_ese_trabajo a u:Figura ;
+  u:nombre "profesorado está cualificado y es competente para ese trabajo" .
+
+
+base:frag_ESG_Español_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Criterios y Directrices para la Garantía de Calidad en el Espacio Europeo de ∗ Educación Superior European Association for Quality Assurance in Higher Education ∗ El título original es Standards and guidelines for Quality Assurance in the European Higher Education Area. En coherencia con el documento presentado por ANECA al Ministerio de Educación y Ciencia sobre la acreditación de las enseñanzas conducentes a la obtención de títulos de carácter oficial, y siguiendo la diferenciación establecida en el estudio patrocinado por CEPES Indicators for Institutional and Programme Accreditation in Higher/tertiary Education (2004), se ha traducido el término standards por criterios, entendiendo que los referentes que se presentan en este documento no determinan el nivel de requerimientos y condiciones (umbral) que deben cumplir las instituciones o programas para ser acreditados. 1" .
+
+
+base:frag_ESG_Español_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Informe de ENQA sobre Criterios y Directrices para la Garantía de Calidad en el Espacio Europeo de Educación Superior Esta publicación también puede descargarse del sitio Web de ENQA: http://www.enqa.net/bologna.lasso. Asimismo, puede obtenerse de manera gratuita en el secretariado de ENQA (consúltese la contraportada para la información de contacto) © European Association for Quality Assurance in Higher Education, 2005, Helsinki Esta publicación puede fotocopiarse o reproducirse por cualquier otro medio sin autorización del editor. Diseño de la portada: Jussi Hirvi / Green Spot Media Farm Composición: Anja Kauppi / Pikseri Julkaisupalvelut Traducción: 2" .
+
+
+base:frag_ESG_Español_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Prefacio En el Comunicado de Berlín de 19 de septiembre de 2003, los ministros de los estados signatarios del Proceso de Bolonia invitaron a la European Network for Quality Assurance in Higher Education (ENQA), “a través de sus miembros, en cooperación con la EUA, EURASHE, y ESIB”, a desarrollar “un conjunto consensuado de criterios, procedimientos y directrices para la garantía de calidad” y “a explorar los medios que garanticen un sistema adecuado de revisión por pares de garantía de calidad y/o para las agencias u organismos de acreditación y con el objetivo de informar sobre estos desarrollos a los ministros en el año 2005 a través del Grupo de Seguimiento de Bolonia (Bologna Follow-Up Group)”. Los Ministros también solicitaron a ENQA que tuviese debidamente en cuenta la experiencia de otras asociaciones y redes de garantía de calidad”. El presente informe es la respuesta a este mandato y está avalado por todas las organizaciones mencionadas en esa sección del Comunicado. El logro " .
+
+
+base:frag_ESG_Español_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_indice ;
+  u:textoFuente "Índice de materias Resumen Ejecutivo ----------------------------------------------------------------------------------------- 5 1. Contexto, Objetivos y Principios ------------------------------------------------------------------- 9 2. Criterios y Directrices Europeas -------------------------------------------------------------------- 11 Antecedentes de los criterios y directrices ------------------------------------------------------ 11 Introducción a las Partes 1 y 2: Criterios y directrices europeas para la garantía de calidad interna y externa en la educación superior--------------------------- 13 Parte 1: Criterios y directrices europeas para la garantía de calidad interna en las instituciones de educación superior ------------------------------- 15 Parte 2: Criterios y directrices europeas para la garantía de calidad externa de la educación superior ------------------------------------------------------ 20 Introducción a la Parte 3: Criterios y directrices europeas para las ag" .
+
+
+base:frag_ESG_Español_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Resumen Ejecutivo Este informe ha sido elaborado por la European Association for Quality Assurance in Higher Education (ENQA) (1) – mediante la participación activa de sus miembros, en cooperación con EUA, ESIB y EURASHE y mediante el debate con diversas redes de referencia. Constituye la respuesta a los dos mandatos encargados a ENQA en el Comunicado de Berlín de septiembre del 2003 para desarrollar “un conjunto acordado de criterios, procedimientos y directrices en garantía de calidad” y “para explorar la forma de asegurar un sistema adecuado de revisión por pares para la garantía de calidad y/o para las agencias u organismos de acreditación”. El informe consta de cuatro capítulos. Tras el capítulo de introducción sobre el contexto, objetivos y principios, se incluyen otros capítulos sobre criterios y directrices para la garantía de calidad (2), sobre un sistema de revisión por pares para las agencias de garantía de calidad y sobre las perspectivas y retos futuros. Los resultados y r" .
+
+
+base:frag_ESG_Español_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "• Se ampliará el intercambio de puntos de vista y experiencias entre agencias y otros participantes clave (entre los que se incluyen las instituciones de educación superior, los estudiantes y los representantes de los agentes económicos y sociales) mediante el trabajo del Foro Consultivo Europeo para la Garantía de Calidad en la Educación Superior. • Aumentará la confianza mutua entre instituciones y agencias. • Se posibilitará el camino hacia el reconocimiento mutuo. Lista resumida de los criterios europeos para garantía de calidad Esta lista resumen de las criterios europeos para garantía de calidad en la educación superior se ha extraído del Capítulo 2 del Informe y se ha incluido aquí para facilitar su consulta, omitiendo las directrices que acompañan cada criterio. Los criterios están organizados en tres partes que cubren la garantía interna de calidad en las instituciones de educación superior, la garantía externa de calidad en la educación superior y la garantía de calidad de la" .
+
+
+base:frag_ESG_Español_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "1.6. Sistemas de información: Las instituciones deben garantizar que recopilan, analizan y utilizan información pertinente para la gestión eficaz de sus programas de estudio y otras actividades. 1.7. Información pública: las Instituciones deben publicar con regularidad información actualizada, imparcial y objetiva, tanto cuantitativa como cualitativa, sobre los programas y títulos que ofrecen. Parte 2: Criterios y directrices europeas para la garantía externa de calidad de la educación superior 2.1.Utilización de procedimientos de garantía interna de calidad: Los procedimientos de garantía externa de calidad deben tener en cuenta la eficacia de los procesos de garantía interna de calidad descritos en la parte 1 de los Criterios y Directrices Europeas. 2.2.Desarrollo de procesos de garantía externa de calidad: Las finalidades y objetivos de los procesos de garantía de calidad deben ser determinados por parte de todos sus responsables (incluidas las instituciones de educación superior) a" .
+
+
+base:frag_ESG_Español_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Parte 3: Criterios y directrices europeas para las agencias de garantía externa de calidad 3.1. Utilización de procedimientos de garantía externa de calidad para la educación superior: Las agencias de garantía externa de calidad deben tener en cuenta la existencia y efectividad de los procesos de garantía externa de calidad descritos en la Parte 2 de los Criterios y Directrices Europeas. 3.2. Rango oficial: Las agencias deben ser reconocidas formalmente por las autoridades públicas competentes en el EEES como agencias con responsabilidades en la garantía externa de calidad y deben tener una base legal establecida y cumplir con los requisitos de las jurisdicciones legislativas en las que operen. 3.3. Actividades: Las agencias deben llevar a cabo actividades de garantía externa de calidad (a nivel institucional o de programas) de una manera regular. 3.4. Recursos: Las agencias deben disponer de recursos adecuados y proporcionales, tanto humanos como financieros, que les permitan organiza" .
+
+
+base:frag_ESG_Español_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "1 Contexto, Objetivos y Principios En el Comunicado de Berlín de 19 de septiembre de 2003, los ministros de los estados europeos signatarios del proceso de Bolonia invitaron a ENQA “a través de sus miembros, en cooperación con EUA, EURASHE, y ESIB”, a que desarrollase “un conjunto consensuado de criterios, procedimientos y directrices en garantía de calidad” y “a explorar los medios para asegurar un sistema adecuado de revisión por pares para la garantía de calidad y/o para las agencias u organismos de acreditación y para informar sobre estos desarrollos a los ministros en el año 2005 mediante el Grupo de Seguimiento de Bolonia (Bologna Follow-Up Group)”. Los Ministros también solicitaron a ENQA que tuviese debidamente en cuenta la experiencia de otras asociaciones y redes de garantía de calidad”. ENQA aceptó con agrado esta oportunidad de realizar una importante contribución al desarrollo de la Dimensión Europea en garantía de calidad y, de ese modo, promover los objetivos del Proceso" .
+
+
+base:frag_ESG_Español_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "más detalle en los dos capítulos que se refieren a las dos partes del Comunicado de Berlín. No obstante, algunos principios fundamentales deben impregnar la totalidad del trabajo: • los intereses de los estudiantes así como los de los empleadores y los de la sociedad en general • la gran importancia de la autonomía institucional, matizada por el reconocimiento de que ésta conlleva grandes responsabilidades; • la necesidad de que la garantía externa de calidad se ajuste a sus propósitos y de encomendar a las instituciones únicamente la carga necesaria y apropiada para el logro de sus objetivos. El EEES, con sus 40 estados, se caracteriza por la diversidad de sus sistemas políticos, de sus sistemas de educación superior, sus tradiciones socioculturales y educativas, idiomas, aspiraciones y expectativas. Todo esto hace que una aproximación única y monolítica a la calidad, a los criterios y a la garantía de calidad en la educación superior, sea totalmente inapropiada. A la luz de esta dive" .
+
+
+base:frag_ESG_Español_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "2 Criterios y Directrices Europeas El mandato de los ministros para desarrollar “un conjunto consensuado de criterios, procedimientos y directrices en garantía de calidad” plantea cierto número de cuestiones importantes. “Garantía de calidad” es un término genérico en la educación superior que se presta a muchas interpretaciones: no es posible utilizar una sola definición para abarcar todos los matices. Del mismo modo, la palabra “criterios” se emplea de muchas maneras diferentes de un extremo a otro de Europa, que van desde declaraciones de requisitos definidos en detalle hasta descripciones más generalizadas de buenas prácticas. Las palabras también tienen significados muy diferentes en los contextos locales de los sistemas nacionales de educación superior. Además, el propio proceso de elaboración del informe ha puesto en evidencia que dentro de la misma comunidad de garantía de calidad, existen algunas diferencias bastante fundamentales acerca de la adecuada relación que deberían es" .
+
+
+base:frag_ESG_Español_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "considerado apropiado incluir \"procedimientos” detallados en las recomendaciones de este capítulo del informe, dado que los procedimientos de las instituciones y de las agencias constituyen un elemento importante de su autonomía. Serán las propias instituciones y agencias las que, cooperando dentro de sus contextos individuales, decidan las consecuencias en el procedimiento derivadas de la adopción de los criterios contenidos en este informe. Como punto de partida, los criterios y directrices aprueban el espíritu de la Declaración de Graz, de Julio de 2003, de la European University Association (EUA), que afirma que “el propósito de una Dimensión Europea de la garantía de calidad es la promoción de la confianza mutua y la mejora de la transparencia, al mismo tiempo que respeta la diversidad de los contextos nacionales y áreas de conocimiento”. En consonancia con la Declaración de Graz, las criterios y directrices contenidas en este informe reconocen la primacía de los sistemas nacional" .
+
+
+base:frag_ESG_Español_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Introducción a las Partes 1 y 2: Criterios y directrices europeas para la garantía interna y externa de calidad en la educación superior Los criterios y directrices para la garantía interna y externa de calidad que se recogen a continuación, han sido desarrollados para que sean utilizadas por las instituciones de educación superior y las agencias de garantía de calidad que trabajan en el EEES y cubren áreas clave relacionadas con la calidad y los criterios. La finalidad de estos criterios y directrices es proporcionar una fuente de apoyo y orientación tanto a las instituciones de educación superior que están desarrollando sus propios sistemas de garantía de calidad como a las agencias de garantía externa de calidad, así como el contribuir a un marco de referencia común que pueda ser utilizado tanto por las instituciones como por las agencias. En modo alguno se pretende que estos criterios y directrices dicten la práctica o se interpreten como obligatorias o inmodificables. En algunos p" .
+
+
+base:frag_ESG_Español_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Finalidad de los criterios y directrices Los fines de los criterios y directrices son: • mejorar la educación que se ofrece a los estudiantes en las instituciones de educación superior del EEES; • apoyar a las instituciones de educación superior en la gestión y mejora de su calidad y, de ese modo, ayudarles a justificar su autonomía institucional; • proporcionar una base para las agencias de garantía de calidad a la hora de realizar su trabajo; • hacer posible que la garantía externa de calidad sea más transparente y fácil de comprender para todas las partes implicadas en la misma. Objetivos de los criterios y directrices Los objetivos de los criterios y directrices son: • impulsar el desarrollo de las instituciones de educación superior de forma que se fomenten los logros intelectuales y educativos; • proporcionar una fuente de ayuda y orientación a las instituciones de educación superior y otros agentes importantes en el desarrollo de su propia cultura de garantía de calidad; • infor" .
+
+
+base:frag_ESG_Español_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Las actividades de las agencias europeas de garantía de calidad reflejarán los requisitos legales, sociales y culturales de las jurisdicciones y entornos en los que operan. Los criterios europeos relacionados con la garantía de calidad de las agencias de garantía de calidad están incluidos en la Parte 3 de este capítulo. Los procesos desarrollados por las agencias de garantía de calidad deberán adecuarse a sus fines y a los resultados que se pretenda alcanzar. Los procedimientos adoptados por aquellas agencias centradas principalmente en la mejora de la calidad pueden ser bastante diferentes de aquellos cuya función es, sobre todo, proporcionar una sólida “defensa del usuario”. Los criterios que se describen a continuación reflejan un conjunto de buenas prácticas fundamentales en la garantía de calidad en toda Europa, pero no pretenden ofrecer una orientación detallada sobre lo que debe examinarse o sobre cómo deben llevarse a cabo las actividades referentes a la garantía de calidad. É" .
+
+
+base:frag_ESG_Español_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Directrices: Las políticas y procedimientos formales proporcionan un marco en el que las instituciones de educación superior pueden desarrollar y controlar la efectividad de sus sistemas de garantía de calidad. También pueden contribuir a fomentar la confianza pública en la autonomía institucional. Las políticas contienen las declaraciones de intenciones y los principales medios que posibiliten su plasmación. La orientación sobre procedimientos puede facilitar información más detallada sobre las formas en las que se desarrolla la política y proporciona un punto de referencia útil para aquellos que necesitan conocer los aspectos prácticos asociados a la puesta en práctica de los procedimientos. Una declaración de política institucional debería incluir: • la relación entre enseñanza e investigación en el seno de la institución; • la estrategia de la institución en respecto a la calidad y los criterios; • la estructura del sistema de garantía de calidad; • las responsabilidades de departa" .
+
+
+base:frag_ESG_Español_p17 a u:Fragmento ;
+  u:pagina 17 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "• las necesidades específicas de diferentes modalidades de impartición de la docencia (p. ej. a tiempo completo, tiempo parcial, formación a distancia, e- learning) y tipos de educación superior (p. ej. académica, vocacional, profesional); • disponibilidad de recursos de aprendizaje apropiados; • procedimientos formales de aprobación de programas por un organismo diferente del que los imparte; • control del progreso y de los logros de los estudiantes; • revisiones periódicas de los programas (que incluyan miembros externos en la comisión de revisión); • retroalimentación frecuente de los agentes económicos y sociales y de los propios egresados; • participación de los estudiantes en las actividades de garantía de calidad. 1.3 Evaluación de los estudiantes Criterio: Los estudiantes deben ser evaluados utilizando criterios, normativas y procedimientos que se hayan publicado y que se apliquen de manera coherente. Directrices: La evaluación de los estudiantes es uno de los elementos más imp" .
+
+
+base:frag_ESG_Español_p18 a u:Fragmento ;
+  u:pagina 18 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "Además, se debería proporcionar a los estudiantes información clara sobre la estrategia de evaluación que está siendo utilizado en su programa, sobre los métodos de examen y evaluación a los que serán sometidos, sobre lo que se espera de ellos y sobre los criterios que se aplicarán para la evaluación de su actuación. 1.4 Garantía de calidad del personal docente Criterio: Las instituciones deben disponer de medios para garantizar que el profesorado está cualificado y es competente para ese trabajo. Estos medios deberían estar a disposición de aquellas personas que lleven a cabo revisiones externas. Directrices: Para muchos estudiantes, los profesores son el recurso de aprendizaje más importante. Es fundamental que los docentes tengan un conocimiento y comprensión completos de la materia que enseñan, que dispongan de las habilidades y experiencia para transmitir sus conocimientos, comprendan eficazmente a los estudiantes en una variedad de contextos de aprendizaje y que puedan obtener re" .
+
+
+base:frag_ESG_Español_p19 a u:Fragmento ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "deben controlar, revisar y mejorar, de manera rutinaria, la efectividad de los servicios de apoyo para sus estudiantes. 1.6 Sistemas de información Criterio: Las instituciones deben garantizar que recopilan, analizan y utilizan información pertinente para la gestión eficaz de sus programas de estudio y de otras actividades. Directrices: El conocimiento de sí misma de una institución es el punto de partida para una garantía de calidad eficaz. Es importante que las instituciones dispongan de los medios para recopilar y analizar información sobre sus propias actividades. Sin esta información no podrán saber si está funcionando bien y qué requiere su atención, ni conocerán los resultados de sus prácticas innovadoras. Los sistemas de información relacionados con la calidad, necesarios para instituciones individuales dependerán, en alguna medida, de circunstancias locales pero al menos deberán incluir los siguientes puntos: • progresión de los estudiantes y tasas de éxito; • empleabilidad de" .
+
+
+base:frag_ESG_Español_p20 a u:Fragmento ;
+  u:pagina 20 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "de vista y situación laboral de sus egresados y el perfil de la población actual de estudiantes. Esta información debe ser precisa, imparcial, objetiva y fácilmente accesible y no debe utilizarse, simplemente, como un ejercicio de marketing. La institución debe comprobar si satisface sus propias expectativas en términos de imparcialidad y objetividad. Parte 2: Criterios y directrices europeas para la garantía externa de calidad de la educación superior 2.1 Utilización de procedimientos de garantía interna de calidad Criterio: Los procedimientos de garantía externa de calidad deberían tener en cuenta la efectividad de los procesos de garantía interna de calidad descritos en la Parte 1 de los Criterios y Directrices Europeas. Directrices: Los criterios para la garantía interna de calidad incluidos en la Parte 1, proporcionan una base de gran valor para el proceso de garantía externa de calidad. Es importante que las políticas y procedimientos internos de las propias instituciones sean ev" .
+
+
+base:frag_ESG_Español_p21 a u:Fragmento ;
+  u:pagina 21 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Dado que los procesos de garantía externa de calidad planteen demandas a las instituciones implicadas, deberá llevarse a cabo una evaluación preliminar de su impacto para asegurar que los procedimientos que se van a adoptar son adecuados y que no interfieren con el trabajo cotidiano de las instituciones de educación superior. 2.3 Criterios para la toma de decisiones Criterio: Las decisiones formales adoptadas como resultado de una actividad de garantía externa de calidad, deben basarse en criterios explícitos publicados que se apliquen de manera coherente. Directrices: Las decisiones formales adoptadas por las agencias de garantía de calidad tienen un gran impacto en las instituciones y programas que se evalúan. En interés de la equidad y de la fiabilidad, las decisiones deben basarse en criterios publicados e interpretados de una manera consecuente. Las conclusiones deberían basarse en evidencias recogidas y las agencias deben disponer de medios para moderar esas conclusiones si fuera" .
+
+
+base:frag_ESG_Español_p22 a u:Fragmento ;
+  u:pagina 22 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "facilitar una evidencia adecuada que justifique los argumentos y conclusiones; • utilización de un modelo de revisión que incluya auto-evaluación/visita externa/borrador del informe/informe publicado/seguimiento; • reconocimiento de la importancia de las políticas institucionales de perfeccionamiento y mejora como elemento fundamental en la garantía de calidad. 2.5 Informes Criterio: Los informes deben publicarse y redactarse en un estilo claro y fácilmente accesible para los destinatarios. Las decisiones, opiniones o recomendaciones contenidas en los informes deben ser fácilmente localizables para los lectores. Directrices: Para asegurar el máximo beneficio de los procesos de garantía externa de calidad, es importante que los informes satisfagan las necesidades de los destinatarios. Los informes van a veces dirigidos a diferentes grupos de lectores y esto exige que se preste una cuidadosa atención a su estructura, contenido, estilo y tono. De manera general, los informes deberían estr" .
+
+
+base:frag_ESG_Español_p23 a u:Fragmento ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "identificadas como susceptibles de mejora sean abordadas de una manera rápida y que se impulsan mejoras contempladas. 2.7 Evaluaciones periódicas Criterio: La garantía externa de calidad de instituciones y/o programas debe llevarse a cabo de una manera cíclica. La duración del ciclo y de los procedimientos de evaluación que van a utilizarse debe definirse claramente y publicarse con antelación. Directrices: La garantía de calidad no es un proceso estático, sino dinámico. Debería ser algo continuo y no algo que se realiza “una vez en la vida”. No finaliza con la primera evaluación o con la conclusión del procedimiento de seguimiento formal. Tiene que renovarse de manera periódica. Las subsiguientes evaluaciones externas deben tener en cuenta los progresos realizados desde la evaluación precedente. Los procesos que vayan a utilizarse en las revisiones externas deberían ser definidos claramente por la agencia de garantía externa de calidad y sus demandas a las instituciones no deben super" .
+
+
+base:frag_ESG_Español_p24 a u:Fragmento ;
+  u:pagina 24 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Introducción a la Parte 3: Criterios y directrices europeas para las agencias de garantía externa de calidad El crecimiento de las agencias europeas de garantía externa de calidad ha sido imparable desde principios de los años 90. Al mismo tiempo, la cooperación e intercambio de las mejores prácticas entre agencias ha sido un elemento integrado en su desarrollo. Ya en 1994/95 los llamados European Pilot Projects, iniciados por la Comisión Europea, condujeron al reconocimiento mutuo por parte de las agencias de la metodología básica de la garantía de calidad: agencias independientes, auto-evaluaciones, visitas externas e informes públicos, dieron como resultado en 1998 la EU Council Recommendation sobre garantía de calidad en la educación superior. La creación de ENQA en el año 2000 supuso la formalización natural de este avance en la cooperación y esta asociación ha sido capaz de seguir trabajando y avanzando sobre la base de consenso que se concretó durante los años 90. Los criterios " .
+
+
+base:frag_ESG_Español_p25 a u:Fragmento ;
+  u:pagina 25 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Parte 3: Criterios y directrices europeas para las agencias de garantía externa de calidad 3.1 Utilización de procedimientos de garantía externa de calidad en la educación superior Criterio: La garantía externa de calidad de las agencias debe contemplar la existencia y efectividad de los procesos de garantía externa de calidad descritos en la Parte 2 de estos Criterios y Directrices Europeas. Directrices: Los criterios para la garantía externa de calidad incluidos en la Parte 2 proporcionan una base de gran valor para el proceso de garantía externa de calidad. Los criterios reflejan las mejores prácticas y experiencias obtenidas a través del desarrollo de la garantía de calidad externa en Europa desde principios de los años 90. Por tanto, es muy importante que estos criterios estén integrados en los procesos desarrollados por las agencias de garantía externa de calidad en las instituciones de educación superior. Los criterios para la garantía externa de calidad deben constituir, junto " .
+
+
+base:frag_ESG_Español_p26 a u:Fragmento ;
+  u:pagina 26 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "3.4 Recursos Criterio: Las agencias deben disponer de recursos adecuados y proporcionales, tanto humanos como financieros, que les permitan organizarse y llevar a cabo sus procesos de garantía externa de calidad de una manera eficaz y eficiente, con los medios adecuados para el desarrollo de sus procesos y procedimientos. 3.5 Declaración de la misión Criterio: Las agencias deberían tener unas metas y unos objetivos claros y explícitos para su trabajo, que deben estar incluidos en una declaración de misión públicamente disponible. Directrices: Esta declaración debe describir las metas y objetivos de los procesos de las agencias de garantía de calidad, el reparto de trabajo con los agentes implicados en la educación superior pertinentes, especialmente con las instituciones de educación superior, y el contexto cultural e histórico de su trabajo. La declaración debe dejar claro que los procesos de garantía externa de calidad constituyen una de las actividades principales de la agencia y qu" .
+
+
+base:frag_ESG_Español_p27 a u:Fragmento ;
+  u:pagina 27 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "de calidad, los resultados finales de los procesos de la garantía de calidad continúan siendo responsabilidad de la agencia. 3.7 Criterios y procesos de garantía externa de calidad utilizados por las agencias Criterio: Los procesos, criterios y procedimientos utilizados por las agencias deben ser definidas previamente y estar públicamente disponibles. Normalmente estos procedimientos deberían incluir: • una auto-evaluación o procedimiento equivalente por parte del sujeto del proceso de garantía de calidad; • una evaluación externa realizada por un grupo de expertos que incluirá, cuando sea adecuado, uno o varios estudiantes y visitas in situ a criterio de la agencia; • la publicación de un informe que incluya las decisiones adoptadas, recomendaciones u otros resultados formales; • un procedimiento de seguimiento para revisar las acciones realizadas por el sujeto del proceso de garantía de calidad a la luz de las recomendaciones incluidas en el informe. Directrices: Las agencias pueden " .
+
+
+base:frag_ESG_Español_p28 a u:Fragmento ;
+  u:pagina 28 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Estos procedimientos deben incluir lo siguiente: 1. Una política de garantía de calidad de la agencia hecha pública y disponible en su sitio Web; 2. Documentación que demuestre que: • los procesos y resultados de la agencia reflejan su misión y sus metas respecto a la garantía de calidad; • la agencia dispone y hace cumplir un mecanismo de ausencia de conflicto de intereses en el trabajo de sus expertos externos; • la agencia dispone de mecanismos fiables que aseguran la calidad de las actividades y materiales elaborados por subcontratistas, si se da el caso de que alguno o todos los elementos de su procedimiento de garantía de calidad se subcontraten a otras partes; • la agencia dispone de procedimientos de garantía interna de calidad que incluyen un mecanismo de retroalimentación interno (p. ej. medios para obtener retroalimentación de su propio personal y del consejo/junta directiva); un mecanismo de reflexión interna (p. ej. medios para reaccionar a las recomendaciones de mejora in" .
+
+
+base:frag_ESG_Español_p29 a u:Fragmento ;
+  u:pagina 29 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "3 Sistema de revisión por pares para las Agencias de Garantía de Calidad En Berlín los ministros hicieron un llamamiento “a ENQA, a través de sus miembros, en cooperación con EUA, EURASHE y ESIB, para explorar la forma de asegurar un sistema adecuado de revisión por pares para la garantía de calidad y/o la acreditación de agencias u organismos”. ENQA y sus socios han respondido a esta petición llegando a la conclusión, a partir de la interpretación del mandato, de que un sistema de revisión por pares de las agencias debería incluir no sólo el proceso de revisión por pares en si mismo, sino también una consideración meticulosa de los criterios de calidad sobre los que se podría llevar a cabo una revisión. Además, se ha acordado que el proceso de revisión por pares de las agencias debe interpretarse esencialmente como el medio para lograr el objetivo de transparencia, visibilidad y comparabilidad de la calidad de las agencias. Por tanto, este informe tiene como propuesta fundamental la c" .
+
+
+base:frag_ESG_Español_p30 a u:Fragmento ;
+  u:pagina 30 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "Contexto internacional Europa no es la única área en la que tienen lugar desarrollos dinámicos en el campo de la garantía de calidad de la educación superior. Este apartado describe algunas de las experiencias e iniciativas de organizaciones tales como la International Network for Quality Assurance Agencies in Higher Education (INQAAHE), la International Association of University Presidents (IAUP), el Council for Higher Education Accreditation in the United States (CHEA), la OCDE y la UNESCO. El trabajo de estas organizaciones en relación con la garantía de calidad, ha sido muy útil para la elaboración de este informe. Aunque estas experiencias internacionales no se han incluido de manera directa en las recomendaciones específicas, se presentan más abajo algunos elementos internacionales clave relacionándolos con las recomendaciones de este capítulo. La identificación de la buena calidad y de las buenas prácticas de las agencias de garantía externa de calidad, también ha estado en la a" .
+
+
+base:frag_ESG_Español_p31 a u:Fragmento ;
+  u:pagina 31 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "internacionalización de la educación superior. Las directrices propuestas por OCDE-UNESCO recomiendan que las agencias de garantía externa de calidad aseguren que sus planes de garantía de calidad incluyen instituciones extranjeras con finalidades lucrativas, así como la impartición de educación a distancia u otras modalidades no tradicionales de docencia. El proceso de elaboración de las directrices también reconoce, sin embargo, que la inclusión de instituciones extranjeras en el ámbito de actuación de las agencias nacionales requerirá, en muchos casos, cambios en la legislación nacional y en los procedimientos administrativos. Este informe reconoce la importancia e implicaciones que tiene la internacionalización para la garantía de calidad de las instituciones de educación superior. Aunque se ha considerado que es demasiado pronto para incluir una referencia a la misma en los criterios europeos sugeridos para la garantía externa de calidad, la propuesta de creación de un Registro Eu" .
+
+
+base:frag_ESG_Español_p32 a u:Fragmento ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "como consecuencia inmediata, únicamente a los miembros actuales o potenciales de ENQA. Al contrario, también debería permitirse a las agencias de de ámbito no europeo, pero que están funcionando en ella, o las agencias europeas no reconocidas nacionalmente, que puedan optar por una revisión que evalúe su cumplimiento de los criterios europeos. Los principios generales que se proponen para las revisiones cíclicas, son los siguientes: • Las agencias de garantía externa de calidad establecidas y reconocidas oficialmente como agencias nacionales por un estado signatario de Bolonia deben ser revisadas a nivel nacional respetando, de esta manera, el principio de subsidiaridad – incluso si también funcionan más allá de las fronteras nacionales. Estas agencias nacionales europeas pueden, por otro lado, optar por las revisiones organizadas por ENQA, en lugar de por las revisiones internas de carácter nacional. Las revisiones de las agencias deben incluír una evaluación para comprobar si cumplen" .
+
+
+base:frag_ESG_Español_p33 a u:Fragmento ;
+  u:pagina 33 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "responsabilidad de las autoridades nacionales o de los directivos de la agencia y, por supuesto, de la propia agencia. ENQA desempeñará un papel en el seguimiento solo en el caso de las agencias miembros y cuando deba certificar el grado en el que la agencia miembro satisface los criterios europeos para las agencias de garantía externa de calidad de acuerdo con la revisión. Las regulaciones de ENQA especificarán las consecuencias si éste no es el caso. En el Anexo de este informe se incluye un resumen ilustrativo de un ejemplo de proceso de revisión externa de una agencia. Registro de agencias de garantía externa de calidad en funcionamiento en Europa Previamente a la reunión ministerial de Berlín en 2003, y en cooperación con los principales agentes implicados en educación superior, ENQA se comprometió a la creación de un Registro Europeo de Agencias de Garantía de Calidad, que incluyese a las agencias públicas, privadas o de carácter temático que operan en Europa o que tengan planead" .
+
+
+base:frag_ESG_Español_p34 a u:Fragmento ;
+  u:pagina 34 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "funcionan de una manera estrictamente nacional o más allá de sus fronteras. De esta forma, el registro podría tener la siguiente estructura: Sección 1. Agencias con revisión por pares, divididas en las siguientes categorías: • Agencias nacionales europeas que han sido revisadas y cumplen todos los criterios europeos para las agencias de garantía externa de calidad. • Agencias nacionales europeas que han sido revisadas, pero no cumplen todos los criterios europeos para las agencias de garantía externa de calidad. • Agencias no nacionales y no europeas que operan en Europa, que han sido revisadas y cumplen todos los criterios europeos para las agencias de garantía externa de calidad. • Agencias no nacionales y no europeas que operan en Europa, que han sido revisadas pero no cumplen todos los criterios europeos para las agencias de garantía externa de calidad. Sección 2. Agencias no revisadas • Agencias nacionales europeas, agencias no nacionales y no europeas que no han sido revisadas y " .
+
+
+base:frag_ESG_Español_p35 a u:Fragmento ;
+  u:pagina 35 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "El comité será un grupo ágil, no burocrático que contará con nueve miembros designados por EURASHE, ESIB, EUA, ENQA y otras organizaciones que representen a los empleadores, sindicatos y organizaciones profesionales europeas, además de representantes de los gobiernos. Estos miembros actuarán a título individual y no como representantes con un mandato de las organizaciones que los designen. ENQA desempeñará las tareas de secretaria para el comité que se reunirá al menos dos veces al año. El Comité del Registro Europeo tendrá como una de sus primeras tareas la formalización de la propiedad del registro. Otra tarea inmediata del Comité del Registro Europeo será el establecimiento de un sistema independiente y fiable de cara al procedimiento de apelaciones con el fin de asegurar los derechos de aquellos que hayan sido rechazados o que no pueden aceptar su posición dentro del registro. Este sistema de apelaciones debería ser un elemento integrante del protocolo que ha de elaborar el comité " .
+
+
+base:frag_ESG_Español_p36 a u:Fragmento ;
+  u:pagina 36 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "4 Perspectivas y Retos Futuros Este informe contiene propuestas y recomendaciones que han sido desarrolladas y aprobadas por los protagonistas clave a nivel europeo en el ámbito de la garantía de calidad en la educación superior. La propia existencia de este informe es un testimonio del éxito logrado al conseguir un entendimiento colectivo en un campo en el que éste puede ser difícil dado los diferentes intereses en juego. Las propuestas ofrecen aumento mayor transparencia, seguridad e información sobre la educación superior a los estudiantes y a la sociedad en general. También ofrecen a las instituciones de educación superior reconocimiento y credibilidad y oportunidades para demostrar su compromiso con unos niveles elevados de calidad en un entorno cada vez más competitivo y escéptico. Para las agencias de garantía de calidad, estas propuestas mejoran su propia cualificación y credibilidad y las conectan, de manera más productiva y más ampliamente a la comunidad profesional europea. " .
+
+
+base:frag_ESG_Español_p37 a u:Fragmento ;
+  u:pagina 37 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "que todos los participantes, y en especial las agencias, se observen a si mismos muy detenidamente y que midan sus prácticas de acuerdo con las expectativas europeas. El nuevo procedimiento de evaluaciones cíclicas proporcionará un enfoque muy oportuno para este propósito. Sólo se producirá una aceptación general de los criterios cuando puedan verse los beneficios que se derivan de su adopción. El EEES funciona sobre la base de la responsabilidad nacional individual para la educación superior y esto implica autonomía en materia de garantía externa de calidad. Por este motivo, este informe no tiene ni puede tener un carácter regulador sino que plantea sus recomendaciones y propuestas dentro de un espíritu de respeto mutuo entre profesionales, expertos provenientes de las instituciones de educación superior -incluidos los estudiantes-, ministerios y agencias de garantía de calidad. Puede que algunos estados signatarios quieran incluír los criterios y el proceso de revisión en sus marcos " .
+
+
+base:frag_ESG_Español_p38 a u:Fragmento ;
+  u:pagina 38 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Anexo: Revisión cíclica de las agencias de garantía de calidad – un modelo (4) teórico El modelo que se presenta en este anexo es un esbozo indicativo para el proceso de revisión externa de una agencia de garantía calidad externa. Se presenta como ejemplo de un proceso de confianza adaptado para identificar el cumplimiento de los criterios europeos para las agencias de garantía externa de calidad. Debe tenerse en cuenta, sin embargo, que su finalidad es instructiva e ilustrativa. Por consiguiente, el nivel de detalle es alto y hasta, posiblemente, más alto de lo que será percibido como necesario en las revisiones por pares de cada agencia. De esto se deduce que en modo alguno debe considerarse el proceso aquí presentado como una norma. Más aún, debería notarse que en el ejemplo que se presenta el término “evaluación” es aplicado para abarcar objetivos y procesos. Términos tales como “acreditación” o “auditoría” podrían aplicarse también. El proceso incluye los siguientes elementos: • f" .
+
+
+base:frag_ESG_Español_p39 a u:Fragmento ;
+  u:pagina 39 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "• estructura de los títulos; • estructura institucional; • procedimientos y partes implicadas en el establecimiento de nuevas áreas, programas e instituciones; • otros procedimientos de garantía de calidad; • estatus de las instituciones de educación superior en relación con el gobierno. 2.1.2 Un informe breve sobre la historia de la agencia y sobre la evaluación de la educación superior en general: • declaración de la misión; • creación y status de la agencia (gobierno, instituciones de educación superior, otros); • descripción del marco legal y de otras regulaciones formales que afecten a la agencia (p. ej. leyes parlamentarias, ordenes o decretos ministeriales); • financiación de la agencia; • derecho a iniciar evaluaciones; • organización interna de la agencia, incluidos los procedimientos para el nombramiento y composición de la junta directiva / consejo; • otras responsabilidades de la agencia además de la evaluación de la educación superior; • actividades internacionales de la a" .
+
+
+base:frag_ESG_Español_p40 a u:Fragmento ;
+  u:pagina 40 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "2.3 Método de evaluación aplicado por la agencia 2.3.1 Información previa Es preciso que exista un informe sobre la planificación global de una evaluación y sobre otros temas fundamentales para que sea posible determinar si la agencia está trabajando basándose en procedimientos metodológicos transparentes. Este informe debería incluir: • los procedimientos para las sesiones informativas y para la comunicación con las instituciones evaluadas; • la estrategia de la agencia para la participación de los estudiantes; • los procedimientos relacionados con el establecimiento de los términos del plan de referencia/proyecto de las evaluaciones individuales; • la/s referencia/s para la evaluación (criterios predefinidos, documentos legales, “benchmarking” de áreas, criterios profesionales, los objetivos declarados de la institución evaluada); • el grado en el que los elementos metodológicos se modifican para revisiones específicas. 2.3.2 Elementos de metodología Un informe que proporcione eviden" .
+
+
+base:frag_ESG_Español_p41 a u:Fragmento ;
+  u:pagina 41 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "• métodos de información y formación de los expertos; • reuniones entre expertos: número, alcance y cronograma en relación con el proceso de evaluación global; • división del trabajo entre agencia y expertos; • papel del personal de la agencia en las evaluaciones; • identificación y nombramiento de los miembros del personal de la agencia que va a ser responsable de la evaluación. 2.3.4 Documentación Se necesitan varios informes sobre los procedimientos de la agencia para recopilar documentación con objeto de determinar los procedimientos relacionados con la auto- evaluación de la agencia y las visitas externas: 2.3.4.1 Un informe de los procedimientos relacionados con la auto-evaluación Este informe debería incluir: • especificación del contenido en las directrices proporcionadas por la agencia; • consejo sobre procedimientos facilitado por la agencia; • requisitos para la composición de los equipos de auto-evaluación, incluido el papel de los estudiantes; • formación/información de lo" .
+
+
+base:frag_ESG_Español_p42 a u:Fragmento ;
+  u:pagina 42 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "documentación, hasta qué punto el sistema de apelaciones está basado en un proceso mediante el que la agencia pueda facilitar a los que están siendo evaluados los medios para comentar y cuestionar los resultados de la misma. Básicamente, la agencia debe proporcionar evidencias de que el sistema de apelaciones proporciona a los que están siendo evaluados una oportunidad para expresar sus opiniones sobre los resultados de la evaluación. 2.4 Documentación adicional Esta documentación adicional debería facilitar un informe sobre la utilización de encuestas, material estadístico u otros tipos de documentación no mencionada en otro lugar. Este material debería ser público. 2.5 Procedimientos para un sistema de calidad para las agencias La agencia debe documentar que dispone de mecanismos de garantía interna de calidad que están conformes con los estipulados en los criterios europeos para las agencias de garantía externa de calidad. 2.6 Reflexiones finales Es necesario un análisis de las debi" .
+
+
+base:frag_ESG_Español_p43 a u:Fragmento ;
+  u:pagina 43 ;
+  u:fuenteDocumento base:doc_ESG_Español ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Se recomienda asimismo que la comisión sea complementada con una persona que, con capacidad independiente de la agencia, actuaría como secretario. Las designaciones de los expertos pueden provenir de las agencias, partes implicadas o autoridades locales pero, para asegurar que la evaluación es creíble y digna de confianza, es esencial que la tarea de nombramiento de los expertos sea encomendada a una tercera parte externa a la agencia implicada que podría ser, por ejemplo, ENQA o una agencia no implicada en el proceso. La agencia sometida a revisión debe tener la posibilidad, sin embargo, de dar su opinión sobre la composición final de la comisión. 3.2 Visita externa Para la visita externa debe estar disponible un protocolo en la línea del que se detalla a continuación: Se recomienda que la visita tenga una duración de dos-tres días, incluidas la preparación y el seguimiento, dependiendo del conocimiento previo que la comisión de revisión externa tenga sobre la agencia en evaluación y " .
+

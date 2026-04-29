@@ -1,0 +1,591 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_BOE-A-2023-7500-consolidado a u:Documento ;
+  u:titulo "BOE-A-2023-7500-consolidado" .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_BOE-A-2023-7500-consolidado_profesorado_de_los_cuerpos_docentes_universitarios a u:Figura ;
+  u:nombre "profesorado de los cuerpos docentes universitarios" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_centrarse_en_guiar_la_reflexion a u:Figura ;
+  u:nombre "profesorado centrarse en guiar la reflexión" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_debido_a_las_bajas_tasas_de_reposicion a u:Figura ;
+  u:nombre "profesorado debido a las bajas tasas de reposición" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_laboral a u:Figura ;
+  u:nombre "profesorado laboral" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_universitario a u:Figura ;
+  u:nombre "profesorado universitario" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_y_de_las_autoridades_universitarias a u:Figura ;
+  u:nombre "profesorado y de las autoridades universitarias" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_universitario_sera_requisito_necesario_para_el_desempeno_de_organos_ a u:Figura ;
+  u:nombre "profesorado universitario será requisito necesario para el desempeño de órganos unipersonales de gobierno" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_asociado a u:Figura ;
+  u:nombre "profesorado asociado" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_permanente_laboral_y_asegurando_la_presencia_de_las_demas_figuras_do a u:Figura ;
+  u:nombre "Profesorado Permanente Laboral y asegurando la presencia de las demás figuras docentes no permanentes" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_tanto_a_traves_de_los_anteriores_como_a_traves_de_los_organos a u:Figura ;
+  u:nombre "profesorado tanto a través de los anteriores como a través de los órganos" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_laboral_permanente_y_al_personal_tecnico a u:Figura ;
+  u:nombre "profesorado laboral permanente y al personal técnico" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_con_contrato_laboral_temporal_no_podra_superar_el a u:Figura ;
+  u:nombre "profesorado con contrato laboral temporal no podrá superar el" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_de_los_cuerpos_docentes_universitarios_articulo a u:Figura ;
+  u:nombre "profesorado de los cuerpos docentes universitarios Artículo" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_y_personal_investigador_de_igual_o_superior_categoria_a_la_plaza_con a u:Figura ;
+  u:nombre "profesorado y personal investigador de igual o superior categoría a la plaza convocada" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_de_las_universidades_ejercera_sus_funciones_preferentemente_en_regim a u:Figura ;
+  u:nombre "profesorado de las universidades ejercerá sus funciones preferentemente en régimen de dedicación a tiempo completo" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_funcionario a u:Figura ;
+  u:nombre "profesorado funcionario" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_permanente_una_vez_finalizado_el_contrato a u:Figura ;
+  u:nombre "profesorado permanente una vez finalizado el contrato" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_asociado_podra_desarrollar_tareas_docentes_hasta_un_maximo_de a u:Figura ;
+  u:nombre "profesorado asociado podrá desarrollar tareas docentes hasta un máximo de" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_permanente_laboral a u:Figura ;
+  u:nombre "Profesorado Permanente Laboral" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_de_la_union_europea_articulo a u:Figura ;
+  u:nombre "profesorado de la Unión Europea Artículo" .
+
+base:fig_BOE-A-2023-7500-consolidado_profesorado_privadas_doctor a u:Figura ;
+  u:nombre "PROFESORADO PRIVADAS DOCTOR" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_indice ;
+  u:textoFuente "LEGISLACIÓN CONSOLIDADA Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Jefatura del Estado «BOE» núm. 70, de 23 de marzo de 2023 Referencia: BOE-A-2023-7500 ÍNDICE Preámbulo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 TÍTULO PRELIMINAR. Disposiciones generales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Artículo 1. Objeto. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 TÍTULO I. Funciones del sistema universitario y autonomía de las universidades . . . . . . . . . . . . . . . . . . . . . . 15 Artículo 2. Funciones del sistema universitario.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Artículo 3. Autonomía de las universidades. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 TÍTU" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 13. Desarrollo de proyectos para la investigación, creación y transferencia e intercambio del conocimiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 TÍTULO V. Cooperación, coordinación y participación en el sistema universitario . . . . . . . . . . . . . . . . . . . . . . 23 Artículo 14. Cooperación y coordinación en el sistema universitario.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 Artículo 15. La Conferencia General de Política Universitaria.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 Artículo 16. El Consejo de Universidades. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 Artículo 17. El Consejo de Estudiantes Universitario del Estado. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 TÍTULO VI. Universidad, sociedad y cultura. . . . . . ." .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 38. Régimen jurídico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 Artículo 39. Rendición de cuentas, transparencia e integridad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 Artículo 40. Centros y estructuras. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 Artículo 41. Creación, modificación y supresión de centros y estructuras.. . . . . . . . . . . . . . . . . . . . . . . . 34 Artículo 42. Adscripción de centros.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34 Artículo 43. Unidades básicas.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34 CAPÍTULO II. Gobernanza de las universidades públicas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 Artículo 44. Normas generales " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 66. Movilidad temporal del personal docente e investigador.. . . . . . . . . . . . . . . . . . . . . . . . . . . 47 Artículo 67. Formación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Sección 1.ª El profesorado de los cuerpos docentes universitarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Artículo 68. Cuerpos docentes universitarios.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Artículo 69. Acreditación de los cuerpos docentes universitarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios asistenciales y de salud pública de instituciones sanitarias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49 Artículo 71. Concursos para el acceso a plazas de los cuerpos docentes universitarios.. ." .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 92. Provisión de puestos de trabajo.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58 Artículo 93. Retribuciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58 Artículo 94. Formación y movilidad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58 TÍTULO X. Régimen específico de las universidades privadas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59 Artículo 95. Régimen jurídico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59 Artículo 96. Creación de universidades y centros universitarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59 Artículo 97. Centros y estructuras. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60 Artícul" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66 Disposición transitoria primera. Aprobación de los Estatutos, constitución de órganos y de cargos unipersonales.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66 Disposición transitoria segunda. Implantación de sistemas de contabilidad analítica o equivalente. . . . . . . . . . 66 Disposición transitoria tercera. Adaptación de las acreditaciones vigentes. . . . . . . . . . . . . . . . . . . . . . . . . 66 Disposición transitoria cuarta. Adaptación de las nuevas acreditaciones.. . . . . . . . . . . . . . . . . . . . . . . . . . 67 Disposición transitoria quinta. Adaptación de determinadas figuras vigentes de personal docente e investigador laboral.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ." .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final séptima. Naturaleza de ley orgánica.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 Disposición final octava. Habilitación normativa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 Disposición final novena. Bases reguladoras del régimen de conciertos entre las universidades e instituciones sanitarias.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 Disposición final décima. Estatuto del personal docente e investigador.. . . . . . . . . . . . . . . . . . . . . . . . . . . 73 Disposición final décima primera. Reconocimiento de efectos civiles de determinados títulos académicos. . . . . 73 Disposición final décima segunda. Entrada en vigor.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74 Página 7" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TEXTO CONSOLIDADO Última modificación: 02 de agosto de 2024 FELIPE VI REY DE ESPAÑA A todos los que la presente vieren y entendieren. Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley orgánica: PREÁMBULO I La Universidad es una institución fundamental en la sociedad del conocimiento en la que vivimos. De la Universidad, y del sistema educativo en su conjunto, depende la educación avanzada de las personas, y lo que ello conlleva con relación a la igualdad de oportunidades para todas y el desarrollo económico, científico y tecnológico de nuestra sociedad en momentos de emergencia climática. Además, la comunidad universitaria ha constituido a través de la historia un espacio de libertad intelectual, de espíritu crítico, de tolerancia, de diálogo, de debate, de afirmación de valores éticos y humanistas, de aprendizaje del respeto al medio ambiente y de preservación y creación cultural, abierto a la diver" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA del saber, para entablar una relación de diálogo y colaboración, a través del conocimiento, el pensamiento crítico y la investigación, con el conjunto de la sociedad, con entidades, empresas y agentes sociales. Este diálogo y colaboración contribuyen a la construcción de una sociedad democrática avanzada en un marco normativo caracterizado por un Espacio Europeo de Educación Superior cada vez más presente y expansivo, y por la autonomía universitaria y el desarrollo competencial del Estado de las autonomías que ha ido enriqueciendo y diversificando nuestro sistema universitario. Las universidades son, hoy más que nunca, no sólo depositarias del conocimiento, sino productoras de dicho conocimiento. Docencia, investigación y capacidad de compartir y transferir ese conocimiento constituyen funciones centrales de su actividad. En efecto, la Universidad del siglo XXI no puede replegarse en una torre de marfil, sino que tiene que continuar l" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Conocimiento que cuenta con una base idiomática común de cerca de 600 millones de personas. Todo ello ha conllevado y seguirá conllevando adaptaciones estructurales e institucionales en la oferta académica, la organización de las enseñanzas, el reconocimiento de las titulaciones, el aseguramiento de la calidad conforme a criterios compartidos o en el refuerzo de la cooperación interuniversitaria internacional. La Estrategia Europea más reciente al respecto, marca objetivos y ritmos muy concretos en esa línea. En este sentido conviene destacar que, si bien el Estado español es el primer destino del estudiantado del programa Erasmus en los últimos años y uno de los principales emisores de estudiantes de este programa, la cifra del estudiantado extranjero en España es, en términos relativos, inferior a la de muchos países de nuestro entorno europeo. Por otra parte, apenas el tres por ciento del personal docente e investigador universitari" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Ciencia Abierta, que asuma ese conocimiento como un bien común, accesible y no mercantilizado, una Ciencia Ciudadana en la que se construya conocimiento de manera compartida, asumiendo la complejidad de la investigación de manera colectiva. Por ello, esta ley orgánica promueve la labor conjunta con la sociedad de creación y difusión del conocimiento, fomentando la Ciencia Abierta y Ciudadana mediante el acceso a publicaciones, datos, códigos y metodologías que garanticen la comunicación de la investigación. Las universidades han venido siendo esencialmente espacios de formación para los jóvenes. Se debe ahora ir más allá, reforzando la capacidad de servicio al conjunto de la sociedad para lograr una Universidad para todas las edades; un lugar en el que la formación a lo largo de la vida para cualquier persona y colectivo sea un objetivo básico; una Universidad en la que la experiencia de una docencia presencial y compartida sea un valo" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA efectivas, por la salud emocional del estudiantado, promoviendo asimismo su participación en el gobierno de la universidad en sus distintas unidades y en la propia gestión de servicios. Adicionalmente, y en defensa de los derechos del estudiantado, la ley permite avanzar hacia el horizonte de la gratuidad de la educación superior universitaria pública, mediante la reducción de precios públicos, así como la disminución de su disparidad entre Comunidades Autónomas y la concepción de la beca como un derecho subjetivo vinculado a la situación socioeconómica de las personas solicitantes. Asimismo, la ley incorpora modificaciones sustanciales en las disposiciones relativas al estudiantado. Por una parte, el estatuto del estudiantado se incorpora a esta norma, consolidando y ampliando un catálogo de derechos y deberes que hasta ahora venía recogido en una norma reglamentaria, y añadiendo el paro académico como derecho del estudiantado. Por ot" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA eficiente, la Ley consagra la transparencia y la rendición de cuentas de las universidades públicas, en correlación con el desarrollo y protección de su autonomía. Como parte del sector público institucional, el binomio autonomía-transparencia deberá regir toda su actividad, especialmente en lo relacionado con su régimen económico y financiero y la selección de su personal. Así, en este último caso, se refuerza la objetividad en el acceso a los cuerpos docentes y a las modalidades de contratación laboral estableciendo que la mayoría de los miembros de las comisiones de selección no pertenezca a la universidad convocante y que sean elegidos mayoritariamente mediante sorteo. En lo referente a las estructuras internas y la gobernanza de la Universidad, la ley refuerza la autonomía universitaria en el marco de las bases comunes del sistema universitario, la necesaria conexión y colaboración con el entorno en el que se inserta la universida" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Por su parte, la disposición derogatoria deja sin vigencia expresamente, para mayor seguridad jurídica, tres normas de rango legal: la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades; la Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, salvo sus disposiciones finales segunda y cuarta, y el Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo. Las disposiciones finales, además de las determinaciones típicas, incluyen la modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, con la finalidad de autorizar la compatibilidad para el desempeño de un puesto de trabajo en la esfera docente como Profesor universitario asociado en régimen de dedicación no superior a la de tiempo parcial; la Ley 14/1986, de 25 de abril, " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Incompatibilidades del personal al servicio de las Administraciones Públicas; la disposición final segunda de modificación de la Ley 14/1986, de 25 de abril, General de Sanidad; la disposición final tercera de modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social; la disposición final cuarta de modificación de la Ley 33/2011, de 4 de octubre, General de Salud Pública, y la disposición final quinta de modificación de Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización, que se incardinan en las competencias expresadas en las leyes objeto de modificación. TÍTULO PRELIMINAR Disposiciones generales Artículo 1. Objeto. 1. Constituye el objeto de esta ley orgánica la regulación del sistema universitario, así como de los mecanismos de coordinación, cooperación y colaboración entre las Administraciones Públicas con competencia" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA h) La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos. i) El fomento de la participación de la comunidad universitaria y de la ciudadanía en actividades promovidas por entidades de voluntariado y del tercer sector que se encuentren en línea con los principios y valores del sistema universitario. j) Las demás funciones que se les atribuyan legalmente. 3. El ejercicio de las anteriores funciones tendrá como referente los derechos humanos y fundamentales, la memoria democrática, el fomento de la equidad e igualdad, el impulso de la sostenibilidad, la lucha contra el cambio climático y los valores que se desprenden de los Objetivos de Desarrollo Sostenible. Artículo 3. Autonomía de las universidades. 1. Las universidades están dotadas de personalidad jurídica y desarrollan sus funciones en régimen de autonomía en virtud del derecho fundamental reconocido en el artículo 27.10 de la Constitución" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p17 a u:Fragmento ;
+  u:pagina 17 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA q) El establecimiento de relaciones con otras universidades, instituciones, organismos, Corporaciones de Derecho Público, Administraciones Públicas o empresas y entidades locales, nacionales e internacionales, con el objeto de desarrollar algunas de las funciones que le son propias a la Universidad. r) El desarrollo de las normas de convivencia y de los mecanismos de mediación para la solución alternativa de los conflictos en el ámbito universitario. s) Cualquier otra competencia o actuación necesaria para el adecuado cumplimiento de las funciones estipuladas en el artículo 2. 3. La autonomía universitaria garantiza la libertad de cátedra del profesorado, que se manifiesta en la libertad en la docencia, la investigación y el estudio. 4. Para el desarrollo efectivo de la autonomía universitaria, todas las Administraciones Públicas con competencias en la materia deberán asegurar a las universidades públicas su suficiencia y estabilidad f" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p18 a u:Fragmento ;
+  u:pagina 18 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. La promoción y el aseguramiento de dicha calidad es responsabilidad compartida por las universidades, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia. El aseguramiento de la calidad se hará efectivo en las condiciones y mediante los procedimientos de evaluación, certificación y acreditación que establezca el Gobierno, mediante real decreto, previo informe de la Conferencia General de Política Universitaria. 3. Las universidades garantizarán la calidad académica de las actividades de sus centros, a través de los sistemas internos de garantía de calidad. 4. Las funciones de acreditación y evaluación del profesorado universitario, de acreditación institucional, de evaluación de titulaciones universitarias, de seguimiento de resultados e informe en el ámbito universitario, y de cualquier otra que les atribuyan las leyes estatales y autonómicas, corresponden a la Agencia Nacional de Evaluación " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p19 a u:Fragmento ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Los títulos propios también podrán establecerse conjuntamente entre universidades y la Administración Pública, con la finalidad de orientar su contenido a las características y necesidades específicas de determinados colectivos. 7. La docencia y la formación universitarias forman parte del conjunto del sistema educativo. Las Administraciones Públicas, de acuerdo con sus competencias, garantizarán la interrelación entre todas las etapas que conforman dicho sistema especialmente desde la perspectiva de la formación a lo largo de la vida. Artículo 7. Los títulos universitarios. 1. Las universidades impartirán enseñanzas conducentes a la obtención de títulos universitarios oficiales, con validez y eficacia en todo el Estado, y podrán impartir enseñanzas conducentes a la obtención de títulos propios, incluidos los de formación a lo largo de la vida, en los términos establecidos reglamentariamente. 2. Todos los títulos universitarios deberán" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p20 a u:Fragmento ;
+  u:pagina 20 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a la especialización académica o profesional, o bien encaminada a la iniciación en tareas de investigación. 4. Los estudios de Doctorado tienen como finalidad la adquisición de las competencias y las habilidades concernientes a la investigación dentro de un ámbito del conocimiento científico, técnico, humanístico, artístico o cultural. 5. Las prácticas académicas externas en los estudios de Grado y Máster Universitario constituyen una actividad de naturaleza plenamente formativa cuya finalidad es la de complementar la formación académica. 6. Las directrices generales para el diseño de los planes de estudio en las enseñanzas de Grado y Máster Universitario, incluyendo el número de créditos del Sistema Europeo de Transferencia de Créditos (ECTS, en sus siglas en inglés) que los conforman, serán establecidas reglamentariamente por el Gobierno. 7. Los estudios de Doctorado se organizarán en la forma que determinen los Estatutos o normas de" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p21 a u:Fragmento ;
+  u:pagina 21 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TÍTULO IV Investigación y transferencia e intercambio del conocimiento e innovación Artículo 11. Normas generales. 1. La investigación es una de las funciones fundamentales de las universidades. 2. La investigación, al igual que la docencia, es un derecho y un deber del personal docente e investigador. Por ello, el personal docente e investigador podrá desarrollarlas con intensidades distintas a lo largo de su trayectoria académica, sin perjuicio de las normas establecidas en cada universidad. 3. La investigación universitaria deberá abarcar todos los ámbitos de conocimiento, ya sean de tipo científico, tecnológico, humanístico, artístico o cultural. 4. Las universidades impulsarán estructuras de investigación y de transferencia e intercambio del conocimiento e innovación que faciliten la interdisciplinariedad y multidisciplinariedad. De igual modo, la investigación universitaria podrá desarrollarse juntamente con otros organismos o Ad" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p22 a u:Fragmento ;
+  u:pagina 22 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA promover la difusión de la Ciencia Abierta en la comunidad universitaria y en el conjunto de la sociedad. 8. Las agencias de calidad estatal y autonómicas incluirán entre sus criterios y requisitos de evaluación la accesibilidad en abierto de los resultados científicos del personal docente e investigador. 9. Las agencias de calidad utilizarán los repositorios institucionales como forma de acceso a la documentación, para garantizar la agilidad de los procedimientos de evaluación. 10. Se fomentará la Ciencia Ciudadana como un campo de generación de conocimiento compartido entre la ciudadanía y el sistema universitario de investigación. Con el objetivo de promover la reflexión científica, tecnológica, humanística, artística y cultural y su aplicación a los retos sociales, las universidades favorecerán e impulsarán la colaboración con los actores sociales, y con las Administraciones Públicas, en especial con las Comunidades Autónomas y la " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p23 a u:Fragmento ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA k) Promocionar políticas de creación de patentes y de generación de entidades o empresas basadas en el conocimiento, así como la incentivación de los procesos de transferencia e intercambio del conocimiento científico, tecnológico, humanístico, social y cultural universitario y su transformación en procesos de innovación en el sistema productivo tanto a escala local como internacional. l) Potenciar y desarrollar estructuras, servicios y unidades que sirvan de apoyo técnico a las actividades de investigación, transferencia e intercambio del conocimiento e innovación. 2. La composición de las comisiones de evaluación y selección de todas estas convocatorias y proyectos se ajustará al principio de composición equilibrada entre hombres y mujeres, y se incluirán mecanismos para evitar los sesgos de género. A su vez, se incentivará la promoción de proyectos científicos con perspectiva de género, la paridad de género en los equipos de investi" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p24 a u:Fragmento ;
+  u:pagina 24 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA h) Elaborar informes sobre la aplicación del principio de igualdad de género, y de las políticas antidiscriminación o de reconocimiento de la diversidad en todos los aspectos de la vida universitaria. i) Establecer y valorar las líneas generales de política universitaria, su internacionalización y, en especial, su articulación en el Espacio Europeo de Educación Superior y su interrelación con las políticas de investigación científica y tecnológica. j) Desarrollar cuantas otras funciones le atribuya el ordenamiento jurídico. 2. Bajo la presidencia del Ministro o Ministra de Universidades, estará compuesta por las personas responsables de la educación universitaria en los Consejos de Gobierno de las Comunidades Autónomas. 3. La organización y el funcionamiento de la Conferencia se establecerán en su reglamento interno, en el marco de lo dispuesto en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Artículo 16. El " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p25 a u:Fragmento ;
+  u:pagina 25 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. El Consejo de Estudiantes Universitario del Estado se adscribe al Ministerio de Universidades. 3. Corresponden al Consejo de Estudiantes Universitario del Estado las siguientes funciones: a) Ser interlocutor ante el Ministerio de Universidades, en los asuntos que conciernen al estudiantado. b) Informar los criterios de las propuestas del Gobierno en materia de estudiantes universitarios y en aquellas materias para las cuales le sea requerido informe. c) Contribuir activamente a la defensa de los derechos estudiantiles, cooperando con las asociaciones de estudiantes y los órganos de representación estudiantil. d) Velar por la adecuada actuación de los órganos de gobierno en las universidades en lo que se refiere a los derechos y deberes del estudiantado establecidos en los Estatutos de cada una de ellas. e) Elevar propuestas al Gobierno en materias relacionadas con la competencia de éste. f) Pronunciarse sobre cualquier asunto para e" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p26 a u:Fragmento ;
+  u:pagina 26 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 19. La cultura en la Universidad. 1. La creación y transmisión de la cultura universitaria en toda su diversidad constituye una misión fundamental de la Universidad. A tal fin, las universidades velarán por mantener y reforzar la dimensión cultural de todas sus actividades, impulsando, asimismo, su apertura, transmisión y difusión al entorno social con una perspectiva intercultural, de formación a lo largo de la vida y de democratización del conocimiento. 2. Las universidades fomentarán el protagonismo activo del estudiantado en la vida universitaria, favoreciendo un aprendizaje integral mediante actividades universitarias de carácter cultural, deportivo, de representación estudiantil, solidarias, de voluntariado y de cooperación al desarrollo. 3. Las universidades adoptarán las medidas oportunas para asegurar al estudiantado su acceso, participación y contribución en dichas actividades, así como la diversidad cultural y lingü" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p27 a u:Fragmento ;
+  u:pagina 27 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TÍTULO VII Internacionalización del sistema universitario Artículo 23. Fomento de la internacionalización del sistema universitario. 1. Las universidades fomentarán la internacionalización de la docencia, la investigación, la transferencia e intercambio del conocimiento, de la formación y de sus planes de estudio, así como la acreditación internacional de los mismos especialmente en el Espacio Europeo de Educación Superior. Asimismo, promoverán la internacionalización de su personal y de todas sus actividades. Las universidades fomentarán y facilitarán el conocimiento y el uso de lenguas extranjeras en el conjunto de su actividad. Igualmente, velarán por que el proceso de internacionalización no suponga una segregación en el estudiantado por razones económicas. 2. El Ministerio de Universidades, sin perjuicio de las competencias de las Comunidades Autónomas y de las propias universidades, articulará las medidas que resulten precisas pa" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p28 a u:Fragmento ;
+  u:pagina 28 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 26. Títulos y programas conjuntos. 1. Las universidades impulsarán y facilitarán la internacionalización de su oferta académica, de títulos oficiales y propios, mediante, entre otras medidas, la creación de títulos y programas conjuntos. Asimismo, fomentarán la elaboración de títulos y programas conjuntos que incorporen como opción el uso de idiomas extranjeros. 2. Las universidades incentivarán los doctorados en cotutela internacional. 3. El Ministerio de Universidades y las Comunidades Autónomas, en el ámbito de sus respectivas competencias, impulsarán y facilitarán la creación y reconocimiento de dichos títulos y programas conjuntos. Artículo 27. Movilidad internacional de la comunidad universitaria. 1. El Gobierno, las Comunidades Autónomas y las propias universidades promoverán programas de movilidad e intercambio del estudiantado, del personal docente e investigador y del personal técnico, de gestión y de administración " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p29 a u:Fragmento ;
+  u:pagina 29 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo. Las universidades fomentarán la realización de actividades orientadas al cumplimiento de los Objetivos de Desarrollo Sostenible, de conformidad con la normativa sobre la materia. TÍTULO VIII El estudiantado en el Sistema Universitario Artículo 31. Derecho de acceso. 1. El derecho de acceso a los estudios universitarios, de acuerdo con el artículo 27 de la Constitución, se ejerce en los términos establecidos por el ordenamiento jurídico. Las Administraciones Públicas deberán garantizar la igualdad de oportunidades y condiciones en el ejercicio de este derecho a todas las personas, sin discriminación de acuerdo con lo dispuesto en el artículo 37. 2. Corresponde al Gobierno, previo informe de la Conferencia General de Política Universitaria y del Consejo de Estudiantes Universitario, mediante real decreto, establecer las normas básicas para el acceso" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p30 a u:Fragmento ;
+  u:pagina 30 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA reconoce el derecho subjetivo del estudiantado universitario a acceder a becas y ayudas al estudio, siempre que cumpla con los requisitos recogidos en las normas reguladoras de las mismas, y de conformidad con los principios fundamentales de igualdad y no discriminación. 2. El Estado establecerá, con cargo a sus presupuestos generales y sin perjuicio de las competencias de las Comunidades Autónomas, un sistema general de becas y ayudas al estudio. Las Comunidades Autónomas, en el ejercicio de sus competencias, podrán ofertar y regular un sistema propio de becas y ayudas al estudio con cargo a sus presupuestos. Asimismo, las universidades, en el ámbito de sus competencias, podrán establecer su propio sistema de becas y ayudas al estudio con cargo a sus presupuestos. 3. El Gobierno regulará de forma básica con carácter de mínimos las modalidades y cuantías de las becas y ayudas al estudio a las que se refiere el apartado anterior, las co" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p31 a u:Fragmento ;
+  u:pagina 31 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) A ser informado previamente al periodo de matriculación de las modalidades, presencial, virtual o híbrida, de la docencia y la evaluación. e) A las tutorías y al asesoramiento, a la orientación psicopedagógica y al cuidado de la salud mental y emocional, en los términos dispuestos por la normativa universitaria. f) A una evaluación objetiva y a la publicidad de las normas que regulen los procedimientos de evaluación y verificación de los conocimientos, incluido el procedimiento de revisión de calificaciones y los mecanismos de reclamación disponibles. g) A la publicidad de las normas que regulen el progreso y la permanencia del estudiantado en la universidad, de acuerdo con las características de los respectivos estudios. h) A la orientación e información sobre las actividades que le afecten y, en especial, a un servicio de orientación que facilite su itinerario formativo y su inserción social y laboral. i) Al acceso prioritario a l" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p32 a u:Fragmento ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA procesos para su elección, en particular, en los consejos de estudiantes de su universidad y en el Consejo de Estudiantes Universitario del Estado, así como, de existir estos, en los consejos autonómicos de estudiantes. 4. Las universidades garantizarán al estudiantado un acceso real a la información y a mecanismos adecuados para el ejercicio efectivo de los derechos de participación y representación, incluidos aquellos mecanismos destinados al seguimiento y la evaluación. Asimismo, adoptarán medidas para que estos derechos resulten compatibles con su actividad académica, como el reconocimiento de créditos por su implicación en las políticas, las actividades y la gestión universitarias, incluidas las actividades de asociacionismo y representación estudiantil, culturales, solidarias, de cooperación y de colaboración con el entorno. Artículo 35. Eficacia y garantía de los derechos. 1. Las universidades garantizarán al estudiantado el eje" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p33 a u:Fragmento ;
+  u:pagina 33 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TÍTULO IX Régimen específico de las universidades públicas CAPÍTULO I Régimen jurídico y estructura de las universidades públicas Artículo 38. Régimen jurídico. 1. Las universidades públicas se regirán por esta ley orgánica, por la ley de su creación y por sus Estatutos, que serán elaborados por aquéllas y aprobados, previo control de su legalidad, por la Comunidad Autónoma, así como por las normas que dicten el Estado y las Comunidades Autónomas en el ejercicio de sus respectivas competencias en lo que les sean de aplicación. 2. La Comunidad Autónoma dispondrá de un plazo de cuatro meses para la elaboración del informe de legalidad. 3. Una vez aprobados por la Comunidad Autónoma que corresponda, los Estatutos se publicarán en el diario oficial de la Comunidad Autónoma. Asimismo, serán publicados en el «Boletín Oficial del Estado». En especial, cuando los Estatutos sólo deban ser aprobados por real decreto del Consejo de Ministros por " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p34 a u:Fragmento ;
+  u:pagina 34 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA procedimientos académicos, administrativos y de gestión conducentes a la obtención de los correspondientes títulos, para proponer y organizar las enseñanzas conducentes a la obtención de títulos propios y las estructuras encargadas de su gestión, así como, en su caso, las creadas específicamente para desarrollar, transferir, intercambiar y promover la investigación científica, tecnológica, humanística, social, cultural o la creación artística. Dichos centros y estructuras deberán fomentar la cooperación, la multidisciplinariedad y la interdisciplinariedad, así como una gestión administrativa integrada, y contar con los medios necesarios para desarrollar adecuadamente y con eficacia las funciones que tengan asignadas. Artículo 41. Creación, modificación y supresión de centros y estructuras. 1. La creación, modificación y supresión de facultades y escuelas serán acordadas por la Comunidad Autónoma, a iniciativa de la universidad mediante" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p35 a u:Fragmento ;
+  u:pagina 35 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA unipersonal o colegiado, así como el procedimiento para su elección por el Claustro Universitario. 5. Las universidades, en colaboración con las Comunidades Autónomas en las que se encuentren ubicadas, ofrecerán servicios gratuitos dirigidos a la orientación psicopedagógica, de prevención y fomento del bienestar emocional de su comunidad universitaria y, en especial, del estudiantado, así como servicios de orientación profesional. 6. La inspección de servicios actuará regida por los principios de independencia y autonomía. Tendrá por función velar por el correcto funcionamiento de los servicios que presta la institución universitaria de acuerdo con las leyes y normas que los rigen. Asimismo, en el marco de la legislación aplicable en la materia, tendrá las funciones de incoación e instrucción de los expedientes disciplinarios que afecten a miembros de la comunidad universitaria. La dirección de este servicio será atribuida a personal t" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p36 a u:Fragmento ;
+  u:pagina 36 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 45. El Claustro Universitario. 1. El Claustro Universitario es el máximo órgano de representación y participación de la comunidad universitaria. 2. Las funciones fundamentales del Claustro son: a) Elaborar y aprobar los Estatutos de la universidad y, en su caso, modificarlos, sin perjuicio de lo dispuesto en el artículo 38.1, así como el reglamento general de centros y estructuras, y otras normas. b) Debatir y realizar propuestas de política universitaria para que sean elevadas al Equipo de Gobierno. Cuando estas propuestas puedan tener un carácter normativo se elevarán al Consejo de Gobierno. c) Elaborar y modificar su reglamento de funcionamiento. d) Elegir a los representantes del Claustro en otros órganos de gobierno de la universidad. e) Convocar, con carácter extraordinario, elecciones a Rector o Rectora a iniciativa de un tercio de sus componentes, que incluya, al menos, un 30 por ciento del personal de los cuerpos doce" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p37 a u:Fragmento ;
+  u:pagina 37 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA i) Definir y aprobar planes de captación, estabilización y promoción del personal docente e investigador. j) Definir e impulsar, en coordinación con la unidad de igualdad, un plan de igualdad de género del conjunto de la comunidad universitaria. k) Informar de la aprobación del Plan de Igualdad negociado con la representación de la universidad y la representación legal de los y las trabajadoras, que contendrá al menos las materias recogidas en el artículo 46.2 de la Ley Orgánica 3/2007, de 22 de marzo. l) Definir e impulsar, en coordinación con la unidad de diversidad, un plan de inclusión y no discriminación del conjunto del personal y sectores de la universidad por motivos de discapacidad, origen étnico y nacional, orientación sexual e identidad de género, y por cualquier otra condición social o personal, elaborar protocolos y desarrollar medidas de prevención y respuesta frente a la violencia, el acoso laboral o la discriminación. m" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p38 a u:Fragmento ;
+  u:pagina 38 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) Promover la captación de recursos económicos destinados a la financiación de la universidad, procedentes de los diversos ámbitos sociales, empresariales e institucionales locales, nacionales e internacionales. e) Analizar y valorar el rendimiento de las actividades académicas y proponer acciones de mejora. f) Informar sobre las normas que regulen el progreso y la permanencia del estudiantado en la universidad. g) Contribuir a la incorporación de las previsiones del plan trienal de actuaciones en los presupuestos, y aprobarlos, así como supervisar las actividades de carácter económico de la universidad y aprobar las cuentas anuales de la institución universitaria y de las entidades que de ella dependan, sin perjuicio de la legislación mercantil u otra a la que dichas entidades puedan estar sometidas en función de su personalidad jurídica. h) Crear, de mutuo acuerdo con el Consejo de Gobierno de cada universidad, comisiones conjuntas " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p39 a u:Fragmento ;
+  u:pagina 39 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) Realizar propuestas a los órganos de gobierno en materias relacionadas con sus competencias para su inclusión en el orden del día. d) Fomentar el asociacionismo estudiantil y la participación del estudiantado en la vida universitaria. e) Cualesquiera otras funciones que le asignen los Estatutos de la universidad. Artículo 49. Otros órganos colegiados. 1. En caso de contar con facultades, escuelas o departamentos, estas estructuras tendrán un Consejo como órgano de gobierno, que estará presidido por el Decano o Decana, en el primer caso, o Director o Directora, en los restantes. 2. Las universidades podrán crear otros órganos colegiados. 3. Los Estatutos determinarán las funciones de los órganos referidos en los apartados anteriores, su composición, la duración de su función y el procedimiento de elección de sus miembros, que deberán ser en su mayoría personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profeso" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p40 a u:Fragmento ;
+  u:pagina 40 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. El Rector o la Rectora podrá, igualmente, nombrar personal eventual para realizar las funciones previstas y con las condiciones establecidas en el artículo 12 del texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre. El número máximo de personal eventual se recogerá en los Estatutos de acuerdo con lo dispuesto en la normativa de la Comunidad Autónoma correspondiente. Este número y las condiciones retributivas serán públicas. 5. El Rector o la Rectora podrá nombrar aquellos representantes de la universidad en diversos órganos, entidades e instituciones en los cuales tenga representación la universidad. 6. Durante su mandato, el Rector o Rectora no podrá presentarse a ningún proceso de promoción académica ni formar parte de una comisión de promoción. Artículo 51. La elección del Rector o la Rectora. 1. Los candidatos o candidatas deberán ser personal doce" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p41 a u:Fragmento ;
+  u:pagina 41 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los Estatutos fijarán los mecanismos de sustitución temporal del cargo y el procedimiento para convocar, con carácter extraordinario, elecciones a los mismos, así como sus efectos sobre los Consejos de Facultad o Escuela. 3. Las universidades deberán contar, además, con directores o directoras en todas las estructuras que definan en sus Estatutos y con un Secretario o Secretaria que ejercerá como fedatario o fedataria. Serán elegidos en la forma en que se recoja estatutariamente, prevaleciendo lo dispuesto en el convenio de adscripción para los Institutos universitarios de investigación adscritos a universidades públicas. CAPÍTULO III Régimen económico y financiero de las universidades públicas Artículo 53. Marco normativo. 1. En el ejercicio de su actividad económico-financiera y presupuestaria, las universidades se regirán por lo previsto en esta ley orgánica y en la legislación aplicable al sector público en estas materias. 2. La" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p42 a u:Fragmento ;
+  u:pagina 42 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA recursos financieros para ello y los mecanismos de evaluación del grado de consecución de dichos objetivos. 3. Sin perjuicio de las competencias atribuidas a las Comunidades Autónomas, dicha programación plurianual deberá incluir los siguientes ejes de financiación, que se sustentarán en indicadores específicos de evaluación, acordados, medibles y contrastables: a) Financiación estructural basal. Esta financiación deberá ser suficiente para la prestación de un servicio público y de calidad y para cubrir las necesidades plurianuales de gastos de personal, incluyendo los gastos de los planes plurianuales de estabilización de las plantillas, gastos corrientes en bienes y servicios y de inversiones reales, la investigación estructural y las inversiones para garantizar la sostenibilidad medioambiental de las universidades. b) Financiación estructural por necesidades singulares. Esta financiación adicional se establecerá para determinadas un" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p43 a u:Fragmento ;
+  u:pagina 43 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) Las transferencias para gastos corrientes y de capital fijadas, anualmente, por las Comunidades Autónomas dentro de un marco presupuestario a medio plazo. b) Los ingresos por los precios públicos por servicios académicos y demás derechos que legalmente se establezcan. En el caso de estudios conducentes a la obtención de títulos universitarios de carácter oficial, los precios públicos y derechos serán fijados por la Comunidad Autónoma o Administración correspondiente, dentro de un marco general de contención o reducción progresiva de los precios públicos. Asimismo, se consignarán las compensaciones correspondientes a los importes derivados de las exenciones y reducciones que legalmente se dispongan en materia de precios públicos y demás derechos. c) Los ingresos por los precios de las enseñanzas propias, la formación a lo largo de la vida y los referentes a las demás actividades autorizadas a las universidades, que deberán ser aproba" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p44 a u:Fragmento ;
+  u:pagina 44 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA En caso de liquidación del presupuesto con remanente de tesorería negativo, el Consejo Social deberá proceder a la reducción de gastos del nuevo presupuesto por cuantía igual al déficit producido. La expresada reducción sólo podrá revocarse por acuerdo de dicho órgano, a propuesta del Rector/a, previo informe del interventor/a y autorización del órgano correspondiente de la Comunidad Autónoma, cuando la disponibilidad presupuestaria y la situación de tesorería lo permitiesen. En todo caso, el Consejo de Gobierno deberá ser informado sobre los motivos de dicho déficit y las posibles alternativas para corregirlo. Las transferencias, con cargo a los presupuestos de la Comunidad Autónoma a favor, directa o indirectamente, de las universidades requerirán la aprobación y puesta en marcha de la reducción de gastos. 9. Las universidades remitirán a la Comunidad Autónoma o Administración correspondiente la información económico-financiera que d" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p45 a u:Fragmento ;
+  u:pagina 45 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera. 1. El uso de los recursos económico-financieros de las universidades se someterá a los principios de transparencia y de rendición de cuentas. 2. Las universidades están obligadas a rendir cuentas de su actividad ante el órgano de control externo de la respectiva Comunidad Autónoma, sin perjuicio de las competencias del Tribunal de Cuentas. 3. Las universidades estarán sometidas al régimen de auditoría pública que determine la normativa autonómica o, en su caso, estatal. Asimismo, las universidades desarrollarán un régimen de control interno, que contará, en todo caso, con un sistema de auditoría interna. El órgano responsable de este control tendrá autonomía funcional en su labor y no podrá depender de los órganos de gobierno unipersonales de la universidad. 4. Las universidades implantarán un sistema de contabilidad analítica o equivalente. Artículo " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p46 a u:Fragmento ;
+  u:pagina 46 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. Las limitaciones establecidas en el artículo cuarto, en su caso, y en los artículos doce.1.b) y d) y dieciséis de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, no serán de aplicación a los profesores/as funcionarios/as de los cuerpos docentes universitarios, al profesorado laboral permanente y al personal técnico, de gestión y de administración y servicios funcionario y laboral cuando participen en las entidades o empresas basadas en el conocimiento previstas en este artículo, siempre que exista un acuerdo explícito del Consejo de Gobierno de la universidad y se autorice por la Administración Pública competente. Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades funcionales. Siempre que sean autónomos en su objeto, los proyectos de investigación, desarrollo e innovación que hayan sido encomendados a las universidad" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p47 a u:Fragmento ;
+  u:pagina 47 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA El profesorado con contrato laboral temporal no podrá superar el 8 por ciento en efectivos de la plantilla de personal docente e investigador. No se computará a tal efecto el profesorado asociado de Ciencias de la Salud y el profesorado ayudante doctor. 4. Todos los puestos de trabajo de profesorado funcionario y laboral deberán adscribirse a los ámbitos de conocimiento que serán establecidos reglamentariamente por el Gobierno, previo informe del Consejo de Universidades. Dichos ámbitos serán suficientemente amplios para permitir y favorecer la movilidad del profesorado y facilitar su carrera profesional. Artículo 65. Promoción de la equidad entre el personal docente e investigador. 1. Se podrán establecer medidas de acción positiva en los concursos de acceso a plazas de personal docente e investigador funcionario y laboral para favorecer el acceso de las mujeres. A tal efecto, se podrán establecer reservas y preferencias en las condic" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p48 a u:Fragmento ;
+  u:pagina 48 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 67. Formación. Las universidades garantizarán la formación docente inicial y continuada de su profesorado. Asimismo, establecerán planes de formación inicial y de formación a lo largo de la vida que garanticen la mejora profesional de su personal docente e investigador, en los distintos ámbitos de especialización de la actividad universitaria, en el marco de la planificación estratégica y de las prioridades de las propias universidades en materia de formación. Sección 1.ª El profesorado de los cuerpos docentes universitarios Artículo 68. Cuerpos docentes universitarios. 1. El profesorado universitario funcionario pertenecerá a los siguientes cuerpos docentes: a) Catedráticas y Catedráticos de Universidad. b) Profesoras y Profesores Titulares de Universidad. El profesorado perteneciente a estos cuerpos tendrá plena capacidad docente e investigadora. 2. El profesorado funcionario se regirá por las bases establecidas en esta ley " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p49 a u:Fragmento ;
+  u:pagina 49 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios asistenciales y de salud pública de instituciones sanitarias. 1. El personal de los cuerpos docentes universitarios que ocupe una plaza vinculada a los servicios asistenciales y de salud pública de instituciones sanitarias, en áreas de conocimiento de carácter clínico asistencial y de salud pública, de acuerdo con lo establecido en el artículo ciento cinco de la Ley 14/1986, de 25 de abril, General de Sanidad, se regirá por lo establecido en este artículo y los demás de esta ley orgánica que le sean de aplicación. Dicha plaza se considerará, a todos los efectos, como un solo puesto de trabajo. 2. En atención a las peculiaridades de estas plazas se regirán también en lo que les sea de aplicación, por la Ley 14/1986, de 25 de abril, y demás legislación sanitaria, así como por las normas que el Gobierno, mediante real decreto, a propuesta co" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p50 a u:Fragmento ;
+  u:pagina 50 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Artículo 72. Concursos de movilidad del profesorado. 1. Las universidades podrán convocar concursos de movilidad para la provisión de plazas docentes vacantes dotadas en el estado de gastos de sus presupuestos. Estas convocatorias se publicarán en el «Boletín Oficial del Estado» y en el diario oficial de la Comunidad Autónoma correspondiente, y deberán contener, como mínimo, criterios de valoración de carácter curricular para la adjudicación de las plazas vacantes. 2. Podrán participar en los concursos de provisión de vacantes quienes hayan desempeñado durante al menos dos años el puesto de origen y sean funcionarios/as Profesores/as Titulares de Universidad para los puestos de Profesor/a Titular de Universidad y funcionarios/as Catedráticos/as para los puestos de Catedrático/a, así como el personal investigador de los Organismos Públicos de Investigación (OPIS) de las categorías que se determinen en las convocatorias, siempre que cuen" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p51 a u:Fragmento ;
+  u:pagina 51 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. Los planes de dedicación individual anuales reflejarán las actividades académicas encomendadas y respetarán el desarrollo profesional y la igualdad de oportunidades y de resultados del profesorado funcionario. 4. Las bases del régimen general de dedicación del personal docente e investigador funcionario se regularán en el Estatuto del personal docente e investigador universitario. Artículo 76. Retribuciones del personal docente e investigador funcionario. 1. El Gobierno determinará el régimen retributivo del personal docente e investigador universitario perteneciente a los cuerpos de funcionarios. Dicho régimen será el establecido por la legislación general de funcionarios, adecuado específicamente a las características de dicho personal. A estos efectos, la norma que determine su régimen retributivo establecerá los intervalos de niveles o categorías dentro de cada nivel correspondientes a cada cuerpo docente, los requisitos de prom" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p52 a u:Fragmento ;
+  u:pagina 52 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. El régimen de dedicación del personal laboral se ajustará, en todo caso, a los principios previstos en el artículo 75, salvo lo dispuesto en el artículo 79 respecto de la dedicación de las Profesoras y Profesores Asociados. 5. El personal docente e investigador laboral tendrá derecho a negociar sus condiciones retributivas con la universidad, quedando fijadas en los convenios y acuerdos específicos que se alcancen. Igualmente, tendrá derecho a tomar parte en las convocatorias que las Comunidades Autónomas establezcan para fijar retribuciones adicionales ligadas a méritos individuales por el ejercicio de actividades docentes, investigadoras, de transferencia del conocimiento, innovación o gestión. Artículo 78. Profesoras y Profesores Ayudantes Doctoras/es. La contratación de Profesoras y Profesores Ayudantes Doctores se ajustará a las siguientes reglas: a) Las universidades podrán contratar bajo esta modalidad a las personas que oste" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p53 a u:Fragmento ;
+  u:pagina 53 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA del ámbito académico universitario cuando existan necesidades docentes específicas relacionadas con su ámbito profesional. b) La finalidad del contrato será desarrollar tareas docentes a través de las que aporten sus conocimientos y experiencia profesionales a la universidad, en aquellas materias en las que esta experiencia resulte relevante. Dichas tareas docentes no podrán incluir el desempeño de funciones estructurales de gestión y coordinación. El profesorado asociado podrá desarrollar tareas docentes hasta un máximo de 120 horas lectivas por curso académico. c) El contrato será de carácter indefinido y conllevará una dedicación a tiempo parcial, sin que su convocatoria esté sujeta a la tasa de reposición de efectivos. La contratación de este profesorado no formará parte de la Oferta de Empleo Público ni de los instrumentos similares de gestión de las necesidades de personal a que se refiere el artículo 70 del texto refundido de la" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p54 a u:Fragmento ;
+  u:pagina 54 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) Los requisitos de desempeño y acceso a esta modalidad, así como las funciones que podrá desempeñar serán definidos por cada universidad. Artículo 82. Profesoras y Profesores Permanentes Laborales. La contratación de Profesoras y Profesores Permanentes Laborales se ajustará a las siguientes reglas: a) Las universidades podrán contratar bajo esta modalidad a las personas que ostenten el título de Doctora o Doctor y que cuenten con la acreditación correspondiente, emitida por parte de la ANECA o de las agencias de calidad de las Comunidades Autónomas, de acuerdo con sus competencias. b) La finalidad del contrato será desarrollar tareas docentes, de investigación, de transferencia e intercambio del conocimiento y, en su caso, de desempeño de funciones de gobierno de la universidad. c) El contrato será de carácter fijo e indefinido, con derechos y deberes de carácter académico y categorías comparables a los del personal docente e investi" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p55 a u:Fragmento ;
+  u:pagina 55 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Las Comunidades Autónomas deberán regular el procedimiento de acreditación. Tal acreditación se realizará por parte de las agencias de calidad autonómicas o, en su caso, de la ANECA. 3. Las agencias de calidad, en el marco de las competencias que éstas tienen atribuidas por la normativa estatal y por las respectivas Comunidades Autónomas, trabajarán en criterios mínimos comunes en materia de acreditación de la figura de Profesorado Permanente Laboral. Asimismo, desde su independencia institucional y técnica, dichas agencias de calidad establecerán acuerdos entre ellas para el pleno reconocimiento de las acreditaciones, para evitar cargas administrativas. La ANECA, en aplicación de dichos criterios mínimos comunes, reconocerá la evaluación positiva de los méritos realizada por las agencias de calidad autonómicas, a los efectos de la acreditación para el acceso a los cuerpos docentes universitarios. En todo caso, respecto a la acredit" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p56 a u:Fragmento ;
+  u:pagina 56 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Los incentivos a que se hace referencia en este apartado se asignarán, singular y personalmente, mediante un procedimiento transparente. 4. Las universidades podrán establecer retribuciones adicionales ligadas a méritos individuales, mediante procedimientos negociados con la parte social y transparentes. Sección 3.ª El profesorado de la Unión Europea Artículo 88. Profesorado de la Unión Europea. 1. El profesorado de las universidades de los Estados miembros de la Unión Europea que haya alcanzado en aquéllas una posición comparable a la de Catedrático/a de Universidad, Profesor/a Titular de Universidad o Profesor/a Permanente Laboral será considerado acreditado a los efectos previstos en esta ley orgánica, según el procedimiento y condiciones que se establezcan por orden de la persona titular del Ministerio de Universidades, previo informe del Consejo de Universidades. Con carácter general, estos reconocimientos de acreditación con otro" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p57 a u:Fragmento ;
+  u:pagina 57 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA la Ley Orgánica 13/1982, de 10 de agosto, de reintegración y amejoramiento del Régimen Foral de Navarra. El personal técnico, de gestión y de administración y servicios laboral se rige por lo establecido en esta ley orgánica, por el texto refundido de la Ley del Estatuto de los Trabajadores, así como por el texto refundido de la Ley del Estatuto Básico del Empleado Público, la demás legislación laboral y los convenios colectivos aplicables. Asimismo, este personal funcionario y laboral se regirá por lo dispuesto en los Estatutos de las universidades. En relación con este personal, corresponde a las Comunidades Autónomas la regulación de las materias expresamente remitidas por esta ley orgánica y aquellas otras que puedan corresponderle en el ámbito de sus competencias. 4. Las universidades podrán contratar otro personal con cargo a financiación externa o financiación procedente de convocatorias de ayudas públicas en concurrencia compet" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p58 a u:Fragmento ;
+  u:pagina 58 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA equilibrada entre mujeres y hombres en los mismos, la adecuación de los contenidos de las pruebas selectivas a las funciones y tareas a desarrollar, y la disponibilidad de mecanismos de revisión de los resultados de acuerdo con lo dispuesto por la normativa aplicable y la negociación colectiva. Artículo 92. Provisión de puestos de trabajo. 1. En la provisión de puestos de trabajo las universidades deberán atender a las necesidades del servicio y garantizarán los principios de publicidad, transparencia, igualdad, y mérito y capacidad. 2. La provisión de puestos de personal técnico, de gestión y de administración y servicios en las universidades se realizará mediante el sistema de concurso y podrá concurrir tanto su propio personal, como el personal de otras universidades, así como, en las condiciones que reglamentariamente se determinen, el personal perteneciente a cuerpos y escalas de las Administraciones Públicas. 3. Sólo podrán cubri" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p59 a u:Fragmento ;
+  u:pagina 59 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TÍTULO X Régimen específico de las universidades privadas Artículo 95. Régimen jurídico. 1. Las universidades privadas tendrán personalidad jurídica propia en cualquiera de las formas legalmente existentes, pudiendo ser entidades con ánimo de lucro o de carácter social, incluidas las sociedades cooperativas. Su objeto social exclusivo será la educación superior y la investigación y, en su caso, la transferencia e intercambio del conocimiento. Deberán realizar todas las funciones a las que se refiere el artículo 2.2. 2. Su régimen jurídico resulta de lo dispuesto en los preceptos de esta ley orgánica que le son de aplicación y en las normas que los desarrollen. Además de lo dispuesto en este título X, les será igualmente de aplicación lo establecido en los títulos preliminar, I, II, III, IV exceptuando el artículo 13, V, VI, VII y VIII, así como las disposiciones adicionales cuarta, séptima, octava y novena. No obstante, siempre que sea" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p60 a u:Fragmento ;
+  u:pagina 60 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA adscripción y será causa de su revocación por parte de la Comunidad Autónoma competente, en los términos que reglamentariamente se establezcan. 5. Los centros universitarios privados deberán estar integrados como centros propios de una universidad privada, o adscritos a una universidad pública o privada. En el supuesto de la adscripción de un centro privado a una universidad pública, se estará a lo dispuesto en el artículo 42. 6. Dichos centros deberán adscribirse a una única universidad. No obstante, esta condición podrá ser dispensada, con arreglo a lo legal o reglamentariamente establecido, si se aprecian en un centro o en determinados tipos de centros características particulares que así lo justifican. Artículo 97. Centros y estructuras. 1. Las universidades privadas se estructurarán en la forma en que lo determinen sus normas de organización y funcionamiento. 2. Las universidades priv" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p61 a u:Fragmento ;
+  u:pagina 61 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA finales que hayan sido aceptados para su publicación en revistas y otras publicaciones científicas, en el plazo previsto en el artículo 37 de la Ley 14/2011, de 1 de junio. Artículo 100. Régimen económico-financiero. 1. El régimen económico-financiero de las universidades privadas y los centros privados adscritos a universidades públicas se regirá, con carácter general, por lo establecido en la normativa aplicable en función de la respectiva naturaleza jurídica que ostenten, con las particularidades previstas en las normas de reconocimiento de dichas universidades. 2. Las universidades privadas y los servicios que presten se someterán al régimen fiscal que les sea aplicable en función de su personalidad jurídica y de dichos servicios. 3. Las universidades privadas dedicarán un porcentaje de su presupuesto no inferior al 5 por ciento a programas propios de investigación. 4. Las universidade" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p62 a u:Fragmento ;
+  u:pagina 62 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. De acuerdo con su objeto y dada su especificidad en el sistema universitario español, la Universidad Internacional Menéndez Pelayo tiene naturaleza de organismo autónomo adscrito al Ministerio de Universidades, con personalidad jurídica y patrimonio propios, con plena capacidad para organizar los medios humanos y materiales para realizar sus actividades, sin más limitaciones que las establecidas por las leyes y los criterios de calidad exigibles. 3. La Universidad Internacional Menéndez Pelayo se regirá por el principio de autonomía universitaria en relación con la planificación, organización y desarrollo de sus actividades académicas. La colaboración de profesorado de universidades públicas para el desarrollo de las funciones de la Universidad Internacional Menéndez Pelayo en los términos que se determinen en sus Estatutos, será compatible con la dedicación de dicho profesorado. 4. La " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p63 a u:Fragmento ;
+  u:pagina 63 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Universitarios de la Defensa desarrollarán líneas de investigación consideradas de interés en el ámbito de la defensa. 2. Los Centros Universitarios de la Defensa se regirán, además de por sus propias normas de organización y funcionamiento, por lo dispuesto en esta ley orgánica, en la normativa básica estatal y en las demás normas que les sean de aplicación, así como por los acuerdos contenidos en cada convenio de adscripción. 3. Todas las referencias que en esta ley orgánica se hacen a las Comunidades Autónomas y sus órganos se entenderán referidas, en el caso de los Centros Universitarios de la Defensa, al Ministerio de Universidades que regulará las particularidades de las enseñanzas a impartir, sin perjuicio de las competencias del Ministerio de Defensa en cuanto a los regímenes del personal docente e investigador y del personal técnico, de gestión y de administración y servicios de l" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p64 a u:Fragmento ;
+  u:pagina 64 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA de adscripción de los colegios mayores adscritos, que gozarán de los beneficios o exenciones fiscales de la universidad en la que estén integrados. 4. Los colegios mayores privados que tengan un régimen no mixto o segregado no podrán adscribirse a una universidad pública. Aquellos convenios que se encuentren vigentes a la entrada en vigor de esta ley orgánica podrán mantenerse hasta su vencimiento, pero no renovarse. Disposición adicional octava. Centros docentes privados de educación superior no universitarios. 1. Las Comunidades Autónomas, en el ejercicio de sus competencias, aprobarán los criterios para la creación, supresión y funcionamiento de los centros docentes privados de educación superior en su ámbito territorial que impartan enseñanzas no oficiales de nivel similar al universitario y que no estén adscritos a ninguna universidad pública o privada. 2. No podrán utilizarse denomin" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p65 a u:Fragmento ;
+  u:pagina 65 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los Profesores y Profesoras Titulares de Escuela Universitaria que, a la entrada en vigor de esta ley orgánica, posean el título de doctor o doctora o lo obtengan posteriormente, y se acrediten específicamente en el marco de lo previsto por el artículo 69, accederán directamente al Cuerpo de Profesores/as Titulares de Universidad, en sus propias plazas. Para la acreditación a Titulares de Universidad de los Profesores/as Titulares de Escuela Universitaria se valorará particularmente la docencia, así como la investigación y, en su caso, la gestión. Quienes no accedan a la condición de Profesor/a Titular de Universidad permanecerán en su situación actual, manteniendo todos sus derechos y conservando su plena capacidad docente y, en su caso, investigadora, de transferencia e intercambio del conocimiento e innovación. 3. El requisito de movilidad, al que se hace referencia en el artículo 69" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p66 a u:Fragmento ;
+  u:pagina 66 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA sobre la aplicación del principio de «no causar un perjuicio significativo», así como con lo requerido en la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del plan de recuperación y resiliencia de España, todas las actuaciones que deban llevarse a cabo en cumplimiento de esta ley orgánica deberán respetar el llamado principio de no causar un perjuicio significativo al medioambiente. Esta obligación incluye el cumplimiento de las condiciones específicas previstas en el Componente 21 «Modernización y digitalización del sistema educativo, incluida la educación temprana de 0 a 3 años», en particular en la medida R3 «Reforma integral del sistema universitario» del Plan de Recuperación, Transformación y Resiliencia, en el que se enmarcan dichas actuaciones. Disposición adicional décima séptima. Acceso a titulaciones de formación permanente y a lo largo de la vida. L" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p67 a u:Fragmento ;
+  u:pagina 67 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria cuarta. Adaptación de las nuevas acreditaciones. 1. La ANECA y las agencias de calidad autonómicas dispondrán de un periodo de un año desde la entrada en vigor de esta ley orgánica para adaptar los criterios de la acreditación a Profesor/a Titular de Universidad y a la figura de Profesor/a Permanente Laboral, a la duración de la etapa inicial de la carrera académica que establece esta ley orgánica. 2. En el plazo de un año desde la entrada en vigor de esta ley orgánica, la ANECA acordará con las agencias de calidad de las Comunidades Autónomas los convenios a que se refiere el artículo 69.1. Disposición transitoria quinta. Adaptación de determinadas figuras vigentes de personal docente e investigador laboral. 1. El personal docente e investigador con contrato de carácter temporal a la entrada en vigor de esta ley orgánica permanecerá en su misma situación hasta la e" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p68 a u:Fragmento ;
+  u:pagina 68 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria séptima. Proceso de estabilización de plazas de Profesoras y Profesores Asociadas/os de las universidades públicas. 1. Antes del 31 de diciembre de 2024 y conforme a lo establecido por la Ley 20/2021, de 28 de diciembre, las universidades públicas deberán articular procesos de estabilización de las plazas de Profesoras y Profesores Asociadas/os, de acuerdo con las condiciones profesionales y de dedicación docente previstas en el artículo 79.b). El sistema de selección en estos procesos será el de concurso garantizando los principios de igualdad, mérito, capacidad, publicidad y concurrencia, con las particularidades del artículo 86.2. Estas plazas no computarán en la tasa de reposición de efectivos. De la resolución de estos procesos no podrá resultar, en ningún caso, incremento de efectivos. 2. Los contratos de Profesoras y Profesores Asociadas/os vigentes a la entr" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p69 a u:Fragmento ;
+  u:pagina 69 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA plazas de su personal técnico, de gestión y de administración y servicios. El sistema de selección en estos procesos será el de concurso o concurso-oposición garantizando los principios de igualdad, mérito, capacidad, publicidad y concurrencia. Estas plazas no computarán en la tasa de reposición de efectivos. De la resolución de estos procesos no podrá resultar, en ningún caso, incremento de efectivos. Disposición transitoria novena bis. Temporalidad en la implementación de las medidas relativas a la atracción de talento joven, rejuvenecimiento y estabilización de plantillas previstos en la presente Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. 1. Con el objetivo de garantizar la operatividad en el desarrollo y en la articulación de los procesos de adaptación en las estructuras de las plantillas de profesorado recogidas en la disposición transitoria séptima y en la dispos" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p70 a u:Fragmento ;
+  u:pagina 70 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA b) La Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, salvo sus disposiciones finales segunda y cuarta. c) El Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo. 2. Quedan igualmente derogadas todas las disposiciones de igual o inferior rango en cuanto se opongan a lo establecido en esta ley orgánica. Disposición final primera. Modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de la Administraciones Públicas. El apartado 1 del artículo cuarto de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, queda redactado como sigue: «1. Podrá autorizarse la compatibilidad, cumplidas las restantes exigencias de esta ley, para el desempeño de un " .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p71 a u:Fragmento ;
+  u:pagina 71 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final tercera. Modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social. La Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, se modifica como sigue: Uno. El título del capítulo IV del título II queda redactado del siguiente modo: «CAPÍTULO IV De las tasas por autorizaciones administrativas y por tramitación de las solicitudes de visado y de los precios públicos» Dos. Se da la siguiente nueva redacción a los apartados 1, 2 y 3 del artículo 33: «1. Podrá ser autorizado, en régimen de estancia, conforme a lo dispuesto en la presente ley, el extranjero que tenga como fin único o principal realizar una de las siguientes actividades de carácter no laboral: a) Cursar o ampliar estudios. b) Realizar actividades de investigación o formació" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p72 a u:Fragmento ;
+  u:pagina 72 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final cuarta. Modificación de la Ley 33/2011, de 4 de octubre, General de Salud Pública. La Ley 33/2011, de 4 de octubre, General de Salud Pública, se modifica en los siguientes términos: Uno. El párrafo a) del apartado 2 de la disposición adicional séptima queda redactado como sigue: «a) Los planes de estudios correspondientes al título oficial de Máster en Psicología General Sanitaria garantizarán la adquisición de las competencias necesarias para desempeñar las actividades de la profesión sanitaria de Psicólogo General Sanitario que se especifican en el apartado 1. A tal efecto, el título habilitante para la profesión de Psicólogo General Sanitario deberá acreditar la superación de, al menos, 180 créditos ECTS de contenido específicamente sanitario en el conjunto de las enseñanzas universitarias cursadas, de acuerdo con la concreción que reglamentariamente se determine.» Dos" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p73 a u:Fragmento ;
+  u:pagina 73 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia, respectivamente. 2. De esta competencia se exceptúa el título IV, el artículo 56.4, el artículo 57.7 y los artículos 60, 61, 62 y 63 que se dictan al amparo del artículo 149.1.15.ª de la Constitución, que atribuye al Estado el fomento y coordinación general de la investigación científica y técnica, y la disposición final primera de modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas; la disposición final segunda de modificación de la Ley 14/1986, de 25 de abril, General de Sanidad; la disposición final tercera de modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social; la disposición final cuarta de modificación de la Ley 33/2011, de 4 de oct" .
+
+
+base:frag_BOE-A-2023-7500-consolidado_p74 a u:Fragmento ;
+  u:pagina 74 ;
+  u:fuenteDocumento base:doc_BOE-A-2023-7500-consolidado ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "----- FIGURA ----- profesorado_privadas_doctor BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Del mismo modo se podrán reconocer otros acuerdos siempre que en ellos se recoja esta posibilidad. Disposición final décima segunda. Entrada en vigor. La presente ley orgánica entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado». Por tanto, Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley orgánica. Madrid, 22 de marzo de 2023. FELIPE R. El Presidente del Gobierno, PEDRO SÁNCHEZ PÉREZ-CASTEJÓN Este documento es de carácter informativo y no tiene valor jurídico. Página 74" .
+

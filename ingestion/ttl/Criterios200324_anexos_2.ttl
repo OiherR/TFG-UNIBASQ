@@ -1,0 +1,305 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_Criterios200324_anexos_2 a u:Documento ;
+  u:titulo "Criterios200324 anexos 2" .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_Criterios200324_anexos_2_profesorado_universitario_y_del_personal_investigador a u:Figura ;
+  u:nombre "profesorado universitario y del personal investigador" .
+
+base:fig_Criterios200324_anexos_2_profesorado_asociado_y_los_de_profesorado_sustituto_interino_se_consideraran_ded a u:Figura ;
+  u:nombre "profesorado asociado y los de profesorado sustituto interino se considerarán dedicación a tiempo completo cuando alcancen las" .
+
+base:fig_Criterios200324_anexos_2_profesorado_vinculadas_con_la_docencia_y_otorgadas_en_direccion_de_aneca a u:Figura ;
+  u:nombre "profesorado vinculadas con la docencia y otorgadas en DIRECCIÓN DE ANECA" .
+
+base:fig_Criterios200324_anexos_2_profesorado_y_vinculados_con_la_docencia a u:Figura ;
+  u:nombre "profesorado y vinculados con la docencia" .
+
+base:fig_Criterios200324_anexos_2_profesorado_de_cada_asignatura a u:Figura ;
+  u:nombre "profesorado de cada asignatura" .
+
+
+base:frag_Criterios200324_anexos_2_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "CRITERIOS DE EVALUACIÓN Y REQUISITOS MÍNIMOS DE REFERENCIA DE LOS MÉRITOS Y COMPETENCIAS REQUERIDOS PARA OBTENER LA ACREDITACIÓN DE ACUERDO CON LO ESTABLECIDO POR EL REAL DECRETO 678/2023, DE 18 DE JULIO, POR EL QUE SE REGULA LA ACREDITACIÓN ESTATAL PARA EL ACCESO A LOS CUERPOS DOCENTES UNIVERSITARIOS Y EL RÉGIMEN DE LOS CONCURSOS DE ACCESO A PLAZAS DE DICHOS CUERPOS DIRECCIÓN DE ANECA – 20/03/2024" .
+
+
+base:frag_Criterios200324_anexos_2_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "La evaluación de méritos y competencias para la acreditación estatal a los cuerpos docentes universitarios se realizará de acuerdo con el Procedimiento desarrollado por ANECA en aplicación del Real Decreto 678/2023, de 18 de julio. Deberá presentarse un currículo abreviado, en el que se reflejarán las aportaciones más relevantes de la actividad investigadora, incluyendo la de transferencia e intercambio del conocimiento, de la actividad docente, y de la actividad profesional, en su caso. Para la acreditación a Catedrática o Catedrático de Universidad (CU) deben reflejarse en el CV, además, los méritos y competencias de liderazgo. La evaluación se basará en la selección de contribuciones y en la narrativa sobre su calidad, relevancia e impacto aportadas por la persona solicitante. Con la finalidad de ayudar a realizar una autoevaluación a las personas solicitantes se concretan algunas valoraciones cuantitativas orientativas de los distintos apartados y se explicitan los indicios cualita" .
+
+
+base:frag_Criterios200324_anexos_2_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Las Comisiones, en la aplicación de estos criterios y como se explicita en los apartados siguientes, se ajustarán en todo caso a lo establecido por la Resolución de la Directora de ANECA, de 28 de febrero de 2024, por la que se hacen públicos los criterios para garantizar que la igualdad, la conciliación y la inclusión sean efectivas en las evaluaciones del profesorado universitario y del personal investigador. Con carácter general, las comisiones tendrán en cuenta y valorarán —cuando se justifiquen adecuadamente— las situaciones especiales que afecten a criterios de evaluación de difícil cumplimiento para personas con discapacidad. 1. CRITERIOS DE EVALUACIÓN Y REQUISITOS MÍNIMOS DE REFERENCIA DE LOS MÉRITOS Y COMPETENCIAS DE INVESTIGACIÓN, TRANSFERENCIA E INTERCAMBIO DEL CONOCIMIENTO Las personas solicitantes deberán destacar la calidad, la relevancia y el impacto científico y social de sus contribuciones, con apoyo de indicadores contextualizados. Se deben incluir los identificadores" .
+
+
+base:frag_Criterios200324_anexos_2_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "En el caso de la acreditación a CU se pueden aportar contribuciones del conjunto de la carrera, aunque se debe demostrar actividad suficiente en los 6 años anteriores a la solicitud. Se considerará que cumplen este requisito las personas solicitantes con sexenio de investigación CNEAI-ANECA reconocido en esos 6 años. En su defecto, como mínimo cinco de las contribuciones aportadas en el apartado 1.2 han debido realizarse en los 6 años anteriores a la presentación de la solicitud. A los efectos del cómputo del sexenio o del plazo de 6 años, todas las personas en alguna de las situaciones especiales, derivadas de permisos, excedencias o bajas, enumeradas en el apartado primero (Disposiciones generales) de la Resolución de la Directora de ANECA de 28 de febrero de 2024, podrán prorrogar el sexenio o el plazo un año por cada permiso, excedencia o baja que hayan tenido. PROFESORA O PROFESOR TITULAR UNIVERSIDAD (PTU) y CATEDRÁTICA O CATEDRÁTICO DE UNIVERSIDAD (CU) Mínimo Máximo 1. ACTIVIDAD " .
+
+
+base:frag_Criterios200324_anexos_2_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "durante al menos 3 años o haber participado como Investigador/a Principal (IP), co-IP o miembro del equipo en un proyecto de investigación durante al menos 1 año, debiendo valorarse, además del rol desempeñado, el organismo o entidad financiadora, su carácter público o privado, y, en su caso, la convocatoria competitiva a la que pertenece, la colaboración con instituciones distintas a la propia, la calidad de las actividades desarrolladas y el avance del conocimiento logrado en la especialidad. Con carácter orientativo, y sin perjuicio de las características específicas que se pongan de relieve en la descripción narrativa de la aportación, la participación durante 3 años como IP en convocatorias competitivas estatales podrá ser valorada con 10 puntos, mientras que la participación como miembro del equipo en las mismas condiciones podrá ser valorado con 2 puntos. 1.2. RESULTADOS Y DIFUSIÓN DE LA ACTIVIDAD INVESTIGADORA Y DE TRANSFERENCIA E INTERCAMBIO DEL CONOCIMIENTO En el caso de PTU " .
+
+
+base:frag_Criterios200324_anexos_2_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "extraordinarias y los límites sobre el número de aportaciones serán en todo caso los dispuestos en este apartado. A partir de la aprobación de las siguientes convocatorias de evaluación de la actividad investigadora, las personas solicitantes podrán invocar que se les apliquen o bien los criterios previstos en la resolución CNEAI vigente en el momento de presentar su solicitud o bien los criterios previstos en la resolución CNEAI del año inmediatamente anterior. ANECA actualizará los Anexos I y II de esta resolución para adaptarlos a las sucesivas convocatorias de sexenios de investigación. 1.2.2. Transferencia e intercambio de conocimiento y actividad de carácter profesional Para la acreditación a PTU, de las 8 contribuciones que pueden aportarse, un máximo de 3 puede corresponderse con resultados de transferencia e intercambio de conocimiento, que estén claramente diferenciados de los de investigación, docencia u otros méritos curriculares, y que atiendan a las características propia" .
+
+
+base:frag_Criterios200324_anexos_2_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Además de lo anterior, se valorará la participación en comités, comisiones o paneles de ANECA u otras agencias u organismos oficiales que realicen actividades de evaluación de las enseñanzas, la actividad docente o a la actividad investigadora. En este apartado podrán presentarse también méritos relativos a actividades de carácter profesional de calidad contrastada, no simultánea a la actividad a tiempo completo en la universidad, siempre que estén relacionados con la especialidad de conocimiento por la que se solicita la acreditación o sean relevantes para la actividad universitaria. Cada comisión de acreditación establecerá las exigencias que considere necesarias en atención a las especificidades disciplinares. Queda excluida de este mérito la Formación Sanitaria Especializada en el caso de las profesiones sanitarias clínicas o cualquier otra actividad profesional que se alegue por la persona solicitante para acreditar la suficiencia en el Bloque 4. 1.2.3. Divulgación científica Podr" .
+
+
+base:frag_Criterios200324_anexos_2_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "redes de trabajo estables, así como el prestigio del organismo de acogida en el ámbito de su especialidad. Podrán aportarse como mérito las estancias de investigación alegadas para cumplir el requisito de movilidad exigido por el artículo 4.2 del Real Decreto 678/2023, de 18 de julio, para la acreditación a PTU, siempre que reúnan los requisitos establecidos en este apartado. De acuerdo con la Resolución de la Directora de ANECA de 28 de febrero de 2024, las personas solicitantes que acrediten situaciones prolongadas en el tiempo que hayan impedido la realización de estancias de investigación, por razón de enfermedad, conciliación o cuidado de menores, familiares o personas dependientes, y excedencias por cuidado de hijo o hija, de familiar o por violencia de género o violencia terrorista, podrán aportar la colaboración sostenida en el tiempo con grupos y redes de investigación internacionales, mérito que se valorará con indicios de calidad semejantes a las estancias. Se considera situ" .
+
+
+base:frag_Criterios200324_anexos_2_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "voluntario. En todos los casos, se valorará el grado de internacionalización, de innovación, de apertura a la sociedad y de multidisciplinariedad o interdisciplinariedad de las contribuciones presentadas. Las personas solicitantes que acrediten trayectorias de investigación excepcionales, por haber obtenido financiación del Consejo Europeo de Investigación (ERC) en sus programas Consolidator Grant, Advanced Grant o Synergy Grant (o en otras convocatorias competitivas individuales internacionales de prestigio y tasa de concesión comparables a los de estos programas) y hayan desarrollado su carrera principalmente en una universidad extranjera en la que el cómputo y los instrumentos de medición de la calidad de la actividad docente resulten difíciles de trasladar al sistema español, o bien en una institución no universitaria dedicada a la investigación, podrán obtener la acreditación justificando el encargo docente desempeñado, o bien actividades docentes de tutorización y dirección de tr" .
+
+
+base:frag_Criterios200324_anexos_2_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "CATEDRÁTICA O CATEDRÁTICO DE UNIVERSIDAD (CU) Mínimo Máximo 2. ACTIVIDAD DOCENTE 50 100 puntos puntos 2.1. Experiencia docente 25 45 2.1.1. Dedicación docente 25 35 2.1.2. Pluralidad, interdisciplinariedad y complejidad docente 0 6 2.1.3. Recursos educativos 0 5 2.1.4. Actividades de formación a lo largo de la vida 0 5 2.2. Calidad de la actividad docente e innovación 5 40 2.2.1. Calidad de la actividad docente 5 15 2.2.2. Proyectos de innovación docente 0 20 2.2.3. Formación para la mejora docente recibida 0 5 2.2.4. Formación para la mejora docente impartida 0 15 2.3. Tutorización docente 5 15 2.3.1. Tutorización reglada 0 15 2.3.2. Otros tipos de tutorización (no incluida en encargo 0 15 docente) 2.4. Otros méritos* 0 10 * Los puntos obtenidos en este apartado, de carácter opcional, se suman a los de los apartados anteriores, pero en ningún caso podrá superarse el máximo (100 puntos). 9 2.1. EXPERIENCIA DOCENTE 2.1.1. Dedicación docente En el caso de PTU deberá acreditarse experienc" .
+
+
+base:frag_Criterios200324_anexos_2_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "impartidos o 1400 horas, incluyendo las horas realizadas en contratos predoctorales y postdoctorales. En el caso de PTU, se podrá alcanzar el mínimo con la evaluación positiva de un quinquenio docente. En el caso de CU, se podrá alcanzar el mínimo con la evaluación positiva de dos quinquenios docentes. Los contratos de profesorado asociado y los de profesorado sustituto interino se considerarán dedicación a tiempo completo cuando alcancen las 6 horas de clase semanal (180 horas de capacidad docente anual). El resto de los contratos de profesorado asociado y profesorado sustituto interino se considerará dedicación a tiempo parcial. Si la duración del contrato no es anual o por el curso académico completo, se contabilizará la parte proporcional. Los contratos de profesorado tutor de la UNED (y de figuras similares sin responsabilidad docente plena) se considerarán dedicación a tiempo parcial. En el caso de los contratos de profesorado vinculado (Ciencias de la Salud) cada 1,5 años de act" .
+
+
+base:frag_Criterios200324_anexos_2_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "temáticos o generalistas y que estén protegidos por licencias de tipo Creative Commons. Se valorará también que hayan sido sometidos a evaluación (por ejemplo: OCW, EdX, Coursera...). En este apartado también se podrán presentar manuales y libros de texto con finalidad docente publicados, en función del prestigio de la editorial, de las personas al cargo de la edición, de la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio, las reseñas recibidas, etc. A modo orientativo, y sin perjuicio de las características específicas que se pongan de relieve en la descripción narrativa de cada contribución, en el caso de PTU, el manual de una asignatura publicado en abierto podrá ser valorado con 3 puntos (1,5 punto en el caso de CU) y con la mitad en caso de no estar en abierto. 2.1.4. Actividades de formación a lo largo de la vida En el caso de PTU podrá aportarse un máximo de 2 contribucione" .
+
+
+base:frag_Criterios200324_anexos_2_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "2. Una calificación promedio de excelente (siempre que la tasa de rechazo sea superior al 90% entre las personas participantes en cada convocatoria) será valorada con 40 puntos para el apartado 2.2. 3. Las valoraciones para calificaciones intermedias se computarán de forma directamente proporcional. En los casos en los que las evaluaciones DOCENTIA disponibles no cubran todo el periodo evaluado, se podrá sumar la valoración de otras contribuciones previstas en los apartados siguientes (2.2.1 a 2.2.4), siempre que correspondan a períodos no evaluados mediante dicho programa. En caso de que la persona solicitante no disponga de evaluaciones en el Programa DOCENTIA será evaluada de acuerdo con lo establecido en cada uno de los siguientes apartados (2.2.1 a 2.2.4). 2.2.1. Calidad de la actividad docente La calidad de la actividad docente se evaluará de acuerdo con un autoinforme (conforme al modelo proporcionado en el Anexo III) que permitirá mostrar evidencias de la misma con una explicac" .
+
+
+base:frag_Criterios200324_anexos_2_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "convocatorias competitivas, y otros méritos relacionados con la movilidad del profesorado y vinculados con la docencia. A modo orientativo, y sin perjuicio de las características específicas que se pongan de relieve en la descripción narrativa de la aportación, la participación durante un año en un proyecto Erasmus+ podrá ser valorada con 5 puntos. 2.2.3. Formación recibida para la mejora docente En el caso de PTU podrá aportarse un máximo de 3 contribuciones. En el caso de CU podrá aportarse un máximo de 6 contribuciones. Se valorará la participación en actividades formativas para la mejora docente en función de su diversidad, duración, calidad, relevancia y resultados e impactos logrados. Por ejemplo, y sin ánimo de exhaustividad: cursos, talleres o seminarios, sea en técnicas, herramientas o metodologías que enriquezcan la docencia de la persona solicitante. Se valorará particularmente la efectiva puesta en práctica posterior en la docencia reglada de los conceptos cubiertos por est" .
+
+
+base:frag_Criterios200324_anexos_2_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "A modo orientativo, y sin perjuicio de las características específicas que se pongan de relieve en la descripción narrativa de la aportación, la dirección de un Trabajo Fin de Grado de 6 ECTS podrá ser valorada con 1 punto para PTU y con 0,5 puntos para CU. 2.3.2. Otros tipos de tutorización (no incluidas en el encargo docente oficial) En el caso de PTU podrá aportarse un máximo de 3 contribuciones. En el caso de CU podrá aportarse un máximo de 6 contribuciones. Cada contribución puede abarcar un conjunto de tutelas de la misma naturaleza. Se valorará la actividad de tutorización o tutela docente individual desempeñada fuera del encargo docente oficial, en función de su intensidad, duración, diversidad y grado de dedicación. Por ejemplo, y sin ánimo de exhaustividad: tutorización de alumnado interno, de becas de iniciación a la investigación o de colaboración, de figuras análogas de los planes propios de la universidad/institución, de personal médico interno residente, de alumnado de n" .
+
+
+base:frag_Criterios200324_anexos_2_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "CATEDRÁTICA O CATEDRÁTICO DE UNIVERSIDAD (CU) Mínimo Máximo 3. LIDERAZGO 50 100 puntos puntos 3.1. Dirección de equipos docentes y de investigación 0 30 3.2. Dirección de Tesis Doctorales y Trabajos Fin de Máster 10 30 3.3. Liderazgo en el ámbito de la dirección y gestión 0 30 universitaria y científica 3.4. Reconocimientos y responsabilidad en organizaciones 0 10 científicas y comités científico-técnicos 3.5. Otros méritos* 0 10 * Los puntos obtenidos en este apartado, de carácter opcional, se suman a los de los apartados anteriores, pero en ningún caso podrá superarse el máximo (100 puntos). 3.1. DIRECCIÓN DE EQUIPOS DOCENTES Y DE INVESTIGACIÓN Podrá aportarse un máximo de 3 contribuciones. Se valorará el liderazgo de equipos docentes y de investigación, ya sea en el marco de proyectos competitivos de investigación o innovación docente (como IP o Co-IP), contratos de investigación, grupos docentes o de investigación estables, u otras actividades, siempre 15 que impliquen liderazgo de" .
+
+
+base:frag_Criterios200324_anexos_2_p17 a u:Fragmento ;
+  u:pagina 17 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "En concreto, se valorará el grado de internacionalización e innovación de la investigación, los resultados derivados de las Tesis Doctorales o de los Trabajos Fin de Máster, los enfoques multidisciplinares e interdisciplinares, así como las cotutelas y los doctorados industriales. Además, se valorará la evaluación obtenida, las menciones internacionales, los premios recibidos y la posición académica o profesional alcanzada por las personas egresadas. A modo orientativo, y sin perjuicio de las características específicas que se pongan de relieve en la descripción narrativa de las aportaciones, 1 dirección individual o 2 codirecciones de Tesis podrán ser valoradas con 10 puntos. Igualmente, la dirección individual de un Trabajo Fin de Máster de 9 ECTS podrá ser valorada con 1 punto, 3.3. LIDERAZGO EN EL ÁMBITO DE LA DIRECCIÓN Y GESTIÓN UNIVERSITARIA Y CIENTÍFICA Podrá aportarse un máximo de 5 contribuciones. Se valorará el trabajo realizado en la dirección y gestión universitaria o cient" .
+
+
+base:frag_Criterios200324_anexos_2_p18 a u:Fragmento ;
+  u:pagina 18 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "disciplina o ámbito de conocimiento al que pertenece, o, en su caso, en el conjunto de la sociedad. También se valorarán los reconocimientos o premios recibidos a la excelencia en actividades académicas, de investigación, de transferencia y de intercambio de conocimiento con la sociedad, en función del prestigio de la institución otorgante, de su carácter nacional o internacional y de su relevancia e impacto. A modo orientativo, y sin perjuicio de las características específicas que se pongan de relieve en la descripción narrativa de la contribución, las responsabilidades ejercidas durante al menos 4 años podrán ser valoradas con 10 puntos. 3.5. OTROS MÉRITOS Podrá aportarse un máximo de 3 contribuciones. En esta sección se podrán presentar aportaciones que evidencien de manera análoga una trayectoria de liderazgo, siempre que sean de naturaleza distinta a las de los apartados 3.1, 3.2, 3.3 y 3.4. 17 4. CRITERIOS DE EVALUACIÓN Y REQUISITOS MÍNIMOS DE REFERENCIA DE LOS MÉRITOS Y COMPETE" .
+
+
+base:frag_Criterios200324_anexos_2_p19 a u:Fragmento ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "ANEXO I. Criterios generales de evaluación de la actividad investigadora Para garantizar la coherencia de los méritos, competencias y criterios utilizados en los diversos procedimientos de evaluación de ANECA (artículo 21.6 del RD 678/2023), la actividad investigadora se definirá y evaluará de manera semejante a la establecida en la resolución de criterios de la convocatoria de evaluación de la actividad investigadora (sexenios de investigación) de CNEAI. Por tanto, a las solicitudes que se presenten a partir del 1 de abril de 2024 se les aplicarán criterios generales de evaluación análogos a los previstos en la Resolución de 5 de diciembre de 2023, que se recogen en este Anexo con las imprescindibles adaptaciones en atención al distinto tipo de convocatoria que es la de acreditación a cuerpos docentes universitarios. 1. Se amplía el abanico de aportaciones y de posibles medios de difusión que pueden justificar una actividad investigadora, incluyendo los conjuntos de datos, las metodol" .
+
+
+base:frag_Criterios200324_anexos_2_p20 a u:Fragmento ;
+  u:pagina 20 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "depositado una copia de la versión final de la aportación aceptada para publicación en un repositorio de su institución o en un repositorio temático o generalista de acceso abierto. El depósito podrá hacerse en acceso abierto, acceso restringido, embargado o con acceso solo a los metadatos, respetando en todos los casos la gestión de derechos de autoría amparada por el marco legal vigente en el momento de la publicación. En concreto, deberán depositarse los artículos científicos posteriores a la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación, y otros resultados de investigación (libros, capítulos de libro, conjuntos de datos, etc.) posteriores a la Ley 17/2022, de 5 de septiembre, por la que se modifica la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación. Los conjuntos de datos que se sometan a evaluación deberán cumplir con los principios FAIR (fáciles de encontrar, accesibles, interoperables y reutilizables) y, siempre que sea posible" .
+
+
+base:frag_Criterios200324_anexos_2_p21 a u:Fragmento ;
+  u:pagina 21 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "ANEXO II. Criterios específicos de evaluación de la actividad investigadora Para garantizar la coherencia de los méritos, competencias y criterios utilizados en los diversos procedimientos de evaluación de ANECA (artículo 21.6 del RD 678/2023), la actividad investigadora se definirá y evaluará de manera semejante a la establecida en la resolución de criterios de la convocatoria de evaluación de la actividad investigadora (sexenios de investigación) de CNEAI. Por tanto, a las solicitudes que se presenten a partir del 1 de abril de 2024 se les aplicarán criterios específicos de evaluación análogos a los previstos en la Resolución de 5 de diciembre de 2023, que se recogen en este Anexo con las imprescindibles adaptaciones en atención al distinto tipo de convocatoria que es la de acreditación a cuerpos docentes universitarios. Cada comisión de ANECA se conecta con el campo CNEAI correspondiente. Comisión 0. Interdisciplinar (campo 0) 1. Sobre las aportaciones: En la comisión 0 se pretende " .
+
+
+base:frag_Criterios200324_anexos_2_p22 a u:Fragmento ;
+  u:pagina 22 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Comisión 2. Física (campo 1) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los artículos científicos y las patentes. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de las patentes se valorará si están en explotación, demostrada mediante contrato de compraventa o contrato de licencia. Respecto a patentes concedidas sin estar en explotación, solo se valorarán si la concesión se ha llevado a cabo con examen previo (tipo B2). Se tendrá en cuenta la extensión de la protección de la patente (nacional, europea o internacional), valorándose más la de protección más extensa. Comisión 3. Química (campo 2) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferente" .
+
+
+base:frag_Criterios200324_anexos_2_p23 a u:Fragmento ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. Comisión 5. Biología Celular y Molecular (campo 3) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los artículos científicos, los libros y capítulos de libros y las patentes. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especial" .
+
+
+base:frag_Criterios200324_anexos_2_p24 a u:Fragmento ;
+  u:pagina 24 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Entre las aportaciones se valorarán preferentemente los artículos científicos, los libros y capítulos de libros y las patentes. Se aceptará que una, para la acreditación a PTU, o tres, para la acreditación a CU, de las aportaciones sea de casos clínicos, short communications, artículos de revisión bibliográfica, revisiones sistemáticas incluyendo las scoping review, con la excepción de las revisiones sistemáticas con metaanálisis, que serán consideradas como artículo de investigación. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obten" .
+
+
+base:frag_Criterios200324_anexos_2_p25 a u:Fragmento ;
+  u:pagina 25 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Se aceptará que una, para la acreditación a PTU, o tres, para la acreditación a CU, de las aportaciones sea de casos clínicos, short communications, artículos de revisión bibliográfica, revisiones sistemáticas incluyendo las scoping review, con la excepción de las revisiones sistemáticas con metaanálisis, que serán consideradas como artículo de investigación. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científi" .
+
+
+base:frag_Criterios200324_anexos_2_p26 a u:Fragmento ;
+  u:pagina 26 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Comisión 11. Ingeniería Mecánica (subcampo 6.1) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente las patentes, los artículos científicos, los libros y capítulos de libros, y de forma extraordinaria se valorarán también los desarrollos tecnológicos. Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse aportaciones a congresos, proceedings, notas, comentarios, respuestas, cartas al/a la editor/a y similares. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún" .
+
+
+base:frag_Criterios200324_anexos_2_p27 a u:Fragmento ;
+  u:pagina 27 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "En el caso de las patentes se valorarán preferentemente aquellas en explotación, demostrada mediante contrato de compraventa o contrato de licencia. Respecto a patentes concedidas sin estar en explotación, solo se valorarán si la concesión se ha llevado a cabo con examen previo (tipo B2). Se tendrá en cuenta la extensión de la protección de la patente (nacional, europea o internacional), valorándose más la de protección más extensa. Se considerarán aportaciones muy relevantes las patentes en explotación con extensión internacional. En el caso de los desarrollos tecnológicos se valorarán preferentemente los de carácter científico (por ejemplo, desarrollos de sotfware o hardware), en función de su impacto y relevancia. En el caso de otras formas de protección de la propiedad industrial o intelectual, para áreas donde las patentes no sean de aplicación (programas informáticos, modelos de aprendizaje automático, etc.), la persona solicitante deberá presentar evidencias de que la aportación" .
+
+
+base:frag_Criterios200324_anexos_2_p28 a u:Fragmento ;
+  u:pagina 28 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Comisión 14. Ingeniería Informática (subcampo 6.2) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los artículos científicos y las patentes, y de forma extraordinaria se valorarán también aportaciones a congresos publicadas en medios convenientemente acreditados, los conjuntos de datos y las contribuciones a desarrollos tecnológicos. Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse libros, notas, comentarios, respuestas, cartas al/a la editor/a y similares. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de las aportaciones a congresos se valorarán preferentemente las que tuvieran lugar en congresos de calidad contrastada o in" .
+
+
+base:frag_Criterios200324_anexos_2_p29 a u:Fragmento ;
+  u:pagina 29 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "concedidas por la Oficina Española de Patentes y Marcas mediante el sistema de examen previo. Se tendrá en cuenta la extensión de la protección de la patente (nacional, europea o internacional), valorándose más la de protección más extensa. En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. Los proyectos singulares arquitectónicos, urbanísticos, patrimoniales o de ingeniería serán valorados por su carácter innovador, constat" .
+
+
+base:frag_Criterios200324_anexos_2_p30 a u:Fragmento ;
+  u:pagina 30 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "reconocido prestigio, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. Los proyectos singulares arquitectónicos, urbanísticos, patrimoniales o de ingeniería serán valorados por su carácter innovador, constatado por los premios y distinciones recibidos o por el reconocimiento en concursos públicos competitivos, por su impacto en la literatura especializada nacional e internacional, por haber sido mostrados en exposiciones relevantes con catálogo que no sea autoedición. En el caso de los desarrollos tecnológicos y arquitectónicos se valorarán preferentemente los de carácter científico, en función de su impacto y rel" .
+
+
+base:frag_Criterios200324_anexos_2_p31 a u:Fragmento ;
+  u:pagina 31 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio o en aquellas que hayan recibido un sello o reconocimiento de calidad por un organismo independiente, así como en plataformas de publicación de resultados de investigación como Open Research Europe. Comisión 18. Derecho II (campo 9) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los libros y capítulos de libros y los artículos científicos. Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse traducciones, recopilaciones legislativas anotadas o dictámenes y propuestas legislativas. 2. Valoración de las aportaciones: Con carácter general, se valorarán aquellas aportaciones que desarro" .
+
+
+base:frag_Criterios200324_anexos_2_p32 a u:Fragmento ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "reconocido prestigio o en aquellas que hayan recibido un sello o reconocimiento de calidad por un organismo independiente, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. En el caso de las patentes se valorarán preferentemente aquellas en explotación (B1), demostrada mediante contrato de compraventa o contrato de licencia, y las patentes concedidas por la Oficina Española de Patentes y Marcas mediante el sistema de examen previo. Se tendrá en cuenta la extensión de la protección de la patente (nacional, europea o internacional), valorándose más la de protección más extensa. Comisión 20. Ciencias Empresariales (ca" .
+
+
+base:frag_Criterios200324_anexos_2_p33 a u:Fragmento ;
+  u:pagina 33 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de las/os editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. Comisión 22. Ciencias de la Educación II (subcampo 7.2) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los artículos científicos, los libros y capítulos de libros. Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse reseñas, notas, guías didácticas u otras publicaciones que aludan, exclusivamente, a procesos de innovación educativa en los que no conste de forma explícita su vinculación con resultados de investigación, las cartas al/a la editor/a o similares. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas " .
+
+
+base:frag_Criterios200324_anexos_2_p34 a u:Fragmento ;
+  u:pagina 34 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse reseñas, notas, cartas al/a la editor/a y similares. 2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas de reconocido prestigio o en aquellas que hayan recibido un sello o reconocimiento de calidad por un organismo independiente, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. En el caso de las obras audiovisuales se valorarán las aportaciones cuya financiación, exhibic" .
+
+
+base:frag_Criterios200324_anexos_2_p35 a u:Fragmento ;
+  u:pagina 35 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "generalistas como especializadas. Se podrán considerar también, como indicios de relevancia e impacto, a falta de un sistema de citación para este tipo de trabajos, la existencia de críticas o reseñas en revistas especializadas, exposiciones en museos u otras instituciones científicas, o presentaciones invitadas en departamentos universitarios, centros de investigación o equivalentes. Comisión 26. Historia y Filosofía (campos 10 y 11) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los libros y capítulos de libros y los artículos científicos. Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse la edición de enciclopedias o diccionarios; la coordinación, edición o traducción de texto que no incluya estudios preliminares o anotaciones críticas; las ediciones críticas con estudio introductor y notas; el comisariado de exposiciones; las traducciones especializadas, según el área; la edición, dirección o coordinación d" .
+
+
+base:frag_Criterios200324_anexos_2_p36 a u:Fragmento ;
+  u:pagina 36 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. En el caso del comisariado de exposiciones en cuyos catálogos se aporten novedades relevantes de investigación con repercusión en los medios especializados nacionales e internacionales, ajustándose, en su caso, a lo establecido para estas actividades en el Campo 10 de la resolución de 5 de diciembre de 2023. Comisión 28. Filologías Modernas (campo 11) 1. Sobre las aportaciones: Entre las aportaciones se valorarán preferentemente los libros, los artículos científicos, las ediciones críticas con estudio introductor y notas, las ediciones filológicas con aparato crítico y anotación, los capítulos de libros, el comisariado de exposiciones, las traducciones especializadas, según el área. Solo en casos de excepcional relevancia e impacto, debidamente justificados, podrán valorarse reseñas, artículos de opinión, notas, cartas al" .
+
+
+base:frag_Criterios200324_anexos_2_p37 a u:Fragmento ;
+  u:pagina 37 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "2. Valoración de las aportaciones: En el caso de los artículos se valorarán preferentemente aquellas aportaciones publicadas en revistas de calidad contrastada o indexadas en bases de datos bibliográficas o en editoriales de reconocido prestigio o en aquellas que hayan recibido un sello o reconocimiento de calidad por un organismo independiente, así como en plataformas de publicación de resultados de investigación como Open Research Europe. En el caso de los libros y capítulos de libros se valorará el prestigio de la editorial, de editoras/es, la colección en la que se publica la obra, si la colección o el libro ha obtenido algún sello de calidad otorgado por una institución de reconocido prestigio y las reseñas recibidas en las revistas científicas especializadas. En el caso de exposiciones, obras premiadas, proyectos de conservación o restauración y proyectos artísticos, que se podrán presentar a las áreas de Bellas Artes, se valorarán el tipo, objeto y magnitud de la aportación (ind" .
+
+
+base:frag_Criterios200324_anexos_2_p38 a u:Fragmento ;
+  u:pagina 38 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "participantes; vinculación a proyectos de investigación relevantes concedidos en convocatoria pública competitiva. La calidad del medio de difusión se valorará en la calidad del tipo de espacio (auditorio, teatro u otros) y su proyección nacional e internacional en certámenes y festivales, y su itinerancia (otros espacios teatrales, festivales, certámenes o similares de relevancia, salas de proyección, etc.); patrocinadoras, productoras, promotoras o distribuidoras del proyecto; subvenciones, tipo de convocatoria y forma de adjudicación (tipo, cuantía, etc.), relevancia del jurado, comité externo, comisión de seguimiento o similar. Además, en relación con la repercusión de la aportación, se valorará la identificación y relevancia de medios especializados: referencias bibliográficas recogidas en libros o catálogos, revistas especializadas, bibliografías académicas, medios audiovisuales, archivos o repositorios; la invitación a participar en talleres, conferencias, etc.; y los premios y " .
+
+
+base:frag_Criterios200324_anexos_2_p39 a u:Fragmento ;
+  u:pagina 39 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "ANEXO III. Modelo de autoinforme Este autoinforme debe ser el resultado de un proceso de análisis y reflexión sobre la docencia impartida durante los cursos académicos seleccionados por la persona solicitante, y debe permitir mostrar evidencias de la calidad del conjunto de la actividad docente desarrollada durante el periodo objeto de evaluación. En concreto, se deben analizar de forma sintética las siguientes dimensiones, señalando fortalezas y debilidades, así como propuestas de mejora de la propia actividad docente: encargo docente, planificación, desarrollo y resultados de la enseñanza. Este documento respetará en todo caso el esquema que se ofrece a continuación y tendrá una extensión máxima de 5 páginas. A. Encargo docente De forma orientativa, se podrá dar una visión global del encargo docente asumido durante el período objeto de evaluación, el contexto y las circunstancias que lo acompañan y reflexiones sobre el efecto de dicho encargo, en función de sus características, en la" .
+
+
+base:frag_Criterios200324_anexos_2_p40 a u:Fragmento ;
+  u:pagina 40 ;
+  u:fuenteDocumento base:doc_Criterios200324_anexos_2 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "▪ Diversidad de recursos utilizados (especificar las licencias que los protegen: Creative Commons, etc.). ▪ Dedicación a las actividades de tutorías. ▪ Metodologías de evaluación. ▪ Realización de otras tareas docentes: seminarios, formación recibida para la mejora docente, formación impartida para la mejora docente, participación en tribunales de Trabajos Fin de Grado, Trabajos Fin de Máster o Tesis Doctorales, etc. Fortalezas, debilidades y propuestas de mejora D. Resultados de la enseñanza Análisis De forma orientativa, se podrán analizar los siguientes elementos: ▪ Resultados académicos: grado de consecución de los objetivos formativos, tasas de presentados, tasas de éxito, etc. ▪ Valoración de los estudiantes: encuestas (especificar grado de significación estadística), quejas, sugerencias, reclamaciones, reconocimientos, etc. ▪ Revisión y mejora de la actividad docente (p.ej., se pueden aportar las modificaciones introducidas en la guía docente tras la reflexión). ▪ Impacto de las" .
+

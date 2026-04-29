@@ -1,0 +1,135 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_academia_dadicional4_procedimiento a u:Documento ;
+  u:titulo "academia dadicional4 procedimiento" .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_academia_dadicional4_procedimiento_profesorado_de_universidades_de_estados_miembros_de_la_union_europea_este_docume a u:Figura ;
+  u:nombre "Profesorado de Universidades de Estados Miembros de la Unión Europea Este documento es propiedad de ANECA" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_de_universidades_de_estados_miembros_de_la_union_europea a u:Figura ;
+  u:nombre "PROFESORADO DE UNIVERSIDADES DE ESTADOS MIEMBROS DE LA UNIÓN EUROPEA" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_universitario_funcionario_de_las_universidades_publicas_espanolas_pe a u:Figura ;
+  u:nombre "profesorado universitario funcionario de las Universidades públicas españolas pertenecerá a los siguientes cuerpos docentes" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_de_las_universidades_de_los_estados_miembros_de_la_union_europea_que a u:Figura ;
+  u:nombre "profesorado de las universidades de los Estados miembros de la Unión Europea que haya alcanzado en aquellas una posición equivalente" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_comprobara_la_documentacion_aportada a u:Figura ;
+  u:nombre "Profesorado comprobará la documentación aportada" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_funcionario a u:Figura ;
+  u:nombre "profesorado funcionario" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_que_el_solicitante_haya_alcanzado_en_la_universidad_de_origen_y_que_ a u:Figura ;
+  u:nombre "Profesorado que el solicitante haya alcanzado en la Universidad de origen y que ésta implica un vínculo estable para la persona que" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_alcanzado_en_una_universidad_de_un_estado_miembro_de_la_union_europe a u:Figura ;
+  u:nombre "PROFESORADO ALCANZADO EN UNA UNIVERSIDAD DE UN ESTADO MIEMBRO DE LA UNIÓN EUROPEA Puesto de profesorado" .
+
+base:fig_academia_dadicional4_procedimiento_profesorado_que_el_solicitante_ha_alcanzado_en_la_universidad_de_origen_la_unive a u:Figura ;
+  u:nombre "PROFESORADO QUE EL SOLICITANTE HA ALCANZADO EN LA UNIVERSIDAD DE ORIGEN La Universidad de la Unión Europea tiene que emitir un" .
+
+
+base:frag_academia_dadicional4_procedimiento_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "Programa ACADEMIA Solicitud de Certificación de Posición Equivalente para Profesorado de Universidades de Estados Miembros de la Unión Europea Este documento es propiedad de ANECA. Su contenido podrá ser utilizado siempre que se cite su procedencia. V. 01_29/05/08" .
+
+
+base:frag_academia_dadicional4_procedimiento_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_indice ;
+  u:textoFuente "ÍNDICE 1.- INTRODUCCIÓN ................................................................. 3 2.- COMITÉ DE CERTIFICACIÓN DE EQUIVALENCIA ................. 5 3.- PROCEDIMIENTO DE CERTIFICACIÓN ................................ 6 3.1. Criterios de Aplicación ................................................... 8 3.2. Documentación a aportar por los solicitantes ................ 8 ANEXO I: SOLICITUD DE CERTIFICACIÓN DE POSICIÓN EQUIVALENTE PARA PROFESORADO DE UNIVERSIDADES DE ESTADOS MIEMBROS DE LA UNIÓN EUROPEA ....................... 11 ANEXO II: MODELO DE CERTIFICACIÓN DOCUMENTAL DE LA POSICIÓN DE PROFESORADO QUE EL SOLICITANTE HA ALCANZADO EN LA UNIVERSIDAD DE ORIGEN ...................... 13 Página 2 de 14 V01 – 29/05/08" .
+
+
+base:frag_academia_dadicional4_procedimiento_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "1.- INTRODUCCIÓN La Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, establece que el profesorado universitario funcionario de las Universidades públicas españolas pertenecerá a los siguientes cuerpos docentes: a) Catedráticos de Universidad. b) Profesores Titulares de Universidad. A ambos cuerpos se les reconoce plena capacidad docente e investigadora y se establece que el acceso a los mismos exige la obtención previa de una acreditación nacional que, valorando los méritos y competencias de los aspirantes, garantice la calidad en la selección del profesorado funcionario. Esta acreditación previa es requerida para poder presentarse a los concursos de acceso que puedan convocar las universidades en uso de sus respectivas competencias y autonomía. Se establecen así dos etapas para poder acceder a una plaza de los cuerpos docentes de profesorado funcionario: acreditación previa y concurso de acceso. El procedimiento " .
+
+
+base:frag_academia_dadicional4_procedimiento_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "1. El profesorado de las universidades de los Estados miembros de la Unión Europea que haya alcanzado en aquellas una posición equivalente a las de catedrático o profesor titular de universidad será considerado acreditado a los efectos de lo previsto en este real decreto. 2. La certificación de dicha posición equivalente será realizada por el Consejo de Universidades a propuesta de la Agencia Nacional de Evaluación de la Calidad y Acreditación previa solicitud del interesado, de acuerdo con el procedimiento que establezca la Agencia. 3. El profesorado al que se refiere el apartado 1 podrá formar parte de las comisiones de acreditación reguladas en este real decreto en las mismas condiciones que los funcionarios pertenecientes a los cuerpos docentes universitarios. Este documento establece el modelo y el procedimiento en ANECA para evaluar las solicitudes de certificación de equivalencia para los Profesores de universidades de Estados miembros de la Unión Europea que quieran acogerse a " .
+
+
+base:frag_academia_dadicional4_procedimiento_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "2.- COMITÉ DE CERTIFICACIÓN DE EQUIVALENCIA Para proceder al análisis de las solicitudes, ANECA establecerá un Comité de Certificación de Equivalencia formado por:  Tres expertos de reconocido prestigio en evaluación de solicitudes de acreditación de profesores. Uno de ellos actuará como Presidente.  Un técnico de ANECA que actuará como secretario. El Presidente y los Vocales del Comité de Certificación de Equivalencia, así como sus suplentes en su caso, serán nombrados por la Dirección de ANECA, a propuesta del Coordinador de Evaluación de Profesorado, previo informe de la Comisión Técnica de ANECA. El nombramiento tendrá una duración de tres años prorrogable por otro periodo de tres años. El Comité elaborará un informe sobre sus actuaciones y resultados que será remitido a la Dirección de ANECA. Página 5 de 14 V01- 29/05/08" .
+
+
+base:frag_academia_dadicional4_procedimiento_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "3.- PROCEDIMIENTO DE CERTIFICACIÓN Las normas generales de procedimiento para estas solicitudes de certificación serán aprobadas por el Consejo de Dirección, previo informe de la Comisión Técnica de ANECA. Una vez registrada en ANECA una solicitud de certificación de equivalencia, la Unidad de Evaluación de Profesorado comprobará la documentación aportada. Si faltara algún documento preceptivo o los aportados no reunieran los requisitos necesarios, se comunicará al interesado esta circunstancia y se le concederá un plazo de diez días hábiles para su subsanación. De no efectuar la subsanación de documentos preceptivos en el referido plazo, se le tendrá por desistido en su petición, archivándose la solicitud sin más trámite. Si el interesado aporta los documentos solicitados, el expediente será revisado de nuevo por la Unidad de Evaluación. Los expedientes que aporten de manera adecuada la documentación preceptiva, o cuyas carencias en esta documentación sean subsanadas por el interesado" .
+
+
+base:frag_academia_dadicional4_procedimiento_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "Para cada solicitud podrá acordar:  Resolver la certificación de equivalencia con uno de los cuerpos de profesorado funcionario (catedrático o profesor titular de universidad).  Resolver la improcedencia de la equivalencia, indicando los motivos o carencias que justifican esta recomendación. Con base en estas recomendaciones, el presidente del Comité de Certificación enviará copia del acta al coordinador del Programa quien procederá a:  Informar al interesado dentro de los diez días hábiles siguientes a la fecha en que haya sido dictada.  Realizar las gestiones oportunas para que la resolución se publique en la página web del Ministerio de Ciencia e Innovación, dentro de los quince días hábiles siguientes.  Comunicar la resolución al Consejo de Universidades que expedirá, cuando así proceda, a favor del interesado la correspondiente certificación de equivalencia, haciendo constar en él el cuerpo equivalente y la rama de conocimiento. Los solicitantes que reciban una resolución des" .
+
+
+base:frag_academia_dadicional4_procedimiento_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "aspirante. Cuando deba requerirse al aspirante para la subsanación de deficiencias y la aportación de documentos y otros elementos de juicio necesarios, no computará el tiempo que medie entre la notificación del requerimiento y su efectivo cumplimiento por el destinatario, o en su defecto, el transcurso del plazo concedido. Si el procedimiento se paraliza por causa imputable al interesado, transcurridos tres meses, se producirá la caducidad del mismo, lo que se le comunicará al interesado emitiendo la correspondiente resolución de caducidad del procedimiento. 3.1. Criterios de Aplicación Para poder solicitar el certificado de equivalencia, los interesados han de ser profesores de universidades de Estados Miembros de la Unión Europea que hayan alcanzado en aquellas una posición equivalente a las de catedrático o profesor titular de universidad y que tengan asignadas unas competencias análogas a las atribuidas en estos cuerpos en la Ley Orgánica 4/2007, de 12 de abril, por la que se modi" .
+
+
+base:frag_academia_dadicional4_procedimiento_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente " Copia del documento de identificación personal (NIF, NIE, Pasaporte).  Certificación documental de la posición de Profesorado que el solicitante haya alcanzado en la Universidad de origen y que ésta implica un vínculo estable para la persona que la ocupa o haya ocupado con la Universidad o con el Estado del que dependa, según el modelo preparado por ANECA o equivalente. Con el fin de facilitar la comprobación de las características de la posición que se desea acreditar, se deberá entregar también los siguientes documentos:  Copia del Título de Doctor.  En el caso de países donde sea exigible, documento que acredite el haber superado un proceso selectivo por parte de un órgano externo a la propia Universidad para alcanzar la posición.  Currículo en formato libre. La documentación quedará en poder de ANECA y no será devuelta a los solicitantes, por lo que no deben aportarse documentos que sean insustituibles. Todos los documentos que no estén escritos en castellano deberán presenta" .
+
+
+base:frag_academia_dadicional4_procedimiento_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente " En los registros de cualquier órgano administrativo que pertenezca a la Administración General del Estado, a la de cualquier Administración de las Comunidades Autónomas o a la de alguna de las entidades que integran la Administración Local, si en este último caso se hubiese suscrito el oportuno convenio (artículo 38.4 de la Ley 30/1992, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común).  En las oficinas de Correos en la forma establecida. En la siguiente página web del Ministerio de Administraciones Públicas se relacionan todos los registros acogidos al programa de Ventanilla Única: http://www.map.es/ministerio/directorio/informacion/of_registro.html NOTA: ANECA se reserva el derecho a pedir a los solicitantes cualquier otro documento o información que considere relevante para el procedimiento si, las circunstancias particulares del caso así lo requirieren. Página 10 de 14 V01- 29/05/08" .
+
+
+base:frag_academia_dadicional4_procedimiento_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "ANEXO I SOLICITUD DE CERTIFICACIÓN DE POSICIÓN EQUIVALENTE PARA PROFESORADO DE UNIVERSIDADES DE ESTADOS MIEMBROS DE LA UNIÓN EUROPEA (Disposición adicional cuarta del RD 1312/2007) 1. DATOS DEL SOLICITANTE Primer Apellido Segundo Apellido Nombre Documento de identificación □ □ □ □ N.I.F. N.I.E. Pasaporte Otros Especificar Nº de Identificación: Dirección Fecha de nacimiento Sexo Código postal Ciudad Provincia País Nacionalidad Teléfono Fax Correo electrónico 2. FINALIDAD DE LA SOLICITUD, CERTIFICACIÓN DE EQUIVALENCIA CON □ PROFESOR TITULAR DE UNIVERSIDAD □ CATEDRÁTICO DE UNIVERSIDAD 3. RAMA DE CONOCIMIENTO (márquese una, la que proceda) □ ARTES Y HUMANIDADES □ CIENCIAS □ CIENCIAS DE LA SALUD □ CIENCIAS SOCIALES Y JURÍDICAS □ INGENIERÍA Y ARQUITECTURA 4. TITULO DE DOCTOR Doctor por la Universidad de País Año Página 11 de 14 V01- 29/05/08 Primer Apellido | | | Segundo Apellido | | | Nombre | | | Documento de identificación □ □ □ □ N.I.F. N.I.E. Pasaporte Otros Especificar Nº de Identifica" .
+
+
+base:frag_academia_dadicional4_procedimiento_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "5. SITUACIÓN DE ORIGEN. PUESTO DE PROFESORADO ALCANZADO EN UNA UNIVERSIDAD DE UN ESTADO MIEMBRO DE LA UNIÓN EUROPEA Puesto de profesorado (como se denomina en la universidad) Fecha de inicio Fecha de finalización Universidad País Dirección Postal 6. DOCUMENTACIÓN QUE SE DEBE APORTADA □ Copia del documento de identificación personal (DNI, NIE, Pasaporte) □ Copia del título de doctor □ Currículum vítae en formato libre □ Certificación documental de la posición de Profesorado que el solicitante ha alcanzado en la Universidad de origen, según el modelo preparado por ANECA o equivalente. □ En el caso de países donde sea exigible, documento que acredite el haber superado, para alcanzar la posición, un proceso selectivo por parte de un órgano externo a la propia Universidad. 7. DIRECCIÓN DEL SOLICITANTE A EFECTOS DE NOTIFICACIÓN A los efectos de la práctica de la notificación de todos los procedimientos relativos a la presente solicitud, las comunicaciones se dirigirán a la dirección postal (" .
+
+
+base:frag_academia_dadicional4_procedimiento_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "ANEXO II MODELO DE CERTIFICACIÓN DOCUMENTAL DE LA POSICIÓN DE PROFESORADO QUE EL SOLICITANTE HA ALCANZADO EN LA UNIVERSIDAD DE ORIGEN La Universidad de la Unión Europea tiene que emitir un certificado de la posición alcanzada por el solicitante según este modelo o en cualquier otro, siempre que aporte los datos indicados. El original del certificado (y no una copia) debe incluirse junto con la solicitud de equivalencia (cuando el documento no esté escrito en castellano deberá presentarse con traducción jurada). Además, en el caso de países donde sea exigible, se debe incluir un documento que acredite el haber superado, para alcanzar la posición, un proceso selectivo por parte de un órgano externo a la propia Universidad. D./Dª. (Nombre), en calidad de (cargo en la universidad de origen, debe ser el responsable de profesorado de la Universidad, equivalente al Vicerrector de Profesorado de las universidades españolas) CERTIFICA QUE D./Dª. (nombre del solicitante) forma o ha formado parte" .
+
+
+base:frag_academia_dadicional4_procedimiento_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_academia_dadicional4_procedimiento ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "Facultad y Departamento al que está o ha estado adscrita la posición. Dirección Ciudad (País) Página web:  Estudios universitarios que imparte o ha impartido y en los que participa o ha participado el solicitante Grado Máster Doctorado (en este apartado, cuando sean varios los títulos impartidos, es suficiente indicar dos en cada nivel en los que el solicitante participe como docente).  Duración prevista para la posición alcanzada (fecha de revisión, de terminación o hasta el retiro).  Los requisitos de acceso a la plaza indicada.  Los procedimientos utilizados para la selección de entre los candidatos a la plaza.  Listado de categorías de Profesores y número aproximado de profesores de cada categoría en la Universidad y el nº total de profesores de la misma. Página 14 de 14 V01- 29/05/08" .
+

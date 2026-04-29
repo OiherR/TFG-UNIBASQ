@@ -1,0 +1,316 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_BOE-A-2021-15781 a u:Documento ;
+  u:titulo "BOE-A-2021-15781" .
+
+
+# --- FIGURAS DETECTADAS (DINÁMICAS) ---
+base:fig_BOE-A-2021-15781_profesorado_y_el_estudiantado_en_el_mismo_espacio_fisico a u:Figura ;
+  u:nombre "profesorado y el estudiantado en el mismo espacio físico" .
+
+base:fig_BOE-A-2021-15781_profesorado_propio_de_la_universidad_y_del_externo a u:Figura ;
+  u:nombre "profesorado propio de la universidad y del externo" .
+
+base:fig_BOE-A-2021-15781_profesorado_que_explican_el_desajuste_y_las_acciones_realizadas_en_cada_uno_de_l a u:Figura ;
+  u:nombre "profesorado que explican el desajuste y las acciones realizadas en cada uno de los ámbitos" .
+
+base:fig_BOE-A-2021-15781_profesorado_y_de_otros_recursos_humanos_necesarios_y_disponibles_para_desarrolla a u:Figura ;
+  u:nombre "profesorado y de otros recursos humanos necesarios y disponibles para desarrollar adecuadamente el plan de estudios propuesto" .
+
+
+base:frag_BOE-A-2021-15781_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119537 I. DISPOSICIONES GENERALES MINISTERIO DE UNIVERSIDADES 15781 Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad. El sistema universitario español, hace ya más de una década, emprendió una reforma de su oferta formativa, y de la organización de la misma, al adoptar los principios que constituían la esencia del Espacio Europeo de Educación Superior (EEES). Así, la adaptación de una estructura cíclica configurada por el Grado, el Máster y el Doctorado, que consecutivamente iba incorporando una formación más especializada en términos de empleabilidad o de investigación, se ha completado en todas las universidades que conforman el sistema universitario español. De igual modo, los principios en los que se fundamenta el EEES implicaban construir el andamiaje de una formación universitaria" .
+
+
+base:frag_BOE-A-2021-15781_p2 a u:Fragmento ;
+  u:pagina 2 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119538 transformaciones para construir colectivamente una sociedad abierta al cambio, económica y medioambientalmente sostenible, tecnológicamente avanzada, socialmente equitativa, sin ningún tipo de discriminación por cuestiones de género, origen nacional o étnico, edad, ideología, religión o creencias, enfermedad, clase social, o cualquier otra condición o circunstancia personal o social, y claramente alineada con los Objetivos de Desarrollo Sostenible (ODS). A la par, unas sociedades en mutación requieren de nuevos conocimientos científicos, tecnológicos, humanísticos y artísticos que se transfieran al estudiantado durante el proceso de enseñanza y aprendizaje, permitiendo obtener una formación integral. De ahí la necesidad de redefinir la organización y las estructuras de las enseñanzas universitarias oficiales, recogidas en este real decreto, atendiendo a la experiencia acumulada en el transcurso d" .
+
+
+base:frag_BOE-A-2021-15781_p3 a u:Fragmento ;
+  u:pagina 3 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119539 de 60, 90 y 120 créditos y el Doctorado al que se accede habiendo superado los 300 créditos en las dos etapas formativas anteriores. Esta norma introduce una modificación significativa al cambiar la adscripción de los títulos de Grado y Máster de las cinco ramas del conocimiento a los denominados ámbitos del conocimiento. Esta modificación tiene un doble objetivo. En primer lugar, estos ámbitos de conocimiento son los que aportan las asignaturas que conforman sustancialmente la formación básica que se desarrolla en los Grados, garantizando así una formación transversal y reforzando el carácter generalista de este ciclo. En segundo lugar, al no ser los ámbitos del conocimiento espacios tan extraordinariamente genéricos y amplios como lo eran las cinco ramas, permiten que, garantizando la transversalidad, la oferta de asignaturas tenga mayor coherencia formativa, lo que finalmente beneficia nítidam" .
+
+
+base:frag_BOE-A-2021-15781_p4 a u:Fragmento ;
+  u:pagina 4 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119540 esencial en el engranaje del aseguramiento de la calidad de la oferta formativa universitaria al empoderar a los sistemas internos de garantía de la calidad con la orientación y guía de las agencias, siguiendo los planteamientos que se desarrollan en la mayoría de los países del EEES, y al promover una desburocratización de los procedimientos implicados en el mismo. El articulado de la presente norma se estructura en ocho capítulos que agrupan treinta y siete artículos. El capítulo I y el capítulo II, referidos a las disposiciones generales y a la organización de las enseñanzas universitarias, plantea los objetivos del real decreto, su ámbito de actuación y los principios que deben regir la organización y estructuras de las enseñanzas universitarias. El capítulo III, por su parte, aborda la organización de las enseñanzas universitarias oficiales de Grado. El capítulo IV y el capítulo V desarrolla" .
+
+
+base:frag_BOE-A-2021-15781_p5 a u:Fragmento ;
+  u:pagina 5 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119541 artículo 27 de la Constitución Española, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia educativa, respectivamente. Este real decreto ha sido informado por el Consejo de Universidades, por el Consejo de Estudiantes Universitarios del Estado y por la Conferencia General de Política Universitaria. Durante el proceso de elaboración han sido, además, consultadas las agencias de aseguramiento de la calidad, la Conferencia de Consejos Sociales de las Universidades Españolas (CCS), la Conferencia de Rectores de las Universidades Españolas, y otras asociaciones y organizaciones representativas de la educación universitaria en España En su virtud, a propuesta del Ministro de Universidades, con la aprobación previa de la Ministra de Hacienda y Función Pública, de acuerdo con el Consejo de Estado, y previa deliberación del Consejo de Ministros en su reunión d" .
+
+
+base:frag_BOE-A-2021-15781_p6 a u:Fragmento ;
+  u:pagina 6 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119542 2. Los títulos universitarios oficiales deberán inscribirse en el RUCT del Ministerio de Universidades, de acuerdo con lo dispuesto en el Real Decreto 1509/2008, de 12 de septiembre, por el que se regula el Registro de Universidades, Centros y Títulos. 3. Todos los títulos universitarios oficiales de Grado y de Máster Universitario deberán adscribirse a uno de los ámbitos del conocimiento relacionados en el anexo I, en el momento de inscripción en el RUCT. Asimismo, este ámbito de conocimiento deberá incluirse en la memoria del plan de estudios durante el proceso de verificación. 4. Los títulos universitarios oficiales de Grado, Máster Universitario y Doctorado acreditan la cualificación en los niveles en los que se estructura el Marco Español de Cualificaciones para la Educación Superior (MECES) regulados por el Real Decreto 1027/2011, de 15 de julio, por el que se establece el Marco Español de " .
+
+
+base:frag_BOE-A-2021-15781_p7 a u:Fragmento ;
+  u:pagina 7 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119543 Artículo 5. Planes de estudios de los títulos universitarios oficiales. 1. Los planes de estudios estructuran los objetivos formativos de un título universitario oficial, los conocimientos y contenidos que se pretenden transmitir, las competencias y habilidades que lo caracterizan y se persigue dominar, las prácticas académicas externas que refuerzan su proyecto formativo y el sistema de evaluación del aprendizaje del estudiantado matriculado en dicho título. 2. El plan de estudios en las enseñanzas de Grado y de Máster Universitario se estructura en cursos de 60 créditos académicos del Sistema Europeo de Transferencia de Créditos (ECTS, en sus siglas en inglés), secuenciándose desde el primer hasta el último curso, hasta cumplir la totalidad de créditos que definen el título. Se exceptúa de esta regla a aquellos Másteres que tengan un plan de estudios con una carga total de 90 créditos, permitié" .
+
+
+base:frag_BOE-A-2021-15781_p8 a u:Fragmento ;
+  u:pagina 8 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119544 Artículo 8. Efectos académicos y la expedición de títulos universitarios oficiales. 1. Los títulos universitarios de Grado, de Máster Universitario y de Doctorado tienen carácter oficial y son válidos en España, cuentan con efectos académicos y administrativos, y en el caso de que así resulte de la normativa aplicable, habilitan para el ejercicio de determinadas profesiones reguladas. 2. La expedición de los títulos de Graduada o Graduado, de Máster Universitario y de Doctora o Doctor a que conducen la superación de los créditos de los respectivos planes de estudios y la superación del programa de Doctorado, se efectuará en nombre del Rey por la Rectora o el Rector de la universidad en que se hubieren finalizado los estudios, de acuerdo con las directrices y requerimientos establecidos por el Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales. Artículo 9." .
+
+
+base:frag_BOE-A-2021-15781_p9 a u:Fragmento ;
+  u:pagina 9 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119545 la estudiante a efecto de obtener un título universitario oficial diferente del que proceden. En este procedimiento no podrán ser reconocidos los créditos que corresponden a trabajos de fin de Grado o de Máster, a excepción de aquellos que se desarrollen específicamente en un programa de movilidad. 4. La acreditación de la experiencia profesional y laboral podrá ser reconocida como créditos académicos utilizados para obtener un título de carácter oficial. Esta opción podrá darse cuando esa experiencia se muestre estrechamente relacionada con los conocimientos, competencias y habilidades propias del título universitario oficial. De igual modo, podrán ser reconocidos los créditos superados y cursados en estudios universitarios propios de las universidades o de otros estudios superiores oficiales. 5. El volumen de créditos reconocibles a partir de la experiencia profesional o laboral o aquellos proc" .
+
+
+base:frag_BOE-A-2021-15781_p10 a u:Fragmento ;
+  u:pagina 10 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119546 universidades, cuyo objetivo es permitir a los mismos aplicar y complementar los conocimientos adquiridos en su formación académica, favoreciendo la adquisición de competencias que los preparen para el ejercicio de actividades profesionales, faciliten su empleabilidad y fomenten su capacidad de emprendimiento. El Suplemento Europeo al Título recogerá las prácticas realizadas por el o la estudiante. 2. De conformidad con el Real Decreto 592/2014, de 11 de julio, por el que se regulan las prácticas académicas externas de los estudiantes universitarios, se podrán realizar en su modalidad curricular (y por tanto forman parte del plan de estudios y del proyecto formativo del título, pudiéndose concretar en materias o asignaturas obligatorias u optativas) y en su modalidad extracurricular. 3. La universidad garantizará el carácter plenamente formativo de las prácticas académicas externas y que las cond" .
+
+
+base:frag_BOE-A-2021-15781_p11 a u:Fragmento ;
+  u:pagina 11 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119547 y que los prepara para el desarrollo de actividades de carácter profesional y garantiza su formación integral como ciudadanos y ciudadanas. 2. Las agencias de aseguramiento de la calidad y las Administraciones públicas, en el ejercicio de sus respectivas competencias, deberán garantizar la coherencia académica entre la denominación del título universitario oficial de Grado y los objetivos formativos, así como la estructura y contenidos fundamentales del plan de estudios. Asimismo, deberán velar por que dicha denominación no induzca a confusión con relación al ciclo universitario en el que se encuentra ni a los objetivos formativos que lo definen, sus efectos académicos ni, en su caso, profesionales. 3. Las enseñanzas oficiales de Grado pueden complementarse con la incorporación de menciones. En este sentido, la mención o las menciones que puede o pueden incluir los títulos de Grado suponen una in" .
+
+
+base:frag_BOE-A-2021-15781_p12 a u:Fragmento ;
+  u:pagina 12 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119548 ser ofertadas en la primera mitad del plan de estudios. Los créditos restantes, deberán estar configurados por otras materias o asignaturas que refuercen la amplitud y solidez de competencias y conocimientos del proyecto formativo que es el Grado. En los títulos de Grado de 300 y 360 créditos la formación básica incluirá un mínimo de 75 y 90 créditos, respectivamente. 5. En el caso de que el plan de estudios incorpore la realización de prácticas académicas externas curriculares, estas tendrán una extensión máxima equivalente al 25 por ciento del total de los créditos del título, con excepción de aquellos Grados que por las normas del Derecho de la Unión Europea deban tener otro porcentaje, y deberán ofrecerse preferentemente en la segunda mitad del plan de estudios. De esta norma quedan, asimismo, exceptuados los Grados que incluyan la Mención Dual, regulados en el artículo 22, cuya extensión est" .
+
+
+base:frag_BOE-A-2021-15781_p13 a u:Fragmento ;
+  u:pagina 13 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119549 a un título de Máster Universitario habilitante, el Gobierno establecerá las condiciones y exigencias formativas del título de Grado que deberán reflejarse en el plan de estudios. Artículo 15. Acceso y admisión a las enseñanzas universitarias oficiales de Grado. 1. El procedimiento de acceso a las enseñanzas universitarias oficiales de Grado será el establecido en el artículo 38 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y en el artículo 42 de la Ley Orgánica 6/2001, de Universidades, y en sus normas de desarrollo. Asimismo, se estará a lo dispuesto en el Real Decreto 412/2014, de 6 de junio, por el que se establece la normativa básica de los procedimientos de admisión a las enseñanzas universitarias oficiales de Grado. 2. Las universidades garantizarán una información transparente y accesible sobre los procedimientos de admisión, y deberán disponer de sistemas de orientación al estud" .
+
+
+base:frag_BOE-A-2021-15781_p14 a u:Fragmento ;
+  u:pagina 14 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119550 conformen una especialidad no podrá superar el cincuenta por ciento del número total de créditos que componen el plan de estudios de Máster. 5. Los títulos universitarios oficiales de Máster Universitario tienen un nivel equivalente al MECES 3. Artículo 17. Directrices generales para el diseño de los planes de estudios de las enseñanzas de Máster Universitario. 1. Los planes de estudios conducentes a la obtención de un título de Máster Universitario contarán con 60, 90 o 120 créditos ECTS, que se distribuirán en materias y asignaturas obligatorias y optativas, el trabajo de fin de Máster, las prácticas académicas externas si las hubiera, y otras actividades académicas. 2. La memoria de verificación del plan de estudios del título universitario oficial de Máster Universitario y el Suplemento Europeo al Título deberán explícitamente recoger el ámbito de conocimiento en el que se inscribe el título." .
+
+
+base:frag_BOE-A-2021-15781_p15 a u:Fragmento ;
+  u:pagina 15 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119551 estudiantado. Asimismo, asegurarán que dicha información y los procedimientos de admisión tengan en cuenta al estudiantado con discapacidad o con necesidades específicas, y dispondrán de servicios de apoyo y asesoramiento adecuados. 4. Las universidades podrán excepcionalmente establecer, a partir de normativas específicas aprobadas por sus órganos de Gobierno, procedimientos de matrícula condicionada para el acceso a un Máster Universitario. Esta consistirá en permitir que un o una estudiante de Grado al que le reste por superar el TFG y como máximo hasta 9 créditos ECTS, podrá acceder y matricularse en un Máster Universitario, si bien en ningún caso podrá obtener el título de Máster si previamente no ha obtenido el título de Grado. Las universidades garantizarán la prioridad en la matrícula de los y las estudiantes que dispongan del título universitario oficial de Graduada o Graduado. En este p" .
+
+
+base:frag_BOE-A-2021-15781_p16 a u:Fragmento ;
+  u:pagina 16 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119552 CAPÍTULO VI Estructuras curriculares específicas y de innovación docente en las enseñanzas universitarias oficiales Artículo 21. Estructuras curriculares específicas y de innovación docente. 1. Las universidades en el ejercicio de su autonomía podrán incorporar estructuras curriculares específicas en sus planes de estudios, si se hubieren recogido en la correspondiente memoria del plan de estudios del título. La referencia a estas estructuras se reflejará en el Suplemento Europeo al Título. 2. Asimismo, las universidades, en el ejercicio de su autonomía de planificación y gestión de la docencia y con el objetivo de la mejora permanente de la calidad de la enseñanza y del aprendizaje, podrán desarrollar unas estrategias metodológicas de innovación docente específicas y diferenciadas que vehiculen a la globalidad de un título universitario oficial –y, por tanto, afecten al conjunto de materias y as" .
+
+
+base:frag_BOE-A-2021-15781_p17 a u:Fragmento ;
+  u:pagina 17 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119553 plan de estudios y del proyecto formativo que es el Grado o el Máster de que se trate. Además, se deberá asegurar en todo momento la posibilidad de compaginar la actividad formativa en el centro universitario y en la entidad colaboradora (empresa, organización, institución y administración). 3. La universidad y la entidad colaboradora en la que el o la estudiante desarrolle parte de su formación mediante un contrato laboral, tendrán que haber suscrito previamente un Convenio Marco de Colaboración Educativa, que recoge el convenio específico a firmar entre las partes de acuerdo con lo establecido por la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. En este convenio se concretará el proyecto formativo, y se indicarán las obligaciones de las partes que lo suscriben, los mecanismos de tutoría y supervisión, los sistemas de evaluación, y el resto de las condiciones que se consi" .
+
+
+base:frag_BOE-A-2021-15781_p18 a u:Fragmento ;
+  u:pagina 18 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119554 d) Estos deberán contar con el informe favorable del Sistema Interno de la Garantía de la Calidad, previo a su aprobación por los órganos de gobierno de la universidad. 2. A la finalización del itinerario académico abierto, el o la estudiante podrá continuar sus estudios en uno de los títulos universitarios oficiales de Grado incluidos en el programa. Al acabar sus estudios en ese título universitario oficial de Grado, el o la estudiante podrá solicitar la Mención «título universitario oficial de Grado incluido en un programa con itinerario académico abierto». La universidad deberá asegurar que el o la estudiante ha alcanzado los conocimientos, competencias y habilidades fundamentales del título universitario oficial de Grado que finalmente obtenga. 3. Las universidades establecerán un cupo de admisión dentro de cada Grado para el estudiantado que desee seguir estos itinerarios abiertos. Estos cu" .
+
+
+base:frag_BOE-A-2021-15781_p19 a u:Fragmento ;
+  u:pagina 19 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119555 CAPÍTULO VII Procedimientos de aseguramiento de la calidad de las enseñanzas universitarias oficiales Artículo 25. Aseguramiento de la calidad de las enseñanzas universitarias oficiales. 1. Con objeto de asegurar la calidad de los estudios universitarios en tanto que un servicio educativo para toda la sociedad española, los títulos universitarios oficiales deberán someterse a procedimientos de evaluación externa de acuerdo con los Criterios y Directrices de Aseguramiento de Calidad en el Espacio Europeo de Educación Superior (European Standards and Guidelines for Quality Assurance of Higher Education, ESG), atendiendo a lo establecido en el Título V de la Ley Orgánica 6/2001, de 21 de diciembre, y conforme a lo dispuesto en este real decreto. Las universidades deberán corresponsabilizarse del aseguramiento de la calidad, mediante el desarrollo de sus sistemas internos de la garantía y de la promo" .
+
+
+base:frag_BOE-A-2021-15781_p20 a u:Fragmento ;
+  u:pagina 20 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119556 3. Las Comunidades Autónomas en el ejercicio de sus competencias sobre la programación universitaria y la ordenación del mapa de titulaciones oficiales de su ámbito territorial, realizarán un informe preceptivo sobre la necesidad y viabilidad académica y social de la implantación del título universitario oficial previo al inicio del procedimiento de verificación. En caso de informe favorable, la universidad podrá iniciar el procedimiento de verificación del título. 4. Este procedimiento dará inicio con la remisión por parte de la universidad solicitante del informe al que se refiere el apartado 3 de este artículo y de la memoria del plan de estudios a la que se refiere el artículo 5.3, conforme a la estructura, contenido y extensión que se indica en el anexo II, al Consejo de Universidades a través de la unidad de la Secretaría General de Universidades responsable de la tramitación de este proced" .
+
+
+base:frag_BOE-A-2021-15781_p21 a u:Fragmento ;
+  u:pagina 21 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119557 denominación propuesta del título es coherente con el plan de estudios y se adecua a lo establecido por la normativa vigente, dictando si es así la resolución de verificación positiva del título. En el supuesto de que el informe fuese desfavorable, la Comisión de Verificación y Acreditación del Consejo de Universidades dictará una resolución de verificación negativa. 9. Una vez dictada la resolución, el Consejo de Universidades la notificará en un plazo máximo de 3 días hábiles a la universidad solicitante, comunicándola asimismo a la Comunidad Autónoma o Comunidades Autónomas donde se sitúan estas universidades, a la agencia de calidad correspondiente y al Ministerio de Universidades. 10. La universidad solicitante, recibida la notificación del Consejo de Universidades, podrán reclamar ante la Presidencia de dicho órgano, la revisión de la resolución de verificación, para lo cual dispondrá de 10" .
+
+
+base:frag_BOE-A-2021-15781_p22 a u:Fragmento ;
+  u:pagina 22 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119558 3. El inicio de la impartición de la docencia del título universitario oficial no podrá tener lugar hasta haberse realizado lo establecido en los apartados 1 y 2 de este artículo. 4. Establecida la oficialidad y validez del título universitario, el Rector o la Rectora de la universidad correspondiente –o de aquella que coordinará el título– ordenará publicar en el «Boletín Oficial del Estado» y en el diario oficial de la Comunidad Autónoma donde se ubica la universidad el plan de estudios, que deberá concretarse en la publicación de la estructura académica de dicho título. 5. Desde el momento en el que se produzca su publicación oficial, la universidad o las universidades que han impulsado el título dispondrán de un máximo de dos cursos académicos para implantar e iniciar la docencia de este. 6. Si no se produjese dicho inicio, el título perderá su acreditación inicial. El órgano competente de la" .
+
+
+base:frag_BOE-A-2021-15781_p23 a u:Fragmento ;
+  u:pagina 23 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119559 a lo dispuesto en el artículo 14 y concordantes del Real Decreto 640/2021, de 27 de julio, de creación, reconocimiento y autorización de universidades y centros universitarios, y acreditación institucional de centros universitarios. Sección 3.ª Modificación de los planes de estudios Artículo 30. Procedimiento para la modificación no sustancial de los planes de estudios impartidos en centros universitarios no acreditados institucionalmente. 1. En el supuesto de que las modificaciones no supongan un cambio en la naturaleza, objetivos y características fundamentales del título inscrito, y sean, por tanto, modificaciones no sustanciales, estas, una vez aprobadas por los órganos de gobierno de la universidad previo informe favorable de los sistemas internos de garantía de la calidad, serán remitidas a la agencia de calidad competente para su aceptación. 2. La agencia de calidad competente deberá notif" .
+
+
+base:frag_BOE-A-2021-15781_p24 a u:Fragmento ;
+  u:pagina 24 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119560 anterior, si conforme a la propuesta de la universidad las modificaciones presentadas suponen a juicio de la agencia correspondiente el diseño de un nuevo título, se emitirá por dicha agencia informe denegando las modificaciones solicitadas y se instará a la verificación de un nuevo título. 3. El procedimiento para la modificación sustancial se tramitará conforme a lo establecido para el proceso de verificación de los planes de estudios recogido en el artículo 26. 4. Producida la aprobación definitiva de la modificación sustancial, esta tendrá efecto de conformidad con el calendario de implantación previsto a tal fin en la memoria modificada. 5. En el supuesto de que las modificaciones aceptadas afecten a los términos de la denominación del título contenidos en la resolución de verificación de la memoria del plan de estudios, o de forma significativa a la estructura de las enseñanzas en los térmi" .
+
+
+base:frag_BOE-A-2021-15781_p25 a u:Fragmento ;
+  u:pagina 25 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119561 Sección 4.ª Renovación de la acreditación Artículo 34. Procedimiento de renovación de la acreditación de los títulos impartidos en centros universitarios no acreditados institucionalmente. 1. Los centros universitarios que no estén acreditados institucionalmente deberán renovar la acreditación de sus títulos universitarios oficiales de acuerdo con el procedimiento que cada Comunidad Autónoma establezca en relación con las universidades de su ámbito competencial, que será resuelta por el Consejo de Universidades a partir del informe preceptivo y vinculante de la agencia de calidad correspondiente, dentro de los siguientes plazos: a) La acreditación de los títulos universitarios oficiales de Grado que tengan 240 créditos deberá haber sido renovada en el plazo máximo de seis años, desde la fecha de inicio de impartición del título o de renovación de la acreditación anterior. b) La acreditación de lo" .
+
+
+base:frag_BOE-A-2021-15781_p26 a u:Fragmento ;
+  u:pagina 26 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119562 8. El Consejo de Universidades notificará la resolución de renovación de la acreditación o de no renovación en los 3 días hábiles después de haberla aprobado, a la universidad solicitante del título, comunicándola a la Comunidad Autónoma o Comunidades Autónomas interesadas, a la agencia de evaluación que ha participado en el procedimiento y al Ministerio de Universidades. En el caso en el que un título no renueve su acreditación, el título será declarado «a extinguir», practicándose en el RUCT la anotación a tal efecto. Como consecuencia de ello, la Comunidad Autónoma competente determinará la extinción progresiva de su plan de estudios, con periodicidad anual, desde el año académico siguiente a aquel en que se produjo la citada resolución, debiendo declarar su extinción definitiva cuando esta se produzca a efectos de su inscripción en el RUCT. En todo caso, tanto la Comunidad Autónoma como la un" .
+
+
+base:frag_BOE-A-2021-15781_p27 a u:Fragmento ;
+  u:pagina 27 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119563 su denominación ni el formato en que se elaboren e informen públicamente los correspondientes títulos propios puedan inducir a confusión con respecto los títulos universitarios oficiales. Artículo 37. La formación permanente. 1. Dentro de los estudios universitarios propios, la formación permanente estará conformada por una serie de enseñanzas cuya finalidad es fortalecer la formación de los ciudadanos y ciudadanas a lo largo de la vida, actualizando y ampliando sus conocimientos, sus capacidades y su habilidades generales, específicas o multidisciplinares de los diversos campos del saber. 2. Este tipo de enseñanzas podrá ser impartida por centros o institutos de formación permanente, fundaciones universitarias, facultades o escuelas sean propias o adscritas, así como institutos de investigación, a partir de los establecido en los respectivos Estatutos o Normas de organización y funcionamiento de" .
+
+
+base:frag_BOE-A-2021-15781_p28 a u:Fragmento ;
+  u:pagina 28 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119564 centros, institutos o fundaciones que implementen títulos de formación permanente en su información institucional, documental o publicitaria no induzcan a confusión en cuanto al nivel de estos títulos, especialmente en el caso del Máster de Formación Permanente que siempre deberá contemplar en su difusión esta denominación. 11. La universidad garantizará la calidad y el rigor académico y científico de los títulos de formación permanente, siendo ello responsabilidad de los sistemas internos de garantía de la calidad que la institución universitaria determine. Específicamente, en el caso del Máster de Formación Permanente, previamente a su aprobación por los órganos de gobierno, deberá contar preceptivamente con un informe favorable del Sistema Interno de Garantía de la Calidad de la universidad, que tendrá carácter vinculante para esta. Una vez obtenido este informe favorable la universidad podrá " .
+
+
+base:frag_BOE-A-2021-15781_p29 a u:Fragmento ;
+  u:pagina 29 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119565 Disposición adicional cuarta. Universidades Concordatarias de la Iglesia Católica. 1. Atendiendo a lo establecido en la Disposición adicional cuarta de la Ley Orgánica 6/2001 de 21 de diciembre, las universidades de la Iglesia Católica establecidas en España con anterioridad al Acuerdo de 3 de enero de 1979, entre el Estado español y la Santa Sede, sobre Enseñanza y Asuntos Culturales, en virtud de lo establecido en el Convenio entre la Santa Sede y el Estado español, de 10 de mayo de 1962, y el mencionado Acuerdo, mantienen sus procedimientos especiales en materia de reconocimiento de efectos civiles de planes de estudios y títulos, mientras no opten por transformarse en universidades privadas. 2. En todo caso, a efectos de hacer efectivos dichos procedimientos estas universidades solicitarán al Consejo de Universidades la verificación de la memoria del plan de estudios conducente a la obtención" .
+
+
+base:frag_BOE-A-2021-15781_p30 a u:Fragmento ;
+  u:pagina 30 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119566 Approach for Quality Assurance of Joint Programmes) en las diferentes etapas del proceso de evaluación, modificación sustancial y acreditación, siempre que el país de la universidad coordinadora haya suscrito este acuerdo. 3. El plazo para la renovación de la acreditación de estas titulaciones será el que determine la normativa del país donde se ha emitido el informe de evaluación externa. 4. En el caso de que el título universitario conjunto de Grado tuviese una carga crediticia diferente de la establecida por este real decreto, será necesario, previa a su autorización, disponer de informe favorable de ANECA o de la agencia de la evaluación de la Comunidad Autónoma donde radique la universidad española solicitante. 5. La gestión de los expedientes académicos del estudiantado, la normativa académica, la emisión de los títulos y del Suplemento Europeo al Título, así como el precio de la prestación" .
+
+
+base:frag_BOE-A-2021-15781_p31 a u:Fragmento ;
+  u:pagina 31 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119567 6. Si el informe emitido por la agencia de aseguramiento de la calidad es positivo, este será remitido al Consejo de Universidades al objeto de que este dicte la correspondiente resolución de verificación, informándose a todas las universidades que promueven el título, así como a la Comunidad Autónoma o a las Comunidades Autónomas de la universidad o universidades españolas participantes, y al Ministerio de Universidades. Posteriormente, una vez autorizada su implantación por la correspondiente Comunidad Autónoma, se procederá con arreglo a lo establecido en el artículo 27. 7. El nivel de aprendizaje alcanzado y superado por los y las estudiantes en las enseñanzas oficiales de Grado y de Máster, se expresará mediante las calificaciones que se establezcan en el convenio. Asimismo, se deberá disponer de la tabla de equivalencias con el marco de calificaciones de los países implicados en la titulaci" .
+
+
+base:frag_BOE-A-2021-15781_p32 a u:Fragmento ;
+  u:pagina 32 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_notificacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119568 continuar impartiendo el plan de estudios de dicha titulación, deberán solicitar la modificación sustancial del mismo sin la calificación de Erasmus Mundus. Disposición adicional novena. Programas académicos con recorridos sucesivos en el ámbito de la Ingeniería y la Arquitectura. 1. Las universidades, en el ámbito de su autonomía, podrán ofertar como experiencia docente piloto programas académicos como recorridos sucesivos –ciclos consecutivos–, que vinculen un título de Grado y un título de Máster Universitario orientado a la especialización profesional, manteniendo su diferenciación e independencia estructural. Estos programas tienen como finalidad reforzar la formación integral del o la estudiante. En ningún caso, la denominación del programa académico podrá inducir a confusión con la posible habilitación profesional a la que puedan conducir los títulos que lo integran. 2. La ordenación acadé" .
+
+
+base:frag_BOE-A-2021-15781_p33 a u:Fragmento ;
+  u:pagina 33 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119569 caso solo será aplicable a los graduados y graduadas con posterioridad a tal modificación. 6. Cuando las modificaciones introducidas en un título de Grado adscrito al Nivel 3 del MECES comporten la pérdida de alguna de las condiciones necesarias para la adscripción a este nivel, el órgano de evaluación competente para su tramitación hará constar esta circunstancia en su informe de evaluación a fin de que el Consejo de Universidades decida sobre la revocación de dicho reconocimiento y, en su caso, dé el correspondiente traslado al RUCT. 7. Contra las resoluciones del Consejo de Universidades en esta materia podrá interponerse el recurso previsto en el artículo 26 apartado 10. La resolución de la reclamación pone fin a la vía administrativa de acuerdo con lo establecido en el artículo 114.1.b) de la Ley 39/2015, de 1 de octubre. Disposición adicional undécima. Regímenes específicos. 1. El título de" .
+
+
+base:frag_BOE-A-2021-15781_p34 a u:Fragmento ;
+  u:pagina 34 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119570 Disposición adicional decimocuarta. Principio de «no causar un daño significativo». En cumplimiento de lo dispuesto en el Plan de Recuperación, Transformación y Resiliencia, en el Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, por el que se establece el Mecanismo de Recuperación y Resiliencia, y su normativa de desarrollo, en la Comunicación de la Comisión Guía técnica (2021/C 58/01) sobre la aplicación del principio de «no causar un perjuicio significativo», así como con lo requerido en la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del plan de recuperación y resiliencia de España, todas las actuaciones que deban llevarse a cabo en cumplimiento del presente real decreto deberán respetar el llamado principio de no causar un perjuicio significativo al medioambiente. Esta obligación incluye el cumplimiento de las condiciones " .
+
+
+base:frag_BOE-A-2021-15781_p35 a u:Fragmento ;
+  u:pagina 35 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_plazos ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119571 Disposición transitoria cuarta. Agencias de aseguramiento de la calidad en proceso de inscripción en el EQAR. Las agencias de aseguramiento de la calidad de las Comunidades Autónomas que, en el momento de entrada en vigor de este real decreto, aún no estén inscritas en el Registro Europeo de Agencias de Aseguramiento de la Calidad en la Educación Superior (The European Quality Assurance Register for Higher Education, EQAR), dispondrán de un período transitorio de cuatro años en los cuales podrán seguir desarrollando las funciones que les son propias y que se establecen en esta norma con relación a los procedimientos de garantía de la calidad universitaria. Disposición transitoria quinta. Adaptación de la adscripción a los ámbitos de conocimiento y de la memoria de verificación del plan de estudios. 1. Los títulos universitarios oficiales habrán de adscribirse a un ámbito de conocimiento en el pla" .
+
+
+base:frag_BOE-A-2021-15781_p36 a u:Fragmento ;
+  u:pagina 36 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119572 Disposición derogatoria única. Derogación normativa. Queda derogado el Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales, y cuantas disposiciones de igual o inferior rango se opongan a lo establecido en este real decreto. Disposición final primera. Modificación del Real Decreto 1558/1986, de 28 de junio, por el que se establecen las bases generales del régimen de conciertos entre las Universidades y las Instituciones sanitarias. Se modifica el Real Decreto 1558/1986, de 28 de junio, por el que se establecen las bases generales del régimen de conciertos entre las universidades y las Instituciones sanitarias, de la siguiente forma: Único. Se modifica la base quinta del artículo 4, que queda redactada en los siguientes términos: «Quinta. Se utilizará la denominación «hospital universitario» cuando el concierto se refiera al hos" .
+
+
+base:frag_BOE-A-2021-15781_p37 a u:Fragmento ;
+  u:pagina 37 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_otro ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119573 Dos. El párrafo h) del apartado 1 del artículo 17 queda redactado de la siguiente forma: «h) Mención de las causas legales que, en su caso, afecten a la eficacia del título. Si la causa legal es la defunción del titular, el dato de la defunción se hará constar en el reverso del título. Cuando así proceda, se hará constar si se trata de expedición de un duplicado, así como de las causas que motivaron dicha expedición.» Disposición final cuarta. Título competencial. El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª y 30.ª de la Constitución Española que atribuyen al Estado la competencia exclusiva para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y la competencia exclusiva para la regulación de las condiciones de obtención, expedición" .
+
+
+base:frag_BOE-A-2021-15781_p38 a u:Fragmento ;
+  u:pagina 38 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119574 ANEXO I Ámbitos del conocimiento Los ámbitos del conocimiento en los cuáles inscribir los títulos universitarios oficiales de Grado y de Máster serán los siguientes: – Actividad física y ciencias del deporte. – Arquitectura, construcción, edificación y urbanismo, e ingeniería civil. – Biología y genética. – Bioquímica y biotecnología. – Ciencias agrarias y tecnología de los alimentos. – Ciencias biomédicas. – Ciencias del comportamiento y psicología. – Ciencias económicas, administración y dirección de empresas, márquetin, comercio, contabilidad y turismo. – Ciencias de la educación. – Ciencias medioambientales y ecología. – Ciencias sociales, trabajo social, relaciones laborales y recursos humanos, sociología, ciencia política y relaciones internacionales. – Ciencias de la Tierra. – Derecho y especialidades jurídicas. – Enfermería. – Estudios de género y estudios feministas. – Farmacia. – Filolo" .
+
+
+base:frag_BOE-A-2021-15781_p39 a u:Fragmento ;
+  u:pagina 39 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119575 El proyecto constituye el compromiso de la institución sobre las características del título y las condiciones en las que se van a desarrollar las enseñanzas, que concretan el proyecto académico formativo que lo define. En la fase de acreditación, la universidad deberá justificar el ajuste del desarrollo y despliegue del título con lo propuesto en el proyecto de memoria presentada, o en todo caso justificar las causas académicas, infraestructurales o de disponibilidad de profesorado que explican el desajuste y las acciones realizadas en cada uno de los ámbitos. La cumplimentación de la memoria del plan de estudios que acompañará a la solicitud de verificación de los planes de estudios se materializará en un fichero electrónico de intercambio abierto, que será remitido a los órganos de evaluación externa competentes a través del soporte informático habilitado al efecto por ANECA, facilitado mediant" .
+
+
+base:frag_BOE-A-2021-15781_p40 a u:Fragmento ;
+  u:pagina 40 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_evaluacion ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119576 1.5 Centro o centros universitarios en los que se imparte este título en la universidad o en las universidades. 1.5.bis) En el caso de títulos de Grado o de Máster Universitario impartidos en varios centros, centro responsable que asume la coordinación para un desarrollo armonizado de las enseñanzas. 1.6 Modalidad de enseñanza: presencial, híbrida y virtual. 1.7 Número total de créditos. 1.8 Idioma o idiomas de impartición. 1.9 Número de plazas ofertadas en el título. 1.9.bis) En caso de ser un título que combine una modalidad presencial con una modalidad virtual, se identificarán el número de plazas ofertadas en cada vía o itinerario. 1.10 Justificación del interés académico, científico, profesional y social del título e incardinación en el contexto de la planificación estratégica de la universidad o del sistema universitario de la Comunidad Autónoma. 1.11 Principales objetivos formativos del tí" .
+
+
+base:frag_BOE-A-2021-15781_p41 a u:Fragmento ;
+  u:pagina 41 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119577 3. Admisión, reconocimiento y movilidad 3.1 Requisitos de acceso y procedimientos de admisión de estudiantes. En su caso, pruebas particulares de acceso o criterios particulares de admisión. 3.2 Criterios para el reconocimiento y transferencias de créditos. En el caso de enseñanzas que se extinguen por la implantación del correspondiente título propuesto, reflejar los reconocimientos en el título a implantar. 3.3 Procedimientos para la organización de la movilidad de los estudiantes propios y de acogida. 4. Planificación de las enseñanzas 4.1 Estructura básica de las enseñanzas: descripción de los módulos, materias o asignaturas del plan de estudios propuesto, indicando para cada caso: a) Denominación. b) Número de créditos ECTS. c) Tipología (básica, obligatoria, optativa, prácticas académicas externas, trabajo fin de titulación). d) Organización temporal. e) Resultados básicos de aprendizaje (i" .
+
+
+base:frag_BOE-A-2021-15781_p42 a u:Fragmento ;
+  u:pagina 42 ;
+  u:fuenteDocumento base:doc_BOE-A-2021-15781 ;
+  u:enSeccion u:sec_recurso ;
+  u:textoFuente "BOLETÍN OFICIAL DEL ESTADO Núm. 233 Miércoles 29 de septiembre de 2021 Sec. I. Pág. 119578 equipamiento científico, técnico, humanístico o artístico; biblioteca y salas de lectura; y disponibilidad de nuevas tecnologías –internet, campus virtual docente–, etc., son los adecuados para garantizar con calidad la adquisición de conocimientos o contenidos, competencias y habilidades o destrezas y el desarrollo de las actividades formativas planificadas, observando los criterios de accesibilidad universal y diseño para todas/os. 6.2 En el caso de que se incluyan prácticas académicas externas, señalar brevemente el mecanismo de organización y, asimismo, adjuntar como anexos los principales convenios o compromisos de las entidades, instituciones, organizaciones y empresas que recibirán al estudiantado. 6.3 En el caso de que no se disponga de todos los recursos materiales y servicios necesarios en el momento de la propuesta del plan de estudios, se deberá indicar la previsión de adquisición de " .
+
