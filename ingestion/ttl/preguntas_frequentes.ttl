@@ -1,0 +1,14 @@
+@prefix u: <http://example.org/academic-career/ontology#> .
+@prefix base: <http://example.org/academic-career/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+base:doc_preguntas_frequentes a u:Documento ;
+  u:titulo "preguntas frequentes" .
+
+base:frag_preguntas_frequentes_p1 a u:Fragmento ;
+  u:pagina 1 ;
+  u:fuenteDocumento base:doc_preguntas_frequentes ;
+  u:enSeccion u:sec_tasas ;
+  u:textoFuente "1.- ¿Quién establece las bases de la convocatoria para la asignación de complementos retributivos? Corresponde al Consejo Social de la UPV/EHU establecer las bases de la convocatoria, a propuesta del Consejo de Gobierno de la Universidad. Unibasq no convoca ni asigna los complementos; únicamente evalúa las solicitudes aprobadas por la UPV/EHU mediante comités de evaluación. 2.- ¿Quién elabora el protocolo y los criterios de evaluación? El Comité Asesor de Unibasq, órgano independiente de su Consejo de Gobierno. Según la Ley 13/2012 de Unibasq, debe garantizar la calidad y credibilidad de sus actividades y aprobar los protocolos y criterios de evaluación. 3.- ¿Quién verifica los requisitos legales necesarios para la evaluación? La UPV/EHU verifica la antigüedad, el requisito de doctorado y los aspectos legales de la solicitud. Unibasq solo evalúa las solicitudes correctamente presentadas según la UPV/EHU. 4.- Si me presenté en 2020, ¿puedo presentarme en 2024? No, porque los méritos a e" .
+
