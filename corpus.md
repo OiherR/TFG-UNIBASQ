@@ -26,47 +26,47 @@ https://www.boe.es
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/    
 
 2. Archivo procesado:
-    -guia_osagarriak.ttl
+    - guia_osagarriak.ttl
     Fuente:  
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/
 
 3. Archivo procesado:
-    -COM.18Protokoloa.ttl
+    - COM.18Protokoloa.ttl
     Fuente:  
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/
 
 4. Archivo procesado:
-    -protocolo_2025.ttl
+    - protocolo_2025.ttl
     Fuente:  
     https://www.unibasq.eus/es/profesorado-acreditacion-del-pdi/
 
 5. Archivo procesado:
-    -tasak.ttl
+    - tasak.ttl
     Fuente:  
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/
 
 6. Archivo procesado:
-    -noti_de_resultados.ttl
+    - noti_de_resultados.ttl
     Fuente:  
     https://www.unibasq.eus/es/profesorado-acreditacion-del-pdi/
 
 7. Archivo procesado:
-    -Decreto_209_2006.ttl
+    - Decreto_209_2006.ttl
     Fuente:  
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/
 
 8. Archivo procesado:
-    -Decreto_64_2011.ttl
+    - Decreto_64_2011.ttl
     Fuente:  
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/
 
 9. Archivo procesado:
-    -base.ttl
+    - base.ttl
     Fuente:  
     https://www.unibasq.eus/es/profesorado-acreditacion-del-pdi/
 
 10. Archivo procesado:
-    -galdera_ohikoak.ttl
+    - galdera_ohikoak.ttl
     Fuente:  
     https://www.unibasq.eus/eu/irakasle-eta-ikertzaileak-osagarriak/
 
