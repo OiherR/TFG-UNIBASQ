@@ -112,5 +112,11 @@
     "uri": "http://example.org/academic-career/ontology#minmax",
     "label": "minmax",
     "text": "PROPIEDAD: minmax\nURI: http://example.org/academic-career/ontology#minmax"
+  },
+  {
+    "kind": "property",
+    "uri": "http://example.org/academic-career/ontology#titulo",
+    "label": "titulo",
+    "text": "PROPIEDAD: titulo\nURI: http://example.org/academic-career/ontology#titulo"
   }
 ]
