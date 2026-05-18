@@ -1,0 +1,244 @@
+@prefix faq: <http://example.org/faq/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faq:PreguntasFrecuentes a schema:FAQPage ;
+  schema:name "Preguntas frecuentes sobre complementos retributivos"@es .
+
+faq:q1 a schema:Question ;
+  schema:name """¿Quién establece las bases de la convocatoria para la asignación de complementos retributivos?"""@es ;
+  schema:acceptedAnswer faq:q1_answer .
+
+faq:q1_answer a schema:Answer ;
+  schema:text """Corresponde al Consejo Social de la UPV/EHU establecer las bases de la convocatoria, a propuesta del Consejo de Gobierno de la Universidad. Unibasq no convoca ni asigna los complementos; únicamente evalúa las solicitudes aprobadas por la UPV/EHU mediante comités de evaluación."""@es .
+
+faq:q2 a schema:Question ;
+  schema:name """¿Quién elabora el protocolo y los criterios de evaluación?"""@es ;
+  schema:acceptedAnswer faq:q2_answer .
+
+faq:q2_answer a schema:Answer ;
+  schema:text """El Comité Asesor de Unibasq, órgano independiente de su Consejo de Gobierno. Según la Ley 13/2012 de Unibasq, debe garantizar la calidad y credibilidad de sus actividades y aprobar los protocolos y criterios de evaluación."""@es .
+
+faq:q3 a schema:Question ;
+  schema:name """¿Quién verifica los requisitos legales necesarios para la evaluación?"""@es ;
+  schema:acceptedAnswer faq:q3_answer .
+
+faq:q3_answer a schema:Answer ;
+  schema:text """La UPV/EHU verifica la antigüedad, el requisito de doctorado y los aspectos legales de la solicitud. Unibasq solo evalúa las solicitudes correctamente presentadas según la UPV/EHU."""@es .
+
+faq:q4 a schema:Question ;
+  schema:name """Si me presenté en 2020, ¿puedo presentarme en 2024?"""@es ;
+  schema:acceptedAnswer faq:q4_answer .
+
+faq:q4_answer a schema:Answer ;
+  schema:text """No, porque los méritos a evaluar llegan hasta el 31 de diciembre de 2024 y no se puede formar un bloque mínimo de 5 años."""@es .
+
+faq:q5 a schema:Question ;
+  schema:name """¿Puedo solicitar varios tramos en una misma solicitud?"""@es ;
+  schema:acceptedAnswer faq:q5_answer .
+
+faq:q5_answer a schema:Answer ;
+  schema:text """Sí, es una única solicitud en la que puedes pedir la evaluación de varios tramos."""@es .
+
+faq:q6 a schema:Question ;
+  schema:name """¿Puedo modificar la solicitud una vez cerrada?"""@es ;
+  schema:acceptedAnswer faq:q6_answer .
+
+faq:q6_answer a schema:Answer ;
+  schema:text """No, salvo que solicites su reapertura a la UPV/EHU dentro del plazo."""@es .
+
+faq:q7 a schema:Question ;
+  schema:name """Si obtuve evaluación negativa en B1, ¿debo esperar 5 años?"""@es ;
+  schema:acceptedAnswer faq:q7_answer .
+
+faq:q7_answer a schema:Answer ;
+  schema:text """No en el caso de B1 si no alcanzaste 25 puntos. Para B2, B3, A1 y A2 sí debes esperar 5 años."""@es .
+
+faq:q8 a schema:Question ;
+  schema:name """¿Puedo recuperar datos de convocatorias anteriores?"""@es ;
+  schema:acceptedAnswer faq:q8_answer .
+
+faq:q8_answer a schema:Answer ;
+  schema:text """Sí, pero debes verificar que los méritos y periodos coinciden."""@es .
+
+faq:q9 a schema:Question ;
+  schema:name """¿Puedo subir certificados tras cerrar la solicitud?"""@es ;
+  schema:acceptedAnswer faq:q9_answer .
+
+faq:q9_answer a schema:Answer ;
+  schema:text """Sí, hasta el último día, pero debes pedir la reapertura a la UPV/EHU."""@es .
+
+faq:q10 a schema:Question ;
+  schema:name """¿Debo pagar una tasa?"""@es ;
+  schema:acceptedAnswer faq:q10_answer .
+
+faq:q10_answer a schema:Answer ;
+  schema:text """Sí, 49,70 €, salvo quienes solo soliciten nivel C."""@es .
+
+faq:q11 a schema:Question ;
+  schema:name """¿Dónde está el número de cuenta?"""@es ;
+  schema:acceptedAnswer faq:q11_answer .
+
+faq:q11_answer a schema:Answer ;
+  schema:text """En el formulario de tasas de la aplicación informática."""@es .
+
+faq:q12 a schema:Question ;
+  schema:name """¿Qué datos incluir al pagar?"""@es ;
+  schema:acceptedAnswer faq:q12_answer .
+
+faq:q12_answer a schema:Answer ;
+  schema:text """DNI, nombre y apellidos del solicitante. Se paga una única tasa."""@es .
+
+faq:q13 a schema:Question ;
+  schema:name """¿Si solo solicito nivel C debo pagar?"""@es ;
+  schema:acceptedAnswer faq:q13_answer .
+
+faq:q13_answer a schema:Answer ;
+  schema:text """No."""@es .
+
+faq:q14 a schema:Question ;
+  schema:name """¿Con quién contacto por problemas?"""@es ;
+  schema:acceptedAnswer faq:q14_answer .
+
+faq:q14_answer a schema:Answer ;
+  schema:text """UPV/EHU para temas legales; Unibasq para evaluación."""@es .
+
+faq:q15 a schema:Question ;
+  schema:name """¿Cómo solicitar A1?"""@es ;
+  schema:acceptedAnswer faq:q15_answer .
+
+faq:q15_answer a schema:Answer ;
+  schema:text """Marcar A1 y aportar documentación de tres sexenios de investigación y CV breve."""@es .
+
+faq:q16 a schema:Question ;
+  schema:name """¿Cómo solicitar A2?"""@es ;
+  schema:acceptedAnswer faq:q16_answer .
+
+faq:q16_answer a schema:Answer ;
+  schema:text """Seleccionar A2, completar un autoinforme con 4 aportaciones clave y adjuntar documentación y CV completo."""@es .
+
+faq:q17 a schema:Question ;
+  schema:name """¿Puedo presentar varios bloques de evaluación?"""@es ;
+  schema:acceptedAnswer faq:q17_answer .
+
+faq:q17_answer a schema:Answer ;
+  schema:text """Sí, entre 3 meses y 5 años cada uno."""@es .
+
+faq:q18 a schema:Question ;
+  schema:name """¿Qué pasa con años fuera del bloque?"""@es ;
+  schema:acceptedAnswer faq:q18_answer .
+
+faq:q18_answer a schema:Answer ;
+  schema:text """También se evalúan, formando nuevos bloques si procede."""@es .
+
+faq:q19 a schema:Question ;
+  schema:name """¿Puntuación máxima?"""@es ;
+  schema:acceptedAnswer faq:q19_answer .
+
+faq:q19_answer a schema:Answer ;
+  schema:text """27 puntos por bloque de 5 años, proporcional en bloques menores."""@es .
+
+faq:q20 a schema:Question ;
+  schema:name """Si ya obtuve 100 puntos antes, ¿debo completar todo?"""@es ;
+  schema:acceptedAnswer faq:q20_answer .
+
+faq:q20_answer a schema:Answer ;
+  schema:text """No, solo los méritos necesarios para A1/A2."""@es .
+
+faq:q21 a schema:Question ;
+  schema:name """¿Fecha inicial si es primera vez?"""@es ;
+  schema:acceptedAnswer faq:q21_answer .
+
+faq:q21_answer a schema:Answer ;
+  schema:text """Puedes incluir toda tu trayectoria académica."""@es .
+
+faq:q22 a schema:Question ;
+  schema:name """¿Cómo trasladar méritos de convocatorias anteriores?"""@es ;
+  schema:acceptedAnswer faq:q22_answer .
+
+faq:q22_answer a schema:Answer ;
+  schema:text """Indicando la fecha inicial y aceptando la importación en la aplicación."""@es .
+
+faq:q23 a schema:Question ;
+  schema:name """¿Se valoran méritos no mencionados en la solicitud?"""@es ;
+  schema:acceptedAnswer faq:q23_answer .
+
+faq:q23_answer a schema:Answer ;
+  schema:text """No."""@es .
+
+faq:q24 a schema:Question ;
+  schema:name """¿Hay que justificar todos los méritos?"""@es ;
+  schema:acceptedAnswer faq:q24_answer .
+
+faq:q24_answer a schema:Answer ;
+  schema:text """Sí, salvo publicaciones con DOI/ISBN/ISSN."""@es .
+
+faq:q25 a schema:Question ;
+  schema:name """¿Se valoran proyectos sin financiación?"""@es ;
+  schema:acceptedAnswer faq:q25_answer .
+
+faq:q25_answer a schema:Answer ;
+  schema:text """No."""@es .
+
+faq:q26 a schema:Question ;
+  schema:name """¿Cómo justificar proyectos?"""@es ;
+  schema:acceptedAnswer faq:q26_answer .
+
+faq:q26_answer a schema:Answer ;
+  schema:text """Con certificado institucional oficial."""@es .
+
+faq:q27 a schema:Question ;
+  schema:name """¿Cómo justificar participación como contratado?"""@es ;
+  schema:acceptedAnswer faq:q27_answer .
+
+faq:q27_answer a schema:Answer ;
+  schema:text """Con documento firmado por la entidad correspondiente."""@es .
+
+faq:q28 a schema:Question ;
+  schema:name """Diferencia entre “comunicación” y “ponencia plenaria”"""@es ;
+  schema:acceptedAnswer faq:q28_answer .
+
+faq:q28_answer a schema:Answer ;
+  schema:text """La plenaria es por invitación destacada."""@es .
+
+faq:q29 a schema:Question ;
+  schema:name """¿Cómo justificar congresos?"""@es ;
+  schema:acceptedAnswer faq:q29_answer .
+
+faq:q29_answer a schema:Answer ;
+  schema:text """Con acta o certificado."""@es .
+
+faq:q30 a schema:Question ;
+  schema:name """¿Qué año usar para el índice de impacto?"""@es ;
+  schema:acceptedAnswer faq:q30_answer .
+
+faq:q30_answer a schema:Answer ;
+  schema:text """El año de publicación o el más cercano."""@es .
+
+faq:q31 a schema:Question ;
+  schema:name """¿Dónde incluir publicaciones de congresos?"""@es ;
+  schema:acceptedAnswer faq:q31_answer .
+
+faq:q31_answer a schema:Answer ;
+  schema:text """En el apartado 1.1.3."""@es .
+
+faq:q32 a schema:Question ;
+  schema:name """¿Tesis o proceedings son libros?"""@es ;
+  schema:acceptedAnswer faq:q32_answer .
+
+faq:q32_answer a schema:Answer ;
+  schema:text """No."""@es .
+
+faq:q33 a schema:Question ;
+  schema:name """¿Puedo incluir Docentiaz posterior a 2024?"""@es ;
+  schema:acceptedAnswer faq:q33_answer .
+
+faq:q33_answer a schema:Answer ;
+  schema:text """Sí, si evalúa periodos anteriores a 2024."""@es .
+
+faq:q34 a schema:Question ;
+  schema:name """¿Puedo incluir sexenio reconocido en 2025?"""@es ;
+  schema:acceptedAnswer faq:q34_answer .
+
+faq:q34_answer a schema:Answer ;
+  schema:text """Sí, si corresponde a años hasta 2024."""@es .
